@@ -71,7 +71,7 @@ PHP-kursen.
 		<td></td>
 		<td>Tid sedan föregående iteration</td>
 		<td></td>
-		<td>16</td>
+		<td>0</td>
 	</tr>
 	<tr>
 		<td></td>
@@ -85,9 +85,9 @@ PHP-kursen.
 ### Mål
 Målet med iteration 0 är att påbörja kravspecifikationen, studera tutorials i ramverket 
 Joomla, lära mig grunderna i språket PHP och att börja studera applikaionsstrukturen MVC. 
-Jag ska testa att skriva en "Hello world" med Joomla, en del av detta blir att ta reda 
+Jag ska testa att skriva en "Hello world"-applikation med Joomla, en del av detta blir att ta reda 
 på vilken version av PHP och MySQL som mitt webbhotell stödjer och att publisera 
-"Hello World"-filen där.
+"Hello World"-applikationen där.
 
 ### Planering
 <table>
@@ -114,7 +114,7 @@ på vilken version av PHP och MySQL som mitt webbhotell stödjer och att publisera
 	</tr>
 	<tr>
 		<td></td>
-		<td>Läs kapitel 1 - PHP Crash Course i boken PHP and MySQL Web Development</td>
+		<td>Läs kapitel 1 - PHP Crash Course i boken <i>PHP and MySQL Web Development</i></td>
 		<td>Ej påbörjad</td>
 		<td>3</td>
 		<td></td>
