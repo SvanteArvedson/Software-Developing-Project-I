@@ -58,6 +58,20 @@ PHP-kursen.
 		<td>19</td>
 		<td>15</td>
 	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td>Tid sedan föregående iteration</td>
+		<td></td>
+		<td>15</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td>Tid totalt i projektet</td>
+		<td></td>
+		<td>15</td>
+	</tr>
 </table>
 
 ### Mål
