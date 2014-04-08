@@ -110,9 +110,9 @@ på vilken version av PHP och MySQL som mitt webbhotell stödjer och att publisera
 	<tr>
 		<td></td>
 		<td>Titta på föreläsning 3 och 4 i PHP-kursen</td>
-		<td>Ej påbörjad</td>
+		<td>Påbörjad</td>
 		<td>4</td>
-		<td></td>
+		<td>2</td>
 	</tr>
 	<tr>
 		<td></td>
@@ -140,6 +140,6 @@ på vilken version av PHP och MySQL som mitt webbhotell stödjer och att publisera
 		<td></td>
 		<td>Summa</td>
 		<td>20</td>
-		<td>5</td>
+		<td>7</td>
 	</tr>
 </table>

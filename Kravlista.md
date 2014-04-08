@@ -132,7 +132,7 @@ Senast uppdaterad 8/4 2014 klo 17:20 av Svante Arvedson
 	</tr>
 	<tr>
 		<td>BF1</td>
-		<td><a href="Vision.md#Baskrav">Applikationen ska vara tillgänglig från mobila enheter såväl som stationära datorer.</td>
+		<td><a href="Vision.md#baskrav">Applikationen ska vara tillgänglig från mobila enheter såväl som stationära datorer.</td>
 		<td>Svante Arvedson</td>
 		<td></td>
 		<td></td>
@@ -140,7 +140,7 @@ Senast uppdaterad 8/4 2014 klo 17:20 av Svante Arvedson
 	</tr>
 	<tr>
 		<td>BF2</td>
-		<td><a href="Vision.md#Baskrav">Applikationen ska fungera med webbläsarna IE, FireFox, Chrome, Safari och Opera.</a></td>
+		<td><a href="Vision.md#baskrav">Applikationen ska fungera med webbläsarna IE, FireFox, Chrome, Safari och Opera.</a></td>
 		<td>Svante Arvedson</td>
 		<td></td>
 		<td></td>
@@ -148,7 +148,7 @@ Senast uppdaterad 8/4 2014 klo 17:20 av Svante Arvedson
 	</tr>
 	<tr>
 		<td>BF3</td>
-		<td><a href="Vision.md#Baskrav">Det ska vara lätt att förstå hur applikationen fungerar även för användare utan stor datorvana.</a></td>
+		<td><a href="Vision.md#baskrav">Det ska vara lätt att förstå hur applikationen fungerar även för användare utan stor datorvana.</a></td>
 		<td>Svante Arvedson</td>
 		<td></td>
 		<td></td>
@@ -156,7 +156,7 @@ Senast uppdaterad 8/4 2014 klo 17:20 av Svante Arvedson
 	</tr>
 	<tr>
 		<td>BF4</td>
-		<td><a href="Vision.md#Baskrav">Applikationen ska innehålla information och läromedel som är lätt att förstå och lätt att ta till sig.</a></td>
+		<td><a href="Vision.md#baskrav">Applikationen ska innehålla information och läromedel som är lätt att förstå och lätt att ta till sig.</a></td>
 		<td>Svante Arvedson</td>
 		<td></td>
 		<td></td>
