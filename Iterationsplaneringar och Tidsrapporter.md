@@ -1,4 +1,6 @@
 # Iterationsplaner och tidsrapporter
+Senast uppdaterad 8/4 2014 klo 17:20 av Svante Arvedson
+
 ## Tidsrapport iteration 0
 ### Analys av förarbete
 Under förarbetet har jag tänkt ut och i stora drag planerat vad projektet ska 
@@ -101,9 +103,9 @@ på vilken version av PHP och MySQL som mitt webbhotell stödjer och att publisera
 	<tr>
 		<td></td>
 		<td>Skriv användarfall, 10% i fullformat och 90% i kortformat</td>
-		<td>Ej påbörjad</td>
+		<td>Påbörjad</td>
 		<td>6</td>
-		<td></td>
+		<td>2</td>
 	</tr>
 	<tr>
 		<td></td>
@@ -115,9 +117,9 @@ på vilken version av PHP och MySQL som mitt webbhotell stödjer och att publisera
 	<tr>
 		<td></td>
 		<td>Läs kapitel 1 - PHP Crash Course i boken <i>PHP and MySQL Web Development</i></td>
-		<td>Ej påbörjad</td>
+		<td>Klart</td>
 		<td>3</td>
-		<td></td>
+		<td>3</td>
 	</tr>
 	<tr>
 		<td></td>
@@ -138,6 +140,6 @@ på vilken version av PHP och MySQL som mitt webbhotell stödjer och att publisera
 		<td></td>
 		<td>Summa</td>
 		<td>20</td>
-		<td></td>
+		<td>5</td>
 	</tr>
 </table>
