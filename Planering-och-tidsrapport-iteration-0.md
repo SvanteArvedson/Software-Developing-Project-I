@@ -122,10 +122,10 @@ publisera "Hello World"-applikationen där.
 	</tr>
 	<tr>
 		<td></td>
-		<td>Undersök Laravels websajt, läs genom dokumentationen</td>
-		<td>Ej påbörjad</td>
+		<td>Installera Lavarel lokalt. Undersök Laravels websajt, läs genom <i>Getting Started</i> i dokumentationen</td>
+		<td>Påbörjad</td>
 		<td>3</td>
-		<td></td>
+		<td>3</td>
 	</tr>
 	<tr>
 		<td></td>
@@ -139,6 +139,6 @@ publisera "Hello World"-applikationen där.
 		<td></td>
 		<td>Summa</td>
 		<td>20</td>
-		<td>11</td>
+		<td>14</td>
 	</tr>
 </table>
