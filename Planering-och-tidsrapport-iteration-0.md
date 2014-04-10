@@ -1,7 +1,6 @@
-# Iterationsplaner och tidsrapporter
-Senast uppdaterad 8/4 2014 klo 17:20 av Svante Arvedson
+# Planering och tidsrapport iteration 0
+Senast uppdaterad 10/4 2014 klo 13:30 av Svante Arvedson
 
-## Tidsrapport iteration 0
 ### Analys av förarbete
 Under förarbetet har jag tänkt ut och i stora drag planerat vad projektet ska 
 vara för något. Projektet beskrivs i [Visionen](Vision.md), Visionen är påbörjad men 
@@ -10,7 +9,7 @@ göra produkten och med hjälp av handledare valt vilka ramverk jag ska använda
 mig av. I slutet av förberedelsearbetet har jag tittat på två föreläsningar i 
 PHP-kursen.
 
-### Tidsrapport
+### Tidsrapport förarbete
 <table>
 	<tr>
 		<th>Krav</th>
@@ -87,9 +86,9 @@ PHP-kursen.
 ### Mål
 Målet med iteration 0 är att påbörja kravspecifikationen, studera tutorials i ramverket 
 Joomla, lära mig grunderna i språket PHP och att börja studera applikaionsstrukturen MVC. 
-Jag ska testa att skriva en "Hello world"-applikation med Joomla, en del av detta blir att ta reda 
-på vilken version av PHP och MySQL som mitt webbhotell stödjer och att publisera 
-"Hello World"-applikationen där.
+Jag ska testa att skriva en "Hello world"-applikation med Laravel, en del av detta blir 
+att ta reda på vilken version av PHP och MySQL som mitt webbhotell stödjer och att 
+publisera "Hello World"-applikationen där.
 
 ### Planering
 <table>
@@ -103,16 +102,16 @@ på vilken version av PHP och MySQL som mitt webbhotell stödjer och att publisera
 	<tr>
 		<td></td>
 		<td>Skriv användarfall, 10% i fullformat och 90% i kortformat</td>
-		<td>Påbörjad</td>
+		<td>Klart</td>
 		<td>6</td>
-		<td>2</td>
+		<td>4</td>
 	</tr>
 	<tr>
 		<td></td>
 		<td>Titta på föreläsning 3 och 4 i PHP-kursen</td>
-		<td>Påbörjad</td>
+		<td>Klart</td>
 		<td>4</td>
-		<td>2</td>
+		<td>4</td>
 	</tr>
 	<tr>
 		<td></td>
@@ -123,14 +122,14 @@ på vilken version av PHP och MySQL som mitt webbhotell stödjer och att publisera
 	</tr>
 	<tr>
 		<td></td>
-		<td>Undersök Joomlas websajt, läs genom beginner tutorials</td>
+		<td>Undersök Laravels websajt, läs genom dokumentationen</td>
 		<td>Ej påbörjad</td>
 		<td>3</td>
 		<td></td>
 	</tr>
 	<tr>
 		<td></td>
-		<td>Skriv en "Hello World"-applikation med Joomla, publisera på webbhotell</td>
+		<td>Skriv en "Hello World"-applikation med Laravel, publisera på webbhotell</td>
 		<td>Ej påbörjad</td>
 		<td>4</td>
 		<td></td>
@@ -140,6 +139,6 @@ på vilken version av PHP och MySQL som mitt webbhotell stödjer och att publisera
 		<td></td>
 		<td>Summa</td>
 		<td>20</td>
-		<td>7</td>
+		<td>11</td>
 	</tr>
 </table>

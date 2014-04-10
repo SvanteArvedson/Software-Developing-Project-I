@@ -1,5 +1,5 @@
 # Vision
-Senast uppdaterad 8/4 2014 klo 16:00 av Svante Arvedson
+Senast uppdaterad 10/4 2014 klo 13:30 av Svante Arvedson
 
 ## Bakgrund/Problembeskrivning
 Idan saknas det en webbskola inom ämnet musikhistoria, idén med det här projektet är att skapa en sådan. 
@@ -54,7 +54,7 @@ består av artiklar och ordlistor med målgruppen musikamatörer och studenter.
 ## Tekniker
 Projektet ska skrivas med HTML, CSS och JavaScript som klientsidespråk, med PHP som serversidespråk. Till 
 klientkoden ska ramverken [Foundation](http://foundation.zurb.com) användas och till 
-serverkoden ska ramverket [Joomla](http://www.joomla.org) användas. Databasen i projektet är en 
+serverkoden ska ramverket [Laravel](http://laravel.com/) användas. Databasen i projektet är en 
 MySQL-databas.
 
 ## Baskrav
