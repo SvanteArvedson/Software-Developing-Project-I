@@ -120,12 +120,19 @@ publisera "Hello World"-applikationen där.
 		<td>3</td>
 		<td>3</td>
 	</tr>
+		<tr>
+		<td></td>
+		<td>Läs genom första delen av Emils PHP-bok, <i>helloworld.md</i></td>
+		<td>Klart</td>
+		<td>1</td>
+		<td>1</td>
+	</tr>
 	<tr>
 		<td></td>
 		<td>Installera Lavarel lokalt. Undersök Laravels websajt, läs genom <i>Getting Started</i> i dokumentationen</td>
-		<td>Påbörjad</td>
+		<td>Klart</td>
 		<td>3</td>
-		<td>3</td>
+		<td>9</td>
 	</tr>
 	<tr>
 		<td></td>
@@ -138,7 +145,7 @@ publisera "Hello World"-applikationen där.
 		<td></td>
 		<td></td>
 		<td>Summa</td>
-		<td>20</td>
-		<td>14</td>
+		<td>21</td>
+		<td>21</td>
 	</tr>
 </table>
