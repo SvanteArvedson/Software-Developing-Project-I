@@ -1,5 +1,4 @@
 # Planering och tidsrapport iteration 0
-Senast uppdaterad 10/4 2014 klo 13:30 av Svante Arvedson
 
 ### Analys av förarbete
 Under förarbetet har jag tänkt ut och i stora drag planerat vad projektet ska 
@@ -83,14 +82,14 @@ PHP-kursen.
 	</tr>
 </table>
 
-### Mål
+### Mål iteration 0
 Målet med iteration 0 är att påbörja kravspecifikationen, studera tutorials i ramverket 
-Joomla, lära mig grunderna i språket PHP och att börja studera applikaionsstrukturen MVC. 
+Laravel, lära mig grunderna i språket PHP och att börja studera applikaionsstrukturen MVC. 
 Jag ska testa att skriva en "Hello world"-applikation med Laravel, en del av detta blir 
 att ta reda på vilken version av PHP och MySQL som mitt webbhotell stödjer och att 
 publisera "Hello World"-applikationen där.
 
-### Planering
+### Planering iteration 0
 <table>
 	<tr>
 		<th>Krav</th>
@@ -139,7 +138,7 @@ publisera "Hello World"-applikationen där.
 		<td>Skriv en "Hello World"-applikation med Laravel, publisera på webbhotell</td>
 		<td>Ej påbörjad</td>
 		<td>4</td>
-		<td></td>
+		<td>0</td>
 	</tr>
 	<tr>
 		<td></td>
