@@ -143,17 +143,24 @@ Jag ska implementera min applikations inloggnings och utloggningsfunktioner.
 		<td></td>
 	</tr>
 	<tr>
-		<td><a href="Anvandningsfall/DF1-Logga-in.md">DF1</a>, <a href="Anvandningsfall/DF2-Logga-ut.md">DF2</a></td>
-		<td>Implementera inloggnings- och utloggningsfunktionerna i min applikation.</td>
+		<td><a href="Anvandningsfall/DF1-Logga-in.md">DF1</a></td>
+		<td>Implementera inloggningfunktionerna i min applikation.</td>
 		<td>Ej påbörjad</td>
-		<td>5</td>
+		<td>3</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><a href="Anvandningsfall/DF2-Logga-ut.md">DF2</a></td>
+		<td>Implementera utloggningsfunktionerna i min applikation.</td>
+		<td>Ej påbörjad</td>
+		<td>3</td>
 		<td></td>
 	</tr>
 	<tr>
 		<td></td>
 		<td></td>
 		<td>Summa</td>
-		<td>21</td>
+		<td>22</td>
 		<td>0</td>
 	</tr>
 </table>
