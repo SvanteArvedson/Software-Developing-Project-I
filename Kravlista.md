@@ -1,4 +1,4 @@
-# Kravlista
+# Kravlista - funktionella krav
 Senast uppdaterad 10/4 2014 klo 12:00 av Svante Arvedson
 
 <table>
