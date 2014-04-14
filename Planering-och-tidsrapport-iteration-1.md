@@ -89,7 +89,11 @@ hade planerat för lite tid till att läsa genom *Getting Started*-dokumenten om
 Målet med iteration 1 är att fortsätta att skriva kravspecifikationen, studera tutorials i ramverket 
 Laravel, fortsätta studera syntax i PHP och fortsätta studera applikaionsstrukturen MVC. 
 Jag ska testa att skriva en "Hello world"-applikation med Laravel och publisera den på mitt webbhotell.
-Jag ska implementera min applikations inloggnings och utloggningsfunktioner.
+Jag ska implementera min applikations inloggnings och utloggningsfunktioner.    
+#### Ändring 15/4 klo 01:00
+Jag har upptäckt att mitt webbhotell inte stödjer Laravel och att jag därför måste byta ramverk till 
+projektet. Jag ska istället för Laravel använda mig av ramverket [Symfony 1.2.12](http://symfony.com/).
+På grund av detta så har jag ändrat i iterationsplanen.
 
 ### Planering iteration 1
 <table>
@@ -110,9 +114,9 @@ Jag ska implementera min applikations inloggnings och utloggningsfunktioner.
 	<tr>
 		<td></td>
 		<td>Titta på föreläsning 5 i PHP-kursen</td>
-		<td>Ej påbörjad</td>
+		<td>Klart</td>
 		<td>2</td>
-		<td></td>
+		<td>2</td>
 	</tr>
 	<tr>
 		<td></td>
@@ -130,16 +134,16 @@ Jag ska implementera min applikations inloggnings och utloggningsfunktioner.
 	</tr>
 	<tr>
 		<td></td>
-		<td>Undersök Laravels websajt, läs genom 6 stycken tutorials i dokumentationen</td>
-		<td>Ej påbörjad</td>
-		<td>6</td>
-		<td></td>
+		<td>Installera Symfony 1.2.12 lokalt. Undersök ramverket, läs genom dokumentationen.</td>
+		<td>Påbörjad</td>
+		<td>7</td>
+		<td>2</td>
 	</tr>
 	<tr>
 		<td></td>
-		<td>Skriv en "Hello World"-applikation med Laravel, publisera på webbhotell</td>
+		<td>Skriv en "Hello World"-applikation med Symfony, publisera på webbhotellet</td>
 		<td>Ej påbörjad</td>
-		<td>3</td>
+		<td>2</td>
 		<td></td>
 	</tr>
 	<tr>
@@ -161,6 +165,6 @@ Jag ska implementera min applikations inloggnings och utloggningsfunktioner.
 		<td></td>
 		<td>Summa</td>
 		<td>22</td>
-		<td>0</td>
+		<td>4</td>
 	</tr>
 </table>

@@ -1,6 +1,7 @@
-# Kravlista - funktionella krav
-Senast uppdaterad 10/4 2014 klo 12:00 av Svante Arvedson
+# Kravlista
+Senast uppdaterad 15/4 2014 klo 01:00 av Svante Arvedson
 
+## Funktionella krav
 <table>
 	<tr>
 		<th>ID</th>
@@ -139,38 +140,6 @@ Senast uppdaterad 10/4 2014 klo 12:00 av Svante Arvedson
 		<td>BF1, BF2</td>
 	</tr>
 	<tr>
-		<td>BF1</td>
-		<td><a href="Vision.md#baskrav">Applikationen ska vara tillgänglig från mobila enheter såväl som stationära datorer.</td>
-		<td>Svante Arvedson</td>
-		<td></td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td>BF2</td>
-		<td><a href="Vision.md#baskrav">Applikationen ska fungera med webbläsarna IE, FireFox, Chrome, Safari och Opera.</a></td>
-		<td>Svante Arvedson</td>
-		<td></td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td>BF3</td>
-		<td><a href="Vision.md#baskrav">Det ska vara lätt att förstå hur applikationen fungerar även för användare utan stor datorvana.</a></td>
-		<td>Svante Arvedson</td>
-		<td></td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td>BF4</td>
-		<td><a href="Vision.md#baskrav">Applikationen ska innehålla information och läromedel som är lätt att förstå och lätt att ta till sig.</a></td>
-		<td>Svante Arvedson</td>
-		<td></td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
 		<td>DF1</td>
 		<td><a href="Anvandningsfall/DF1-Logga-in.md">Logga in</a></td>
 		<td>Svante Arvedson</td>
@@ -185,5 +154,49 @@ Senast uppdaterad 10/4 2014 klo 12:00 av Svante Arvedson
 		<td></td>
 		<td>Ej påbörjad</td>
 		<td>BF1, BF2, BF3</td>
+	</tr>
+</table>
+
+## Icke funktionella krav
+<table>
+	<tr>
+		<th>ID</th>
+		<th>Namn</th>
+		<th>Författare</th>
+		<th>Beroende</th>
+		<th>Status</th>
+		<th>Baskrav</th>
+	</tr>
+	<tr>
+		<td>BF1</td>
+		<td><a href="Vision.md#baskrav">Applikationen ska vara tillgänglig från mobila enheter såväl som stationära datorer.</td>
+		<td>Svante Arvedson</td>
+		<td></td>
+		<td>Ej påbörjad</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>BF2</td>
+		<td><a href="Vision.md#baskrav">Applikationen ska fungera med webbläsarna IE, FireFox, Chrome, Safari och Opera.</a></td>
+		<td>Svante Arvedson</td>
+		<td></td>
+		<td>Ej påbörjad</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>BF3</td>
+		<td><a href="Vision.md#baskrav">Det ska vara lätt att förstå hur applikationen fungerar även för användare utan stor datorvana.</a></td>
+		<td>Svante Arvedson</td>
+		<td></td>
+		<td>Ej påbörjad</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>BF4</td>
+		<td><a href="Vision.md#baskrav">Applikationen ska innehålla information och läromedel som är lätt att förstå och lätt att ta till sig.</a></td>
+		<td>Svante Arvedson</td>
+		<td></td>
+		<td>Ej påbörjad</td>
+		<td></td>
 	</tr>
 </table>
