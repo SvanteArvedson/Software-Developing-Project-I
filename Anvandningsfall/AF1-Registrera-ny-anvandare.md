@@ -28,5 +28,8 @@ Inga förkrav
 * 3a - Användaren fyller i formuläret felaktigt
 	* 1 - Systemet visar ett felmeddelande
 	* 2 - *Gå tillbaka till punkt 3*
+* 3b - Användaren har skrivit ett användarnamn som redan finns registrerat
+	* 1 - Systemet ber användaren att välja ett annat användarnamn
+	* 2 - *Gå tillbaka till punkt 3*
 * 4a - Ett fel inträffar när systemet ska registrera användaren
 	* 1 - Systemet visar ett felmeddelande

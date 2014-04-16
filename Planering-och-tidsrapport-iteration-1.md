@@ -121,23 +121,23 @@ På grund av detta så har jag ändrat i iterationsplanen.
 	<tr>
 		<td></td>
 		<td>Titta på föreläsning 6 i PHP-kursen</td>
-		<td>Ej påbörjad</td>
+		<td>Klart</td>
 		<td>2</td>
-		<td></td>
+		<td>2</td>
 	</tr>
 		<tr>
 		<td></td>
-		<td>Läs genom <i>strangberoende.md</i> som Emil har skrivit</td>
-		<td>Ej påbörjad</td>
+		<td>Läs genom <i>strangberoende.md</i> och <i>codereview.md</i> som Emil har skrivit</td>
+		<td>Klart</td>
 		<td>1</td>
-		<td></td>
+		<td>1</td>
 	</tr>
 	<tr>
 		<td></td>
 		<td>Installera Symfony 1.2.12 lokalt. Undersök ramverket, läs genom dokumentationen.</td>
 		<td>Påbörjad</td>
 		<td>7</td>
-		<td>2</td>
+		<td>3</td>
 	</tr>
 	<tr>
 		<td></td>
@@ -165,6 +165,6 @@ På grund av detta så har jag ändrat i iterationsplanen.
 		<td></td>
 		<td>Summa</td>
 		<td>22</td>
-		<td>4</td>
+		<td>8</td>
 	</tr>
 </table>
