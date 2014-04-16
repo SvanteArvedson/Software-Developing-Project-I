@@ -1,0 +1,21 @@
+    # Be sure to only have this line once in your configuration
+    NameVirtualHost 127.0.0.1:80
+
+    # This is the configuration for myProject
+    Listen 127.0.0.1:80
+
+    <VirtualHost 127.0.0.1:80>
+      ServerName myProject.localhost
+      DocumentRoot "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\myProject\web"
+      DirectoryIndex index.php
+      <Directory "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\myProject\web">
+        AllowOverride All
+        Allow from All
+      </Directory>
+
+      Alias /sf "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\data\web\sf"
+      <Directory "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\data\web\sf">
+        AllowOverride All
+        Allow from All
+      </Directory>
+    </VirtualHost>
