@@ -1,6 +1,7 @@
 <?php
 
-require_once 'D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\lib/autoload/sfCoreAutoload.class.php';
+require_once dirname(__FILE__).'/../../lib/autoload/sfCoreAutoload.class.php';
+
 sfCoreAutoload::register();
 
 class ProjectConfiguration extends sfProjectConfiguration

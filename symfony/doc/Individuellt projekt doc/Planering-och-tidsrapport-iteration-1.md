@@ -137,13 +137,20 @@ På grund av detta så har jag ändrat i iterationsplanen.
 		<td>Installera Symfony 1.2.12 lokalt. Undersök ramverket, läs genom dokumentationen.</td>
 		<td>Påbörjad</td>
 		<td>7</td>
-		<td>5</td>
+		<td>8</td>
 	</tr>
 	<tr>
 		<td></td>
-		<td>Skriv en "Hello World"-applikation med Symfony, publisera på webbhotellet</td>
-		<td>Ej påbörjad</td>
+		<td>Skriv en "Hello World"-applikation med Symfony.</td>
+		<td>Klart</td>
 		<td>2</td>
+		<td>2</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>Publicera "Hello World"-applikationen på webbhotellet.</td>
+		<td>Ej påbörjad</td>
+		<td>1</td>
 		<td></td>
 	</tr>
 	<tr>
@@ -164,7 +171,7 @@ På grund av detta så har jag ändrat i iterationsplanen.
 		<td></td>
 		<td></td>
 		<td>Summa</td>
-		<td>22</td>
-		<td>10</td>
+		<td>23</td>
+		<td>15</td>
 	</tr>
 </table>
