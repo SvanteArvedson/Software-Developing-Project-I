@@ -149,9 +149,9 @@ På grund av detta så har jag ändrat i iterationsplanen.
 	<tr>
 		<td></td>
 		<td>Publicera "Hello World"-applikationen på webbhotellet.</td>
-		<td>Ej påbörjad</td>
+		<td>Påbörjad</td>
 		<td>1</td>
-		<td></td>
+		<td>7</td>
 	</tr>
 	<tr>
 		<td><a href="Anvandningsfall/DF1-Logga-in.md">DF1</a></td>
@@ -172,6 +172,6 @@ På grund av detta så har jag ändrat i iterationsplanen.
 		<td></td>
 		<td>Summa</td>
 		<td>23</td>
-		<td>15</td>
+		<td>22</td>
 	</tr>
 </table>
