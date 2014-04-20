@@ -9,9 +9,6 @@ Användaren loggar in i systemet.
 ## Sekundär aktör
 * Systemet
 
-## Intressenter
-* Användare - Vill logga in i systemet
-
 ## Förkrav
 Inga förkrav.
 

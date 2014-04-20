@@ -107,9 +107,9 @@ På grund av detta så har jag ändrat i iterationsplanen.
 	<tr>
 		<td></td>
 		<td>Skriv användarfall, ytterligare ca 30% i fullformat.</td>
-		<td>Ej påbörjad</td>
+		<td>Klart</td>
 		<td>2</td>
-		<td></td>
+		<td>1</td>
 	</tr>
 	<tr>
 		<td></td>
@@ -134,8 +134,8 @@ På grund av detta så har jag ändrat i iterationsplanen.
 	</tr>
 	<tr>
 		<td></td>
-		<td>Installera Symfony 1.2.12 lokalt. Undersök ramverket, läs genom dokumentationen.</td>
-		<td>Påbörjad</td>
+		<td>Installera Symfony 1.2.12 lokalt. Undersök ramverket, läs genom de första delarna av dokumentationen.</td>
+		<td>Klart</td>
 		<td>7</td>
 		<td>8</td>
 	</tr>
@@ -172,6 +172,6 @@ På grund av detta så har jag ändrat i iterationsplanen.
 		<td></td>
 		<td>Summa</td>
 		<td>23</td>
-		<td>22</td>
+		<td>23</td>
 	</tr>
 </table>

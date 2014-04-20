@@ -11,9 +11,6 @@ användaren gör testet. Systemet sparar testresultatet.
 ## Sekundär aktör
 * Systemet
 
-## Intressenter
-* Användare - Vill läsa lektionen och göra testet
-
 ## Förkrav
 * Användaren har gjort [DF1 - Logga in](DF1-Logga-in.md).
 

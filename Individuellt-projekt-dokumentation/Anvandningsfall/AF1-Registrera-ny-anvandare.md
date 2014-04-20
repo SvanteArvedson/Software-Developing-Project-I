@@ -9,9 +9,6 @@ Användare registrerar sig i systemet.
 ## Sekundär aktör
 * Systemet
 
-## Intressenter
-* Användare - Vill registrera sig i systemet
-
 ## Förkrav
 Inga förkrav
 

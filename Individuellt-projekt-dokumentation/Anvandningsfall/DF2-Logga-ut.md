@@ -9,9 +9,6 @@ Användare loggar ut från systemet.
 ## Sekundär aktör
 * Systemet
 
-## Intressenter
-* Användare - Vill logga ut från systemet
-
 ## Förkrav
 Användaren måste ha utfört [DF1 - Logga in](DF1-Logga-in-md).
 
