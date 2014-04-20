@@ -134,7 +134,7 @@ av användarfallen i fullängd.
 	</tr>
 	<tr>
 		<td></td>
-		<td>Läs genom del 6-10 av dokumentationen i Symfony</td>
+		<td>Läs genom del 3-11 av dokumentationen på [symfony.com](http://symfony.com/legacy/doc/jobeet/1_2/en/01?orm=Propel)</td>
 		<td>Ej påbörjad</td>
 		<td>8</td>
 		<td></td>
