@@ -1,0 +1,6 @@
+# Configure database
+propel:
+  webschool_user:
+    id: ~
+    username: { type: varchar(25), required: true }
+    password: { type: varchar(8), required: true }

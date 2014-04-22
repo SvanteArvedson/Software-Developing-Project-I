@@ -1,0 +1,8 @@
+WebschoolUser:
+  AdminUser:
+    username: Admin
+    password: Admin
+    
+  TestUser:
+    username: test
+    password: test
