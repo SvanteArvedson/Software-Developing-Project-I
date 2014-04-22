@@ -25,8 +25,5 @@ class contentActions extends sfActions
   public function executeUpdate(sfWebRequest $request)
   {
   	$this->name = $request->getParameter('name');
-  	if (!isset($this->name)) {
-  		$this->name = 'John Doe';
-  	}
   }
 }

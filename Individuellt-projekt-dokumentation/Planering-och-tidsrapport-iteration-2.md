@@ -142,9 +142,9 @@ av användarfallen i fullängd.
 	<tr>
 		<td></td>
 		<td>Publicera "Hello World"-applikationen på webbhotellet</td>
-		<td>Påbörjad</td>
+		<td>Klart</td>
 		<td>2</td>
-		<td></td>
+		<td>1</td>
 	</tr>
 	<tr>
 		<td></td>
@@ -172,6 +172,6 @@ av användarfallen i fullängd.
 		<td></td>
 		<td>Summa</td>
 		<td>20</td>
-		<td></td>
+		<td>1</td>
 	</tr>
 </table>
