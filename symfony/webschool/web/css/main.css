@@ -1,0 +1,90 @@
+/* General rules for the page */
+html, body {
+	background: #fff5ee;
+	height: 100%;
+}
+
+#container {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -2em;
+	
+}
+
+#pagefoot, #push {
+	height: 2em;
+} /* End general rules */
+
+
+
+/* Rules for top navigation */
+#backToHome {
+	font-size: 1.4em;
+	line-height: 45px;
+	margin: 0;
+	padding-left: 0.5em;
+	color: #fff5ee;
+} /* End rules for top navigation */
+
+
+
+/* Rules for header */
+#header {
+	height: 100px;
+	background: #9e7fb8;
+}
+
+#pagetitle {
+	line-height: 100px;
+	color: #fff5ee;
+	margin: 0;
+	width: 100%;
+	text-align: center;
+} /* End rules for header */
+
+
+
+/* Rules for page content */
+#pagecontent h2 {
+	margin-top: 40px;
+}
+
+#logInButton {
+	max-width: 83px;
+	width: 100%;
+	margin-top: 18px;
+} /* End rules for page content */
+
+
+
+/* Rules for page side navigation */
+#sideNav .panel {
+	margin: 40px auto 0;
+	background: #cea5f0;
+	border: none;
+	max-width: 180px;
+}
+
+#sideNav li a {
+	color: #fff5ee;
+	text-align: center;
+	font-size: 1.2em;
+} /* End rules for page side navigation */
+
+
+
+/* Rules for page foot */
+#pagefoot {
+	background-color: #9e7fb8;
+}
+
+#pagefoot p {
+	color: #fff5ee;
+	width: 100%;
+	text-align: center;
+	margin-top: 0.8em;
+	margin-bottom: 0;
+	font-size: 0.8em;
+	line-height: 1em;
+} /* End rules for page foot */

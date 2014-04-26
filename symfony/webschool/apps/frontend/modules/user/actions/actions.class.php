@@ -7,70 +7,106 @@
  * @subpackage user
  * @author     Svante Arvedson
  */
-class userActions extends sfActions
-{
-  public function executeIndex(sfWebRequest $request)
-  {
-    $this->webschool_user_list = WebschoolUserPeer::doSelect(new Criteria());
-  }
+class userActions extends sfActions {
 
-  public function executeShow(sfWebRequest $request)
-  {
-    $this->webschool_user = WebschoolUserPeer::retrieveByPk($request->getParameter('id'));
-    $this->forward404Unless($this->webschool_user);
-  }
+	/*
+	 public function executeList(sfWebRequest $request)
+	 {
+	 $this->webschool_user_list = WebschoolUserPeer::doSelect(new Criteria());
+	 }
 
-  public function executeNew(sfWebRequest $request)
-  {
-    $this->form = new WebschoolUserForm();
-  }
+	 public function executeShow(sfWebRequest $request)
+	 {
+	 $this->webschool_user = WebschoolUserPeer::retrieveByPk($request->getParameter('id'));
+	 $this->forward404Unless($this->webschool_user);
+	 }
 
-  public function executeCreate(sfWebRequest $request)
-  {
-    $this->forward404Unless($request->isMethod('post'));
+	 public function executeNew(sfWebRequest $request)
+	 {
+	 $this->form = new WebschoolUserForm();
+	 }
 
-    $this->form = new WebschoolUserForm();
+	 public function executeCreate(sfWebRequest $request)
+	 {
+	 $this->forward404Unless($request->isMethod('post'));
 
-    $this->processForm($request, $this->form);
+	 $this->form = new WebschoolUserForm();
 
-    $this->setTemplate('new');
-  }
+	 $this->processForm($request, $this->form);
 
-  public function executeEdit(sfWebRequest $request)
-  {
-    $this->forward404Unless($webschool_user = WebschoolUserPeer::retrieveByPk($request->getParameter('id')), sprintf('Object webschool_user does not exist (%s).', $request->getParameter('id')));
-    $this->form = new WebschoolUserForm($webschool_user);
-  }
+	 $this->setTemplate('new');
+	 }
 
-  public function executeUpdate(sfWebRequest $request)
-  {
-    $this->forward404Unless($request->isMethod('post') || $request->isMethod('put'));
-    $this->forward404Unless($webschool_user = WebschoolUserPeer::retrieveByPk($request->getParameter('id')), sprintf('Object webschool_user does not exist (%s).', $request->getParameter('id')));
-    $this->form = new WebschoolUserForm($webschool_user);
+	 public function executeEdit(sfWebRequest $request)
+	 {
+	 $this->forward404Unless($webschool_user = WebschoolUserPeer::retrieveByPk($request->getParameter('id')), sprintf('Object webschool_user does not exist (%s).', $request->getParameter('id')));
+	 $this->form = new WebschoolUserForm($webschool_user);
+	 }
 
-    $this->processForm($request, $this->form);
+	 public function executeUpdate(sfWebRequest $request)
+	 {
+	 $this->forward404Unless($request->isMethod('post') || $request->isMethod('put'));
+	 $this->forward404Unless($webschool_user = WebschoolUserPeer::retrieveByPk($request->getParameter('id')), sprintf('Object webschool_user does not exist (%s).', $request->getParameter('id')));
+	 $this->form = new WebschoolUserForm($webschool_user);
 
-    $this->setTemplate('edit');
-  }
+	 $this->processForm($request, $this->form);
 
-  public function executeDelete(sfWebRequest $request)
-  {
-    $request->checkCSRFProtection();
+	 $this->setTemplate('edit');
+	 }
 
-    $this->forward404Unless($webschool_user = WebschoolUserPeer::retrieveByPk($request->getParameter('id')), sprintf('Object webschool_user does not exist (%s).', $request->getParameter('id')));
-    $webschool_user->delete();
+	 public function executeDelete(sfWebRequest $request)
+	 {
+	 $request->checkCSRFProtection();
 
-    $this->redirect('user/index');
-  }
+	 $this->forward404Unless($webschool_user = WebschoolUserPeer::retrieveByPk($request->getParameter('id')), sprintf('Object webschool_user does not exist (%s).', $request->getParameter('id')));
+	 $webschool_user->delete();
 
-  protected function processForm(sfWebRequest $request, sfForm $form)
-  {
-    $form->bind($request->getParameter($form->getName()), $request->getFiles($form->getName()));
-    if ($form->isValid())
-    {
-      $webschool_user = $form->save();
+	 $this->redirect('user/index');
+	 }
 
-      $this->redirect('user/edit?id='.$webschool_user->getId());
-    }
-  }
+	 */
+
+	public function executeIndex(sfWebRequest $request) {
+		$this -> form = null;
+		$this -> loginfailed = null;
+		
+		if ($request -> isMethod('get')) 
+		{
+			if ($this -> getUser() -> isAuthenticated())
+			{
+				$this -> username = $this -> getUser() -> getAttribute('username', 'Användare');
+			}
+			else
+			{
+				$this -> form = new LoginForm();
+			}
+		}
+		else
+		{
+			if ($this -> getUser() -> isAuthenticated())
+			{
+				$this -> getUser() -> setAuthenticated(false);
+				$this -> redirect($this -> generateUrl('homepage'));
+			}
+			else
+			{
+				$this -> form = new LoginForm();
+				$this -> form -> bind($request->getParameter('login'));
+				
+				if ($this -> form -> isValid()) {
+					$username = $this -> form -> getValue('user');
+					$password = $this -> form -> getValue('pass');
+					
+					if (WebschoolUserPeer::checkIfUserExists($username, $password))
+					{
+						$this -> getUser() -> setAttribute('username', $this -> form -> getValue('user'));
+						$this -> getUser() -> setAuthenticated(true);
+						$this -> redirect($this -> generateUrl('homepage'));
+					}
+					
+					$this -> loginfailed = 'Felaktigt använarnamn eller lösenord';
+				}
+			}
+		}
+	}
 }

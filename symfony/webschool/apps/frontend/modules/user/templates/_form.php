@@ -1,24 +1,23 @@
 <?php include_stylesheets_for_form($form) ?>
 <?php include_javascripts_for_form($form) ?>
 
-<form action="<?php echo url_for('user/'.($form->getObject()->isNew() ? 'create' : 'update').(!$form->getObject()->isNew() ? '?id='.$form->getObject()->getId() : '')) ?>" method="post" <?php $form->isMultipart() and print 'enctype="multipart/form-data" ' ?>>
-<?php if (!$form->getObject()->isNew()): ?>
-<input type="hidden" name="sf_method" value="put" />
-<?php endif; ?>
-  <table>
-    <tfoot>
-      <tr>
-        <td colspan="2">
-          &nbsp;<a href="<?php echo url_for('user/index') ?>">Cancel</a>
-          <?php if (!$form->getObject()->isNew()): ?>
-            &nbsp;<?php echo link_to('Delete', 'user/delete?id='.$form->getObject()->getId(), array('method' => 'delete', 'confirm' => 'Are you sure?')) ?>
-          <?php endif; ?>
-          <input type="submit" value="Save" />
-        </td>
-      </tr>
-    </tfoot>
-    <tbody>
-      <?php echo $form ?>
-    </tbody>
-  </table>
+<form class="small-12 columns" method="POST" action="<?php echo url_for('/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/user/login'); ?>">
+	<fieldset>
+		<legend>
+			Logga in:
+		</legend>
+		<div class="row">
+			<div class="small-12 large-5 columns">
+				<?php echo $form['user']->renderLabel(); ?>
+				<?php echo $form['user']->render(array('autofocus' => 'autofocus')); ?>
+			</div>
+			<div class="small-12 large-5 columns">
+				<?php echo $form['pass']->renderLabel(); ?>
+				<?php echo $form['pass']->render(); ?>
+			</div>
+			<div class="small-12 large-2 columns">
+				<input id="logInButton" class="button tiny" type="submit" value="Logga in" />
+			</div>
+		</div>
+	</fieldset>
 </form>
