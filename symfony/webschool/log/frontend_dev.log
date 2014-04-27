@@ -6943,3 +6943,1106 @@ Apr 26 09:48:04 symfony [info] {sfWebDebugLogger} Configuration 52.00 ms (9)
 Apr 26 09:48:04 symfony [info] {sfWebDebugLogger} Action "user/index" 17.27 ms (1)
 Apr 26 09:48:04 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 45.82 ms (1)
 Apr 26 09:48:04 symfony [info] {sfWebResponse} Send content (110400 o)
+Apr 27 16:34:02 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 16:34:02 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 16:34:02 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 16:34:02 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 16:34:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 16:34:02 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 16:34:02 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 16:34:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 16:34:02 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 16:34:02 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexSuccess.php"
+Apr 27 16:34:02 symfony [info] {main} Set slot "title"
+Apr 27 16:34:02 symfony [info] {main} Set slot "topBarMeny"
+Apr 27 16:34:02 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 16:34:02 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 16:34:02 symfony [info] {main} Get slot "title"
+Apr 27 16:34:02 symfony [info] {main} Get slot "topBarMeny"
+Apr 27 16:34:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 27 16:34:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 16:34:02 symfony [info] {sfWebDebugLogger} Configuration 398.74 ms (9)
+Apr 27 16:34:02 symfony [info] {sfWebDebugLogger} Action "user/index" 14.50 ms (1)
+Apr 27 16:34:02 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 58.62 ms (1)
+Apr 27 16:34:03 symfony [info] {sfWebResponse} Send content (110240 o)
+Apr 27 16:34:10 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 16:34:10 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 16:34:10 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 16:34:10 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 16:34:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 16:34:10 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 16:34:10 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 16:34:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 16:34:10 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 16:34:24 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 16:34:24 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 16:34:24 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 16:34:24 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 16:34:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 16:34:24 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 16:34:24 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 16:34:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 16:34:24 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 16:34:24 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 27 16:34:24 symfony [debug] {sfPropelLogger} prepare: SELECT webschool_user.ID, webschool_user.USERNAME, webschool_user.PASSWORD FROM `webschool_user` WHERE webschool_user.USERNAME=:p1 AND webschool_user.PASSWORD=:p2 LIMIT 1
+Apr 27 16:34:24 symfony [debug] {sfPropelLogger} Binding 'test1' at position :p1 w/ PDO type PDO::PARAM_STR
+Apr 27 16:34:24 symfony [debug] {sfPropelLogger} Binding 'test1' at position :p2 w/ PDO type PDO::PARAM_STR
+Apr 27 16:34:24 symfony [info] {myUser} User is authenticated
+Apr 27 16:34:24 symfony [info] {sfFrontWebController} Redirect to "/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 16:34:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Apr 27 16:34:24 symfony [info] {sfWebResponse} Send header "Location: /Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 16:34:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 16:34:24 symfony [info] {sfWebDebugLogger} Configuration 36.77 ms (8)
+Apr 27 16:34:24 symfony [info] {sfWebDebugLogger} Action "user/index" 63.20 ms (1)
+Apr 27 16:34:24 symfony [info] {sfWebResponse} Send content (151 o)
+Apr 27 16:34:24 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 16:34:24 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 16:34:24 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 16:34:24 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 16:34:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 16:34:24 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 16:34:24 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 16:34:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 16:34:24 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 16:34:24 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexSuccess.php"
+Apr 27 16:34:24 symfony [info] {main} Set slot "title"
+Apr 27 16:34:24 symfony [info] {main} Set slot "topBarMeny"
+Apr 27 16:34:24 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 16:34:24 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 16:34:24 symfony [info] {main} Get slot "title"
+Apr 27 16:34:24 symfony [info] {main} Get slot "topBarMeny"
+Apr 27 16:34:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 27 16:34:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 16:34:24 symfony [info] {sfWebDebugLogger} Configuration 41.26 ms (9)
+Apr 27 16:34:24 symfony [info] {sfWebDebugLogger} Action "user/index" 0.69 ms (1)
+Apr 27 16:34:24 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 44.93 ms (1)
+Apr 27 16:34:24 symfony [info] {sfWebResponse} Send content (109943 o)
+Apr 27 16:36:53 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 16:36:53 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 16:36:53 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 16:36:53 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 16:36:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 16:36:53 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 16:36:53 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 16:36:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 16:36:53 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 16:36:53 symfony [info] {myUser} User is not authenticated
+Apr 27 16:36:53 symfony [info] {sfFrontWebController} Redirect to "/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 16:36:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Apr 27 16:36:53 symfony [info] {sfWebResponse} Send header "Location: /Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 16:36:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 16:36:53 symfony [info] {sfWebDebugLogger} Configuration 26.76 ms (8)
+Apr 27 16:36:53 symfony [info] {sfWebDebugLogger} Action "user/index" 4.59 ms (1)
+Apr 27 16:36:53 symfony [info] {sfWebResponse} Send content (151 o)
+Apr 27 16:36:53 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 16:36:53 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 16:36:53 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 16:36:53 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 16:36:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 16:36:53 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 16:36:53 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 16:36:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 16:36:53 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 16:36:53 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexSuccess.php"
+Apr 27 16:36:53 symfony [info] {main} Set slot "title"
+Apr 27 16:36:53 symfony [info] {main} Set slot "topBarMeny"
+Apr 27 16:36:53 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 16:36:53 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 16:36:53 symfony [info] {main} Get slot "title"
+Apr 27 16:36:53 symfony [info] {main} Get slot "topBarMeny"
+Apr 27 16:36:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 27 16:36:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 16:36:53 symfony [info] {sfWebDebugLogger} Configuration 28.44 ms (9)
+Apr 27 16:36:53 symfony [info] {sfWebDebugLogger} Action "user/index" 12.13 ms (1)
+Apr 27 16:36:53 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 40.38 ms (1)
+Apr 27 16:36:53 symfony [info] {sfWebResponse} Send content (110364 o)
+Apr 27 20:45:59 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 20:45:59 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 20:45:59 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 20:45:59 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 20:45:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 20:45:59 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 20:45:59 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 20:45:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 20:45:59 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 20:45:59 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexSuccess.php"
+Apr 27 20:45:59 symfony [info] {main} Set slot "title"
+Apr 27 20:45:59 symfony [info] {main} Set slot "topBarMeny"
+Apr 27 20:45:59 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 20:45:59 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 20:45:59 symfony [info] {main} Get slot "title"
+Apr 27 20:45:59 symfony [info] {main} Get slot "topBarMeny"
+Apr 27 20:45:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 27 20:45:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 20:45:59 symfony [info] {sfWebDebugLogger} Configuration 36.41 ms (9)
+Apr 27 20:45:59 symfony [info] {sfWebDebugLogger} Action "user/index" 13.52 ms (1)
+Apr 27 20:45:59 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 42.79 ms (1)
+Apr 27 20:45:59 symfony [info] {sfWebResponse} Send content (109889 o)
+Apr 27 20:46:07 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 20:46:07 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 20:46:07 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 20:46:07 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 20:46:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 20:46:08 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 20:46:08 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 20:46:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 20:46:08 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 20:46:08 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 27 20:46:08 symfony [debug] {sfPropelLogger} prepare: SELECT webschool_user.ID, webschool_user.USERNAME, webschool_user.PASSWORD FROM `webschool_user` WHERE webschool_user.USERNAME=:p1 AND webschool_user.PASSWORD=:p2 LIMIT 1
+Apr 27 20:46:08 symfony [debug] {sfPropelLogger} Binding 'test1' at position :p1 w/ PDO type PDO::PARAM_STR
+Apr 27 20:46:08 symfony [debug] {sfPropelLogger} Binding 'test1' at position :p2 w/ PDO type PDO::PARAM_STR
+Apr 27 20:46:08 symfony [info] {myUser} User is authenticated
+Apr 27 20:46:08 symfony [info] {sfFrontWebController} Redirect to "/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 20:46:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Apr 27 20:46:08 symfony [info] {sfWebResponse} Send header "Location: /Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 20:46:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 20:46:08 symfony [info] {sfWebDebugLogger} Configuration 27.11 ms (8)
+Apr 27 20:46:08 symfony [info] {sfWebDebugLogger} Action "user/index" 50.88 ms (1)
+Apr 27 20:46:08 symfony [info] {sfWebResponse} Send content (151 o)
+Apr 27 20:46:08 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 20:46:08 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 20:46:08 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 20:46:08 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 20:46:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 20:46:08 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 20:46:08 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 20:46:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 20:46:08 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 20:46:08 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexSuccess.php"
+Apr 27 20:46:08 symfony [info] {main} Set slot "title"
+Apr 27 20:46:08 symfony [info] {main} Set slot "topBarMeny"
+Apr 27 20:46:08 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 20:46:08 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 20:46:08 symfony [info] {main} Get slot "title"
+Apr 27 20:46:08 symfony [info] {main} Get slot "topBarMeny"
+Apr 27 20:46:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 27 20:46:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 20:46:08 symfony [info] {sfWebDebugLogger} Configuration 28.51 ms (9)
+Apr 27 20:46:08 symfony [info] {sfWebDebugLogger} Action "user/index" 0.71 ms (1)
+Apr 27 20:46:08 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 32.88 ms (1)
+Apr 27 20:46:08 symfony [info] {sfWebResponse} Send content (109943 o)
+Apr 27 20:48:39 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 20:48:39 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 20:48:39 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 20:48:39 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 20:48:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 20:48:39 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 20:48:39 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 20:48:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 20:48:39 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 20:48:39 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexSuccess.php"
+Apr 27 20:48:39 symfony [info] {main} Set slot "title"
+Apr 27 20:48:39 symfony [info] {main} Set slot "topBarMeny"
+Apr 27 20:48:39 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 20:48:39 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 20:48:39 symfony [info] {main} Get slot "title"
+Apr 27 20:48:39 symfony [info] {main} Get slot "topBarMeny"
+Apr 27 20:48:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 27 20:48:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 20:48:39 symfony [info] {sfWebDebugLogger} Configuration 36.67 ms (9)
+Apr 27 20:48:39 symfony [info] {sfWebDebugLogger} Action "user/index" 0.64 ms (1)
+Apr 27 20:48:39 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 37.05 ms (1)
+Apr 27 20:48:39 symfony [info] {sfWebResponse} Send content (109974 o)
+Apr 27 20:54:01 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 20:54:01 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 20:54:01 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 20:54:01 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 20:54:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 20:54:01 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 20:54:01 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 20:54:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 20:54:01 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 20:54:01 symfony [info] {myUser} User is not authenticated
+Apr 27 20:54:01 symfony [info] {sfFrontWebController} Redirect to "/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 20:54:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Apr 27 20:54:01 symfony [info] {sfWebResponse} Send header "Location: /Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 20:54:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 20:54:01 symfony [info] {sfWebDebugLogger} Configuration 27.23 ms (8)
+Apr 27 20:54:01 symfony [info] {sfWebDebugLogger} Action "user/index" 4.77 ms (1)
+Apr 27 20:54:01 symfony [info] {sfWebResponse} Send content (151 o)
+Apr 27 20:54:02 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 20:54:02 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 20:54:02 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 20:54:02 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 20:54:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 20:54:02 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 20:54:02 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 20:54:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 20:54:02 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 20:54:02 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexSuccess.php"
+Apr 27 20:54:02 symfony [info] {main} Set slot "title"
+Apr 27 20:54:02 symfony [info] {main} Set slot "topBarMeny"
+Apr 27 20:54:02 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 20:54:02 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 20:54:02 symfony [info] {main} Get slot "title"
+Apr 27 20:54:02 symfony [info] {main} Get slot "topBarMeny"
+Apr 27 20:54:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 27 20:54:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 20:54:02 symfony [info] {sfWebDebugLogger} Configuration 30.92 ms (9)
+Apr 27 20:54:02 symfony [info] {sfWebDebugLogger} Action "user/index" 14.56 ms (1)
+Apr 27 20:54:02 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 44.12 ms (1)
+Apr 27 20:54:02 symfony [info] {sfWebResponse} Send content (110364 o)
+Apr 27 20:54:07 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 20:54:07 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 20:54:07 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 20:54:07 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 20:54:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 20:54:07 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 20:54:07 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 20:54:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 20:54:07 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 20:54:07 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 27 20:54:07 symfony [debug] {sfPropelLogger} prepare: SELECT webschool_user.ID, webschool_user.USERNAME, webschool_user.PASSWORD FROM `webschool_user` WHERE webschool_user.USERNAME=:p1 AND webschool_user.PASSWORD=:p2 LIMIT 1
+Apr 27 20:54:07 symfony [debug] {sfPropelLogger} Binding 'test' at position :p1 w/ PDO type PDO::PARAM_STR
+Apr 27 20:54:07 symfony [debug] {sfPropelLogger} Binding 'test' at position :p2 w/ PDO type PDO::PARAM_STR
+Apr 27 20:54:07 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexSuccess.php"
+Apr 27 20:54:07 symfony [info] {main} Set slot "title"
+Apr 27 20:54:07 symfony [info] {main} Set slot "topBarMeny"
+Apr 27 20:54:07 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 20:54:07 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 20:54:07 symfony [info] {main} Get slot "title"
+Apr 27 20:54:07 symfony [info] {main} Get slot "topBarMeny"
+Apr 27 20:54:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 27 20:54:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 20:54:07 symfony [info] {sfWebDebugLogger} Configuration 34.33 ms (9)
+Apr 27 20:54:07 symfony [info] {sfWebDebugLogger} Action "user/index" 51.57 ms (1)
+Apr 27 20:54:07 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 42.43 ms (1)
+Apr 27 20:54:07 symfony [info] {sfWebResponse} Send content (111362 o)
+Apr 27 20:55:13 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 20:55:13 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 20:55:13 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 20:55:13 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 20:55:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 20:55:13 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 20:55:13 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 20:55:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 20:55:13 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 20:55:13 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 27 20:55:13 symfony [debug] {sfPropelLogger} prepare: SELECT webschool_user.ID, webschool_user.USERNAME, webschool_user.PASSWORD FROM `webschool_user` WHERE webschool_user.USERNAME=:p1 AND webschool_user.PASSWORD=:p2 LIMIT 1
+Apr 27 20:55:13 symfony [debug] {sfPropelLogger} Binding 'test1' at position :p1 w/ PDO type PDO::PARAM_STR
+Apr 27 20:55:13 symfony [debug] {sfPropelLogger} Binding 'test1' at position :p2 w/ PDO type PDO::PARAM_STR
+Apr 27 20:55:13 symfony [info] {myUser} User is authenticated
+Apr 27 20:55:13 symfony [info] {sfFrontWebController} Redirect to "/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 20:55:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Apr 27 20:55:13 symfony [info] {sfWebResponse} Send header "Location: /Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 20:55:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 20:55:13 symfony [info] {sfWebDebugLogger} Configuration 28.48 ms (8)
+Apr 27 20:55:13 symfony [info] {sfWebDebugLogger} Action "user/index" 65.15 ms (1)
+Apr 27 20:55:13 symfony [info] {sfWebResponse} Send content (151 o)
+Apr 27 20:55:13 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 20:55:13 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 20:55:13 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 20:55:13 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 20:55:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 20:55:13 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 20:55:13 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 20:55:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 20:55:13 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 20:55:13 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexSuccess.php"
+Apr 27 20:55:13 symfony [info] {main} Set slot "title"
+Apr 27 20:55:13 symfony [info] {main} Set slot "topBarMeny"
+Apr 27 20:55:13 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 20:55:13 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 20:55:13 symfony [info] {main} Get slot "title"
+Apr 27 20:55:13 symfony [info] {main} Get slot "topBarMeny"
+Apr 27 20:55:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 27 20:55:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 20:55:13 symfony [info] {sfWebDebugLogger} Configuration 31.77 ms (9)
+Apr 27 20:55:13 symfony [info] {sfWebDebugLogger} Action "user/index" 0.85 ms (1)
+Apr 27 20:55:13 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 34.18 ms (1)
+Apr 27 20:55:13 symfony [info] {sfWebResponse} Send content (109942 o)
+Apr 27 21:18:41 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 21:18:41 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 21:18:41 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 21:18:41 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 21:18:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 21:18:41 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 21:18:41 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 21:18:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 21:18:41 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 21:18:41 symfony [info] {myUser} User is not authenticated
+Apr 27 21:18:41 symfony [info] {sfFrontWebController} Redirect to "/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 21:18:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Apr 27 21:18:41 symfony [info] {sfWebResponse} Send header "Location: /Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 21:18:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 21:18:41 symfony [info] {sfWebDebugLogger} Configuration 31.78 ms (8)
+Apr 27 21:18:41 symfony [info] {sfWebDebugLogger} Action "user/index" 4.28 ms (1)
+Apr 27 21:18:41 symfony [info] {sfWebResponse} Send content (151 o)
+Apr 27 21:18:41 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 21:18:41 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 21:18:41 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 21:18:41 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 21:18:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 21:18:41 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 21:18:41 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 21:18:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 21:18:41 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 21:18:41 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexSuccess.php"
+Apr 27 21:18:42 symfony [info] {main} Set slot "title"
+Apr 27 21:18:42 symfony [info] {main} Set slot "topBarMeny"
+Apr 27 21:18:42 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 21:18:42 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 21:18:42 symfony [info] {main} Get slot "title"
+Apr 27 21:18:42 symfony [info] {main} Get slot "topBarMeny"
+Apr 27 21:18:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 27 21:18:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 21:18:42 symfony [info] {sfWebDebugLogger} Configuration 33.98 ms (9)
+Apr 27 21:18:42 symfony [info] {sfWebDebugLogger} Action "user/index" 13.74 ms (1)
+Apr 27 21:18:42 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 42.53 ms (1)
+Apr 27 21:18:42 symfony [info] {sfWebResponse} Send content (110364 o)
+Apr 27 21:18:43 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 21:18:43 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 21:18:43 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 21:18:43 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 21:18:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 21:18:43 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 21:18:43 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 21:18:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 21:18:43 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 21:18:43 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexSuccess.php"
+Apr 27 21:18:43 symfony [info] {main} Set slot "title"
+Apr 27 21:18:43 symfony [info] {main} Set slot "topBarMeny"
+Apr 27 21:18:43 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 21:18:43 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 21:18:43 symfony [info] {main} Get slot "title"
+Apr 27 21:18:43 symfony [info] {main} Get slot "topBarMeny"
+Apr 27 21:18:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 27 21:18:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 21:18:43 symfony [info] {sfWebDebugLogger} Configuration 34.12 ms (9)
+Apr 27 21:18:43 symfony [info] {sfWebDebugLogger} Action "user/index" 15.36 ms (1)
+Apr 27 21:18:43 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 42.65 ms (1)
+Apr 27 21:18:43 symfony [info] {sfWebResponse} Send content (110710 o)
+Apr 27 21:37:03 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 21:37:03 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 21:37:03 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 21:37:03 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 21:37:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 21:37:03 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 21:37:03 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 21:37:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 21:37:03 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 21:37:03 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 27 21:37:03 symfony [debug] {sfPropelLogger} prepare: SELECT webschool_user.ID, webschool_user.USERNAME, webschool_user.PASSWORD FROM `webschool_user` WHERE webschool_user.USERNAME=:p1 AND webschool_user.PASSWORD=:p2 LIMIT 1
+Apr 27 21:37:03 symfony [debug] {sfPropelLogger} Binding 'Test1' at position :p1 w/ PDO type PDO::PARAM_STR
+Apr 27 21:37:03 symfony [debug] {sfPropelLogger} Binding 'Test1' at position :p2 w/ PDO type PDO::PARAM_STR
+Apr 27 21:37:03 symfony [info] {myUser} User is authenticated
+Apr 27 21:37:03 symfony [info] {sfFrontWebController} Redirect to "/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 21:37:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Apr 27 21:37:03 symfony [info] {sfWebResponse} Send header "Location: /Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 21:37:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 21:37:03 symfony [info] {sfWebDebugLogger} Configuration 29.84 ms (8)
+Apr 27 21:37:03 symfony [info] {sfWebDebugLogger} Action "user/index" 59.69 ms (1)
+Apr 27 21:37:03 symfony [info] {sfWebResponse} Send content (151 o)
+Apr 27 21:37:03 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 21:37:03 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 21:37:03 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 21:37:03 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 21:37:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 21:37:03 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 21:37:03 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 21:37:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 21:37:03 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 21:37:03 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexSuccess.php"
+Apr 27 21:37:03 symfony [info] {main} Set slot "title"
+Apr 27 21:37:03 symfony [info] {main} Set slot "topBarMeny"
+Apr 27 21:37:03 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 21:37:03 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 21:37:03 symfony [info] {main} Get slot "title"
+Apr 27 21:37:03 symfony [info] {main} Get slot "topBarMeny"
+Apr 27 21:37:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 27 21:37:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 21:37:03 symfony [info] {sfWebDebugLogger} Configuration 32.85 ms (9)
+Apr 27 21:37:03 symfony [info] {sfWebDebugLogger} Action "user/index" 0.63 ms (1)
+Apr 27 21:37:03 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 36.93 ms (1)
+Apr 27 21:37:03 symfony [info] {sfWebResponse} Send content (109942 o)
+Apr 27 21:37:08 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 21:37:08 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 21:37:08 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 21:37:08 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 21:37:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 21:37:08 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 21:37:08 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 21:37:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 21:37:08 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 21:37:08 symfony [info] {myUser} User is not authenticated
+Apr 27 21:37:08 symfony [info] {sfFrontWebController} Redirect to "/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 21:37:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Apr 27 21:37:08 symfony [info] {sfWebResponse} Send header "Location: /Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 21:37:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 21:37:08 symfony [info] {sfWebDebugLogger} Configuration 28.12 ms (8)
+Apr 27 21:37:08 symfony [info] {sfWebDebugLogger} Action "user/index" 3.83 ms (1)
+Apr 27 21:37:08 symfony [info] {sfWebResponse} Send content (151 o)
+Apr 27 21:37:08 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 21:37:08 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 21:37:08 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 21:37:08 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 21:37:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 21:37:08 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 21:37:08 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 21:37:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 21:37:08 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 21:37:08 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexSuccess.php"
+Apr 27 21:37:08 symfony [info] {main} Set slot "title"
+Apr 27 21:37:08 symfony [info] {main} Set slot "topBarMeny"
+Apr 27 21:37:09 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 21:37:09 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 21:37:09 symfony [info] {main} Get slot "title"
+Apr 27 21:37:09 symfony [info] {main} Get slot "topBarMeny"
+Apr 27 21:37:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 27 21:37:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 21:37:09 symfony [info] {sfWebDebugLogger} Configuration 33.28 ms (9)
+Apr 27 21:37:09 symfony [info] {sfWebDebugLogger} Action "user/index" 13.38 ms (1)
+Apr 27 21:37:09 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 42.16 ms (1)
+Apr 27 21:37:09 symfony [info] {sfWebResponse} Send content (110364 o)
+Apr 27 21:37:14 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 21:37:14 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 21:37:14 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 21:37:14 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 21:37:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 21:37:14 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 21:37:14 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 21:37:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 21:37:14 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 21:37:14 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 27 21:37:14 symfony [debug] {sfPropelLogger} prepare: SELECT webschool_user.ID, webschool_user.USERNAME, webschool_user.PASSWORD FROM `webschool_user` WHERE webschool_user.USERNAME=:p1 AND webschool_user.PASSWORD=:p2 LIMIT 1
+Apr 27 21:37:14 symfony [debug] {sfPropelLogger} Binding 'test1' at position :p1 w/ PDO type PDO::PARAM_STR
+Apr 27 21:37:14 symfony [debug] {sfPropelLogger} Binding 'test1' at position :p2 w/ PDO type PDO::PARAM_STR
+Apr 27 21:37:14 symfony [info] {myUser} User is authenticated
+Apr 27 21:37:14 symfony [info] {sfFrontWebController} Redirect to "/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 21:37:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Apr 27 21:37:14 symfony [info] {sfWebResponse} Send header "Location: /Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 21:37:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 21:37:14 symfony [info] {sfWebDebugLogger} Configuration 28.73 ms (8)
+Apr 27 21:37:14 symfony [info] {sfWebDebugLogger} Action "user/index" 55.67 ms (1)
+Apr 27 21:37:14 symfony [info] {sfWebResponse} Send content (151 o)
+Apr 27 21:37:15 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 21:37:15 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 21:37:15 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 21:37:15 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 21:37:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 21:37:15 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 21:37:15 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 21:37:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 21:37:15 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 21:37:15 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexSuccess.php"
+Apr 27 21:37:15 symfony [info] {main} Set slot "title"
+Apr 27 21:37:15 symfony [info] {main} Set slot "topBarMeny"
+Apr 27 21:37:15 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 21:37:15 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 21:37:15 symfony [info] {main} Get slot "title"
+Apr 27 21:37:15 symfony [info] {main} Get slot "topBarMeny"
+Apr 27 21:37:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 27 21:37:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 21:37:15 symfony [info] {sfWebDebugLogger} Configuration 35.06 ms (9)
+Apr 27 21:37:15 symfony [info] {sfWebDebugLogger} Action "user/index" 0.67 ms (1)
+Apr 27 21:37:15 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 37.15 ms (1)
+Apr 27 21:37:15 symfony [info] {sfWebResponse} Send content (109942 o)
+Apr 27 21:37:18 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 21:37:18 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 21:37:18 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 21:37:18 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 21:37:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 21:37:18 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 21:37:18 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 21:37:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 21:37:18 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 21:37:18 symfony [info] {myUser} User is not authenticated
+Apr 27 21:37:18 symfony [info] {sfFrontWebController} Redirect to "/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 21:37:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Apr 27 21:37:18 symfony [info] {sfWebResponse} Send header "Location: /Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 21:37:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 21:37:18 symfony [info] {sfWebDebugLogger} Configuration 33.15 ms (8)
+Apr 27 21:37:18 symfony [info] {sfWebDebugLogger} Action "user/index" 5.49 ms (1)
+Apr 27 21:37:18 symfony [info] {sfWebResponse} Send content (151 o)
+Apr 27 21:37:18 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 21:37:18 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 21:37:18 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 21:37:18 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 21:37:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 21:37:18 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 21:37:18 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 21:37:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 21:37:18 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 21:37:18 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexSuccess.php"
+Apr 27 21:37:18 symfony [info] {main} Set slot "title"
+Apr 27 21:37:18 symfony [info] {main} Set slot "topBarMeny"
+Apr 27 21:37:18 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 21:37:18 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 21:37:18 symfony [info] {main} Get slot "title"
+Apr 27 21:37:18 symfony [info] {main} Get slot "topBarMeny"
+Apr 27 21:37:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 27 21:37:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 21:37:18 symfony [info] {sfWebDebugLogger} Configuration 35.83 ms (9)
+Apr 27 21:37:18 symfony [info] {sfWebDebugLogger} Action "user/index" 12.90 ms (1)
+Apr 27 21:37:18 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 40.78 ms (1)
+Apr 27 21:37:18 symfony [info] {sfWebResponse} Send content (110364 o)
+Apr 27 21:41:22 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 21:41:22 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 21:41:22 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 21:41:22 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 21:41:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 21:41:22 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 21:41:22 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 21:41:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 21:41:22 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 21:41:22 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 27 21:41:22 symfony [debug] {sfPropelLogger} prepare: SELECT webschool_user.ID, webschool_user.USERNAME, webschool_user.PASSWORD FROM `webschool_user` WHERE webschool_user.USERNAME=:p1 AND webschool_user.PASSWORD=:p2 LIMIT 1
+Apr 27 21:41:22 symfony [debug] {sfPropelLogger} Binding 'admin' at position :p1 w/ PDO type PDO::PARAM_STR
+Apr 27 21:41:22 symfony [debug] {sfPropelLogger} Binding 'admin' at position :p2 w/ PDO type PDO::PARAM_STR
+Apr 27 21:41:22 symfony [info] {myUser} User is authenticated
+Apr 27 21:41:22 symfony [info] {sfFrontWebController} Redirect to "/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 21:41:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Apr 27 21:41:22 symfony [info] {sfWebResponse} Send header "Location: /Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 21:41:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 21:41:22 symfony [info] {sfWebDebugLogger} Configuration 27.09 ms (8)
+Apr 27 21:41:22 symfony [info] {sfWebDebugLogger} Action "user/index" 57.20 ms (1)
+Apr 27 21:41:22 symfony [info] {sfWebResponse} Send content (151 o)
+Apr 27 21:41:22 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 21:41:22 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 21:41:22 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 21:41:22 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 21:41:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 21:41:22 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 21:41:22 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 21:41:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 21:41:22 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 21:41:22 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexSuccess.php"
+Apr 27 21:41:22 symfony [info] {main} Set slot "title"
+Apr 27 21:41:22 symfony [info] {main} Set slot "topBarMeny"
+Apr 27 21:41:22 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 21:41:22 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 21:41:22 symfony [info] {main} Get slot "title"
+Apr 27 21:41:22 symfony [info] {main} Get slot "topBarMeny"
+Apr 27 21:41:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 27 21:41:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 21:41:22 symfony [info] {sfWebDebugLogger} Configuration 29.52 ms (9)
+Apr 27 21:41:22 symfony [info] {sfWebDebugLogger} Action "user/index" 0.67 ms (1)
+Apr 27 21:41:22 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 35.49 ms (1)
+Apr 27 21:41:22 symfony [info] {sfWebResponse} Send content (109942 o)
+Apr 27 21:41:24 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 21:41:24 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 21:41:24 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 21:41:24 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 21:41:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 21:41:24 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 21:41:24 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 21:41:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 21:41:24 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 21:41:24 symfony [info] {myUser} User is not authenticated
+Apr 27 21:41:24 symfony [info] {sfFrontWebController} Redirect to "/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 21:41:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Apr 27 21:41:24 symfony [info] {sfWebResponse} Send header "Location: /Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 21:41:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 21:41:24 symfony [info] {sfWebDebugLogger} Configuration 25.66 ms (8)
+Apr 27 21:41:24 symfony [info] {sfWebDebugLogger} Action "user/index" 3.88 ms (1)
+Apr 27 21:41:24 symfony [info] {sfWebResponse} Send content (151 o)
+Apr 27 21:41:24 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 21:41:24 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 21:41:24 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 21:41:24 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 21:41:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 21:41:25 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 21:41:25 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 21:41:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 21:41:25 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 21:41:25 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexSuccess.php"
+Apr 27 21:41:25 symfony [info] {main} Set slot "title"
+Apr 27 21:41:25 symfony [info] {main} Set slot "topBarMeny"
+Apr 27 21:41:25 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 21:41:25 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 21:41:25 symfony [info] {main} Get slot "title"
+Apr 27 21:41:25 symfony [info] {main} Get slot "topBarMeny"
+Apr 27 21:41:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 27 21:41:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 21:41:25 symfony [info] {sfWebDebugLogger} Configuration 29.80 ms (9)
+Apr 27 21:41:25 symfony [info] {sfWebDebugLogger} Action "user/index" 13.16 ms (1)
+Apr 27 21:41:25 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 40.48 ms (1)
+Apr 27 21:41:25 symfony [info] {sfWebResponse} Send content (110364 o)
+Apr 27 21:41:30 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 21:41:30 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 21:41:30 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 21:41:30 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 21:41:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 21:41:30 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 21:41:30 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 21:41:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 21:41:30 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 21:41:30 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 27 21:41:30 symfony [debug] {sfPropelLogger} prepare: SELECT webschool_user.ID, webschool_user.USERNAME, webschool_user.PASSWORD FROM `webschool_user` WHERE webschool_user.USERNAME=:p1 AND webschool_user.PASSWORD=:p2 LIMIT 1
+Apr 27 21:41:30 symfony [debug] {sfPropelLogger} Binding 'Admin' at position :p1 w/ PDO type PDO::PARAM_STR
+Apr 27 21:41:30 symfony [debug] {sfPropelLogger} Binding 'Admin' at position :p2 w/ PDO type PDO::PARAM_STR
+Apr 27 21:41:30 symfony [info] {myUser} User is authenticated
+Apr 27 21:41:30 symfony [info] {sfFrontWebController} Redirect to "/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 21:41:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Apr 27 21:41:30 symfony [info] {sfWebResponse} Send header "Location: /Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 21:41:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 21:41:30 symfony [info] {sfWebDebugLogger} Configuration 25.87 ms (8)
+Apr 27 21:41:30 symfony [info] {sfWebDebugLogger} Action "user/index" 53.04 ms (1)
+Apr 27 21:41:30 symfony [info] {sfWebResponse} Send content (151 o)
+Apr 27 21:41:30 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 21:41:30 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 21:41:30 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 21:41:30 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 21:41:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 21:41:30 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 21:41:30 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 21:41:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 21:41:30 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 21:41:30 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexSuccess.php"
+Apr 27 21:41:30 symfony [info] {main} Set slot "title"
+Apr 27 21:41:30 symfony [info] {main} Set slot "topBarMeny"
+Apr 27 21:41:30 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 21:41:30 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 21:41:30 symfony [info] {main} Get slot "title"
+Apr 27 21:41:30 symfony [info] {main} Get slot "topBarMeny"
+Apr 27 21:41:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 27 21:41:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 21:41:30 symfony [info] {sfWebDebugLogger} Configuration 29.33 ms (9)
+Apr 27 21:41:30 symfony [info] {sfWebDebugLogger} Action "user/index" 0.62 ms (1)
+Apr 27 21:41:30 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 34.87 ms (1)
+Apr 27 21:41:30 symfony [info] {sfWebResponse} Send content (109942 o)
+Apr 27 21:41:33 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 21:41:33 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 21:41:33 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 21:41:33 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 21:41:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 21:41:33 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 21:41:33 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 21:41:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 21:41:33 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 21:41:33 symfony [info] {myUser} User is not authenticated
+Apr 27 21:41:33 symfony [info] {sfFrontWebController} Redirect to "/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 21:41:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Apr 27 21:41:33 symfony [info] {sfWebResponse} Send header "Location: /Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 21:41:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 21:41:33 symfony [info] {sfWebDebugLogger} Configuration 25.93 ms (8)
+Apr 27 21:41:33 symfony [info] {sfWebDebugLogger} Action "user/index" 4.11 ms (1)
+Apr 27 21:41:33 symfony [info] {sfWebResponse} Send content (151 o)
+Apr 27 21:41:33 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 21:41:33 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 21:41:33 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 21:41:33 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 21:41:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 21:41:33 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 21:41:33 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 21:41:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 21:41:33 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 21:41:33 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexSuccess.php"
+Apr 27 21:41:33 symfony [info] {main} Set slot "title"
+Apr 27 21:41:33 symfony [info] {main} Set slot "topBarMeny"
+Apr 27 21:41:33 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 21:41:33 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 21:41:33 symfony [info] {main} Get slot "title"
+Apr 27 21:41:33 symfony [info] {main} Get slot "topBarMeny"
+Apr 27 21:41:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 27 21:41:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 21:41:33 symfony [info] {sfWebDebugLogger} Configuration 29.94 ms (9)
+Apr 27 21:41:33 symfony [info] {sfWebDebugLogger} Action "user/index" 13.16 ms (1)
+Apr 27 21:41:33 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 40.95 ms (1)
+Apr 27 21:41:33 symfony [info] {sfWebResponse} Send content (110363 o)
+Apr 27 21:43:36 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 21:43:36 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 21:43:36 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 21:43:36 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 21:43:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 21:43:36 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 21:43:36 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 21:43:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 21:43:36 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 21:43:36 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 27 21:43:36 symfony [debug] {sfPropelLogger} prepare: SELECT webschool_user.ID, webschool_user.USERNAME, webschool_user.PASSWORD FROM `webschool_user` WHERE webschool_user.USERNAME=:p1 AND webschool_user.PASSWORD=:p2 LIMIT 1
+Apr 27 21:43:36 symfony [debug] {sfPropelLogger} Binding 'test1' at position :p1 w/ PDO type PDO::PARAM_STR
+Apr 27 21:43:36 symfony [debug] {sfPropelLogger} Binding 'Test1' at position :p2 w/ PDO type PDO::PARAM_STR
+Apr 27 21:43:36 symfony [info] {myUser} User is authenticated
+Apr 27 21:43:36 symfony [info] {sfFrontWebController} Redirect to "/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 21:43:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Apr 27 21:43:36 symfony [info] {sfWebResponse} Send header "Location: /Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 21:43:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 21:43:36 symfony [info] {sfWebDebugLogger} Configuration 28.71 ms (8)
+Apr 27 21:43:36 symfony [info] {sfWebDebugLogger} Action "user/index" 55.66 ms (1)
+Apr 27 21:43:36 symfony [info] {sfWebResponse} Send content (151 o)
+Apr 27 21:43:36 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 21:43:36 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 21:43:36 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 21:43:36 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 21:43:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 21:43:36 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 21:43:36 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 21:43:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 21:43:36 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 21:43:36 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexSuccess.php"
+Apr 27 21:43:36 symfony [info] {main} Set slot "title"
+Apr 27 21:43:36 symfony [info] {main} Set slot "topBarMeny"
+Apr 27 21:43:36 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 21:43:36 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 21:43:36 symfony [info] {main} Get slot "title"
+Apr 27 21:43:36 symfony [info] {main} Get slot "topBarMeny"
+Apr 27 21:43:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 27 21:43:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 21:43:36 symfony [info] {sfWebDebugLogger} Configuration 32.47 ms (9)
+Apr 27 21:43:36 symfony [info] {sfWebDebugLogger} Action "user/index" 0.67 ms (1)
+Apr 27 21:43:36 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 36.81 ms (1)
+Apr 27 21:43:36 symfony [info] {sfWebResponse} Send content (109942 o)
+Apr 27 21:43:39 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 21:43:39 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 21:43:39 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 21:43:39 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 21:43:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 21:43:39 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 21:43:39 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 21:43:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 21:43:39 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 21:43:39 symfony [info] {myUser} User is not authenticated
+Apr 27 21:43:39 symfony [info] {sfFrontWebController} Redirect to "/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 21:43:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Apr 27 21:43:39 symfony [info] {sfWebResponse} Send header "Location: /Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 21:43:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 21:43:39 symfony [info] {sfWebDebugLogger} Configuration 28.76 ms (8)
+Apr 27 21:43:39 symfony [info] {sfWebDebugLogger} Action "user/index" 4.35 ms (1)
+Apr 27 21:43:39 symfony [info] {sfWebResponse} Send content (151 o)
+Apr 27 21:43:39 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 21:43:39 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 21:43:39 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 21:43:39 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 21:43:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 21:43:39 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 21:43:39 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 21:43:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 21:43:39 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 21:43:39 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexSuccess.php"
+Apr 27 21:43:39 symfony [info] {main} Set slot "title"
+Apr 27 21:43:39 symfony [info] {main} Set slot "topBarMeny"
+Apr 27 21:43:39 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 21:43:39 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 21:43:39 symfony [info] {main} Get slot "title"
+Apr 27 21:43:39 symfony [info] {main} Get slot "topBarMeny"
+Apr 27 21:43:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 27 21:43:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 21:43:39 symfony [info] {sfWebDebugLogger} Configuration 33.90 ms (9)
+Apr 27 21:43:39 symfony [info] {sfWebDebugLogger} Action "user/index" 13.50 ms (1)
+Apr 27 21:43:39 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 42.43 ms (1)
+Apr 27 21:43:39 symfony [info] {sfWebResponse} Send content (110364 o)
+Apr 27 21:49:58 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 21:49:58 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 21:49:58 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 21:49:58 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 21:49:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 21:49:58 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 21:49:58 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 21:49:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 21:49:58 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 21:49:58 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 27 21:49:58 symfony [debug] {sfPropelLogger} prepare: SELECT webschool_user.ID, webschool_user.USERNAME, webschool_user.PASSWORD FROM `webschool_user` WHERE webschool_user.USERNAME=:p1 AND webschool_user.PASSWORD=:p2 LIMIT 1
+Apr 27 21:49:58 symfony [debug] {sfPropelLogger} Binding 'tr' at position :p1 w/ PDO type PDO::PARAM_STR
+Apr 27 21:49:58 symfony [debug] {sfPropelLogger} Binding 'tr' at position :p2 w/ PDO type PDO::PARAM_STR
+Apr 27 21:49:58 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexSuccess.php"
+Apr 27 21:49:58 symfony [info] {main} Set slot "title"
+Apr 27 21:49:58 symfony [info] {main} Set slot "topBarMeny"
+Apr 27 21:49:58 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 21:49:58 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 21:49:58 symfony [info] {main} Get slot "title"
+Apr 27 21:49:58 symfony [info] {main} Get slot "topBarMeny"
+Apr 27 21:49:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 27 21:49:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 21:49:58 symfony [info] {sfWebDebugLogger} Configuration 30.51 ms (9)
+Apr 27 21:49:58 symfony [info] {sfWebDebugLogger} Action "user/index" 54.39 ms (1)
+Apr 27 21:49:58 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 42.44 ms (1)
+Apr 27 21:49:58 symfony [info] {sfWebResponse} Send content (111348 o)
+Apr 27 22:01:05 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 22:01:05 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 22:01:05 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 22:01:05 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 22:01:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 22:01:05 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 22:01:05 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 22:01:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 22:01:05 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 22:01:05 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 27 22:01:05 symfony [debug] {sfPropelLogger} prepare: SELECT webschool_user.ID, webschool_user.USERNAME, webschool_user.PASSWORD FROM `webschool_user` WHERE webschool_user.USERNAME=:p1 AND webschool_user.PASSWORD=:p2 LIMIT 1
+Apr 27 22:01:05 symfony [debug] {sfPropelLogger} Binding 'tr' at position :p1 w/ PDO type PDO::PARAM_STR
+Apr 27 22:01:05 symfony [debug] {sfPropelLogger} Binding 'tr' at position :p2 w/ PDO type PDO::PARAM_STR
+Apr 27 22:01:05 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexSuccess.php"
+Apr 27 22:01:05 symfony [info] {main} Set slot "title"
+Apr 27 22:01:05 symfony [info] {main} Set slot "topBarMeny"
+Apr 27 22:01:05 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 22:01:05 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 22:01:05 symfony [info] {main} Get slot "title"
+Apr 27 22:01:05 symfony [info] {main} Get slot "topBarMeny"
+Apr 27 22:01:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 27 22:01:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 22:01:05 symfony [info] {sfWebDebugLogger} Configuration 37.11 ms (9)
+Apr 27 22:01:05 symfony [info] {sfWebDebugLogger} Action "user/index" 55.19 ms (1)
+Apr 27 22:01:05 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 43.81 ms (1)
+Apr 27 22:01:05 symfony [info] {sfWebResponse} Send content (111348 o)
+Apr 27 22:06:21 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 22:06:21 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 22:06:21 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 22:06:21 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 22:06:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 22:06:21 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 22:06:21 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 22:06:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 22:06:21 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 22:06:21 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 27 22:06:21 symfony [debug] {sfPropelLogger} prepare: SELECT webschool_user.ID, webschool_user.USERNAME, webschool_user.PASSWORD FROM `webschool_user` WHERE webschool_user.USERNAME=:p1 AND webschool_user.PASSWORD=:p2 LIMIT 1
+Apr 27 22:06:21 symfony [debug] {sfPropelLogger} Binding 'test1' at position :p1 w/ PDO type PDO::PARAM_STR
+Apr 27 22:06:21 symfony [debug] {sfPropelLogger} Binding 'Test1' at position :p2 w/ PDO type PDO::PARAM_STR
+Apr 27 22:06:21 symfony [info] {myUser} User is authenticated
+Apr 27 22:06:21 symfony [info] {sfFrontWebController} Redirect to "/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 22:06:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Apr 27 22:06:21 symfony [info] {sfWebResponse} Send header "Location: /Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 22:06:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 22:06:21 symfony [info] {sfWebDebugLogger} Configuration 26.50 ms (8)
+Apr 27 22:06:21 symfony [info] {sfWebDebugLogger} Action "user/index" 64.06 ms (1)
+Apr 27 22:06:21 symfony [info] {sfWebResponse} Send content (151 o)
+Apr 27 22:06:21 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 22:06:21 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 22:06:21 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 22:06:21 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 22:06:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 22:06:21 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 22:06:21 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 22:06:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 22:06:21 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 22:06:21 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexSuccess.php"
+Apr 27 22:06:21 symfony [info] {main} Set slot "title"
+Apr 27 22:06:21 symfony [info] {main} Set slot "topBarMeny"
+Apr 27 22:06:21 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 22:06:21 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 22:06:21 symfony [info] {main} Get slot "title"
+Apr 27 22:06:21 symfony [info] {main} Get slot "topBarMeny"
+Apr 27 22:06:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 27 22:06:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 22:06:21 symfony [info] {sfWebDebugLogger} Configuration 29.99 ms (9)
+Apr 27 22:06:21 symfony [info] {sfWebDebugLogger} Action "user/index" 0.66 ms (1)
+Apr 27 22:06:21 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 35.41 ms (1)
+Apr 27 22:06:21 symfony [info] {sfWebResponse} Send content (109941 o)
+Apr 27 22:19:02 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 22:19:02 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 22:19:02 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 22:19:02 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 22:19:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 22:19:02 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 22:19:02 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 22:19:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 22:19:02 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 22:19:02 symfony [info] {myUser} User is not authenticated
+Apr 27 22:19:02 symfony [info] {sfFrontWebController} Redirect to "/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 22:19:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Apr 27 22:19:02 symfony [info] {sfWebResponse} Send header "Location: /Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 22:19:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 22:19:02 symfony [info] {sfWebDebugLogger} Configuration 24.26 ms (8)
+Apr 27 22:19:02 symfony [info] {sfWebDebugLogger} Action "user/index" 4.24 ms (1)
+Apr 27 22:19:02 symfony [info] {sfWebResponse} Send content (151 o)
+Apr 27 22:19:02 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 22:19:02 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 22:19:02 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 22:19:02 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 22:19:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 22:19:02 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 22:19:02 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 22:19:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 22:19:02 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 22:19:02 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexSuccess.php"
+Apr 27 22:19:02 symfony [info] {main} Set slot "title"
+Apr 27 22:19:02 symfony [info] {main} Set slot "topBarMeny"
+Apr 27 22:19:02 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 22:19:02 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 22:19:02 symfony [info] {main} Get slot "title"
+Apr 27 22:19:02 symfony [info] {main} Get slot "topBarMeny"
+Apr 27 22:19:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 27 22:19:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 22:19:02 symfony [info] {sfWebDebugLogger} Configuration 26.42 ms (9)
+Apr 27 22:19:02 symfony [info] {sfWebDebugLogger} Action "user/index" 13.45 ms (1)
+Apr 27 22:19:02 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 42.70 ms (1)
+Apr 27 22:19:02 symfony [info] {sfWebResponse} Send content (110363 o)
+Apr 27 22:19:13 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 22:19:13 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 22:19:13 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 22:19:13 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 22:19:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 22:19:13 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 22:19:13 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 22:19:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 22:19:13 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 22:19:13 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 27 22:19:13 symfony [debug] {sfPropelLogger} prepare: SELECT webschool_user.ID, webschool_user.USERNAME, webschool_user.PASSWORD FROM `webschool_user` WHERE webschool_user.USERNAME=:p1 AND webschool_user.PASSWORD=:p2 LIMIT 1
+Apr 27 22:19:13 symfony [debug] {sfPropelLogger} Binding 'test1' at position :p1 w/ PDO type PDO::PARAM_STR
+Apr 27 22:19:13 symfony [debug] {sfPropelLogger} Binding 'Test1' at position :p2 w/ PDO type PDO::PARAM_STR
+Apr 27 22:19:13 symfony [info] {myUser} User is authenticated
+Apr 27 22:19:13 symfony [info] {sfFrontWebController} Redirect to "/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 22:19:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Apr 27 22:19:13 symfony [info] {sfWebResponse} Send header "Location: /Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 22:19:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 22:19:13 symfony [info] {sfWebDebugLogger} Configuration 23.41 ms (8)
+Apr 27 22:19:13 symfony [info] {sfWebDebugLogger} Action "user/index" 49.03 ms (1)
+Apr 27 22:19:13 symfony [info] {sfWebResponse} Send content (151 o)
+Apr 27 22:19:14 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 22:19:14 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 22:19:14 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 22:19:14 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 22:19:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 22:19:14 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 22:19:14 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 22:19:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 22:19:14 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 22:19:14 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexSuccess.php"
+Apr 27 22:19:14 symfony [info] {main} Set slot "title"
+Apr 27 22:19:14 symfony [info] {main} Set slot "topBarMeny"
+Apr 27 22:19:14 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 22:19:14 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 22:19:14 symfony [info] {main} Get slot "title"
+Apr 27 22:19:14 symfony [info] {main} Get slot "topBarMeny"
+Apr 27 22:19:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 27 22:19:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 22:19:14 symfony [info] {sfWebDebugLogger} Configuration 26.27 ms (9)
+Apr 27 22:19:14 symfony [info] {sfWebDebugLogger} Action "user/index" 0.64 ms (1)
+Apr 27 22:19:14 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 32.00 ms (1)
+Apr 27 22:19:14 symfony [info] {sfWebResponse} Send content (109942 o)
+Apr 27 22:45:17 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 22:45:17 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 22:45:17 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 22:45:17 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 22:45:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 22:45:17 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 22:45:17 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 22:45:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 22:45:17 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 22:45:17 symfony [info] {myUser} User is not authenticated
+Apr 27 22:45:17 symfony [info] {sfFrontWebController} Redirect to "/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 22:45:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Apr 27 22:45:17 symfony [info] {sfWebResponse} Send header "Location: /Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 22:45:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 22:45:17 symfony [info] {sfWebDebugLogger} Configuration 27.82 ms (8)
+Apr 27 22:45:17 symfony [info] {sfWebDebugLogger} Action "user/index" 4.30 ms (1)
+Apr 27 22:45:17 symfony [info] {sfWebResponse} Send content (151 o)
+Apr 27 22:45:17 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 22:45:17 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 22:45:17 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 22:45:17 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 22:45:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 22:45:17 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 22:45:17 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 22:45:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 22:45:17 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 22:45:17 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexSuccess.php"
+Apr 27 22:45:17 symfony [info] {main} Set slot "title"
+Apr 27 22:45:17 symfony [info] {main} Set slot "topBarMeny"
+Apr 27 22:45:17 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 22:45:17 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 22:45:17 symfony [info] {main} Get slot "title"
+Apr 27 22:45:17 symfony [info] {main} Get slot "topBarMeny"
+Apr 27 22:45:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 27 22:45:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 22:45:17 symfony [info] {sfWebDebugLogger} Configuration 30.34 ms (9)
+Apr 27 22:45:17 symfony [info] {sfWebDebugLogger} Action "user/index" 14.57 ms (1)
+Apr 27 22:45:17 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 43.47 ms (1)
+Apr 27 22:45:17 symfony [info] {sfWebResponse} Send content (110364 o)
+Apr 27 22:45:24 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 22:45:24 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 22:45:24 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 22:45:24 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 22:45:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 22:45:24 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 22:45:24 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 22:45:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 22:45:24 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 22:45:24 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 27 22:45:24 symfony [debug] {sfPropelLogger} prepare: SELECT webschool_user.ID, webschool_user.USERNAME, webschool_user.PASSWORD FROM `webschool_user` WHERE webschool_user.USERNAME=:p1 AND webschool_user.PASSWORD=:p2 LIMIT 1
+Apr 27 22:45:24 symfony [debug] {sfPropelLogger} Binding 'Test1' at position :p1 w/ PDO type PDO::PARAM_STR
+Apr 27 22:45:24 symfony [debug] {sfPropelLogger} Binding 'Test1' at position :p2 w/ PDO type PDO::PARAM_STR
+Apr 27 22:45:24 symfony [info] {myUser} User is authenticated
+Apr 27 22:45:24 symfony [info] {sfFrontWebController} Redirect to "/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 22:45:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Apr 27 22:45:24 symfony [info] {sfWebResponse} Send header "Location: /Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 22:45:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 22:45:24 symfony [info] {sfWebDebugLogger} Configuration 29.81 ms (8)
+Apr 27 22:45:24 symfony [info] {sfWebDebugLogger} Action "user/index" 62.81 ms (1)
+Apr 27 22:45:24 symfony [info] {sfWebResponse} Send content (151 o)
+Apr 27 22:45:24 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 22:45:24 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 22:45:24 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 22:45:24 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 22:45:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 22:45:25 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 22:45:25 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 22:45:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 22:45:25 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 22:45:25 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexSuccess.php"
+Apr 27 22:45:25 symfony [info] {main} Set slot "title"
+Apr 27 22:45:25 symfony [info] {main} Set slot "topBarMeny"
+Apr 27 22:45:25 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 22:45:25 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 22:45:25 symfony [info] {main} Get slot "title"
+Apr 27 22:45:25 symfony [info] {main} Get slot "topBarMeny"
+Apr 27 22:45:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 27 22:45:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 22:45:25 symfony [info] {sfWebDebugLogger} Configuration 37.96 ms (9)
+Apr 27 22:45:25 symfony [info] {sfWebDebugLogger} Action "user/index" 0.66 ms (1)
+Apr 27 22:45:25 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 42.96 ms (1)
+Apr 27 22:45:25 symfony [info] {sfWebResponse} Send content (109942 o)
+Apr 27 23:26:23 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 23:26:23 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 23:26:23 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 23:26:23 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 23:26:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 23:26:23 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 23:26:23 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 23:26:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 23:26:23 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 23:26:23 symfony [info] {myUser} User is not authenticated
+Apr 27 23:26:23 symfony [info] {sfFrontWebController} Redirect to "/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 23:26:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Apr 27 23:26:23 symfony [info] {sfWebResponse} Send header "Location: /Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+Apr 27 23:26:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 23:26:23 symfony [info] {sfWebDebugLogger} Configuration 429.34 ms (8)
+Apr 27 23:26:23 symfony [info] {sfWebDebugLogger} Action "user/index" 3.88 ms (1)
+Apr 27 23:26:23 symfony [info] {sfWebResponse} Send content (151 o)
+Apr 27 23:26:23 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 23:26:23 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 23:26:23 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 23:26:23 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 23:26:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 23:26:23 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 23:26:23 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 23:26:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 23:26:23 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 23:26:23 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexSuccess.php"
+Apr 27 23:26:23 symfony [info] {main} Set slot "title"
+Apr 27 23:26:23 symfony [info] {main} Set slot "topBarMeny"
+Apr 27 23:26:23 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 23:26:23 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 23:26:23 symfony [info] {main} Get slot "title"
+Apr 27 23:26:23 symfony [info] {main} Get slot "topBarMeny"
+Apr 27 23:26:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 27 23:26:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 23:26:23 symfony [info] {sfWebDebugLogger} Configuration 56.64 ms (10)
+Apr 27 23:26:23 symfony [info] {sfWebDebugLogger} Action "user/index" 12.65 ms (1)
+Apr 27 23:26:23 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 70.71 ms (1)
+Apr 27 23:26:23 symfony [info] {sfWebResponse} Send content (110365 o)
+Apr 27 23:26:29 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 27 23:26:29 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 27 23:26:29 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 27 23:26:29 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Apr 27 23:26:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 23:26:29 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Apr 27 23:26:29 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 27 23:26:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 23:26:29 symfony [info] {userActions} Call "userActions->executeIndex()"
+Apr 27 23:26:29 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 27 23:26:29 symfony [debug] {sfPropelLogger} prepare: SELECT webschool_user.ID, webschool_user.USERNAME, webschool_user.PASSWORD FROM `webschool_user` WHERE webschool_user.USERNAME=:p1 AND webschool_user.PASSWORD=:p2 LIMIT 1
+Apr 27 23:26:29 symfony [debug] {sfPropelLogger} Binding 'test1' at position :p1 w/ PDO type PDO::PARAM_STR
+Apr 27 23:26:29 symfony [debug] {sfPropelLogger} Binding 'Test1' at position :p2 w/ PDO type PDO::PARAM_STR
+Apr 27 23:26:29 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexSuccess.php"
+Apr 27 23:26:29 symfony [info] {main} Set slot "title"
+Apr 27 23:26:29 symfony [info] {main} Set slot "topBarMeny"
+Apr 27 23:26:29 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 23:26:29 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+Apr 27 23:26:29 symfony [info] {main} Get slot "title"
+Apr 27 23:26:29 symfony [info] {main} Get slot "topBarMeny"
+Apr 27 23:26:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 27 23:26:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 23:26:29 symfony [info] {sfWebDebugLogger} Configuration 39.36 ms (9)
+Apr 27 23:26:29 symfony [info] {sfWebDebugLogger} Action "user/index" 47.69 ms (1)
+Apr 27 23:26:29 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 48.68 ms (1)
+Apr 27 23:26:29 symfony [info] {sfWebResponse} Send content (111369 o)

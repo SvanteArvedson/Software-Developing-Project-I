@@ -12,24 +12,7 @@ Senast uppdaterad 20/4 2014 klo 23:45 av Svante Arvedson
 		<th>Baskrav</th>
 		<th>Prioritet</th>
 	</tr>
-	<tr>
-		<td>DF1</td>
-		<td><a href="Anvandningsfall/DF1-Logga-in.md">Logga in</a></td>
-		<td>Svante Arvedson</td>
-		<td></td>
-		<td>Ej påbörjad</td>
-		<td>BF1, BF2, BF3</td>
-		<td>Hög</td>
-	</tr>
-	<tr>
-		<td>DF2</td>
-		<td><a href="Anvandningsfall/DF2-Logga-ut.md">Logga ut</a></td>
-		<td>Svante Arvedson</td>
-		<td></td>
-		<td>Ej påbörjad</td>
-		<td>BF1, BF2, BF3</td>
-		<td>Hög</td>
-	</tr>
+
 	<tr>
 		<td>AF1</td>
 		<td><a href="Anvandningsfall/AF1-Registrera-ny-anvandare.md">Registrera ny användare</a></td>
@@ -165,6 +148,36 @@ Senast uppdaterad 20/4 2014 klo 23:45 av Svante Arvedson
 		<td>Ej påbörjad</td>
 		<td>BF1, BF2</td>
 		<td>Låg</td>
+	</tr>
+</table>
+
+## Implementerade krav
+<table>
+	<tr>
+		<th>ID</th>
+		<th>Namn</th>
+		<th>Författare</th>
+		<th>Beroende</th>
+		<th>Status</th>
+		<th>Baskrav</th>
+	</tr>
+	<tr>
+		<td>DF1</td>
+		<td><a href="Anvandningsfall/DF1-Logga-in.md">Logga in</a></td>
+		<td>Svante Arvedson</td>
+		<td></td>
+		<td>Klart</td>
+		<td>BF1, BF2, BF3</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>DF2</td>
+		<td><a href="Anvandningsfall/DF2-Logga-ut.md">Logga ut</a></td>
+		<td>Svante Arvedson</td>
+		<td></td>
+		<td>Klart</td>
+		<td>BF1, BF2, BF3</td>
+		<td></td>
 	</tr>
 </table>
 

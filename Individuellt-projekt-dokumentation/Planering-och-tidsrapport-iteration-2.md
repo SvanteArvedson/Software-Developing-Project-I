@@ -44,7 +44,7 @@ webbhost på tisdag efter påsk.
 		<td>2</td>
 		<td>2</td>
 	</tr>
-		<tr>
+	<tr>
 		<td></td>
 		<td>Läs genom <i>strangberoende.md</i> och <i>codereview.md</i> som Emil har skrivit</td>
 		<td>Klart</td>
@@ -134,6 +134,13 @@ av användarfallen i fullängd.
 	</tr>
 	<tr>
 		<td></td>
+		<td>Titta på föreläsning 7 i PHP-kursen</td>
+		<td>Klart</td>
+		<td>2</td>
+		<td>2</td>
+	</tr>
+	<tr>
+		<td></td>
 		<td>Läs genom del 3-11 av dokumentationen på <a href="http://symfony.com/legacy/doc/jobeet/1_2/en/01?orm=Propel">symfony.com</a></td>
 		<td>Klart</td>
 		<td>8</td>
@@ -174,18 +181,25 @@ av användarfallen i fullängd.
 		<td>4</td>
 		<td>1</td>
 	</tr>
-    <tr>
-        <td><a href="Anvandningsfall/DF1-Logga-in.md">DF1</a>, <a href="Anvandningsfall/DF2-Logga-ut.md">DF2</a></td>
-		<td>Publicera applikationen på webbhotellet</td>
-		<td>Ej påbörjad</td>
-		<td>6</td>
+	<tr>
 		<td></td>
-    </tr>
+		<td>Skriv automatiska test för in- och utloggningsfunktionerna</td>
+		<td>Klart</td>
+		<td>2</td>
+		<td>4</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>Skriv automatiska test för modelklassen</td>
+		<td>Klart</td>
+		<td>2</td>
+		<td>1</td>
+	</tr>
 	<tr>
 		<td></td>
 		<td></td>
 		<td>Summa</td>
 		<td>30</td>
-		<td>24</td>
+		<td>31</td>
 	</tr>
 </table>

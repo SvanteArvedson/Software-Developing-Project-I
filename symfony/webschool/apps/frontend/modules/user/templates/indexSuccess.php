@@ -46,15 +46,10 @@ slot('topBarMeny',
 		<?php
 			if ($sf_user->isAuthenticated()) // If user is logged in, this log out button is echoed
 			{
-				echo '<form class="small-12 columns" method="POST", action="' . url_for('@homepage') . '">
-						<fieldset>
-							<legend>
-								Logga ut:
-							</legend>
-							<div class="row">
-								<input id="logOutButton" class="button tiny" type="submit" value="Logga ut" />
-							</div>
-						</fieldset>
+				echo '<form class="small-12 large-3 columns" method="POST" action="' . url_for('@homepage') . '">
+						<div class="row">
+							<input id="logOutButton" class="button tiny" type="submit" value="Logga ut" />
+						</div>
 					</form>';
 			}
 			else // If user is not logged in, this log in form is echoed
@@ -67,10 +62,7 @@ slot('topBarMeny',
 							
 				if ($loginfailed != null)
 				{
-					echo '<div data-alert class="alert-box alert">
-							<p>' . $loginfailed . '<p>
-							<a href="#" class="close">&times;</a>
-						</div>';
+					echo '<p class="error">' . $loginfailed . '<p>';
 				}		
 							
 				echo		'<div class="row">
@@ -115,11 +107,8 @@ slot('topBarMeny',
 					</form>';
 			}
 		?>
-		
-	</div>
-	
+	</div>	
 </div>
-
 <aside id="sideNav" class="large-3 columns hide-for-small">
 	<ul class="side-nav panel">
 		<li>

@@ -4,8 +4,12 @@ dev:
       classname: DebugPDO
 test:
   propel:
+    class: sfPropelDatabase
     param:
       classname: DebugPDO
+      dsn: 'mysql:host=localhost;dbname=webschool_test'
+      username: appUser
+      password: secretPass
 all:
   propel:
     class: sfPropelDatabase
