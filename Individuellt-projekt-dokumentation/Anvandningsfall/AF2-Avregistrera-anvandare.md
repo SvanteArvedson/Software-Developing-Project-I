@@ -10,7 +10,7 @@ Användaren avregistrerar sig från systemet. Systemet tar bort användarens konto.
 * Systemet
 
 ## Förkrav
-* Användaren har utförst [DF1 - Logga in](DF1-Logga-in.md)
+* Användaren har utfört [DF1 - Logga in](DF1-Logga-in.md)
 
 ## Efterkrav
 * Användarens konto ska vara raderat

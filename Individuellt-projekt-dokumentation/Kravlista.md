@@ -12,7 +12,6 @@ Senast uppdaterad 20/4 2014 klo 23:45 av Svante Arvedson
 		<th>Baskrav</th>
 		<th>Prioritet</th>
 	</tr>
-
 	<tr>
 		<td>AF1</td>
 		<td><a href="Anvandningsfall/AF1-Registrera-ny-anvandare.md">Registrera ny användare</a></td>

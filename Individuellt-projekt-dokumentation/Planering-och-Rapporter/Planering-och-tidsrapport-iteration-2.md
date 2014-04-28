@@ -73,15 +73,15 @@ webbhost på tisdag efter påsk.
 		<td>7</td>
 	</tr>
 	<tr>
-		<td><a href="Anvandningsfall/DF1-Logga-in.md">DF1</a></td>
-		<td>Implementera inloggningfunktionerna i min applikation</td>
+		<td><a href="/../Anvandningsfall/DF1-Logga-in.md">DF1</a></td>
+		<td>Implementera DF1 - Logga in</td>
 		<td>Ej påbörjad</td>
 		<td>3</td>
 		<td></td>
 	</tr>
 	<tr>
-		<td><a href="Anvandningsfall/DF2-Logga-ut.md">DF2</a></td>
-		<td>Implementera utloggningsfunktionerna i min applikation</td>
+		<td><a href="/../Anvandningsfall/DF2-Logga-ut.md">DF2</a></td>
+		<td>Implementera DF2 - Logga ut</td>
 		<td>Ej påbörjad</td>
 		<td>3</td>
 		<td></td>
@@ -128,9 +128,9 @@ av användarfallen i fullängd.
 	<tr>
 		<td></td>
 		<td>Skriv användarfall, ytterligare ca 30% i fullformat</td>
-		<td>Ej påbörjad</td>
+		<td>Klart</td>
 		<td>1</td>
-		<td></td>
+		<td>1</td>
 	</tr>
 	<tr>
 		<td></td>
@@ -168,22 +168,22 @@ av användarfallen i fullängd.
 		<td>4</td>
 	</tr>
 	<tr>
-		<td><a href="Anvandningsfall/DF1-Logga-in.md">DF1</a></td>
-		<td>Implementera inloggningfunktionerna i min applikation</td>
+		<td><a href="/../Anvandningsfall/DF1-Logga-in.md">DF1</a></td>
+		<td>Implementera DF1 - Logga in</td>
 		<td>Klart</td>
 		<td>4</td>
 		<td>11</td>
 	</tr>
 	<tr>
-		<td><a href="Anvandningsfall/DF2-Logga-ut.md">DF2</a></td>
-		<td>Implementera utloggningsfunktionerna i min applikation</td>
+		<td><a href="/../Anvandningsfall/DF2-Logga-ut.md">DF2</a></td>
+		<td>Implementera DF2 - Logga ut</td>
 		<td>Klart</td>
 		<td>4</td>
 		<td>1</td>
 	</tr>
 	<tr>
-		<td></td>
-		<td>Skriv automatiska test för in- och utloggningsfunktionerna</td>
+		<td><a href="/../Anvandningsfall/DF1-Logga-in.md">DF1</a>, <a href="/../Anvandningsfall/DF2-Logga-ut.md">DF2</a></td>
+		<td>Skriv automatiska test för för DF1 och DF2</td>
 		<td>Klart</td>
 		<td>2</td>
 		<td>4</td>
@@ -197,9 +197,16 @@ av användarfallen i fullängd.
 	</tr>
 	<tr>
 		<td></td>
+		<td>Publicera appliationen på webbhotellet</td>
+		<td>Klart</td>
+		<td>2</td>
+		<td>2</td>
+	</tr>
+	<tr>
+		<td></td>
 		<td></td>
 		<td>Summa</td>
-		<td>30</td>
-		<td>31</td>
+		<td>32</td>
+		<td>34</td>
 	</tr>
 </table>

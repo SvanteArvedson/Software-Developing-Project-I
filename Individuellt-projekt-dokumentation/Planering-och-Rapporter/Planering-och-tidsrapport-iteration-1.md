@@ -106,7 +106,7 @@ På grund av detta så har jag ändrat i iterationsplanen.
 	</tr>
 	<tr>
 		<td></td>
-		<td>Skriv användarfall, ytterligare ca 30% i fullformat.</td>
+		<td>Skriv användarfall, ytterligare ca 30% i fullformat</td>
 		<td>Klart</td>
 		<td>2</td>
 		<td>1</td>
@@ -134,35 +134,35 @@ På grund av detta så har jag ändrat i iterationsplanen.
 	</tr>
 	<tr>
 		<td></td>
-		<td>Installera Symfony 1.2.12 lokalt. Undersök ramverket, läs genom de första delarna av dokumentationen.</td>
+		<td>Installera Symfony 1.2.12 lokalt. Undersök ramverket, läs genom de första delarna av dokumentationen</td>
 		<td>Klart</td>
 		<td>7</td>
 		<td>8</td>
 	</tr>
 	<tr>
 		<td></td>
-		<td>Skriv en "Hello World"-applikation med Symfony.</td>
+		<td>Skriv en "Hello World"-applikation med Symfony</td>
 		<td>Klart</td>
 		<td>2</td>
 		<td>2</td>
 	</tr>
 	<tr>
 		<td></td>
-		<td>Publicera "Hello World"-applikationen på webbhotellet.</td>
+		<td>Publicera "Hello World"-applikationen på webbhotellet</td>
 		<td>Påbörjad</td>
 		<td>1</td>
 		<td>7</td>
 	</tr>
 	<tr>
-		<td><a href="Anvandningsfall/DF1-Logga-in.md">DF1</a></td>
-		<td>Implementera inloggningfunktionerna i min applikation.</td>
+		<td><a href="/../Anvandningsfall/DF1-Logga-in.md">DF1</a></td>
+		<td>Implementera DF1 - Logga in</td>
 		<td>Ej påbörjad</td>
 		<td>3</td>
 		<td></td>
 	</tr>
 	<tr>
-		<td><a href="Anvandningsfall/DF2-Logga-ut.md">DF2</a></td>
-		<td>Implementera utloggningsfunktionerna i min applikation.</td>
+		<td><a href="/../Anvandningsfall/DF2-Logga-ut.md">DF2</a></td>
+		<td>Implementera DF2 - Logga ut</td>
 		<td>Ej påbörjad</td>
 		<td>3</td>
 		<td></td>

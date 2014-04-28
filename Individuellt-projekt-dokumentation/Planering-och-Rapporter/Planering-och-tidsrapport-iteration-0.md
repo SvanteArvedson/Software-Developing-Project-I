@@ -40,7 +40,7 @@ PHP-kursen.
 	</tr>
 	<tr>
 		<td></td>
-		<td>Komma på projektidé, påbörja <a href="Vision.md">Visionen</a></td>
+		<td>Komma på projektidé, påbörja <a href="/../Vision.md">Visionen</a></td>
 		<td>Klart</td>
 		<td>8</td>
 		<td>5</td>
