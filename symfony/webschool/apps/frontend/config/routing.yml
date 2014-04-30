@@ -2,6 +2,10 @@
 homepage:
   url:   /
   param: { module: user, action: index }
+  
+register_new_user:
+  url:   /registrera-ny-anvandare
+  param: { module: user, action: new }
 
 default_index:
   url:   /:module

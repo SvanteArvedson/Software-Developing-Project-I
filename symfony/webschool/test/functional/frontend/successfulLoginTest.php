@@ -21,8 +21,8 @@ $browser->info('Functional test successful login')->
 	end()->
 	
 	info(' 02 - User clicks "Logga in" with username "test1" and password "test1"')->
-	setField('login[user]', 'test1')->
-	setField('login[pass]', 'test1')->
+	setField('login[user]', 'GulligaHannes')->
+	setField('login[pass]', '12345678')->
 	click('Logga in')->
 	
 	with('form')->begin()->

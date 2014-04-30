@@ -7,32 +7,41 @@ Testfall för [DF1](/../Anvandningsfall/DF1-Logga-in.md). Användaren loggar in i 
 Inga förkrav.
 
 ## Testfall
-### Testfall A - Lyckat inloggningsförsök
-* 1 - Användaren anger skriver in URLen för startsidan
-* 2 - Systemet visar inloggningsformuläret
-* 3 - Användaren anger användarnamnet "test1" och lösenordet "Test1"
-* 4 - Systemet visar startsidan igen med rubriken "Välkommen Test1!"
-
-### Testfall B - Inloggningsförsök med fel lösenord
-* 1 - Användaren anger skriver in URLen för startsidan
-* 2 - Systemet visar inloggningsformuläret
-* 3 - Användaren anger användarnamnet "test1" och lösenordet "abcdabcdabcd"
-* 4 - Systemet visar formuläret igen med felmeddelanden "Felaktigt använarnamn eller lösenord"
-
-### Testfall C - Inloggningsförsök med tomma inputfält
-* 1 - Användaren anger skriver in URLen för startsidan
-* 2 - Systemet visar inloggningsformuläret
-* 3 - Användaren skickar formuläret med tomma fält
-* 4 - Systemet visar formuläret igen med felmeddelanden "Fälten får ej vara tomma"
-
-### Testfall D - Inloggningsförsök med för långa strängar som input
-* 1 - Användaren anger skriver in URLen för startsidan
-* 2 - Systemet visar inloggningsformuläret
-* 3 - Användaren anger användarnamnet "abcdabcdabcdabcdabcdabcdabcd" och lösenordet "abcdabcdabcd"
-* 4 - Systemet visar formuläret igen med felmeddelanden "Användarnamnet får inte vara längre än 25 tecken" och "Lösenordet får inte vara längre än 8 tecken"
-
-### Testfall E - Inloggningsförsök med fel lösenord (test om funktionen är case sensitive)
-* 1 - Användaren anger skriver in URLen för startsidan
-* 2 - Systemet visar inloggningsformuläret
-* 3 - Användaren anger användarnamnet "test1" och lösenordet "Test1"
-* 4 - Systemet visar formuläret igen med felmeddelanden "Felaktigt använarnamn eller lösenord"
+<table>
+    <tr>
+        <th>Test-id</th>
+        <th>Beskrivning</th>
+        <th>Indata</th>
+        <th>Förväntat resultat</th>
+    </tr>
+    <tr>
+        <td>DF1-TF1</td>
+        <td>Lyckad inloggning</td>
+        <td>Användarnamn: <i>test1</i><br />Lösenord: <i>test1</i></td>
+        <td>Användaren blir inloggad</td>
+    </tr>
+    <tr>
+        <td>DF1-TF2</td>
+        <td>Inloggningsförsök med fel lösenord</td>
+        <td>Användarnamn: <i>test1</i><br />Lösenord: <i>abcd</i></td>
+        <td>Användaren blir inte inloggad. Felmeddelande: <i>Felaktigt använarnamn eller lösenord</i></td>
+    </tr>
+    <tr>
+        <td>DF1-TF3</td>
+        <td>Inloggningsförsök med tomma inputfält</td>
+        <td>Användarnamn: <br />Lösenord: </td>
+        <td>Användaren blir inte inloggad. Felmeddelande: <i>Får ej lämnas tomt</i></td>
+    </tr>
+    <tr>
+        <td>DF1-TF4</td>
+        <td>Inloggningsförsök med för långa strängar som input</td>
+        <td>Användarnamn: <i>abcdabcdabcdabcdabcdabcdabcd</i><br />Lösenord: <i>abcdabcdabcd</i></td>
+        <td>Användaren blir inte inloggad. Felmeddelande: <i>Max 25 tecken</i> och <i>Max 8 tecken</i></td>
+    </tr>
+    <tr>
+        <td>DF1-TF5</td>
+        <td>Inloggningsförsök med fel lösenord (test om funktionen är case sensitive)</td>
+        <td>Användarnamn: <i>test1</i><br />Lösenord: <i>Test1</i></td>
+        <td>Användaren blir inte inloggad. Felmeddelande: <i>Felaktigt använarnamn eller lösenord</i></td>
+    </tr>
+</table>

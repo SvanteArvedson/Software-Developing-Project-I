@@ -13,14 +13,20 @@ class BaseWebschoolUserForm extends BaseFormPropel
   {
     $this->setWidgets(array(
       'id'       => new sfWidgetFormInputHidden(),
-      'username' => new sfWidgetFormInput(),
-      'password' => new sfWidgetFormInput(),
+      'user' 	 => new sfWidgetFormInput(),
+      'pass' 	 => new sfWidgetFormInputPassword(),
+      'name'     => new sfWidgetFormInput(),
+      'email'    => new sfWidgetFormInput(),
     ));
 
     $this->setValidators(array(
       'id'       => new sfValidatorPropelChoice(array('model' => 'WebschoolUser', 'column' => 'id', 'required' => false)),
-      'username' => new sfValidatorString(array('max_length' => 25)),
-      'password' => new sfValidatorString(array('max_length' => 8)),
+      'user'  	 => new sfValidatorString(array('max_length' => 25), array('required' => 'Får ej lämnas tomt', 'max_length' => 'Max %max_length% tecken')),
+      'pass' 	 => new sfValidatorString(array('max_length' => 8, 'min_length' => 8), 
+      					array('required' => 'Får ej lämnas tomt', 'max_length' => 'Måste vara %max_length% tecken', 
+      						'min_length' => 'Måste vara %min_length% tecken')),
+      'name'     => new sfValidatorString(array('max_length' => 40), array('required' => 'Får ej lämnas tomt', 'max_length' => 'Max %max_length% tecken')),
+      'email'    => new sfValidatorString(array('max_length' => 50, 'required' => true)),
     ));
 
     $this->widgetSchema->setNameFormat('webschool_user[%s]');
@@ -34,6 +40,4 @@ class BaseWebschoolUserForm extends BaseFormPropel
   {
     return 'WebschoolUser';
   }
-
-
 }

@@ -89,7 +89,7 @@ planeringen för iteratuon 3.
 	</tr>
 	<tr>
 		<td></td>
-		<td>Skriv automatiska test för modelklassen</td>
+		<td>Skriv automatiska tester för modelklassen</td>
 		<td>Klart</td>
 		<td>2</td>
 		<td>1</td>
@@ -150,16 +150,16 @@ elaboration-fas.
 	<tr>
 		<td></td>
 		<td>Skriv användarfall, de sista 30% i fullformat</td>
-		<td>Ej påbörjat</td>
+		<td>Ej påbörjad</td>
 		<td>1</td>
 		<td></td>
 	</tr>
 	<tr>
 		<td><a href="/../Anvandningsfall/AF1-Registrera-ny-anvandare.md">AF1</a></td>
 		<td>Implementera AF1 - Registrera ny användare</td>
-		<td>Ej påbörjad</td>
-		<td>4</td>
-		<td></td>
+		<td>Klart</td>
+		<td>6</td>
+		<td>7</td>
 	</tr>
 	<tr>
 		<td><a href="/../Anvandningsfall/AF2-Avregistrera-anvandare.md">AF2</a></td>
@@ -171,16 +171,16 @@ elaboration-fas.
 	<tr>
 		<td><a href="/../Anvandningsfall/AF7-Redigera-anvandarprofil.md">AF7</a></td>
 		<td>Implementera AF7 - Redigera användarprofil</td>
-		<td>Ej påbörjad</td>
+		<td>Påbörjad</td>
 		<td>6</td>
-		<td></td>
+		<td>1</td>
 	</tr>
 	<tr>
 		<td></td>
 		<td>Läs del 12-24 i <a href="http://symfony.com/legacy/doc/jobeet/1_2/en/12?orm=Propel">Symfony-boken</a></td>
-		<td>Ej påbörjad</td>
+		<td>Klart</td>
 		<td>8</td>
-		<td></td>
+		<td>3</td>
 	</tr>
 	<tr>
 		<td></td>
@@ -193,7 +193,7 @@ elaboration-fas.
 		<td></td>
 		<td></td>
 		<td>Summa</td>
-		<td>28</td>
-		<td></td>
+		<td>30</td>
+		<td>11</td>
 	</tr>
 </table>

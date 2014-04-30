@@ -20,8 +20,8 @@ $browser->info('Functional test fail login with wrong password (Test in function
 	end()->
 	
 	info(' 02 - User clicks "Logga in" with username "test1" and password "Test1"')->
-	setField('login[user]', 'test1')->
-	setField('login[pass]', 'Test1')->
+	setField('login[user]', 'gulligahannes')->
+	setField('login[pass]', '12345678')->
 	click('Logga in')->
 	
 	with('form')->begin()->

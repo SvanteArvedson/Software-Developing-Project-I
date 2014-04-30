@@ -16,11 +16,15 @@ class BaseWebschoolUserFormFilter extends BaseFormFilterPropel
     $this->setWidgets(array(
       'username' => new sfWidgetFormFilterInput(),
       'password' => new sfWidgetFormFilterInput(),
+      'name'     => new sfWidgetFormFilterInput(),
+      'email'    => new sfWidgetFormFilterInput(),
     ));
 
     $this->setValidators(array(
       'username' => new sfValidatorPass(array('required' => false)),
       'password' => new sfValidatorPass(array('required' => false)),
+      'name'     => new sfValidatorPass(array('required' => false)),
+      'email'    => new sfValidatorPass(array('required' => false)),
     ));
 
     $this->widgetSchema->setNameFormat('webschool_user_filters[%s]');
@@ -41,6 +45,8 @@ class BaseWebschoolUserFormFilter extends BaseFormFilterPropel
       'id'       => 'Number',
       'username' => 'Text',
       'password' => 'Text',
+      'name'     => 'Text',
+      'email'    => 'Text',
     );
   }
 }

@@ -4,3 +4,5 @@ propel:
     id: ~
     username: { type: varchar(25), required: true }
     password: { type: varchar(8), required: true }
+    name: { type: varchar(40), required: true }
+    email: { type: varchar(50), required: true }

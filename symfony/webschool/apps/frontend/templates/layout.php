@@ -23,7 +23,7 @@
 					</ul>
 					<section class="top-bar-section">
 						<ul class="right">
-							<?php include_slot('topBarMeny'); ?>
+							<?php include_slot('navigation'); ?>
 						</ul>
 					</section>
 				</nav>

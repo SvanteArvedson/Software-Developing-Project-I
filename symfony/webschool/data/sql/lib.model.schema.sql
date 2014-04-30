@@ -15,6 +15,8 @@ CREATE TABLE `webschool_user`
 	`id` INTEGER  NOT NULL AUTO_INCREMENT,
 	`username` VARCHAR(25)  NOT NULL,
 	`password` VARCHAR(8)  NOT NULL,
+	`name` VARCHAR(40)  NOT NULL,
+	`email` VARCHAR(50)  NOT NULL,
 	PRIMARY KEY (`id`)
 )Engine=InnoDB;
 

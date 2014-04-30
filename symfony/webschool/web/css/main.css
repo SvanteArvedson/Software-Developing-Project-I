@@ -50,6 +50,10 @@ html, body {
 	margin-top: 40px;
 }
 
+.error {
+	color: #c60f13;
+}
+
 #logInButton {
 	max-width: 83px;
 	width: 100%;

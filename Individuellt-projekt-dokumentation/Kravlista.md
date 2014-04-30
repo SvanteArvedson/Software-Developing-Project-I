@@ -12,15 +12,7 @@ Senast uppdaterad 20/4 2014 klo 23:45 av Svante Arvedson
 		<th>Baskrav</th>
 		<th>Prioritet</th>
 	</tr>
-	<tr>
-		<td>AF1</td>
-		<td><a href="Anvandningsfall/AF1-Registrera-ny-anvandare.md">Registrera ny användare</a></td>
-		<td>Svante Arvedson</td>
-		<td></td>
-		<td>Ej påbörjad</td>
-		<td>BF1, BF2, BF3</td>
-		<td>Hög</td>
-	</tr>
+	
 	<tr>
 		<td>AF2</td>
 		<td><a href="Anvandningsfall/AF2-Avregistrera-anvandare.md">Avregistrera användare</a></td>
@@ -44,7 +36,7 @@ Senast uppdaterad 20/4 2014 klo 23:45 av Svante Arvedson
 		<td><a href="Anvandningsfall/AF7-Redigera-anvandarprofil.md">Redigera användarprofil</a></td>
 		<td>Svante Arvedson</td>
 		<td><a href="Anvandningsfall/DF1-Logga-in.md">DF1</a></td>
-		<td>Ej påbörjad</td>
+		<td>Påbörjad</td>
 		<td>BF1, BF2, BF3</td>
 		<td>Hög</td>
 	</tr>
@@ -167,7 +159,6 @@ Senast uppdaterad 20/4 2014 klo 23:45 av Svante Arvedson
 		<td></td>
 		<td>Klart</td>
 		<td>BF1, BF2, BF3</td>
-		<td></td>
 	</tr>
 	<tr>
 		<td>DF2</td>
@@ -176,7 +167,14 @@ Senast uppdaterad 20/4 2014 klo 23:45 av Svante Arvedson
 		<td></td>
 		<td>Klart</td>
 		<td>BF1, BF2, BF3</td>
+	</tr>
+    <tr>
+		<td>AF1</td>
+		<td><a href="Anvandningsfall/AF1-Registrera-ny-anvandare.md">Registrera ny användare</a></td>
+		<td>Svante Arvedson</td>
 		<td></td>
+		<td>Klart</td>
+		<td>BF1, BF2, BF3</td>
 	</tr>
 </table>
 
