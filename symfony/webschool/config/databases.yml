@@ -1,23 +1,44 @@
 dev:
   propel:
+    class: sfPropelDatabase
     param:
-      classname: DebugPDO
+      classname: PropelPDO
+      dsn: 'mysql:host=localhost;dbname=webschool'
+      username: 'appUser'
+      password: 'secretPass'
+      encoding: utf8
+      persistent: true
+      pooling: true
+
 test:
   propel:
     class: sfPropelDatabase
     param:
       classname: DebugPDO
       dsn: 'mysql:host=localhost;dbname=webschool_test'
-      username: appUser
-      password: secretPass
+      username: 'appUser'
+      password: 'secretPass'
+
+#prod:
+#  propel:
+#    class: sfPropelDatabase
+#    param:
+#      classname: PropelPDO
+#      dsn: 'mysql:host=localhost;dbname=webschool'
+#      username: 'appUser'
+#      password: 'mhJh09!0'
+#      encoding: utf8
+#      persistent: true
+#      pooling: true
+
 all:
   propel:
     class: sfPropelDatabase
     param:
       classname: PropelPDO
       dsn: 'mysql:host=localhost;dbname=webschool'
-      username: appUser
-      password: secretPass
+      username: 'appUser'
+      password: 'secretPass'
       encoding: utf8
       persistent: true
       pooling: true

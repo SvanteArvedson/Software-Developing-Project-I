@@ -19,7 +19,7 @@ $browser->info('Functional test fail login with wrong password (Test in function
 		checkElement('#logOutButton', false)->
 	end()->
 	
-	info(' 02 - User clicks "Logga in" with username "test1" and password "Test1"')->
+	info(' 02 - User clicks "Logga in" with username "gulligahannes" and password "12345678"')->
 	setField('login[user]', 'gulligahannes')->
 	setField('login[pass]', '12345678')->
 	click('Logga in')->

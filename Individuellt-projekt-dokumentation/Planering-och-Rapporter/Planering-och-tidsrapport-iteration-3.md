@@ -138,7 +138,7 @@ jag kommer att gå ganska lätt.
 Den här iterationen ska avslutas med en fest, det här är den sista iterationen på projektets 
 elaboration-fas.
 
-### Planering iteration 2
+### Planering iteration 3
 <table>
 	<tr>
 		<th>Krav</th>
@@ -177,6 +177,13 @@ elaboration-fas.
 	</tr>
 	<tr>
 		<td></td>
+		<td>Skriv automatiska tester för AF1</td>
+		<td>Klart</td>
+		<td>2</td>
+		<td>2</td>
+	</tr>
+	<tr>
+		<td></td>
 		<td>Läs del 12-24 i <a href="http://symfony.com/legacy/doc/jobeet/1_2/en/12?orm=Propel">Symfony-boken</a></td>
 		<td>Klart</td>
 		<td>8</td>
@@ -193,7 +200,7 @@ elaboration-fas.
 		<td></td>
 		<td></td>
 		<td>Summa</td>
-		<td>30</td>
-		<td>11</td>
+		<td>32</td>
+		<td>13</td>
 	</tr>
 </table>

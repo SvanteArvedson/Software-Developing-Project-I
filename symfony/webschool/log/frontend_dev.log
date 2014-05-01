@@ -11666,3 +11666,322 @@ Apr 30 23:21:59 symfony [info] {sfWebDebugLogger} Configuration 35.93 ms (9)
 Apr 30 23:21:59 symfony [info] {sfWebDebugLogger} Action "user/index" 55.90 ms (1)
 Apr 30 23:21:59 symfony [info] {sfWebDebugLogger} View "Unauthenticated" for "user/index" 43.33 ms (1)
 Apr 30 23:21:59 symfony [info] {sfWebResponse} Send content (115027 o)
+May 01 21:19:49 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 01 21:19:49 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-ny-anvandare)
+May 01 21:19:49 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 01 21:19:49 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 01 21:19:49 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+May 01 21:19:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 01 21:19:49 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 01 21:19:49 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 01 21:19:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 01 21:19:49 symfony [info] {userActions} Call "userActions->executeIndex()"
+May 01 21:19:49 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexUnauthenticated.php"
+May 01 21:19:49 symfony [info] {main} Set slot "title"
+May 01 21:19:49 symfony [info] {main} Set slot "navigation"
+May 01 21:19:49 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 01 21:19:49 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 01 21:19:49 symfony [info] {main} Get slot "title"
+May 01 21:19:49 symfony [info] {main} Get slot "navigation"
+May 01 21:19:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 01 21:19:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 01 21:19:49 symfony [info] {sfWebDebugLogger} Configuration 47.46 ms (9)
+May 01 21:19:49 symfony [info] {sfWebDebugLogger} Action "user/index" 21.27 ms (1)
+May 01 21:19:49 symfony [info] {sfWebDebugLogger} View "Unauthenticated" for "user/index" 52.14 ms (1)
+May 01 21:19:50 symfony [info] {sfWebResponse} Send content (114421 o)
+May 01 21:20:07 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 01 21:20:07 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-ny-anvandare)
+May 01 21:20:07 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 01 21:20:07 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 01 21:20:07 symfony [info] {sfPatternRouting} Match route "register_new_user" (/registrera-ny-anvandare) for /registrera-ny-anvandare with parameters array (  'module' => 'user',  'action' => 'new',)
+May 01 21:20:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 01 21:20:07 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 01 21:20:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 01 21:20:07 symfony [info] {userActions} Call "userActions->executeNew()"
+May 01 21:20:08 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/newSuccess.php"
+May 01 21:20:08 symfony [info] {main} Set slot "title"
+May 01 21:20:08 symfony [info] {main} Set slot "navigation"
+May 01 21:20:08 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 01 21:20:08 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 01 21:20:08 symfony [info] {main} Get slot "title"
+May 01 21:20:08 symfony [info] {main} Get slot "navigation"
+May 01 21:20:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 01 21:20:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 01 21:20:08 symfony [info] {sfWebDebugLogger} Configuration 64.39 ms (9)
+May 01 21:20:08 symfony [info] {sfWebDebugLogger} Action "user/new" 90.35 ms (1)
+May 01 21:20:08 symfony [info] {sfWebDebugLogger} View "Success" for "user/new" 49.35 ms (1)
+May 01 21:20:08 symfony [info] {sfWebResponse} Send content (107286 o)
+May 01 21:21:00 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 01 21:21:00 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-ny-anvandare)
+May 01 21:21:00 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 01 21:21:00 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 01 21:21:00 symfony [info] {sfPatternRouting} Match route "register_new_user" (/registrera-ny-anvandare) for /registrera-ny-anvandare with parameters array (  'module' => 'user',  'action' => 'new',)
+May 01 21:21:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 01 21:21:00 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 01 21:21:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 01 21:21:00 symfony [info] {userActions} Call "userActions->executeNew()"
+May 01 21:21:01 symfony [info] {sfFrontWebController} Redirect to "/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+May 01 21:21:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+May 01 21:21:01 symfony [info] {sfWebResponse} Send header "Location: /Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+May 01 21:21:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 01 21:21:01 symfony [info] {sfWebDebugLogger} Configuration 37.66 ms (8)
+May 01 21:21:01 symfony [info] {sfWebDebugLogger} Action "user/new" 320.03 ms (1)
+May 01 21:21:01 symfony [info] {sfWebResponse} Send content (151 o)
+May 01 21:21:01 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 01 21:21:01 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-ny-anvandare)
+May 01 21:21:01 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 01 21:21:01 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 01 21:21:01 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+May 01 21:21:01 symfony [info] {myUser} Flag old flash messages ("success")
+May 01 21:21:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 01 21:21:01 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 01 21:21:01 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 01 21:21:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 01 21:21:01 symfony [info] {userActions} Call "userActions->executeIndex()"
+May 01 21:21:01 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexUnauthenticated.php"
+May 01 21:21:01 symfony [info] {main} Set slot "title"
+May 01 21:21:01 symfony [info] {main} Set slot "navigation"
+May 01 21:21:01 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 01 21:21:01 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 01 21:21:01 symfony [info] {main} Get slot "title"
+May 01 21:21:01 symfony [info] {main} Get slot "navigation"
+May 01 21:21:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 01 21:21:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 01 21:21:01 symfony [info] {sfWebDebugLogger} Configuration 42.02 ms (9)
+May 01 21:21:01 symfony [info] {sfWebDebugLogger} Action "user/index" 16.40 ms (1)
+May 01 21:21:01 symfony [info] {sfWebDebugLogger} View "Unauthenticated" for "user/index" 48.90 ms (1)
+May 01 21:21:01 symfony [info] {sfWebResponse} Send content (118566 o)
+May 01 21:21:01 symfony [info] {myUser} Remove old flash messages ("success")
+May 01 21:21:30 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 01 21:21:30 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-ny-anvandare)
+May 01 21:21:30 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 01 21:21:30 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 01 21:21:30 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+May 01 21:21:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 01 21:21:30 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 01 21:21:30 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 01 21:21:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 01 21:21:30 symfony [info] {userActions} Call "userActions->executeIndex()"
+May 01 21:21:30 symfony [info] {myUser} User is authenticated
+May 01 21:21:30 symfony [info] {sfFrontWebController} Redirect to "/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+May 01 21:21:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+May 01 21:21:30 symfony [info] {sfWebResponse} Send header "Location: /Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+May 01 21:21:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 01 21:21:30 symfony [info] {sfWebDebugLogger} Configuration 36.07 ms (8)
+May 01 21:21:30 symfony [info] {sfWebDebugLogger} Action "user/index" 55.76 ms (1)
+May 01 21:21:30 symfony [info] {sfWebResponse} Send content (151 o)
+May 01 21:21:30 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 01 21:21:30 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-ny-anvandare)
+May 01 21:21:30 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 01 21:21:30 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 01 21:21:30 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+May 01 21:21:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 01 21:21:30 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 01 21:21:30 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 01 21:21:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 01 21:21:30 symfony [info] {userActions} Call "userActions->executeIndex()"
+May 01 21:21:30 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexAuthenticated.php"
+May 01 21:21:30 symfony [info] {main} Set slot "title"
+May 01 21:21:30 symfony [info] {main} Set slot "navigation"
+May 01 21:21:30 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 01 21:21:30 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 01 21:21:30 symfony [info] {main} Get slot "title"
+May 01 21:21:30 symfony [info] {main} Get slot "navigation"
+May 01 21:21:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 01 21:21:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 01 21:21:30 symfony [info] {sfWebDebugLogger} Configuration 40.61 ms (9)
+May 01 21:21:30 symfony [info] {sfWebDebugLogger} Action "user/index" 1.97 ms (1)
+May 01 21:21:30 symfony [info] {sfWebDebugLogger} View "Authenticated" for "user/index" 42.33 ms (1)
+May 01 21:21:30 symfony [info] {sfWebResponse} Send content (114087 o)
+May 01 21:21:32 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 01 21:21:32 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-ny-anvandare)
+May 01 21:21:32 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 01 21:21:32 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 01 21:21:32 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+May 01 21:21:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 01 21:21:32 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 01 21:21:32 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 01 21:21:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 01 21:21:32 symfony [info] {userActions} Call "userActions->executeIndex()"
+May 01 21:21:32 symfony [info] {myUser} User is not authenticated
+May 01 21:21:32 symfony [info] {sfFrontWebController} Redirect to "/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+May 01 21:21:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+May 01 21:21:32 symfony [info] {sfWebResponse} Send header "Location: /Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+May 01 21:21:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 01 21:21:32 symfony [info] {sfWebDebugLogger} Configuration 36.04 ms (8)
+May 01 21:21:32 symfony [info] {sfWebDebugLogger} Action "user/index" 4.26 ms (1)
+May 01 21:21:32 symfony [info] {sfWebResponse} Send content (151 o)
+May 01 21:21:32 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 01 21:21:32 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-ny-anvandare)
+May 01 21:21:32 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 01 21:21:32 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 01 21:21:32 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+May 01 21:21:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 01 21:21:32 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 01 21:21:32 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 01 21:21:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 01 21:21:32 symfony [info] {userActions} Call "userActions->executeIndex()"
+May 01 21:21:32 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexUnauthenticated.php"
+May 01 21:21:32 symfony [info] {main} Set slot "title"
+May 01 21:21:32 symfony [info] {main} Set slot "navigation"
+May 01 21:21:32 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 01 21:21:32 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 01 21:21:32 symfony [info] {main} Get slot "title"
+May 01 21:21:32 symfony [info] {main} Get slot "navigation"
+May 01 21:21:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 01 21:21:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 01 21:21:32 symfony [info] {sfWebDebugLogger} Configuration 41.74 ms (9)
+May 01 21:21:32 symfony [info] {sfWebDebugLogger} Action "user/index" 16.78 ms (1)
+May 01 21:21:32 symfony [info] {sfWebDebugLogger} View "Unauthenticated" for "user/index" 49.02 ms (1)
+May 01 21:21:33 symfony [info] {sfWebResponse} Send content (114766 o)
+May 01 21:23:01 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 01 21:23:01 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-ny-anvandare)
+May 01 21:23:01 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 01 21:23:01 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 01 21:23:01 symfony [info] {sfPatternRouting} Match route "register_new_user" (/registrera-ny-anvandare) for /registrera-ny-anvandare with parameters array (  'module' => 'user',  'action' => 'new',)
+May 01 21:23:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 01 21:23:01 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 01 21:23:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 01 21:23:01 symfony [info] {userActions} Call "userActions->executeNew()"
+May 01 21:23:01 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/newSuccess.php"
+May 01 21:23:01 symfony [info] {main} Set slot "title"
+May 01 21:23:01 symfony [info] {main} Set slot "navigation"
+May 01 21:23:01 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 01 21:23:01 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 01 21:23:01 symfony [info] {main} Get slot "title"
+May 01 21:23:01 symfony [info] {main} Get slot "navigation"
+May 01 21:23:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 01 21:23:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 01 21:23:01 symfony [info] {sfWebDebugLogger} Configuration 39.01 ms (9)
+May 01 21:23:01 symfony [info] {sfWebDebugLogger} Action "user/new" 42.11 ms (1)
+May 01 21:23:01 symfony [info] {sfWebDebugLogger} View "Success" for "user/new" 46.54 ms (1)
+May 01 21:23:01 symfony [info] {sfWebResponse} Send content (107505 o)
+May 01 21:29:44 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 01 21:29:44 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-ny-anvandare)
+May 01 21:29:44 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 01 21:29:44 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 01 21:29:44 symfony [info] {sfPatternRouting} Match route "register_new_user" (/registrera-ny-anvandare) for /registrera-ny-anvandare with parameters array (  'module' => 'user',  'action' => 'new',)
+May 01 21:29:44 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 01 21:29:44 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 01 21:29:44 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 01 21:29:44 symfony [info] {userActions} Call "userActions->executeNew()"
+May 01 21:29:44 symfony [info] {sfFrontWebController} Redirect to "/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+May 01 21:29:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+May 01 21:29:44 symfony [info] {sfWebResponse} Send header "Location: /Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+May 01 21:29:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 01 21:29:44 symfony [info] {sfWebDebugLogger} Configuration 31.73 ms (8)
+May 01 21:29:44 symfony [info] {sfWebDebugLogger} Action "user/new" 69.00 ms (1)
+May 01 21:29:44 symfony [info] {sfWebResponse} Send content (151 o)
+May 01 21:29:44 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 01 21:29:44 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-ny-anvandare)
+May 01 21:29:44 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 01 21:29:44 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 01 21:29:44 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+May 01 21:29:44 symfony [info] {myUser} Flag old flash messages ("success")
+May 01 21:29:44 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 01 21:29:44 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 01 21:29:44 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 01 21:29:44 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 01 21:29:44 symfony [info] {userActions} Call "userActions->executeIndex()"
+May 01 21:29:44 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexUnauthenticated.php"
+May 01 21:29:44 symfony [info] {main} Set slot "title"
+May 01 21:29:44 symfony [info] {main} Set slot "navigation"
+May 01 21:29:45 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 01 21:29:45 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 01 21:29:45 symfony [info] {main} Get slot "title"
+May 01 21:29:45 symfony [info] {main} Get slot "navigation"
+May 01 21:29:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 01 21:29:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 01 21:29:45 symfony [info] {sfWebDebugLogger} Configuration 35.32 ms (9)
+May 01 21:29:45 symfony [info] {sfWebDebugLogger} Action "user/index" 14.08 ms (1)
+May 01 21:29:45 symfony [info] {sfWebDebugLogger} View "Unauthenticated" for "user/index" 44.74 ms (1)
+May 01 21:29:45 symfony [info] {sfWebResponse} Send content (118643 o)
+May 01 21:29:45 symfony [info] {myUser} Remove old flash messages ("success")
+May 01 21:35:36 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 01 21:35:36 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-ny-anvandare)
+May 01 21:35:36 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 01 21:35:36 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 01 21:35:36 symfony [info] {sfPatternRouting} Match route "register_new_user" (/registrera-ny-anvandare) for /registrera-ny-anvandare with parameters array (  'module' => 'user',  'action' => 'new',)
+May 01 21:35:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 01 21:35:36 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 01 21:35:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 01 21:35:36 symfony [info] {userActions} Call "userActions->executeNew()"
+May 01 21:35:36 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/newSuccess.php"
+May 01 21:35:36 symfony [info] {main} Set slot "title"
+May 01 21:35:36 symfony [info] {main} Set slot "navigation"
+May 01 21:35:36 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 01 21:35:36 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 01 21:35:36 symfony [info] {main} Get slot "title"
+May 01 21:35:36 symfony [info] {main} Get slot "navigation"
+May 01 21:35:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 01 21:35:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 01 21:35:36 symfony [info] {sfWebDebugLogger} Configuration 319.19 ms (9)
+May 01 21:35:36 symfony [info] {sfWebDebugLogger} Action "user/new" 33.56 ms (1)
+May 01 21:35:36 symfony [info] {sfWebDebugLogger} View "Success" for "user/new" 52.46 ms (1)
+May 01 21:35:36 symfony [info] {sfWebResponse} Send content (107504 o)
+May 01 21:59:50 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 01 21:59:50 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-ny-anvandare)
+May 01 21:59:50 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 01 21:59:50 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 01 21:59:50 symfony [info] {sfPatternRouting} Match route "register_new_user" (/registrera-ny-anvandare) for /registrera-ny-anvandare with parameters array (  'module' => 'user',  'action' => 'new',)
+May 01 21:59:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 01 21:59:50 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 01 21:59:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 01 21:59:50 symfony [info] {userActions} Call "userActions->executeNew()"
+May 01 21:59:50 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/newSuccess.php"
+May 01 21:59:50 symfony [info] {main} Set slot "title"
+May 01 21:59:50 symfony [info] {main} Set slot "navigation"
+May 01 21:59:50 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 01 21:59:50 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 01 21:59:50 symfony [info] {main} Get slot "title"
+May 01 21:59:50 symfony [info] {main} Get slot "navigation"
+May 01 21:59:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 01 21:59:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 01 21:59:50 symfony [info] {sfWebDebugLogger} Configuration 32.65 ms (9)
+May 01 21:59:50 symfony [info] {sfWebDebugLogger} Action "user/new" 39.86 ms (1)
+May 01 21:59:50 symfony [info] {sfWebDebugLogger} View "Success" for "user/new" 47.07 ms (1)
+May 01 21:59:50 symfony [info] {sfWebResponse} Send content (108301 o)
+May 01 22:04:44 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 01 22:04:44 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-ny-anvandare)
+May 01 22:04:44 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 01 22:04:44 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 01 22:04:44 symfony [info] {sfPatternRouting} Match route "register_new_user" (/registrera-ny-anvandare) for /registrera-ny-anvandare with parameters array (  'module' => 'user',  'action' => 'new',)
+May 01 22:04:44 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 01 22:04:44 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 01 22:04:44 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 01 22:04:44 symfony [info] {userActions} Call "userActions->executeNew()"
+May 01 22:04:44 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/newSuccess.php"
+May 01 22:04:44 symfony [info] {main} Set slot "title"
+May 01 22:04:44 symfony [info] {main} Set slot "navigation"
+May 01 22:04:44 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 01 22:04:44 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 01 22:04:44 symfony [info] {main} Get slot "title"
+May 01 22:04:44 symfony [info] {main} Get slot "navigation"
+May 01 22:04:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 01 22:04:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 01 22:04:44 symfony [info] {sfWebDebugLogger} Configuration 32.29 ms (9)
+May 01 22:04:44 symfony [info] {sfWebDebugLogger} Action "user/new" 39.06 ms (1)
+May 01 22:04:44 symfony [info] {sfWebDebugLogger} View "Success" for "user/new" 48.04 ms (1)
+May 01 22:04:45 symfony [info] {sfWebResponse} Send content (108078 o)
+May 01 22:11:01 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 01 22:11:01 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-ny-anvandare)
+May 01 22:11:01 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 01 22:11:01 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 01 22:11:01 symfony [info] {sfPatternRouting} Match route "register_new_user" (/registrera-ny-anvandare) for /registrera-ny-anvandare with parameters array (  'module' => 'user',  'action' => 'new',)
+May 01 22:11:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 01 22:11:01 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 01 22:11:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 01 22:11:01 symfony [info] {userActions} Call "userActions->executeNew()"
+May 01 22:11:01 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/newSuccess.php"
+May 01 22:11:01 symfony [info] {main} Set slot "title"
+May 01 22:11:01 symfony [info] {main} Set slot "navigation"
+May 01 22:11:01 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 01 22:11:01 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 01 22:11:01 symfony [info] {main} Get slot "title"
+May 01 22:11:01 symfony [info] {main} Get slot "navigation"
+May 01 22:11:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 01 22:11:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 01 22:11:01 symfony [info] {sfWebDebugLogger} Configuration 325.25 ms (9)
+May 01 22:11:01 symfony [info] {sfWebDebugLogger} Action "user/new" 35.84 ms (1)
+May 01 22:11:01 symfony [info] {sfWebDebugLogger} View "Success" for "user/new" 52.45 ms (1)
+May 01 22:11:02 symfony [info] {sfWebResponse} Send content (108074 o)

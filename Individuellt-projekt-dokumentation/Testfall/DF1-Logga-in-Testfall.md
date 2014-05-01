@@ -17,13 +17,13 @@ Inga förkrav.
     <tr>
         <td>DF1-TF1</td>
         <td>Lyckad inloggning</td>
-        <td>Användarnamn: <i>test1</i><br />Lösenord: <i>test1</i></td>
+        <td>Användarnamn: <i>GulligaHannes</i><br />Lösenord: <i>12345678</i></td>
         <td>Användaren blir inloggad</td>
     </tr>
     <tr>
         <td>DF1-TF2</td>
         <td>Inloggningsförsök med fel lösenord</td>
-        <td>Användarnamn: <i>test1</i><br />Lösenord: <i>abcd</i></td>
+        <td>Användarnamn: <i>GulligaHannes</i><br />Lösenord: <i>12345679</i></td>
         <td>Användaren blir inte inloggad. Felmeddelande: <i>Felaktigt använarnamn eller lösenord</i></td>
     </tr>
     <tr>
@@ -41,7 +41,7 @@ Inga förkrav.
     <tr>
         <td>DF1-TF5</td>
         <td>Inloggningsförsök med fel lösenord (test om funktionen är case sensitive)</td>
-        <td>Användarnamn: <i>test1</i><br />Lösenord: <i>Test1</i></td>
+        <td>Användarnamn: <i>gulligahannes</i><br />Lösenord: <i>12345678</i></td>
         <td>Användaren blir inte inloggad. Felmeddelande: <i>Felaktigt använarnamn eller lösenord</i></td>
     </tr>
 </table>

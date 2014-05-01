@@ -28,7 +28,7 @@ class WebschoolUserForm extends BaseWebschoolUserForm
 		$this->validatorSchema->setPostValidator(
 			new sfValidatorSchemaCompare('pass', sfValidatorSchemaCompare::EQUAL, 'passAgain',
 				array('throw_global_error' => true),
-				array('invalid' => 'Lösenord och Repetera lösenord var inte lika')
+				array('invalid' => 'Lösenord och Repetera lösenord var olika')
 			)
 		);
 	}
