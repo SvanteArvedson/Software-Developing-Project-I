@@ -171,13 +171,27 @@ elaboration-fas.
 	<tr>
 		<td><a href="/../Anvandningsfall/AF7-Redigera-anvandarprofil.md">AF7</a></td>
 		<td>Implementera AF7 - Redigera användarprofil</td>
-		<td>Påbörjad</td>
+		<td>Klart</td>
 		<td>6</td>
-		<td>1</td>
+		<td>5</td>
 	</tr>
 	<tr>
 		<td></td>
 		<td>Skriv automatiska tester för AF1</td>
+		<td>Klart</td>
+		<td>2</td>
+		<td>2</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>Skriv automatiska tester för AF2</td>
+		<td>Ej påbörjad</td>
+		<td>2</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>Skriv automatiska tester för AF7</td>
 		<td>Klart</td>
 		<td>2</td>
 		<td>2</td>
@@ -200,7 +214,7 @@ elaboration-fas.
 		<td></td>
 		<td></td>
 		<td>Summa</td>
-		<td>32</td>
-		<td>13</td>
+		<td>36</td>
+		<td>19</td>
 	</tr>
 </table>

@@ -6,7 +6,7 @@ slot('navigation',
 		'<li>
 			<a href="#">Forum</a>
 		</li>
-		<li class="has-dropdown show-for-small">
+		<li class="has-dropdown">
 			<a href="#">Lektioner</a>
 			<ul class="dropdown">
 				<li>
@@ -19,6 +19,9 @@ slot('navigation',
 					<a href="#">Lektion 3</a>
 				</li>
 			</ul>
+		</li>
+		<li>
+			<a href="' . url_for('@edit_user_account') . '">Redigera konto</a>
 		</li>');
 ?>
 
@@ -52,7 +55,7 @@ slot('navigation',
 	
 	<h2>
 		<?php
-			echo 'Välkommen ' . $sf_user->getAttribute('username') . '!';	
+			echo 'Välkommen ' . $name . '!';	
 		?>
 	</h2>
 	<p>

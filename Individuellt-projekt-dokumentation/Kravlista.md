@@ -31,15 +31,7 @@ Senast uppdaterad 20/4 2014 klo 23:45 av Svante Arvedson
 		<td>BF1, BF2, BF3, BF4</td>
 		<td>Hög</td>
 	</tr>
-	<tr>
-		<td>AF7</td>
-		<td><a href="Anvandningsfall/AF7-Redigera-anvandarprofil.md">Redigera användarprofil</a></td>
-		<td>Svante Arvedson</td>
-		<td><a href="Anvandningsfall/DF1-Logga-in.md">DF1</a></td>
-		<td>Påbörjad</td>
-		<td>BF1, BF2, BF3</td>
-		<td>Hög</td>
-	</tr>
+
 	<tr>
 		<td>AF4</td>
 		<td><a href="Anvandningsfall/AF4-Visa-statistik-over-gjorda-tester.md">Visa statistik öven gjorda tester</a></td>
@@ -58,7 +50,6 @@ Senast uppdaterad 20/4 2014 klo 23:45 av Svante Arvedson
 		<td>BF1, BF2, BF3</td>
 		<td>Medel</td>
 	</tr>
-
 	<tr>
 		<td>AF8</td>
 		<td><a href="Anvandningsfall/AF8-Sparra-anvandare.md">Spärra användare</a></td>
@@ -173,6 +164,14 @@ Senast uppdaterad 20/4 2014 klo 23:45 av Svante Arvedson
 		<td><a href="Anvandningsfall/AF1-Registrera-ny-anvandare.md">Registrera ny användare</a></td>
 		<td>Svante Arvedson</td>
 		<td></td>
+		<td>Klart</td>
+		<td>BF1, BF2, BF3</td>
+	</tr>
+	<tr>
+		<td>AF7</td>
+		<td><a href="Anvandningsfall/AF7-Redigera-anvandarprofil.md">Redigera användarprofil</a></td>
+		<td>Svante Arvedson</td>
+		<td><a href="Anvandningsfall/DF1-Logga-in.md">DF1</a></td>
 		<td>Klart</td>
 		<td>BF1, BF2, BF3</td>
 	</tr>

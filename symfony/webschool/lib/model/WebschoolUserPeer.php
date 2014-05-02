@@ -6,9 +6,9 @@ class WebschoolUserPeer extends BaseWebschoolUserPeer
 	 * @param String $username input Username
 	 * @param String $password input Password
 	 *
-	 * @return Boolean
+	 * @return WebschoolUser or null
 	 */
-	static public function checkIfUserAndPass($username, $password)
+	static public function retrieveByUsernameAndPass($username, $password)
 	{
 		$criteria = new Criteria();
 		
@@ -16,7 +16,7 @@ class WebschoolUserPeer extends BaseWebschoolUserPeer
 		$criteria->add(self::PASSWORD, $password, Criteria::EQUAL);
 	  	$user = WebschoolUserPeer::doSelectOne($criteria);
 		
-		return ($user != null);
+		return !empty($user) ? $user : null;
 	}
 	
 	/**

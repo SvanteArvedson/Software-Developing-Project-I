@@ -7,6 +7,10 @@ register_new_user:
   url:   /registrera-ny-anvandare
   param: { module: user, action: new }
 
+edit_user_account:
+  url:   /redigera-konto
+  param: { module: user, action: edit }
+
 default_index:
   url:   /:module
   param: { action: index }

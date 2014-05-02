@@ -9,6 +9,65 @@
  */
 class userActions extends sfActions
 {
+	
+	/**
+	 * Controller method for "/redigera-konto"
+	 */
+	public function executeEdit(sfWebRequest $request)
+	{
+		$this->errorMessage = null;
+		$this->form = new WebschoolUserEditForm();
+		
+		if ($request->isMethod('get'))
+		{
+			$this->form->bind(array(
+				'id' => $this->getUser()->getAttribute('user')->getId(),
+				'user' => $this->getUser()->getAttribute('user')->getUsername(),
+				'pass' => $this->getUser()->getAttribute('user')->getPassword(),
+				'passAgain' => $this->getUser()->getAttribute('user')->getPassword(),
+				'name' => $this->getUser()->getAttribute('user')->getName(),
+				'email' => $this->getUser()->getAttribute('user')->getEmail()
+			));
+		}
+		else
+		{
+			$this->form->bind($request->getParameter('webschool_user'));
+
+			if ($this->form->isValid())
+			{
+				$user = $this->getUser()->getAttribute('user');
+				
+				if($user->getName() == $this->form->getValue('name') 
+						&& $user->getEmail() == $this->form->getValue('email')
+						&& $user->getPassword() == $this->form->getValue('pass')
+						&& $user->getUsername() == $this->form->getValue('user'))
+				{
+					$this->getUser()->setFlash('message', 'Du ändrade inte dina kontouppgifter');
+					$this->redirect($this->generateUrl('homepage'));
+				}
+				else if ($this->getUser()->getAttribute('user')->getPassword() != $this->form->getValue('passOld'))
+				{
+					$this->errorMessage = 'Du måste ange ditt gamla lösenord för att kunna spara ändringarna.';
+				}
+				else if (WebschoolUserPeer::checkIfUsernameExists($this->form->getValue('user')) 
+					&& $this->form->getValue('user') != $user->getUsername())
+				{
+					$this->errorMessage = 'Användarnamnet är upptaget. Välj ett annat.';
+				}
+				else 
+				{
+					$user->setName($this->form->getValue('name'));
+					$user->setEmail($this->form->getValue('email'));
+					$user->setPassword($this->form->getValue('pass'));
+					$user->setUsername($this->form->getValue('user'));
+					$user->save();
+					
+					$this->getUser()->setFlash('message', 'Ändringarna har sparats');
+					$this->redirect($this->generateUrl('homepage'));
+				}
+			}
+		}
+	}
 
 	/**
 	 * Controller method for "/"
@@ -26,7 +85,7 @@ class userActions extends sfActions
 		{
 			if ($this->getUser()->isAuthenticated())
 			{
-				$this->username = $this->getUser()->getAttribute('username', 'Användare');
+				$this->name = $this->getUser()->getAttribute('user')->getName();
 				return UserView::AUTHENTICATED;
 			}
 			else
@@ -40,7 +99,7 @@ class userActions extends sfActions
 			if ($this->getUser()->isAuthenticated())
 			{
 				$this->getUser()->setAuthenticated(false);
-				$this->getUser()->getAttributeHolder()->remove('username');
+				$this->getUser()->getAttributeHolder()->remove('user');
 				$this->redirect($this->generateUrl('homepage'));
 			}
 			else
@@ -52,9 +111,11 @@ class userActions extends sfActions
 					$username = $this->form->getValue('user');
 					$password = $this->form->getValue('pass');
 					
-					if (WebschoolUserPeer::checkIfUserAndPass($username, $password))
-					{
-						$this->getUser()->setAttribute('username', $this->form->getValue('user'));
+					$user = WebschoolUserPeer::retrieveByUsernameAndPass($username, $password);
+					
+					if (!empty($user))
+					{	
+						$this->getUser()->setAttribute('user', $user);
 						$this->getUser()->setAuthenticated(true);
 						$this->redirect($this->generateUrl('homepage'));
 					}
@@ -89,7 +150,6 @@ class userActions extends sfActions
 			{
 				if (!WebschoolUserPeer::checkIfUsernameExists($this->form->getValue('user')))
 				{
-					// Om validate lyckas, spara till databasen
 					$newUser = new WebschoolUser();
 					
 					$newUser->setName($this->form->getValue('name'));

@@ -14,7 +14,8 @@ class BaseWebschoolUserForm extends BaseFormPropel
     $this->setWidgets(array(
       'id'       => new sfWidgetFormInputHidden(),
       'user' 	 => new sfWidgetFormInput(),
-      'pass' 	 => new sfWidgetFormInputPassword(),
+      'pass' 	 => new sfWidgetFormInputPassword(array('always_render_empty' => false)),
+      'passAgain'=> new sfWidgetFormInputPassword(array('always_render_empty' => false)),
       'name'     => new sfWidgetFormInput(),
       'email'    => new sfWidgetFormInput(),
     ));
@@ -25,9 +26,21 @@ class BaseWebschoolUserForm extends BaseFormPropel
       'pass' 	 => new sfValidatorString(array('max_length' => 8, 'min_length' => 8), 
       					array('required' => 'Får ej lämnas tomt', 'max_length' => 'Måste vara %max_length% tecken', 
       						'min_length' => 'Måste vara %min_length% tecken')),
+      'passAgain'=> new sfValidatorString(array('max_length' => 8, 'min_length' => 8), 
+      					array('required' => 'Får ej lämnas tomt', 'max_length' => 'Måste vara %max_length% tecken', 
+      						'min_length' => 'Måste vara %min_length% tecken')),
       'name'     => new sfValidatorString(array('max_length' => 40), array('required' => 'Får ej lämnas tomt', 'max_length' => 'Max %max_length% tecken')),
-      'email'    => new sfValidatorString(array('max_length' => 50, 'required' => true)),
+      'email'    => new sfValidatorEmail(array('max_length' => 50, 'required' => true), 
+      					array('required' => 'Får ej lämnas tomt', 'invalid' => 'Ogiltig epostadress', 
+      						'max_length' => 'Max %max_length% tecken'))
     ));
+	
+	$this->validatorSchema->setPostValidator(
+			new sfValidatorSchemaCompare('pass', sfValidatorSchemaCompare::EQUAL, 'passAgain',
+				array('throw_global_error' => true),
+				array('invalid' => 'Lösenord och Repetera lösenord var olika')
+			)
+		);
 
     $this->widgetSchema->setNameFormat('webschool_user[%s]');
 
