@@ -1,6 +1,6 @@
 <?php
 // Adds content to the slots in "/../../templates/layout.php"
-slot('title', 'Musikhistoria - Registrera ny användare');
+slot('title', 'Musikhistoria - Registrera konto');
 
 slot('navigation', 
 		'<li>
@@ -22,7 +22,7 @@ slot('navigation',
 		</li>');
 ?>
 
-<div id="pagecontent" class="small-12 large-9 columns">
+<div id="pagecontent" class="small-12 columns">
 	
 	<?php
 		if ($sf_user->hasFlash('error'))

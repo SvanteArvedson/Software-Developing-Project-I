@@ -22,7 +22,7 @@ slot('navigation',
 		</li>');
 ?>
 
-<div id="pagecontent" class="small-12 large-9 columns">
+<div id="pagecontent" class="small-12 columns">
 	
 	<?php
 		if ($sf_user->hasFlash('error'))
@@ -63,7 +63,7 @@ slot('navigation',
 	
 	<div class="row">
 		<?php
-				echo '<form class="small-12 columns" method="POST" action="' . url_for('@homepage') . '">
+				echo '<form class="small-12 large-6 columns" method="POST" action="' . url_for('@homepage') . '">
 						<fieldset>
 							<legend>
 								Logga in:
@@ -76,7 +76,7 @@ slot('navigation',
 				}		
 							
 				echo		'<div class="row">
-								<div class="small-12 large-5 columns">';
+								<div class="small-12 large-6 columns">';
 				
 				if ($form['user'] -> hasError())
 				{
@@ -91,7 +91,7 @@ slot('navigation',
 				}
 				
 				echo 			'</div>
-								<div class="small-12 large-5 columns">';
+								<div class="small-12 large-6 columns">';
 					
 				if ($form['pass'] -> hasError())
 				{
@@ -106,11 +106,11 @@ slot('navigation',
 				}
 			
 				echo 			'</div>
-								<div class="small-12 large-2 columns">';
+								<div class="small-12 columns">';
 					
 				echo $form -> renderHiddenFields();
 				
-				echo 				'<input id="logInButton" class="button tiny" type="submit" value="Logga in" />
+				echo 				'<input id="logInButton" class="button tiny right" type="submit" value="Logga in" />
 								</div>
 							</div>
 						</fieldset>

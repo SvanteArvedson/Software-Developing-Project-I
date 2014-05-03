@@ -17,14 +17,12 @@ Användaren avregistrerar sig från systemet. Systemet tar bort användarens konto.
 
 ## Huvudscenario
 * 1 - **AF2** startar när användaren vill ta bort sitt konto
-* 2 - Systemet visar användarens kontouppgifter
-* 3 - Användaren väljer att radera kontot
-* 4 - Systemet ber om användarens lösenord
-* 5 - Användaren skriver in lösenordet
-* 6 - Systemet raderar kontot
+* 2 - Systemet ber om användarens lösenord
+* 3 - Användaren skriver in lösenordet
+* 4 - Systemet raderar kontot
 
 ## Alternativscenario
-* 5a - Användaren anger fel lösenord
+* 3a - Användaren anger fel lösenord
 	* 1 - Systemet visar ett felmeddelande
 	* 2 - *Gå tillbaka till punkt 4*
 * 6a - Ett fel inträffar när systemet ska radera kontot

@@ -4,12 +4,16 @@ homepage:
   param: { module: user, action: index }
   
 register_new_user:
-  url:   /registrera-ny-anvandare
+  url:   /registrera-konto
   param: { module: user, action: new }
 
 edit_user_account:
   url:   /redigera-konto
   param: { module: user, action: edit }
+
+delete_user_account:
+  url:   /radera-konto
+  param: { module: user, action: delete }
 
 default_index:
   url:   /:module

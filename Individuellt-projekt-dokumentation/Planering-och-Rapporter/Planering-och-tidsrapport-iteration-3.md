@@ -155,6 +155,13 @@ elaboration-fas.
 		<td></td>
 	</tr>
 	<tr>
+		<td></td>
+		<td>Läs del 12-24 i <a href="http://symfony.com/legacy/doc/jobeet/1_2/en/12?orm=Propel">Symfony-boken</a></td>
+		<td>Klart</td>
+		<td>8</td>
+		<td>3</td>
+	</tr>
+	<tr>
 		<td><a href="/../Anvandningsfall/AF1-Registrera-ny-anvandare.md">AF1</a></td>
 		<td>Implementera AF1 - Registrera ny användare</td>
 		<td>Klart</td>
@@ -164,9 +171,9 @@ elaboration-fas.
 	<tr>
 		<td><a href="/../Anvandningsfall/AF2-Avregistrera-anvandare.md">AF2</a></td>
 		<td>Implementera AF2 - Avregistrera användare</td>
-		<td>Ej påbörjad</td>
+		<td>Klart</td>
 		<td>6</td>
-		<td></td>
+		<td>2</td>
 	</tr>
 	<tr>
 		<td><a href="/../Anvandningsfall/AF7-Redigera-anvandarprofil.md">AF7</a></td>
@@ -185,9 +192,9 @@ elaboration-fas.
 	<tr>
 		<td></td>
 		<td>Skriv automatiska tester för AF2</td>
-		<td>Ej påbörjad</td>
+		<td>Klart</td>
 		<td>2</td>
-		<td></td>
+		<td>1</td>
 	</tr>
 	<tr>
 		<td></td>
@@ -195,13 +202,6 @@ elaboration-fas.
 		<td>Klart</td>
 		<td>2</td>
 		<td>2</td>
-	</tr>
-	<tr>
-		<td></td>
-		<td>Läs del 12-24 i <a href="http://symfony.com/legacy/doc/jobeet/1_2/en/12?orm=Propel">Symfony-boken</a></td>
-		<td>Klart</td>
-		<td>8</td>
-		<td>3</td>
 	</tr>
 	<tr>
 		<td></td>
@@ -215,6 +215,6 @@ elaboration-fas.
 		<td></td>
 		<td>Summa</td>
 		<td>36</td>
-		<td>19</td>
+		<td>22</td>
 	</tr>
 </table>

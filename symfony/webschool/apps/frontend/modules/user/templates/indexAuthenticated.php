@@ -22,10 +22,13 @@ slot('navigation',
 		</li>
 		<li>
 			<a href="' . url_for('@edit_user_account') . '">Redigera konto</a>
+		</li>
+		<li>
+			<a href="' . url_for('@delete_user_account') . '">Radera konto</a>
 		</li>');
 ?>
 
-<div id="pagecontent" class="small-12 large-9 columns">
+<div id="pagecontent" class="small-12 columns">
 	
 	<?php
 		if ($sf_user->hasFlash('error'))

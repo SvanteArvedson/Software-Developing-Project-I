@@ -14,8 +14,8 @@ class BaseWebschoolUserForm extends BaseFormPropel
     $this->setWidgets(array(
       'id'       => new sfWidgetFormInputHidden(),
       'user' 	 => new sfWidgetFormInput(),
-      'pass' 	 => new sfWidgetFormInputPassword(array('always_render_empty' => false)),
-      'passAgain'=> new sfWidgetFormInputPassword(array('always_render_empty' => false)),
+      'pass' 	 => new sfWidgetFormInputPassword(array('always_render_empty' => true)),
+      'passAgain'=> new sfWidgetFormInputPassword(array('always_render_empty' => true)),
       'name'     => new sfWidgetFormInput(),
       'email'    => new sfWidgetFormInput(),
     ));

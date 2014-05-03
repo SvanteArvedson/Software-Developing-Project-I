@@ -1,5 +1,5 @@
 # Kravlista
-Senast uppdaterad 20/4 2014 klo 23:45 av Svante Arvedson
+Senast uppdaterad 4/5 2014 klo 01:30 av Svante Arvedson
 
 ## Funktionella krav
 <table>
@@ -14,15 +14,6 @@ Senast uppdaterad 20/4 2014 klo 23:45 av Svante Arvedson
 	</tr>
 	
 	<tr>
-		<td>AF2</td>
-		<td><a href="Anvandningsfall/AF2-Avregistrera-anvandare.md">Avregistrera användare</a></td>
-		<td>Svante Arvedson</td>
-		<td><a href="Anvandningsfall/DF1-Logga-in.md">DF1</a></td>
-		<td>Ej påbörjad</td>
-		<td>BF1, BF2, BF3</td>
-		<td>Hög</td>
-	</tr>
-	<tr>
 		<td>AF3</td>
 		<td><a href="Anvandningsfall/AF3-Las-en-lektion-och-gor-tillhorande-test.md">Läs en lektion och gör tillhörande test</a></td>
 		<td>Svante Arvedson</td>
@@ -31,7 +22,6 @@ Senast uppdaterad 20/4 2014 klo 23:45 av Svante Arvedson
 		<td>BF1, BF2, BF3, BF4</td>
 		<td>Hög</td>
 	</tr>
-
 	<tr>
 		<td>AF4</td>
 		<td><a href="Anvandningsfall/AF4-Visa-statistik-over-gjorda-tester.md">Visa statistik öven gjorda tester</a></td>
@@ -39,7 +29,34 @@ Senast uppdaterad 20/4 2014 klo 23:45 av Svante Arvedson
 		<td><a href="Anvandningsfall/DF1-Logga-in.md">DF1</a></td>
 		<td>Ej påbörjad</td>
 		<td>BF1, BF2, BF3, BF4</td>
-		<td>Medel</td>
+		<td>Hög</td>
+	</tr>
+	<tr>
+		<td>AF8</td>
+		<td><a href="Anvandningsfall/AF8-Sparra-anvandare.md">Spärra användare</a></td>
+		<td>Svante Arvedson</td>
+		<td><a href="Anvandningsfall/DF1-Logga-in.md">DF1</a></td>
+		<td>Ej påbörjad</td>
+		<td>BF1, BF2</td>
+		<td>Hög</td>
+	</tr>
+	<tr>
+		<td>AF9</td>
+		<td><a href="Anvandningsfall/AF9-Ta-bort-sparr-fran-anvandare.md">Ta bort spärr från användare</a></td>
+		<td>Svante Arvedson</td>
+		<td><a href="Anvandningsfall/DF1-Logga-in.md">DF1</a></td>
+		<td>Ej påbörjad</td>
+		<td>BF1, BF2</td>
+		<td>Hög</td>
+	</tr>
+	<tr>
+		<td>AF10</td>
+		<td><a href="Anvandningsfall/AF10-Radera-anvandare.md">Radera användare</a></td>
+		<td>Svante Arvedson</td>
+		<td><a href="Anvandningsfall/DF1-Logga-in.md">DF1</a></td>
+		<td>Ej påbörjad</td>
+		<td>BF1, BF2</td>
+		<td>Hög</td>
 	</tr>
 	<tr>
 		<td>AF5</td>
@@ -49,33 +66,6 @@ Senast uppdaterad 20/4 2014 klo 23:45 av Svante Arvedson
 		<td>Ej påbörjad</td>
 		<td>BF1, BF2, BF3</td>
 		<td>Medel</td>
-	</tr>
-	<tr>
-		<td>AF8</td>
-		<td><a href="Anvandningsfall/AF8-Sparra-anvandare.md">Spärra användare</a></td>
-		<td>Svante Arvedson</td>
-		<td><a href="Anvandningsfall/DF1-Logga-in.md">DF1</a></td>
-		<td>Ej påbörjad</td>
-		<td>BF1, BF2</td>
-		<td>Låg</td>
-	</tr>
-	<tr>
-		<td>AF9</td>
-		<td><a href="Anvandningsfall/AF9-Ta-bort-sparr-fran-anvandare.md">Ta bort spärr från användare</a></td>
-		<td>Svante Arvedson</td>
-		<td><a href="Anvandningsfall/DF1-Logga-in.md">DF1</a></td>
-		<td>Ej påbörjad</td>
-		<td>BF1, BF2</td>
-		<td>Låg</td>
-	</tr>
-	<tr>
-		<td>AF10</td>
-		<td><a href="Anvandningsfall/AF10-Radera-anvandare.md">Radera användare</a></td>
-		<td>Svante Arvedson</td>
-		<td><a href="Anvandningsfall/DF1-Logga-in.md">DF1</a></td>
-		<td>Ej påbörjad</td>
-		<td>BF1, BF2</td>
-		<td>Låg</td>
 	</tr>
 	<tr>
 		<td>AF11</td>
@@ -144,6 +134,30 @@ Senast uppdaterad 20/4 2014 klo 23:45 av Svante Arvedson
 		<th>Baskrav</th>
 	</tr>
 	<tr>
+		<td>AF1</td>
+		<td><a href="Anvandningsfall/AF1-Registrera-ny-anvandare.md">Registrera ny användare</a></td>
+		<td>Svante Arvedson</td>
+		<td></td>
+		<td>Klart</td>
+		<td>BF1, BF2, BF3</td>
+	</tr>
+	<tr>
+		<td>AF2</td>
+		<td><a href="Anvandningsfall/AF2-Avregistrera-anvandare.md">Avregistrera användare</a></td>
+		<td>Svante Arvedson</td>
+		<td><a href="Anvandningsfall/DF1-Logga-in.md">DF1</a></td>
+		<td>Klart</td>
+		<td>BF1, BF2, BF3</td>
+	</tr>
+	<tr>
+		<td>AF7</td>
+		<td><a href="Anvandningsfall/AF7-Redigera-anvandarprofil.md">Redigera användarprofil</a></td>
+		<td>Svante Arvedson</td>
+		<td><a href="Anvandningsfall/DF1-Logga-in.md">DF1</a></td>
+		<td>Klart</td>
+		<td>BF1, BF2, BF3</td>
+	</tr>
+	<tr>
 		<td>DF1</td>
 		<td><a href="Anvandningsfall/DF1-Logga-in.md">Logga in</a></td>
 		<td>Svante Arvedson</td>
@@ -156,22 +170,6 @@ Senast uppdaterad 20/4 2014 klo 23:45 av Svante Arvedson
 		<td><a href="Anvandningsfall/DF2-Logga-ut.md">Logga ut</a></td>
 		<td>Svante Arvedson</td>
 		<td></td>
-		<td>Klart</td>
-		<td>BF1, BF2, BF3</td>
-	</tr>
-    <tr>
-		<td>AF1</td>
-		<td><a href="Anvandningsfall/AF1-Registrera-ny-anvandare.md">Registrera ny användare</a></td>
-		<td>Svante Arvedson</td>
-		<td></td>
-		<td>Klart</td>
-		<td>BF1, BF2, BF3</td>
-	</tr>
-	<tr>
-		<td>AF7</td>
-		<td><a href="Anvandningsfall/AF7-Redigera-anvandarprofil.md">Redigera användarprofil</a></td>
-		<td>Svante Arvedson</td>
-		<td><a href="Anvandningsfall/DF1-Logga-in.md">DF1</a></td>
 		<td>Klart</td>
 		<td>BF1, BF2, BF3</td>
 	</tr>

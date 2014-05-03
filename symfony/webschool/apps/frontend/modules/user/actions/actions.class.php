@@ -9,6 +9,44 @@
  */
 class userActions extends sfActions
 {
+	/**
+	 * Controller for "/radera-konto"
+	 */
+	public function executeDelete(sfWebRequest $request)
+	{
+		$this->errorMessage = null;
+		$this->form = new WebschoolUserDeleteForm();
+		
+		if ($request->isMethod('post'))
+		{
+			$this->form->bind($request->getParameter('webschool_user_delete'));
+			
+			if ($this->form->isValid())
+			{
+				if ($this->getUser()->getAttribute('user')->getPassword() != $this->form->getValue('pass'))
+				{
+					$this->errorMessage = 'Fel lösenord';
+				}
+				else
+				{
+					try
+					{
+						$user = $this->getUser()->getAttribute('user');
+						WebschoolUserPeer::doDelete($user);
+					}
+					catch(exception $error)
+					{
+						$this->getUser()->setFlash('error', 'Ett fel inträffade när kontot skulle raderas.');
+						$this->redirect($this->generateUrl('delete_user_account'));
+					}
+						$this->getUser()->setAuthenticated(false);
+						$this->getUser()->getAttributeHolder()->remove('user');
+						$this->getUser()->setFlash('success', 'Kontot har raderats.');
+						$this->redirect($this->generateUrl('homepage'));
+				}
+			}
+		}
+	}
 	
 	/**
 	 * Controller method for "/redigera-konto"

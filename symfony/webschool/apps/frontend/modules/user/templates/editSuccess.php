@@ -1,6 +1,6 @@
 <?php
 // Adds content to the slots in "/../../templates/layout.php"
-slot('title', 'Musikhistoria - Registrera ny användare');
+slot('title', 'Musikhistoria - Redigera konto');
 
 slot('navigation', 
 		'<li>
@@ -19,10 +19,16 @@ slot('navigation',
 					<a href="#">Lektion 3</a>
 				</li>
 			</ul>
+		</li>
+		<li>
+			<a href="' . url_for('@edit_user_account') . '">Redigera konto</a>
+		</li>
+		<li>
+			<a href="' . url_for('@delete_user_account') . '">Radera konto</a>
 		</li>');
 ?>
 
-<div id="pagecontent" class="small-12 large-9 columns">
+<div id="pagecontent" class="small-12 columns">
 	<?php
 		if ($sf_user->hasFlash('error'))
 		{
@@ -55,7 +61,7 @@ slot('navigation',
 	
 	<div class="row">
 		<?php
-			echo '<form class="small-6 columns" method="post" action="' . url_for('@edit_user_account') . '">
+			echo '<form class="small-12 large-6 columns" method="post" action="' . url_for('@edit_user_account') . '">
 					<fieldset>
 						<div class="row">
 							<div class="small-12 columns">';
@@ -75,7 +81,6 @@ slot('navigation',
 			}				
 			
 			if ($form['name']->hasError())
-
 			{
 				echo 			$form['name']->renderLabel('Namn', array('class'=>'error'));
 				echo 			$form['name']->render(array('autofocus' => 'autofocus', 'maxlength' => '40', 'class'=>'error'));
@@ -149,10 +154,10 @@ slot('navigation',
 			}
 			
 			echo 			'</div>
-							<div class="small-12 columns">
+							<div class="small-12 large-6 columns">
 								<p>Ange ditt nuvarande lösenord innan du sparar ändrngarna.</p>
 							</div>
-							<div class="small-12 large-6 large-offset-6 columns">';
+							<div class="small-12 large-6 columns">';
 							
 			if ($form['passOld']->hasError())
 			{

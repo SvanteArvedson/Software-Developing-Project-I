@@ -8,7 +8,7 @@ $browser->loadData();
 $browser->info('Functional test fail registration - Passes not same')->
 	
 	info(' 01 - Registration form is visible')->
-	get('/registrera-ny-anvandare')->
+	get('/registrera-konto')->
 	
 	with('request')->begin()->
 		isParameter('module', 'user')->
