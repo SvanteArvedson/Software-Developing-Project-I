@@ -21,8 +21,8 @@ class LoginForm extends sfForm
 			'pass' => new sfValidatorString(
 					array('max_length' => 8, 'min_length' => 8), 
 					array('required' => 'Får ej lämnas tomt', 
-						'max_length' => 'Måste %max_length% tecken', 
-						'min_length' => 'Måste %max_length% tecken'))
+						'max_length' => 'Måste vara %max_length% tecken', 
+						'min_length' => 'Måste vara %min_length% tecken'))
 		));
 	}
 }

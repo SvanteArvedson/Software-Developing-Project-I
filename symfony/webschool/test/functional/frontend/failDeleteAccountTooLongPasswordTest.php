@@ -20,10 +20,10 @@ $browser->info('Functional test fail delete account - Too long password')->
 		checkElement('#logOutButton', false)->
 	end()->
 	
-	info(' 02 - User clicks "Logga in" with username "GulligaHannes" and password "12345678"')->
+	info(' 02 - User clicks "Ok" with username "GulligaHannes" and password "12345678"')->
 	setField('login[user]', 'GulligaHannes')->
 	setField('login[pass]', '12345678')->
-	click('Logga in')->
+	click('Ok')->
 	
 	with('form')->begin()->
 		hasErrors(false)->
@@ -61,9 +61,9 @@ $browser->info('Functional test fail delete account - Too long password')->
 		checkElement('#deleteButton', true)->
 	end()->
 	
-	info(' 02 - User clicks "Radera konto" with parameters')->
+	info(' 02 - User clicks "Ok" with parameters')->
 	setField('webschool_user_delete[pass]', '1234567890123456789')->
-	click('Radera')->
+	click('Ok')->
 	
 	with('form')->begin()->
 		hasErrors(true)->

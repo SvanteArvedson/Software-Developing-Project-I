@@ -11,6 +11,10 @@ edit_user_account:
   url:   /redigera-konto
   param: { module: user, action: edit }
 
+edit_user_password:
+  url:   /redigera-losenord
+  param: { module: user, action: editpassword }
+
 delete_user_account:
   url:   /radera-konto
   param: { module: user, action: delete }

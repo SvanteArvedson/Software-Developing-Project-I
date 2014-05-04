@@ -4,24 +4,10 @@ slot('title', 'Musikhistoria - Redigera konto');
 
 slot('navigation', 
 		'<li>
-			<a href="#">Forum</a>
-		</li>
-		<li class="has-dropdown">
-			<a href="#">Lektioner</a>
-			<ul class="dropdown">
-				<li>
-					<a href="#">Lektion 1</a>
-				</li>
-				<li>
-					<a href="#">Lektion 2</a>
-				</li>
-				<li>
-					<a href="#">Lektion 3</a>
-				</li>
-			</ul>
+			<a href="' . url_for('@edit_user_account') . '">Redigera konto</a>
 		</li>
 		<li>
-			<a href="' . url_for('@edit_user_account') . '">Redigera konto</a>
+			<a href="' . url_for('@edit_user_password') . '">Ändra lösenord</a>
 		</li>
 		<li>
 			<a href="' . url_for('@delete_user_account') . '">Radera konto</a>
@@ -123,36 +109,6 @@ slot('navigation',
 				echo			$form['user']->render(array('maxlength' => '25'));
 			}
 			
-			echo			'</div>
-							<div class="small-12 large-6 columns">';
-			
-			if ($form['pass']->hasError())
-			{
-				echo			$form['pass']->renderLabel('Lösenord', array('class'=>'error'));
-				echo			$form['pass']->render(array('maxlength' => '8', 'class'=>'error'));
-				echo			"<small class='error'>" . $form['pass']->getError() . "</small>";
-			}
-			else
-			{
-				echo			$form['pass']->renderLabel('Lösenord');
-				echo			$form['pass']->render(array('maxlength' => '8'));
-			}
-			
-			echo			'</div>
-							<div class="small-12 large-6 columns">';
-			
-			if ($form['passAgain']->hasError())
-			{
-				echo			$form['passAgain']->renderlabel('Repereta lösenord', array('class'=>'error'));
-				echo			$form['passAgain']->render(array('maxlength'=>'8', 'class'=>'error'));
-				echo			"<small class='error'>" . $form['passAgain']->getError() . "</small>";
-			}
-			else
-			{
-				echo			$form['passAgain']->renderlabel('Repereta lösenord');
-				echo			$form['passAgain']->render(array('maxlength' => '8'));
-			}
-			
 			echo 			'</div>
 							<div class="small-12 large-6 columns">
 								<p>Ange ditt nuvarande lösenord innan du sparar ändrngarna.</p>
@@ -177,7 +133,7 @@ slot('navigation',
 			echo				$form->renderHiddenFields();
 			
 			echo				'<a id="cancelLink" class="button tiny left" href="' . url_for('@homepage') . '" >Avbryt</a>
-								<input id="saveButton" class="button tiny right" type="submit" value="Spara" />
+								<input id="saveButton" class="button tiny right" type="submit" value="Ok" />
 							</div>
 						</div>
 					</fieldset>

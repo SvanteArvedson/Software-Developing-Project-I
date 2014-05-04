@@ -2,24 +2,7 @@
 // Adds content to the slots in "/../../templates/layout.php"
 slot('title', 'Musikhistoria - Startsida');
 
-slot('navigation', 
-		'<li>
-			<a href="#">Forum</a>
-		</li>
-		<li class="has-dropdown show-for-small">
-			<a href="#">Lektioner</a>
-			<ul class="dropdown">
-				<li>
-					<a href="#">Lektion 1</a>
-				</li>
-				<li>
-					<a href="#">Lektion 2</a>
-				</li>
-				<li>
-					<a href="#">Lektion 3</a>
-				</li>
-			</ul>
-		</li>');
+slot('navigation', '');
 ?>
 
 <div id="pagecontent" class="small-12 columns">
@@ -110,7 +93,7 @@ slot('navigation',
 					
 				echo $form -> renderHiddenFields();
 				
-				echo 				'<input id="logInButton" class="button tiny right" type="submit" value="Logga in" />
+				echo 				'<input id="logInButton" class="button tiny right" type="submit" value="Ok" />
 								</div>
 							</div>
 						</fieldset>

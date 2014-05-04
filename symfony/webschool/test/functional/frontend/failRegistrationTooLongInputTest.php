@@ -20,13 +20,13 @@ $browser->info('Functional test fail registration - Too long input')->
 		checkElement('#sendButton', true)->
 	end()->
 	
-	info(' 02 - User clicks "Skicka" with parameters')->
+	info(' 02 - User clicks "Ok" with parameters')->
 	setField('webschool_user[name]', 'Gustav Hansson')->
 	setField('webschool_user[email]', 'gurkan_cool@hotmail.com')->
 	setField('webschool_user[user]', 'Gurkan')->
 	setField('webschool_user[pass]', '4ttBr4L4s4n4rd')->
 	setField('webschool_user[passAgain]', '4ttBr4L4s4n4rd')->
-	click('Skicka')->
+	click('Ok')->
 	
 	with('form')->begin()->
 		hasErrors(true)->

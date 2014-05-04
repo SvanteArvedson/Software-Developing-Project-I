@@ -127,8 +127,9 @@ planeringen för iteratuon 3.
 ### Mål iteration 3
 Huvudmålet i iteration 3 är att implementera krav 
 [AF1](/../Anvandningsfall/AF1-Registrera-ny-anvandare.md), 
-[AF2](/../Anvandningsfall/AF2-Avregistrera-anvandare.md) och 
-[AF7](/../Anvandningsfall/AF7-Redigera-anvandarprofil.md). Jag ska även skriva de sista 
+[AF2](/../Anvandningsfall/AF2-Avregistrera-anvandare.md), 
+[AF7](/../Anvandningsfall/AF7-Redigera-anvandarprofil.md) och
+[AF17](/../Anvandningsfall/AF17-Andra-losenord.md). Jag ska även skriva de sista 
 användningsfallen i fullformat och läsa genom de sista kapitlen i Symfonyboken. Jag ska påbörja 
 designarbetet med att tillverka en snygg logga för applikationen. Det som blir knepigast i 
 iteration 3 tror jag blir att ordna med behörighetsinställningar för redigering av användaruppgifter, 
@@ -183,6 +184,13 @@ elaboration-fas.
 		<td>5</td>
 	</tr>
 	<tr>
+		<td><a href="/../Anvandningsfall/AF17-Andra-losenord.md">AF17</a></td>
+		<td>Implementera AF17 - Ändra lösenord</td>
+		<td>Klart</td>
+		<td>2</td>
+		<td>2</td>
+	</tr>
+	<tr>
 		<td></td>
 		<td>Skriv automatiska tester för AF1</td>
 		<td>Klart</td>
@@ -205,6 +213,13 @@ elaboration-fas.
 	</tr>
 	<tr>
 		<td></td>
+		<td>Skriv automatiska tester för AF17</td>
+		<td>Klart</td>
+		<td>1</td>
+		<td>1</td>
+	</tr>
+	<tr>
+		<td></td>
 		<td>Designa loggan</td>
 		<td>Ej påbörjad</td>
 		<td>3</td>
@@ -214,7 +229,7 @@ elaboration-fas.
 		<td></td>
 		<td></td>
 		<td>Summa</td>
-		<td>36</td>
-		<td>22</td>
+		<td>39</td>
+		<td>25</td>
 	</tr>
 </table>

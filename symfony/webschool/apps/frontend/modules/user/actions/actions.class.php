@@ -61,8 +61,6 @@ class userActions extends sfActions
 			$this->form->bind(array(
 				'id' => $this->getUser()->getAttribute('user')->getId(),
 				'user' => $this->getUser()->getAttribute('user')->getUsername(),
-				'pass' => $this->getUser()->getAttribute('user')->getPassword(),
-				'passAgain' => $this->getUser()->getAttribute('user')->getPassword(),
 				'name' => $this->getUser()->getAttribute('user')->getName(),
 				'email' => $this->getUser()->getAttribute('user')->getEmail()
 			));
@@ -77,7 +75,6 @@ class userActions extends sfActions
 				
 				if($user->getName() == $this->form->getValue('name') 
 						&& $user->getEmail() == $this->form->getValue('email')
-						&& $user->getPassword() == $this->form->getValue('pass')
 						&& $user->getUsername() == $this->form->getValue('user'))
 				{
 					$this->getUser()->setFlash('message', 'Du ändrade inte dina kontouppgifter');
@@ -96,7 +93,6 @@ class userActions extends sfActions
 				{
 					$user->setName($this->form->getValue('name'));
 					$user->setEmail($this->form->getValue('email'));
-					$user->setPassword($this->form->getValue('pass'));
 					$user->setUsername($this->form->getValue('user'));
 					$user->save();
 					
@@ -106,6 +102,46 @@ class userActions extends sfActions
 			}
 		}
 	}
+
+	/**
+	 * Controller for "/redigera-losenord"
+	 */
+	 public function executeEditpassword(sfWebRequest $request)
+	 {
+	 	$this->errorMessage = null;
+		$this->form = new WebschoolUserEditPasswordForm();
+		
+		if ($request->isMethod('post'))
+		{
+			$this->form->bind($request->getParameter('webschool_user_edit_password'));
+			
+			if ($this->form->isValid())
+			{
+				if ($this->getUser()->getAttribute('user')->getPassword() != $this->form->getValue('passOld'))
+				{
+					$this->errorMessage = 'Fel lösenord.';
+				}
+				else
+				{
+					$user = $this->getUser()->getAttribute('user');
+					try
+					{
+						$user->setPassword($this->form->getValue('pass'));
+						$user->save();
+					}
+					catch(Exception $e)
+					{
+						$user->setPassword($this->form->getValue('passOld'));
+						$this->getUser()->setFlash('error', 'Ett fel inträffade när lösenorder skulle ändras.');
+						$this->redirect($this->generateUrl('webschool_user_edit_password'));
+					}
+					
+					$this->getUser()->setFlash('success', 'Lösenordet har ändrats.');
+					$this->redirect($this->generateUrl('homepage'));
+				}
+			}
+		}
+	 }
 
 	/**
 	 * Controller method for "/"
@@ -168,7 +204,7 @@ class userActions extends sfActions
 	}
 
 	/**
-	 * Controller for "/registrera-ny-anvandare"
+	 * Controller for "/registrera-konto"
 	 */
 	public function executeNew(sfWebRequest $request)
 	{

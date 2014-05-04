@@ -18220,3 +18220,1834 @@ May 03 23:10:24 symfony [info] {sfWebDebugLogger} Configuration 23.76 ms (9)
 May 03 23:10:24 symfony [info] {sfWebDebugLogger} Action "user/index" 15.15 ms (1)
 May 03 23:10:24 symfony [info] {sfWebDebugLogger} View "Unauthenticated" for "user/index" 42.53 ms (1)
 May 03 23:10:24 symfony [info] {sfWebResponse} Send content (123174 o)
+May 04 09:26:16 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 09:26:16 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 09:26:17 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 09:26:17 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 09:26:17 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 09:26:17 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 09:26:17 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+May 04 09:26:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 09:26:17 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 09:26:17 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 09:26:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 09:26:17 symfony [info] {userActions} Call "userActions->executeIndex()"
+May 04 09:26:17 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexUnauthenticated.php"
+May 04 09:26:17 symfony [info] {main} Set slot "title"
+May 04 09:26:17 symfony [info] {main} Set slot "navigation"
+May 04 09:26:17 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 09:26:17 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 09:26:17 symfony [info] {main} Get slot "title"
+May 04 09:26:17 symfony [info] {main} Get slot "navigation"
+May 04 09:26:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 09:26:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 09:26:17 symfony [info] {sfWebDebugLogger} Configuration 43.05 ms (9)
+May 04 09:26:17 symfony [info] {sfWebDebugLogger} Action "user/index" 16.08 ms (1)
+May 04 09:26:17 symfony [info] {sfWebDebugLogger} View "Unauthenticated" for "user/index" 48.00 ms (1)
+May 04 09:26:17 symfony [info] {sfWebResponse} Send content (122831 o)
+May 04 09:29:06 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 09:29:06 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 09:29:06 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 09:29:06 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 09:29:06 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 09:29:06 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 09:29:06 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 09:29:06 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+May 04 09:29:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 09:29:06 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 09:29:06 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 09:29:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 09:29:06 symfony [info] {userActions} Call "userActions->executeIndex()"
+May 04 09:29:06 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexUnauthenticated.php"
+May 04 09:29:06 symfony [info] {main} Set slot "title"
+May 04 09:29:06 symfony [info] {main} Set slot "navigation"
+May 04 09:29:06 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 09:29:06 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 09:29:06 symfony [info] {main} Get slot "title"
+May 04 09:29:06 symfony [info] {main} Get slot "navigation"
+May 04 09:29:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 09:29:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 09:29:06 symfony [info] {sfWebDebugLogger} Configuration 318.69 ms (9)
+May 04 09:29:06 symfony [info] {sfWebDebugLogger} Action "user/index" 15.63 ms (1)
+May 04 09:29:06 symfony [info] {sfWebDebugLogger} View "Unauthenticated" for "user/index" 47.33 ms (1)
+May 04 09:29:06 symfony [info] {sfWebResponse} Send content (127047 o)
+May 04 09:29:19 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 09:29:19 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 09:29:19 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 09:29:19 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 09:29:19 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 09:29:19 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 09:29:19 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 09:29:19 symfony [info] {sfPatternRouting} Match route "edit_user_password" (/redigera-losenord) for /redigera-losenord with parameters array (  'module' => 'user',  'action' => 'editpassword',)
+May 04 09:29:19 symfony [info] {sfFrontWebController} Action "user/editpassword" does not exist
+May 04 09:29:19 symfony [err] {sfError404Exception} Action "user/editpassword" does not exist.
+May 04 09:29:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+May 04 09:29:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 09:33:19 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 09:33:19 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 09:33:19 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 09:33:19 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 09:33:19 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 09:33:19 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 09:33:19 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 09:33:19 symfony [info] {sfPatternRouting} Match route "edit_user_password" (/redigera-losenord) for /redigera-losenord with parameters array (  'module' => 'user',  'action' => 'editpassword',)
+May 04 09:33:19 symfony [info] {sfFrontWebController} Action "user/editpassword" does not exist
+May 04 09:33:19 symfony [err] {sfError404Exception} Action "user/editpassword" does not exist.
+May 04 09:33:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+May 04 09:33:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 09:33:44 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 09:33:44 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 09:33:44 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 09:33:44 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 09:33:44 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 09:33:44 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 09:33:44 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 09:33:44 symfony [info] {sfPatternRouting} Match route "edit_user_password" (/redigera-losenord) for /redigera-losenord with parameters array (  'module' => 'user',  'action' => 'editpassword',)
+May 04 09:33:44 symfony [info] {sfFrontWebController} Action "user/editpassword" does not exist
+May 04 09:33:44 symfony [err] {sfError404Exception} Action "user/editpassword" does not exist.
+May 04 09:33:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+May 04 09:33:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 09:33:48 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 09:33:48 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 09:33:48 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 09:33:48 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 09:33:48 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 09:33:48 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 09:33:48 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 09:33:48 symfony [info] {sfPatternRouting} Match route "edit_user_password" (/redigera-losenord) for /redigera-losenord with parameters array (  'module' => 'user',  'action' => 'editpassword',)
+May 04 09:33:48 symfony [info] {sfFrontWebController} Action "user/editpassword" does not exist
+May 04 09:33:48 symfony [err] {sfError404Exception} Action "user/editpassword" does not exist.
+May 04 09:33:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+May 04 09:33:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 09:34:18 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 09:34:18 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 09:34:18 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 09:34:18 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 09:34:18 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 09:34:18 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 09:34:18 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 09:34:18 symfony [info] {sfPatternRouting} Match route "edit_user_password" (/redigera-losenord) for /redigera-losenord with parameters array (  'module' => 'user',  'action' => 'editpassword',)
+May 04 09:34:18 symfony [info] {sfFrontWebController} Action "user/editpassword" does not exist
+May 04 09:34:18 symfony [err] {sfError404Exception} Action "user/editpassword" does not exist.
+May 04 09:34:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+May 04 09:34:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 09:34:45 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 09:34:45 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 09:34:45 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 09:34:45 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 09:34:45 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 09:34:45 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 09:34:45 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 09:34:45 symfony [info] {sfPatternRouting} Match route "edit_user_password" (/redigera-losenord) for /redigera-losenord with parameters array (  'module' => 'user',  'action' => 'editpassword',)
+May 04 09:34:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 09:34:45 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 09:34:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 09:34:45 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 09:34:45 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 09:34:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 09:34:45 symfony [info] {userActions} Call "userActions->executeIndex()"
+May 04 09:34:45 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexUnauthenticated.php"
+May 04 09:34:45 symfony [info] {main} Set slot "title"
+May 04 09:34:45 symfony [info] {main} Set slot "navigation"
+May 04 09:34:45 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 09:34:45 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 09:34:45 symfony [info] {main} Get slot "title"
+May 04 09:34:45 symfony [info] {main} Get slot "navigation"
+May 04 09:34:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 09:34:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 09:34:45 symfony [info] {sfWebDebugLogger} Configuration 51.00 ms (12)
+May 04 09:34:45 symfony [info] {sfWebDebugLogger} Action "user/index" 22.91 ms (1)
+May 04 09:34:45 symfony [info] {sfWebDebugLogger} View "Unauthenticated" for "user/index" 59.17 ms (1)
+May 04 09:34:45 symfony [info] {sfWebResponse} Send content (151758 o)
+May 04 09:35:13 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 09:35:13 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 09:35:13 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 09:35:13 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 09:35:13 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 09:35:13 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 09:35:13 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 09:35:13 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+May 04 09:35:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 09:35:13 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 09:35:13 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 09:35:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 09:35:13 symfony [info] {userActions} Call "userActions->executeIndex()"
+May 04 09:35:13 symfony [info] {myUser} User is authenticated
+May 04 09:35:13 symfony [info] {sfFrontWebController} Redirect to "/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+May 04 09:35:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+May 04 09:35:13 symfony [info] {sfWebResponse} Send header "Location: /Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+May 04 09:35:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 09:35:13 symfony [info] {sfWebDebugLogger} Configuration 35.09 ms (8)
+May 04 09:35:13 symfony [info] {sfWebDebugLogger} Action "user/index" 76.98 ms (1)
+May 04 09:35:13 symfony [info] {sfWebResponse} Send content (151 o)
+May 04 09:35:13 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 09:35:13 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 09:35:13 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 09:35:13 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 09:35:13 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 09:35:13 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 09:35:13 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 09:35:13 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+May 04 09:35:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 09:35:14 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 09:35:14 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 09:35:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 09:35:14 symfony [info] {userActions} Call "userActions->executeIndex()"
+May 04 09:35:14 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexAuthenticated.php"
+May 04 09:35:14 symfony [info] {main} Set slot "title"
+May 04 09:35:14 symfony [info] {main} Set slot "navigation"
+May 04 09:35:14 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 09:35:14 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 09:35:14 symfony [info] {main} Get slot "title"
+May 04 09:35:14 symfony [info] {main} Get slot "navigation"
+May 04 09:35:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 09:35:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 09:35:14 symfony [info] {sfWebDebugLogger} Configuration 40.32 ms (9)
+May 04 09:35:14 symfony [info] {sfWebDebugLogger} Action "user/index" 1.35 ms (1)
+May 04 09:35:14 symfony [info] {sfWebDebugLogger} View "Authenticated" for "user/index" 42.03 ms (1)
+May 04 09:35:14 symfony [info] {sfWebResponse} Send content (126909 o)
+May 04 09:35:25 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 09:35:25 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 09:35:25 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 09:35:25 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 09:35:25 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 09:35:25 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 09:35:25 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 09:35:25 symfony [info] {sfPatternRouting} Match route "edit_user_password" (/redigera-losenord) for /redigera-losenord with parameters array (  'module' => 'user',  'action' => 'editpassword',)
+May 04 09:35:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 09:35:25 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 09:35:25 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 09:35:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 09:35:25 symfony [info] {userActions} Call "userActions->executeEditpassword()"
+May 04 09:35:25 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/editpasswordSuccess.php"
+May 04 09:35:25 symfony [info] {main} Set slot "title"
+May 04 09:35:25 symfony [info] {main} Set slot "navigation"
+May 04 09:35:25 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 09:35:25 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 09:35:25 symfony [info] {main} Get slot "title"
+May 04 09:35:25 symfony [info] {main} Get slot "navigation"
+May 04 09:35:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 09:35:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 09:35:25 symfony [info] {sfWebDebugLogger} Configuration 52.83 ms (9)
+May 04 09:35:25 symfony [info] {sfWebDebugLogger} Action "user/editpassword" 33.73 ms (1)
+May 04 09:35:25 symfony [info] {sfWebDebugLogger} View "Success" for "user/editpassword" 40.12 ms (1)
+May 04 09:35:25 symfony [info] {sfWebResponse} Send content (128406 o)
+May 04 09:43:16 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 09:43:16 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 09:43:16 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 09:43:16 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 09:43:16 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 09:43:16 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 09:43:16 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 09:43:16 symfony [info] {sfPatternRouting} Match route "edit_user_password" (/redigera-losenord) for /redigera-losenord with parameters array (  'module' => 'user',  'action' => 'editpassword',)
+May 04 09:43:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 09:43:16 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 09:43:16 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 09:43:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 09:43:16 symfony [info] {userActions} Call "userActions->executeEditpassword()"
+May 04 09:43:37 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 09:43:37 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 09:43:37 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 09:43:37 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 09:43:37 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 09:43:37 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 09:43:37 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 09:43:37 symfony [info] {sfPatternRouting} Match route "edit_user_password" (/redigera-losenord) for /redigera-losenord with parameters array (  'module' => 'user',  'action' => 'editpassword',)
+May 04 09:43:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 09:43:37 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 09:43:37 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 09:43:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 09:43:37 symfony [info] {userActions} Call "userActions->executeEditpassword()"
+May 04 09:43:47 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 09:43:47 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 09:43:47 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 09:43:47 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 09:43:47 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 09:43:47 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 09:43:47 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 09:43:47 symfony [info] {sfPatternRouting} Match route "edit_user_password" (/redigera-losenord) for /redigera-losenord with parameters array (  'module' => 'user',  'action' => 'editpassword',)
+May 04 09:43:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 09:43:47 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 09:43:47 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 09:43:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 09:43:47 symfony [info] {userActions} Call "userActions->executeEditpassword()"
+May 04 09:46:09 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 09:46:09 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 09:46:09 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 09:46:09 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 09:46:09 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 09:46:09 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 09:46:09 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 09:46:09 symfony [info] {sfPatternRouting} Match route "edit_user_password" (/redigera-losenord) for /redigera-losenord with parameters array (  'module' => 'user',  'action' => 'editpassword',)
+May 04 09:46:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 09:46:09 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 09:46:09 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 09:46:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 09:46:09 symfony [info] {userActions} Call "userActions->executeEditpassword()"
+May 04 09:46:09 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/editpasswordSuccess.php"
+May 04 09:46:09 symfony [info] {main} Set slot "title"
+May 04 09:46:09 symfony [info] {main} Set slot "navigation"
+May 04 09:46:09 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 09:46:09 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 09:46:09 symfony [info] {main} Get slot "title"
+May 04 09:46:09 symfony [info] {main} Get slot "navigation"
+May 04 09:46:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 09:46:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 09:46:09 symfony [info] {sfWebDebugLogger} Configuration 484.54 ms (9)
+May 04 09:46:09 symfony [info] {sfWebDebugLogger} Action "user/editpassword" 18.40 ms (1)
+May 04 09:46:09 symfony [info] {sfWebDebugLogger} View "Success" for "user/editpassword" 56.18 ms (1)
+May 04 09:46:09 symfony [info] {sfWebResponse} Send content (127931 o)
+May 04 09:47:28 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 09:47:28 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 09:47:28 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 09:47:28 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 09:47:28 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 09:47:28 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 09:47:28 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 09:47:28 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+May 04 09:47:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 09:47:28 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 09:47:28 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 09:47:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 09:47:28 symfony [info] {userActions} Call "userActions->executeIndex()"
+May 04 09:47:28 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexAuthenticated.php"
+May 04 09:47:28 symfony [info] {main} Set slot "title"
+May 04 09:47:28 symfony [info] {main} Set slot "navigation"
+May 04 09:47:28 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 09:47:28 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 09:47:28 symfony [info] {main} Get slot "title"
+May 04 09:47:28 symfony [info] {main} Get slot "navigation"
+May 04 09:47:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 09:47:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 09:47:28 symfony [info] {sfWebDebugLogger} Configuration 80.08 ms (9)
+May 04 09:47:28 symfony [info] {sfWebDebugLogger} Action "user/index" 1.31 ms (1)
+May 04 09:47:28 symfony [info] {sfWebDebugLogger} View "Authenticated" for "user/index" 45.05 ms (1)
+May 04 09:47:28 symfony [info] {sfWebResponse} Send content (127055 o)
+May 04 09:49:52 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 09:49:52 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 09:49:52 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 09:49:52 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 09:49:52 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 09:49:52 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 09:49:52 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 09:49:52 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+May 04 09:49:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 09:49:52 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 09:49:52 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 09:49:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 09:49:52 symfony [info] {userActions} Call "userActions->executeIndex()"
+May 04 09:49:52 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexAuthenticated.php"
+May 04 09:49:52 symfony [info] {main} Set slot "title"
+May 04 09:49:52 symfony [info] {main} Set slot "navigation"
+May 04 09:49:52 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 09:49:52 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 09:49:52 symfony [info] {main} Get slot "title"
+May 04 09:49:52 symfony [info] {main} Get slot "navigation"
+May 04 09:49:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 09:49:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 09:49:52 symfony [info] {sfWebDebugLogger} Configuration 31.99 ms (9)
+May 04 09:49:52 symfony [info] {sfWebDebugLogger} Action "user/index" 1.58 ms (1)
+May 04 09:49:52 symfony [info] {sfWebDebugLogger} View "Authenticated" for "user/index" 43.10 ms (1)
+May 04 09:49:52 symfony [info] {sfWebResponse} Send content (126732 o)
+May 04 09:50:23 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 09:50:23 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 09:50:23 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 09:50:23 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 09:50:23 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 09:50:23 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 09:50:23 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 09:50:23 symfony [info] {sfPatternRouting} Match route "edit_user_account" (/redigera-konto) for /redigera-konto with parameters array (  'module' => 'user',  'action' => 'edit',)
+May 04 09:50:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 09:50:23 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 09:50:23 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 09:50:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 09:50:23 symfony [info] {userActions} Call "userActions->executeEdit()"
+May 04 09:50:23 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/editSuccess.php"
+May 04 09:50:24 symfony [info] {main} Set slot "title"
+May 04 09:50:24 symfony [info] {main} Set slot "navigation"
+May 04 09:50:24 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 09:50:24 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 09:50:24 symfony [info] {main} Get slot "title"
+May 04 09:50:24 symfony [info] {main} Get slot "navigation"
+May 04 09:50:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 09:50:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 09:50:24 symfony [info] {sfWebDebugLogger} Configuration 40.46 ms (9)
+May 04 09:50:24 symfony [info] {sfWebDebugLogger} Action "user/edit" 42.56 ms (1)
+May 04 09:50:24 symfony [info] {sfWebDebugLogger} View "Success" for "user/edit" 49.18 ms (1)
+May 04 09:50:24 symfony [info] {sfWebResponse} Send content (128381 o)
+May 04 09:50:26 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 09:50:26 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 09:50:26 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 09:50:26 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 09:50:26 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 09:50:26 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 09:50:26 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 09:50:26 symfony [info] {sfPatternRouting} Match route "delete_user_account" (/radera-konto) for /radera-konto with parameters array (  'module' => 'user',  'action' => 'delete',)
+May 04 09:50:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 09:50:26 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 09:50:26 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 09:50:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 09:50:26 symfony [info] {userActions} Call "userActions->executeDelete()"
+May 04 09:50:26 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/deleteSuccess.php"
+May 04 09:50:26 symfony [info] {main} Set slot "title"
+May 04 09:50:26 symfony [info] {main} Set slot "navigation"
+May 04 09:50:26 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 09:50:26 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 09:50:26 symfony [info] {main} Get slot "title"
+May 04 09:50:26 symfony [info] {main} Get slot "navigation"
+May 04 09:50:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 09:50:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 09:50:26 symfony [info] {sfWebDebugLogger} Configuration 41.57 ms (9)
+May 04 09:50:26 symfony [info] {sfWebDebugLogger} Action "user/delete" 14.02 ms (1)
+May 04 09:50:26 symfony [info] {sfWebDebugLogger} View "Success" for "user/delete" 48.34 ms (1)
+May 04 09:50:26 symfony [info] {sfWebResponse} Send content (127327 o)
+May 04 09:50:29 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 09:50:29 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 09:50:29 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 09:50:29 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 09:50:29 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 09:50:29 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 09:50:29 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 09:50:29 symfony [info] {sfPatternRouting} Match route "edit_user_password" (/redigera-losenord) for /redigera-losenord with parameters array (  'module' => 'user',  'action' => 'editpassword',)
+May 04 09:50:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 09:50:29 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 09:50:29 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 09:50:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 09:50:29 symfony [info] {userActions} Call "userActions->executeEditpassword()"
+May 04 09:50:29 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/editpasswordSuccess.php"
+May 04 09:50:29 symfony [info] {main} Set slot "title"
+May 04 09:50:29 symfony [info] {main} Set slot "navigation"
+May 04 09:50:29 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 09:50:29 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 09:50:29 symfony [info] {main} Get slot "title"
+May 04 09:50:29 symfony [info] {main} Get slot "navigation"
+May 04 09:50:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 09:50:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 09:50:29 symfony [info] {sfWebDebugLogger} Configuration 40.39 ms (9)
+May 04 09:50:29 symfony [info] {sfWebDebugLogger} Action "user/editpassword" 12.87 ms (1)
+May 04 09:50:29 symfony [info] {sfWebDebugLogger} View "Success" for "user/editpassword" 48.60 ms (1)
+May 04 09:50:29 symfony [info] {sfWebResponse} Send content (127877 o)
+May 04 09:51:47 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 09:51:47 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 09:51:47 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 09:51:47 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 09:51:47 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 09:51:47 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 09:51:47 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 09:51:47 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+May 04 09:51:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 09:51:47 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 09:51:47 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 09:51:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 09:51:47 symfony [info] {userActions} Call "userActions->executeIndex()"
+May 04 09:51:47 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexAuthenticated.php"
+May 04 09:51:47 symfony [info] {main} Set slot "title"
+May 04 09:51:47 symfony [info] {main} Set slot "navigation"
+May 04 09:51:47 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 09:51:47 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 09:51:47 symfony [info] {main} Get slot "title"
+May 04 09:51:47 symfony [info] {main} Get slot "navigation"
+May 04 09:51:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 09:51:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 09:51:47 symfony [info] {sfWebDebugLogger} Configuration 43.86 ms (9)
+May 04 09:51:47 symfony [info] {sfWebDebugLogger} Action "user/index" 1.44 ms (1)
+May 04 09:51:47 symfony [info] {sfWebDebugLogger} View "Authenticated" for "user/index" 47.58 ms (1)
+May 04 09:51:47 symfony [info] {sfWebResponse} Send content (126753 o)
+May 04 09:52:13 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 09:52:13 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 09:52:13 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 09:52:13 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 09:52:13 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 09:52:13 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 09:52:13 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 09:52:13 symfony [info] {sfPatternRouting} Match route "edit_user_password" (/redigera-losenord) for /redigera-losenord with parameters array (  'module' => 'user',  'action' => 'editpassword',)
+May 04 09:52:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 09:52:13 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 09:52:13 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 09:52:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 09:52:13 symfony [info] {userActions} Call "userActions->executeEditpassword()"
+May 04 09:52:13 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/editpasswordSuccess.php"
+May 04 09:52:13 symfony [info] {main} Set slot "title"
+May 04 09:52:13 symfony [info] {main} Set slot "navigation"
+May 04 09:52:13 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 09:52:13 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 09:52:13 symfony [info] {main} Get slot "title"
+May 04 09:52:13 symfony [info] {main} Get slot "navigation"
+May 04 09:52:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 09:52:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 09:52:13 symfony [info] {sfWebDebugLogger} Configuration 34.18 ms (9)
+May 04 09:52:13 symfony [info] {sfWebDebugLogger} Action "user/editpassword" 15.96 ms (1)
+May 04 09:52:13 symfony [info] {sfWebDebugLogger} View "Success" for "user/editpassword" 48.18 ms (1)
+May 04 09:52:13 symfony [info] {sfWebResponse} Send content (127869 o)
+May 04 09:54:06 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 09:54:06 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 09:54:06 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 09:54:06 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 09:54:06 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 09:54:06 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 09:54:06 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 09:54:06 symfony [info] {sfPatternRouting} Match route "edit_user_password" (/redigera-losenord) for /redigera-losenord with parameters array (  'module' => 'user',  'action' => 'editpassword',)
+May 04 09:54:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 09:54:06 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 09:54:06 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 09:54:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 09:54:06 symfony [info] {userActions} Call "userActions->executeEditpassword()"
+May 04 09:54:06 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/editpasswordSuccess.php"
+May 04 09:54:06 symfony [info] {main} Set slot "title"
+May 04 09:54:06 symfony [info] {main} Set slot "navigation"
+May 04 09:54:06 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 09:54:06 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 09:54:06 symfony [info] {main} Get slot "title"
+May 04 09:54:06 symfony [info] {main} Get slot "navigation"
+May 04 09:54:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 09:54:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 09:54:06 symfony [info] {sfWebDebugLogger} Configuration 64.95 ms (9)
+May 04 09:54:06 symfony [info] {sfWebDebugLogger} Action "user/editpassword" 18.46 ms (1)
+May 04 09:54:06 symfony [info] {sfWebDebugLogger} View "Success" for "user/editpassword" 56.73 ms (1)
+May 04 09:54:06 symfony [info] {sfWebResponse} Send content (127954 o)
+May 04 09:56:12 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 09:56:12 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 09:56:12 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 09:56:12 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 09:56:12 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 09:56:12 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 09:56:12 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 09:56:12 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+May 04 09:56:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 09:56:12 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 09:56:12 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 09:56:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 09:56:12 symfony [info] {userActions} Call "userActions->executeIndex()"
+May 04 09:56:12 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexAuthenticated.php"
+May 04 09:56:12 symfony [info] {main} Set slot "title"
+May 04 09:56:12 symfony [info] {main} Set slot "navigation"
+May 04 09:56:12 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 09:56:12 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 09:56:12 symfony [info] {main} Get slot "title"
+May 04 09:56:12 symfony [info] {main} Get slot "navigation"
+May 04 09:56:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 09:56:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 09:56:12 symfony [info] {sfWebDebugLogger} Configuration 31.63 ms (9)
+May 04 09:56:12 symfony [info] {sfWebDebugLogger} Action "user/index" 1.61 ms (1)
+May 04 09:56:12 symfony [info] {sfWebDebugLogger} View "Authenticated" for "user/index" 36.64 ms (1)
+May 04 09:56:12 symfony [info] {sfWebResponse} Send content (126753 o)
+May 04 09:56:14 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 09:56:14 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 09:56:14 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 09:56:14 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 09:56:14 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 09:56:14 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 09:56:14 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 09:56:14 symfony [info] {sfPatternRouting} Match route "edit_user_password" (/redigera-losenord) for /redigera-losenord with parameters array (  'module' => 'user',  'action' => 'editpassword',)
+May 04 09:56:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 09:56:14 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 09:56:14 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 09:56:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 09:56:14 symfony [info] {userActions} Call "userActions->executeEditpassword()"
+May 04 09:56:15 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/editpasswordSuccess.php"
+May 04 09:56:15 symfony [info] {main} Set slot "title"
+May 04 09:56:15 symfony [info] {main} Set slot "navigation"
+May 04 09:56:15 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 09:56:15 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 09:56:15 symfony [info] {main} Get slot "title"
+May 04 09:56:15 symfony [info] {main} Get slot "navigation"
+May 04 09:56:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 09:56:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 09:56:15 symfony [info] {sfWebDebugLogger} Configuration 29.10 ms (9)
+May 04 09:56:15 symfony [info] {sfWebDebugLogger} Action "user/editpassword" 14.89 ms (1)
+May 04 09:56:15 symfony [info] {sfWebDebugLogger} View "Success" for "user/editpassword" 43.03 ms (1)
+May 04 09:56:15 symfony [info] {sfWebResponse} Send content (127919 o)
+May 04 09:56:18 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 09:56:18 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 09:56:18 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 09:56:18 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 09:56:18 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 09:56:18 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 09:56:18 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 09:56:18 symfony [info] {sfPatternRouting} Match route "edit_user_account" (/redigera-konto) for /redigera-konto with parameters array (  'module' => 'user',  'action' => 'edit',)
+May 04 09:56:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 09:56:18 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 09:56:18 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 09:56:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 09:56:18 symfony [info] {userActions} Call "userActions->executeEdit()"
+May 04 09:56:18 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/editSuccess.php"
+May 04 09:56:18 symfony [info] {main} Set slot "title"
+May 04 09:56:18 symfony [info] {main} Set slot "navigation"
+May 04 09:56:18 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 09:56:18 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 09:56:18 symfony [info] {main} Get slot "title"
+May 04 09:56:18 symfony [info] {main} Get slot "navigation"
+May 04 09:56:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 09:56:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 09:56:18 symfony [info] {sfWebDebugLogger} Configuration 28.84 ms (9)
+May 04 09:56:18 symfony [info] {sfWebDebugLogger} Action "user/edit" 70.00 ms (1)
+May 04 09:56:18 symfony [info] {sfWebDebugLogger} View "Success" for "user/edit" 42.69 ms (1)
+May 04 09:56:18 symfony [info] {sfWebResponse} Send content (128398 o)
+May 04 09:57:32 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 09:57:32 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 09:57:32 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 09:57:32 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 09:57:32 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 09:57:32 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 09:57:32 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 09:57:32 symfony [info] {sfPatternRouting} Match route "edit_user_password" (/redigera-losenord) for /redigera-losenord with parameters array (  'module' => 'user',  'action' => 'editpassword',)
+May 04 09:57:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 09:57:32 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 09:57:32 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 09:57:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 09:57:32 symfony [info] {userActions} Call "userActions->executeEditpassword()"
+May 04 09:57:32 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/editpasswordSuccess.php"
+May 04 09:57:32 symfony [info] {main} Set slot "title"
+May 04 09:57:32 symfony [info] {main} Set slot "navigation"
+May 04 09:57:32 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 09:57:32 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 09:57:32 symfony [info] {main} Get slot "title"
+May 04 09:57:32 symfony [info] {main} Get slot "navigation"
+May 04 09:57:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 09:57:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 09:57:32 symfony [info] {sfWebDebugLogger} Configuration 27.22 ms (9)
+May 04 09:57:32 symfony [info] {sfWebDebugLogger} Action "user/editpassword" 16.43 ms (1)
+May 04 09:57:32 symfony [info] {sfWebDebugLogger} View "Success" for "user/editpassword" 41.01 ms (1)
+May 04 09:57:32 symfony [info] {sfWebResponse} Send content (127935 o)
+May 04 09:59:14 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 09:59:14 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 09:59:14 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 09:59:14 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 09:59:14 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 09:59:14 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 09:59:14 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 09:59:14 symfony [info] {sfPatternRouting} Match route "edit_user_password" (/redigera-losenord) for /redigera-losenord with parameters array (  'module' => 'user',  'action' => 'editpassword',)
+May 04 09:59:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 09:59:14 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 09:59:14 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 09:59:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 09:59:14 symfony [info] {userActions} Call "userActions->executeEditpassword()"
+May 04 09:59:14 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/editpasswordSuccess.php"
+May 04 09:59:14 symfony [info] {main} Set slot "title"
+May 04 09:59:14 symfony [info] {main} Set slot "navigation"
+May 04 09:59:14 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 09:59:14 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 09:59:14 symfony [info] {main} Get slot "title"
+May 04 09:59:14 symfony [info] {main} Get slot "navigation"
+May 04 09:59:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 09:59:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 09:59:14 symfony [info] {sfWebDebugLogger} Configuration 32.77 ms (9)
+May 04 09:59:14 symfony [info] {sfWebDebugLogger} Action "user/editpassword" 13.33 ms (1)
+May 04 09:59:14 symfony [info] {sfWebDebugLogger} View "Success" for "user/editpassword" 48.22 ms (1)
+May 04 09:59:14 symfony [info] {sfWebResponse} Send content (127965 o)
+May 04 09:59:24 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 09:59:24 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 09:59:24 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 09:59:24 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 09:59:24 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 09:59:24 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 09:59:24 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 09:59:24 symfony [info] {sfPatternRouting} Match route "edit_user_password" (/redigera-losenord) for /redigera-losenord with parameters array (  'module' => 'user',  'action' => 'editpassword',)
+May 04 09:59:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 09:59:24 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 09:59:24 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 09:59:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 09:59:24 symfony [info] {userActions} Call "userActions->executeEditpassword()"
+May 04 09:59:24 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/editpasswordSuccess.php"
+May 04 09:59:24 symfony [info] {main} Set slot "title"
+May 04 09:59:24 symfony [info] {main} Set slot "navigation"
+May 04 09:59:24 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 09:59:24 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 09:59:24 symfony [info] {main} Get slot "title"
+May 04 09:59:24 symfony [info] {main} Get slot "navigation"
+May 04 09:59:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 09:59:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 09:59:24 symfony [info] {sfWebDebugLogger} Configuration 42.64 ms (9)
+May 04 09:59:24 symfony [info] {sfWebDebugLogger} Action "user/editpassword" 16.70 ms (1)
+May 04 09:59:24 symfony [info] {sfWebDebugLogger} View "Success" for "user/editpassword" 53.03 ms (1)
+May 04 09:59:24 symfony [info] {sfWebResponse} Send content (128497 o)
+May 04 10:01:12 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:01:12 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:01:12 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:01:12 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:01:12 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:01:12 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:01:12 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:01:12 symfony [info] {sfPatternRouting} Match route "edit_user_password" (/redigera-losenord) for /redigera-losenord with parameters array (  'module' => 'user',  'action' => 'editpassword',)
+May 04 10:01:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:01:12 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:01:12 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:01:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:01:12 symfony [info] {userActions} Call "userActions->executeEditpassword()"
+May 04 10:01:12 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/editpasswordSuccess.php"
+May 04 10:01:12 symfony [info] {main} Set slot "title"
+May 04 10:01:12 symfony [info] {main} Set slot "navigation"
+May 04 10:01:12 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:01:12 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:01:12 symfony [info] {main} Get slot "title"
+May 04 10:01:12 symfony [info] {main} Get slot "navigation"
+May 04 10:01:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 10:01:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:01:12 symfony [info] {sfWebDebugLogger} Configuration 38.61 ms (9)
+May 04 10:01:12 symfony [info] {sfWebDebugLogger} Action "user/editpassword" 19.98 ms (1)
+May 04 10:01:12 symfony [info] {sfWebDebugLogger} View "Success" for "user/editpassword" 50.09 ms (1)
+May 04 10:01:12 symfony [info] {sfWebResponse} Send content (128455 o)
+May 04 10:01:18 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:01:18 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:01:18 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:01:18 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:01:18 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:01:18 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:01:18 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:01:18 symfony [info] {sfPatternRouting} Match route "edit_user_password" (/redigera-losenord) for /redigera-losenord with parameters array (  'module' => 'user',  'action' => 'editpassword',)
+May 04 10:01:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:01:18 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:01:18 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:01:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:01:18 symfony [info] {userActions} Call "userActions->executeEditpassword()"
+May 04 10:01:18 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/editpasswordSuccess.php"
+May 04 10:01:18 symfony [info] {main} Set slot "title"
+May 04 10:01:18 symfony [info] {main} Set slot "navigation"
+May 04 10:01:18 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:01:18 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:01:18 symfony [info] {main} Get slot "title"
+May 04 10:01:18 symfony [info] {main} Get slot "navigation"
+May 04 10:01:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 10:01:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:01:18 symfony [info] {sfWebDebugLogger} Configuration 32.56 ms (9)
+May 04 10:01:18 symfony [info] {sfWebDebugLogger} Action "user/editpassword" 19.11 ms (1)
+May 04 10:01:18 symfony [info] {sfWebDebugLogger} View "Success" for "user/editpassword" 52.23 ms (1)
+May 04 10:01:19 symfony [info] {sfWebResponse} Send content (128463 o)
+May 04 10:01:59 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:01:59 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:01:59 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:01:59 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:01:59 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:01:59 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:01:59 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:01:59 symfony [info] {sfPatternRouting} Match route "edit_user_password" (/redigera-losenord) for /redigera-losenord with parameters array (  'module' => 'user',  'action' => 'editpassword',)
+May 04 10:01:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:01:59 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:01:59 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:01:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:01:59 symfony [info] {userActions} Call "userActions->executeEditpassword()"
+May 04 10:01:59 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/editpasswordSuccess.php"
+May 04 10:01:59 symfony [info] {main} Set slot "title"
+May 04 10:01:59 symfony [info] {main} Set slot "navigation"
+May 04 10:01:59 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:01:59 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:01:59 symfony [info] {main} Get slot "title"
+May 04 10:01:59 symfony [info] {main} Get slot "navigation"
+May 04 10:01:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 10:01:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:01:59 symfony [info] {sfWebDebugLogger} Configuration 28.94 ms (9)
+May 04 10:01:59 symfony [info] {sfWebDebugLogger} Action "user/editpassword" 16.84 ms (1)
+May 04 10:01:59 symfony [info] {sfWebDebugLogger} View "Success" for "user/editpassword" 44.10 ms (1)
+May 04 10:01:59 symfony [info] {sfWebResponse} Send content (128455 o)
+May 04 10:02:05 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:02:05 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:02:05 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:02:05 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:02:05 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:02:05 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:02:05 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:02:05 symfony [info] {sfPatternRouting} Match route "edit_user_password" (/redigera-losenord) for /redigera-losenord with parameters array (  'module' => 'user',  'action' => 'editpassword',)
+May 04 10:02:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:02:05 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:02:05 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:02:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:02:05 symfony [info] {userActions} Call "userActions->executeEditpassword()"
+May 04 10:02:05 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/editpasswordSuccess.php"
+May 04 10:02:05 symfony [info] {main} Set slot "title"
+May 04 10:02:05 symfony [info] {main} Set slot "navigation"
+May 04 10:02:05 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:02:05 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:02:05 symfony [info] {main} Get slot "title"
+May 04 10:02:05 symfony [info] {main} Get slot "navigation"
+May 04 10:02:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 10:02:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:02:05 symfony [info] {sfWebDebugLogger} Configuration 27.39 ms (9)
+May 04 10:02:05 symfony [info] {sfWebDebugLogger} Action "user/editpassword" 17.78 ms (1)
+May 04 10:02:05 symfony [info] {sfWebDebugLogger} View "Success" for "user/editpassword" 44.62 ms (1)
+May 04 10:02:05 symfony [info] {sfWebResponse} Send content (128478 o)
+May 04 10:02:22 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:02:22 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:02:22 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:02:22 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:02:22 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:02:22 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:02:22 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:02:22 symfony [info] {sfPatternRouting} Match route "edit_user_password" (/redigera-losenord) for /redigera-losenord with parameters array (  'module' => 'user',  'action' => 'editpassword',)
+May 04 10:02:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:02:22 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:02:22 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:02:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:02:22 symfony [info] {userActions} Call "userActions->executeEditpassword()"
+May 04 10:02:22 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/editpasswordSuccess.php"
+May 04 10:02:22 symfony [info] {main} Set slot "title"
+May 04 10:02:22 symfony [info] {main} Set slot "navigation"
+May 04 10:02:22 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:02:22 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:02:22 symfony [info] {main} Get slot "title"
+May 04 10:02:22 symfony [info] {main} Get slot "navigation"
+May 04 10:02:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 10:02:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:02:22 symfony [info] {sfWebDebugLogger} Configuration 40.82 ms (9)
+May 04 10:02:22 symfony [info] {sfWebDebugLogger} Action "user/editpassword" 17.38 ms (1)
+May 04 10:02:22 symfony [info] {sfWebDebugLogger} View "Success" for "user/editpassword" 52.88 ms (1)
+May 04 10:02:22 symfony [info] {sfWebResponse} Send content (128334 o)
+May 04 10:05:04 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:05:04 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:05:04 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:05:04 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:05:04 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:05:04 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:05:04 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:05:04 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+May 04 10:05:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:05:04 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:05:04 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:05:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:05:04 symfony [info] {userActions} Call "userActions->executeIndex()"
+May 04 10:05:04 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexAuthenticated.php"
+May 04 10:05:04 symfony [info] {main} Set slot "title"
+May 04 10:05:04 symfony [info] {main} Set slot "navigation"
+May 04 10:05:04 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:05:04 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:05:04 symfony [info] {main} Get slot "title"
+May 04 10:05:04 symfony [info] {main} Get slot "navigation"
+May 04 10:05:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 10:05:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:05:04 symfony [info] {sfWebDebugLogger} Configuration 31.53 ms (9)
+May 04 10:05:04 symfony [info] {sfWebDebugLogger} Action "user/index" 1.45 ms (1)
+May 04 10:05:04 symfony [info] {sfWebDebugLogger} View "Authenticated" for "user/index" 43.15 ms (1)
+May 04 10:05:04 symfony [info] {sfWebResponse} Send content (126753 o)
+May 04 10:05:05 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:05:05 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:05:05 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:05:05 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:05:05 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:05:05 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:05:05 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:05:05 symfony [info] {sfPatternRouting} Match route "edit_user_password" (/redigera-losenord) for /redigera-losenord with parameters array (  'module' => 'user',  'action' => 'editpassword',)
+May 04 10:05:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:05:05 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:05:05 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:05:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:05:05 symfony [info] {userActions} Call "userActions->executeEditpassword()"
+May 04 10:05:05 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/editpasswordSuccess.php"
+May 04 10:05:05 symfony [info] {main} Set slot "title"
+May 04 10:05:05 symfony [info] {main} Set slot "navigation"
+May 04 10:05:05 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:05:05 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:05:05 symfony [info] {main} Get slot "title"
+May 04 10:05:05 symfony [info] {main} Get slot "navigation"
+May 04 10:05:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 10:05:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:05:05 symfony [info] {sfWebDebugLogger} Configuration 28.99 ms (9)
+May 04 10:05:05 symfony [info] {sfWebDebugLogger} Action "user/editpassword" 14.13 ms (1)
+May 04 10:05:05 symfony [info] {sfWebDebugLogger} View "Success" for "user/editpassword" 44.88 ms (1)
+May 04 10:05:05 symfony [info] {sfWebResponse} Send content (127921 o)
+May 04 10:05:21 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:05:21 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:05:21 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:05:21 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:05:21 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:05:21 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:05:21 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:05:21 symfony [info] {sfPatternRouting} Match route "edit_user_password" (/redigera-losenord) for /redigera-losenord with parameters array (  'module' => 'user',  'action' => 'editpassword',)
+May 04 10:05:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:05:21 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:05:21 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:05:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:05:21 symfony [info] {userActions} Call "userActions->executeEditpassword()"
+May 04 10:05:21 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/editpasswordSuccess.php"
+May 04 10:05:21 symfony [info] {main} Set slot "title"
+May 04 10:05:21 symfony [info] {main} Set slot "navigation"
+May 04 10:05:21 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:05:21 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:05:21 symfony [info] {main} Get slot "title"
+May 04 10:05:21 symfony [info] {main} Get slot "navigation"
+May 04 10:05:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 10:05:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:05:21 symfony [info] {sfWebDebugLogger} Configuration 28.00 ms (9)
+May 04 10:05:21 symfony [info] {sfWebDebugLogger} Action "user/editpassword" 14.92 ms (1)
+May 04 10:05:21 symfony [info] {sfWebDebugLogger} View "Success" for "user/editpassword" 46.76 ms (1)
+May 04 10:05:21 symfony [info] {sfWebResponse} Send content (128363 o)
+May 04 10:05:40 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:05:40 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:05:40 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:05:40 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:05:40 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:05:40 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:05:40 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:05:40 symfony [info] {sfPatternRouting} Match route "edit_user_password" (/redigera-losenord) for /redigera-losenord with parameters array (  'module' => 'user',  'action' => 'editpassword',)
+May 04 10:05:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:05:40 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:05:40 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:05:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:05:40 symfony [info] {userActions} Call "userActions->executeEditpassword()"
+May 04 10:05:40 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/editpasswordSuccess.php"
+May 04 10:05:40 symfony [info] {main} Set slot "title"
+May 04 10:05:40 symfony [info] {main} Set slot "navigation"
+May 04 10:05:40 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:05:40 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:05:40 symfony [info] {main} Get slot "title"
+May 04 10:05:40 symfony [info] {main} Get slot "navigation"
+May 04 10:05:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 10:05:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:05:40 symfony [info] {sfWebDebugLogger} Configuration 36.39 ms (9)
+May 04 10:05:40 symfony [info] {sfWebDebugLogger} Action "user/editpassword" 16.38 ms (1)
+May 04 10:05:40 symfony [info] {sfWebDebugLogger} View "Success" for "user/editpassword" 51.80 ms (1)
+May 04 10:05:40 symfony [info] {sfWebResponse} Send content (128339 o)
+May 04 10:06:48 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:06:48 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:06:48 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:06:48 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:06:48 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:06:48 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:06:48 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:06:48 symfony [info] {sfPatternRouting} Match route "edit_user_password" (/redigera-losenord) for /redigera-losenord with parameters array (  'module' => 'user',  'action' => 'editpassword',)
+May 04 10:06:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:06:48 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:06:48 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:06:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:06:48 symfony [info] {userActions} Call "userActions->executeEditpassword()"
+May 04 10:06:48 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/editpasswordSuccess.php"
+May 04 10:06:48 symfony [info] {main} Set slot "title"
+May 04 10:06:48 symfony [info] {main} Set slot "navigation"
+May 04 10:06:48 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:06:48 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:06:48 symfony [info] {main} Get slot "title"
+May 04 10:06:48 symfony [info] {main} Get slot "navigation"
+May 04 10:06:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 10:06:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:06:48 symfony [info] {sfWebDebugLogger} Configuration 32.18 ms (9)
+May 04 10:06:48 symfony [info] {sfWebDebugLogger} Action "user/editpassword" 17.88 ms (1)
+May 04 10:06:48 symfony [info] {sfWebDebugLogger} View "Success" for "user/editpassword" 46.60 ms (1)
+May 04 10:06:48 symfony [info] {sfWebResponse} Send content (128354 o)
+May 04 10:07:46 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:07:46 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:07:46 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:07:46 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:07:46 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:07:46 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:07:46 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:07:46 symfony [info] {sfPatternRouting} Match route "edit_user_password" (/redigera-losenord) for /redigera-losenord with parameters array (  'module' => 'user',  'action' => 'editpassword',)
+May 04 10:07:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:07:46 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:07:46 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:07:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:07:46 symfony [info] {userActions} Call "userActions->executeEditpassword()"
+May 04 10:07:46 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/editpasswordSuccess.php"
+May 04 10:07:46 symfony [info] {main} Set slot "title"
+May 04 10:07:46 symfony [info] {main} Set slot "navigation"
+May 04 10:07:46 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:07:46 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:07:46 symfony [info] {main} Get slot "title"
+May 04 10:07:46 symfony [info] {main} Get slot "navigation"
+May 04 10:07:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 10:07:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:07:46 symfony [info] {sfWebDebugLogger} Configuration 30.76 ms (9)
+May 04 10:07:46 symfony [info] {sfWebDebugLogger} Action "user/editpassword" 15.20 ms (1)
+May 04 10:07:46 symfony [info] {sfWebDebugLogger} View "Success" for "user/editpassword" 47.88 ms (1)
+May 04 10:07:46 symfony [info] {sfWebResponse} Send content (128271 o)
+May 04 10:16:38 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:16:38 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:16:38 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:16:38 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:16:38 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:16:38 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:16:38 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:16:38 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+May 04 10:16:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:16:38 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:16:38 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:16:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:16:38 symfony [info] {userActions} Call "userActions->executeIndex()"
+May 04 10:16:39 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexAuthenticated.php"
+May 04 10:16:39 symfony [info] {main} Set slot "title"
+May 04 10:16:39 symfony [info] {main} Set slot "navigation"
+May 04 10:16:39 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:16:39 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:16:39 symfony [info] {main} Get slot "title"
+May 04 10:16:39 symfony [info] {main} Get slot "navigation"
+May 04 10:16:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 10:16:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:16:39 symfony [info] {sfWebDebugLogger} Configuration 33.37 ms (9)
+May 04 10:16:39 symfony [info] {sfWebDebugLogger} Action "user/index" 1.56 ms (1)
+May 04 10:16:39 symfony [info] {sfWebDebugLogger} View "Authenticated" for "user/index" 89.87 ms (1)
+May 04 10:16:39 symfony [info] {sfWebResponse} Send content (126752 o)
+May 04 10:16:41 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:16:41 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:16:41 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:16:41 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:16:41 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:16:41 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:16:41 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:16:41 symfony [info] {sfPatternRouting} Match route "edit_user_password" (/redigera-losenord) for /redigera-losenord with parameters array (  'module' => 'user',  'action' => 'editpassword',)
+May 04 10:16:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:16:41 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:16:41 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:16:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:16:41 symfony [info] {userActions} Call "userActions->executeEditpassword()"
+May 04 10:16:41 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/editpasswordSuccess.php"
+May 04 10:16:41 symfony [info] {main} Set slot "title"
+May 04 10:16:41 symfony [info] {main} Set slot "navigation"
+May 04 10:16:41 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:16:41 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:16:41 symfony [info] {main} Get slot "title"
+May 04 10:16:41 symfony [info] {main} Get slot "navigation"
+May 04 10:16:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 10:16:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:16:41 symfony [info] {sfWebDebugLogger} Configuration 26.73 ms (9)
+May 04 10:16:41 symfony [info] {sfWebDebugLogger} Action "user/editpassword" 15.59 ms (1)
+May 04 10:16:41 symfony [info] {sfWebDebugLogger} View "Success" for "user/editpassword" 43.19 ms (1)
+May 04 10:16:41 symfony [info] {sfWebResponse} Send content (127921 o)
+May 04 10:17:35 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:17:35 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:17:35 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:17:35 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:17:35 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:17:35 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:17:35 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:17:35 symfony [info] {sfPatternRouting} Match route "edit_user_password" (/redigera-losenord) for /redigera-losenord with parameters array (  'module' => 'user',  'action' => 'editpassword',)
+May 04 10:17:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:17:35 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:17:35 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:17:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:17:35 symfony [info] {userActions} Call "userActions->executeEditpassword()"
+May 04 10:17:35 symfony [info] {sfFrontWebController} Redirect to "/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+May 04 10:17:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+May 04 10:17:35 symfony [info] {sfWebResponse} Send header "Location: /Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+May 04 10:17:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:17:35 symfony [info] {sfWebDebugLogger} Configuration 29.29 ms (8)
+May 04 10:17:35 symfony [info] {sfWebDebugLogger} Action "user/editpassword" 49.63 ms (1)
+May 04 10:17:35 symfony [info] {sfWebResponse} Send content (151 o)
+May 04 10:17:35 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:17:35 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:17:35 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:17:35 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:17:35 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:17:35 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:17:35 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:17:35 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+May 04 10:17:35 symfony [info] {myUser} Flag old flash messages ("success")
+May 04 10:17:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:17:35 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:17:35 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:17:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:17:35 symfony [info] {userActions} Call "userActions->executeIndex()"
+May 04 10:17:35 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexAuthenticated.php"
+May 04 10:17:35 symfony [info] {main} Set slot "title"
+May 04 10:17:35 symfony [info] {main} Set slot "navigation"
+May 04 10:17:35 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:17:35 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:17:35 symfony [info] {main} Get slot "title"
+May 04 10:17:35 symfony [info] {main} Get slot "navigation"
+May 04 10:17:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 10:17:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:17:35 symfony [info] {sfWebDebugLogger} Configuration 28.53 ms (9)
+May 04 10:17:35 symfony [info] {sfWebDebugLogger} Action "user/index" 1.32 ms (1)
+May 04 10:17:35 symfony [info] {sfWebDebugLogger} View "Authenticated" for "user/index" 42.59 ms (1)
+May 04 10:17:35 symfony [info] {sfWebResponse} Send content (130737 o)
+May 04 10:17:35 symfony [info] {myUser} Remove old flash messages ("success")
+May 04 10:17:52 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:17:52 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:17:52 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:17:52 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:17:52 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:17:52 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:17:52 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:17:52 symfony [info] {sfPatternRouting} Match route "edit_user_password" (/redigera-losenord) for /redigera-losenord with parameters array (  'module' => 'user',  'action' => 'editpassword',)
+May 04 10:17:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:17:52 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:17:52 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:17:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:17:52 symfony [info] {userActions} Call "userActions->executeEditpassword()"
+May 04 10:17:52 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/editpasswordSuccess.php"
+May 04 10:17:52 symfony [info] {main} Set slot "title"
+May 04 10:17:52 symfony [info] {main} Set slot "navigation"
+May 04 10:17:52 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:17:52 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:17:52 symfony [info] {main} Get slot "title"
+May 04 10:17:52 symfony [info] {main} Get slot "navigation"
+May 04 10:17:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 10:17:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:17:52 symfony [info] {sfWebDebugLogger} Configuration 36.32 ms (9)
+May 04 10:17:52 symfony [info] {sfWebDebugLogger} Action "user/editpassword" 17.43 ms (1)
+May 04 10:17:52 symfony [info] {sfWebDebugLogger} View "Success" for "user/editpassword" 49.65 ms (1)
+May 04 10:17:52 symfony [info] {sfWebResponse} Send content (128069 o)
+May 04 10:18:04 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:18:04 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:18:04 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:18:04 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:18:04 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:18:04 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:18:04 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:18:04 symfony [info] {sfPatternRouting} Match route "edit_user_password" (/redigera-losenord) for /redigera-losenord with parameters array (  'module' => 'user',  'action' => 'editpassword',)
+May 04 10:18:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:18:04 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:18:04 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:18:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:18:04 symfony [info] {userActions} Call "userActions->executeEditpassword()"
+May 04 10:18:04 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/editpasswordSuccess.php"
+May 04 10:18:04 symfony [info] {main} Set slot "title"
+May 04 10:18:04 symfony [info] {main} Set slot "navigation"
+May 04 10:18:05 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:18:05 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:18:05 symfony [info] {main} Get slot "title"
+May 04 10:18:05 symfony [info] {main} Get slot "navigation"
+May 04 10:18:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 10:18:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:18:05 symfony [info] {sfWebDebugLogger} Configuration 41.18 ms (9)
+May 04 10:18:05 symfony [info] {sfWebDebugLogger} Action "user/editpassword" 19.25 ms (1)
+May 04 10:18:05 symfony [info] {sfWebDebugLogger} View "Success" for "user/editpassword" 54.05 ms (1)
+May 04 10:18:05 symfony [info] {sfWebResponse} Send content (128558 o)
+May 04 10:20:22 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:20:22 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:20:22 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:20:22 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:20:22 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:20:22 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:20:22 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:20:22 symfony [info] {sfPatternRouting} Match route "edit_user_password" (/redigera-losenord) for /redigera-losenord with parameters array (  'module' => 'user',  'action' => 'editpassword',)
+May 04 10:20:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:20:22 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:20:22 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:20:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:20:22 symfony [info] {userActions} Call "userActions->executeEditpassword()"
+May 04 10:20:22 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/editpasswordSuccess.php"
+May 04 10:20:22 symfony [info] {main} Set slot "title"
+May 04 10:20:22 symfony [info] {main} Set slot "navigation"
+May 04 10:20:22 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:20:22 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:20:22 symfony [info] {main} Get slot "title"
+May 04 10:20:22 symfony [info] {main} Get slot "navigation"
+May 04 10:20:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 10:20:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:20:22 symfony [info] {sfWebDebugLogger} Configuration 38.71 ms (9)
+May 04 10:20:22 symfony [info] {sfWebDebugLogger} Action "user/editpassword" 20.27 ms (1)
+May 04 10:20:22 symfony [info] {sfWebDebugLogger} View "Success" for "user/editpassword" 50.56 ms (1)
+May 04 10:20:23 symfony [info] {sfWebResponse} Send content (128631 o)
+May 04 10:20:32 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:20:32 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:20:32 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:20:32 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:20:32 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:20:32 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:20:32 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:20:32 symfony [info] {sfPatternRouting} Match route "edit_user_password" (/redigera-losenord) for /redigera-losenord with parameters array (  'module' => 'user',  'action' => 'editpassword',)
+May 04 10:20:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:20:32 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:20:32 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:20:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:20:32 symfony [info] {userActions} Call "userActions->executeEditpassword()"
+May 04 10:20:32 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/editpasswordSuccess.php"
+May 04 10:20:32 symfony [info] {main} Set slot "title"
+May 04 10:20:32 symfony [info] {main} Set slot "navigation"
+May 04 10:20:32 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:20:32 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:20:32 symfony [info] {main} Get slot "title"
+May 04 10:20:32 symfony [info] {main} Get slot "navigation"
+May 04 10:20:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 10:20:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:20:32 symfony [info] {sfWebDebugLogger} Configuration 29.94 ms (9)
+May 04 10:20:32 symfony [info] {sfWebDebugLogger} Action "user/editpassword" 16.92 ms (1)
+May 04 10:20:32 symfony [info] {sfWebDebugLogger} View "Success" for "user/editpassword" 41.98 ms (1)
+May 04 10:20:32 symfony [info] {sfWebResponse} Send content (128530 o)
+May 04 10:21:43 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:21:43 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:21:43 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:21:43 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:21:43 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:21:43 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:21:43 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:21:43 symfony [info] {sfPatternRouting} Match route "edit_user_password" (/redigera-losenord) for /redigera-losenord with parameters array (  'module' => 'user',  'action' => 'editpassword',)
+May 04 10:21:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:21:43 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:21:43 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:21:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:21:43 symfony [info] {userActions} Call "userActions->executeEditpassword()"
+May 04 10:21:43 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/editpasswordSuccess.php"
+May 04 10:21:43 symfony [info] {main} Set slot "title"
+May 04 10:21:43 symfony [info] {main} Set slot "navigation"
+May 04 10:21:44 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:21:44 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:21:44 symfony [info] {main} Get slot "title"
+May 04 10:21:44 symfony [info] {main} Get slot "navigation"
+May 04 10:21:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 10:21:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:21:44 symfony [info] {sfWebDebugLogger} Configuration 28.24 ms (9)
+May 04 10:21:44 symfony [info] {sfWebDebugLogger} Action "user/editpassword" 19.25 ms (1)
+May 04 10:21:44 symfony [info] {sfWebDebugLogger} View "Success" for "user/editpassword" 48.94 ms (1)
+May 04 10:21:44 symfony [info] {sfWebResponse} Send content (128470 o)
+May 04 10:22:11 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:22:11 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:22:11 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:22:11 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:22:11 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:22:11 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:22:11 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:22:11 symfony [info] {sfPatternRouting} Match route "edit_user_password" (/redigera-losenord) for /redigera-losenord with parameters array (  'module' => 'user',  'action' => 'editpassword',)
+May 04 10:22:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:22:11 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:22:11 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:22:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:22:11 symfony [info] {userActions} Call "userActions->executeEditpassword()"
+May 04 10:22:11 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/editpasswordSuccess.php"
+May 04 10:22:11 symfony [info] {main} Set slot "title"
+May 04 10:22:11 symfony [info] {main} Set slot "navigation"
+May 04 10:22:11 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:22:11 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:22:11 symfony [info] {main} Get slot "title"
+May 04 10:22:11 symfony [info] {main} Get slot "navigation"
+May 04 10:22:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 10:22:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:22:11 symfony [info] {sfWebDebugLogger} Configuration 32.14 ms (9)
+May 04 10:22:11 symfony [info] {sfWebDebugLogger} Action "user/editpassword" 18.20 ms (1)
+May 04 10:22:11 symfony [info] {sfWebDebugLogger} View "Success" for "user/editpassword" 48.93 ms (1)
+May 04 10:22:11 symfony [info] {sfWebResponse} Send content (128552 o)
+May 04 10:24:26 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:24:26 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:24:26 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:24:26 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:24:26 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:24:26 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:24:26 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:24:26 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+May 04 10:24:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:24:26 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:24:26 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:24:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:24:26 symfony [info] {userActions} Call "userActions->executeIndex()"
+May 04 10:24:26 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexAuthenticated.php"
+May 04 10:24:26 symfony [info] {main} Set slot "title"
+May 04 10:24:26 symfony [info] {main} Set slot "navigation"
+May 04 10:24:26 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:24:26 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:24:26 symfony [info] {main} Get slot "title"
+May 04 10:24:26 symfony [info] {main} Get slot "navigation"
+May 04 10:24:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 10:24:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:24:26 symfony [info] {sfWebDebugLogger} Configuration 29.26 ms (9)
+May 04 10:24:26 symfony [info] {sfWebDebugLogger} Action "user/index" 1.72 ms (1)
+May 04 10:24:26 symfony [info] {sfWebDebugLogger} View "Authenticated" for "user/index" 37.71 ms (1)
+May 04 10:24:27 symfony [info] {sfWebResponse} Send content (126901 o)
+May 04 10:24:29 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:24:29 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:24:29 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:24:29 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:24:29 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:24:29 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:24:29 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:24:29 symfony [info] {sfPatternRouting} Match route "edit_user_account" (/redigera-konto) for /redigera-konto with parameters array (  'module' => 'user',  'action' => 'edit',)
+May 04 10:24:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:24:29 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:24:29 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:24:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:24:29 symfony [info] {userActions} Call "userActions->executeEdit()"
+May 04 10:24:29 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/editSuccess.php"
+May 04 10:24:29 symfony [info] {main} Set slot "title"
+May 04 10:24:29 symfony [info] {main} Set slot "navigation"
+May 04 10:24:29 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:24:29 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:24:29 symfony [info] {main} Get slot "title"
+May 04 10:24:29 symfony [info] {main} Get slot "navigation"
+May 04 10:24:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 10:24:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:24:29 symfony [info] {sfWebDebugLogger} Configuration 26.26 ms (9)
+May 04 10:24:29 symfony [info] {sfWebDebugLogger} Action "user/edit" 48.62 ms (1)
+May 04 10:24:29 symfony [info] {sfWebDebugLogger} View "Success" for "user/edit" 46.43 ms (1)
+May 04 10:24:30 symfony [info] {sfWebResponse} Send content (128244 o)
+May 04 10:25:38 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:25:38 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:25:38 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:25:38 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:25:38 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:25:38 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:25:38 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:25:38 symfony [info] {sfPatternRouting} Match route "edit_user_account" (/redigera-konto) for /redigera-konto with parameters array (  'module' => 'user',  'action' => 'edit',)
+May 04 10:25:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:25:38 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:25:38 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:25:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:25:38 symfony [info] {userActions} Call "userActions->executeEdit()"
+May 04 10:25:38 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/editSuccess.php"
+May 04 10:25:38 symfony [info] {main} Set slot "title"
+May 04 10:25:38 symfony [info] {main} Set slot "navigation"
+May 04 10:25:38 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:25:38 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:25:38 symfony [info] {main} Get slot "title"
+May 04 10:25:38 symfony [info] {main} Get slot "navigation"
+May 04 10:25:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 10:25:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:25:38 symfony [info] {sfWebDebugLogger} Configuration 32.15 ms (9)
+May 04 10:25:38 symfony [info] {sfWebDebugLogger} Action "user/edit" 144.76 ms (1)
+May 04 10:25:38 symfony [info] {sfWebDebugLogger} View "Success" for "user/edit" 46.25 ms (1)
+May 04 10:25:38 symfony [info] {sfWebResponse} Send content (128277 o)
+May 04 10:25:50 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:25:50 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:25:50 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:25:50 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:25:50 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:25:50 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:25:50 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:25:50 symfony [info] {sfPatternRouting} Match route "edit_user_account" (/redigera-konto) for /redigera-konto with parameters array (  'module' => 'user',  'action' => 'edit',)
+May 04 10:25:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:25:50 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:25:50 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:25:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:25:50 symfony [info] {userActions} Call "userActions->executeEdit()"
+May 04 10:25:50 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/editSuccess.php"
+May 04 10:25:50 symfony [info] {main} Set slot "title"
+May 04 10:25:50 symfony [info] {main} Set slot "navigation"
+May 04 10:25:51 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:25:51 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:25:51 symfony [info] {main} Get slot "title"
+May 04 10:25:51 symfony [info] {main} Get slot "navigation"
+May 04 10:25:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 10:25:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:25:51 symfony [info] {sfWebDebugLogger} Configuration 30.64 ms (9)
+May 04 10:25:51 symfony [info] {sfWebDebugLogger} Action "user/edit" 50.31 ms (1)
+May 04 10:25:51 symfony [info] {sfWebDebugLogger} View "Success" for "user/edit" 59.45 ms (1)
+May 04 10:25:51 symfony [info] {sfWebResponse} Send content (128276 o)
+May 04 10:26:02 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:26:02 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:26:02 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:26:02 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:26:02 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:26:02 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:26:02 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:26:02 symfony [info] {sfPatternRouting} Match route "edit_user_account" (/redigera-konto) for /redigera-konto with parameters array (  'module' => 'user',  'action' => 'edit',)
+May 04 10:26:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:26:02 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:26:02 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:26:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:26:02 symfony [info] {userActions} Call "userActions->executeEdit()"
+May 04 10:26:02 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/editSuccess.php"
+May 04 10:26:02 symfony [info] {main} Set slot "title"
+May 04 10:26:02 symfony [info] {main} Set slot "navigation"
+May 04 10:26:02 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:26:02 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:26:02 symfony [info] {main} Get slot "title"
+May 04 10:26:02 symfony [info] {main} Get slot "navigation"
+May 04 10:26:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 10:26:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:26:02 symfony [info] {sfWebDebugLogger} Configuration 334.37 ms (9)
+May 04 10:26:02 symfony [info] {sfWebDebugLogger} Action "user/edit" 47.85 ms (1)
+May 04 10:26:02 symfony [info] {sfWebDebugLogger} View "Success" for "user/edit" 56.45 ms (1)
+May 04 10:26:02 symfony [info] {sfWebResponse} Send content (128276 o)
+May 04 10:26:42 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:26:42 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:26:42 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:26:42 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:26:42 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:26:42 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:26:42 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:26:42 symfony [info] {sfPatternRouting} Match route "edit_user_account" (/redigera-konto) for /redigera-konto with parameters array (  'module' => 'user',  'action' => 'edit',)
+May 04 10:26:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:26:42 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:26:42 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:26:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:26:42 symfony [info] {userActions} Call "userActions->executeEdit()"
+May 04 10:26:43 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/editSuccess.php"
+May 04 10:26:43 symfony [info] {main} Set slot "title"
+May 04 10:26:43 symfony [info] {main} Set slot "navigation"
+May 04 10:26:43 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:26:43 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:26:43 symfony [info] {main} Get slot "title"
+May 04 10:26:43 symfony [info] {main} Get slot "navigation"
+May 04 10:26:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 10:26:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:26:43 symfony [info] {sfWebDebugLogger} Configuration 43.89 ms (9)
+May 04 10:26:43 symfony [info] {sfWebDebugLogger} Action "user/edit" 461.66 ms (1)
+May 04 10:26:43 symfony [info] {sfWebDebugLogger} View "Success" for "user/edit" 63.60 ms (1)
+May 04 10:26:43 symfony [info] {sfWebResponse} Send content (128147 o)
+May 04 10:27:06 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:27:06 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:27:06 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:27:06 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:27:06 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:27:06 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:27:06 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:27:06 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+May 04 10:27:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:27:06 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:27:06 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:27:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:27:06 symfony [info] {userActions} Call "userActions->executeIndex()"
+May 04 10:27:06 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexAuthenticated.php"
+May 04 10:27:06 symfony [info] {main} Set slot "title"
+May 04 10:27:06 symfony [info] {main} Set slot "navigation"
+May 04 10:27:06 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:27:06 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:27:06 symfony [info] {main} Get slot "title"
+May 04 10:27:06 symfony [info] {main} Get slot "navigation"
+May 04 10:27:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 10:27:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:27:06 symfony [info] {sfWebDebugLogger} Configuration 54.70 ms (9)
+May 04 10:27:06 symfony [info] {sfWebDebugLogger} Action "user/index" 1.22 ms (1)
+May 04 10:27:06 symfony [info] {sfWebDebugLogger} View "Authenticated" for "user/index" 58.46 ms (1)
+May 04 10:27:06 symfony [info] {sfWebResponse} Send content (126898 o)
+May 04 10:27:08 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:27:08 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:27:08 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:27:08 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:27:08 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:27:08 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:27:08 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:27:08 symfony [info] {sfPatternRouting} Match route "edit_user_account" (/redigera-konto) for /redigera-konto with parameters array (  'module' => 'user',  'action' => 'edit',)
+May 04 10:27:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:27:08 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:27:08 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:27:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:27:08 symfony [info] {userActions} Call "userActions->executeEdit()"
+May 04 10:27:09 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/editSuccess.php"
+May 04 10:27:09 symfony [info] {main} Set slot "title"
+May 04 10:27:09 symfony [info] {main} Set slot "navigation"
+May 04 10:27:09 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:27:09 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:27:09 symfony [info] {main} Get slot "title"
+May 04 10:27:09 symfony [info] {main} Get slot "navigation"
+May 04 10:27:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 10:27:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:27:09 symfony [info] {sfWebDebugLogger} Configuration 40.58 ms (9)
+May 04 10:27:09 symfony [info] {sfWebDebugLogger} Action "user/edit" 42.83 ms (1)
+May 04 10:27:09 symfony [info] {sfWebDebugLogger} View "Success" for "user/edit" 50.79 ms (1)
+May 04 10:27:09 symfony [info] {sfWebResponse} Send content (128116 o)
+May 04 10:27:11 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:27:11 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:27:11 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:27:11 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:27:11 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:27:11 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:27:11 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:27:11 symfony [info] {sfPatternRouting} Match route "edit_user_password" (/redigera-losenord) for /redigera-losenord with parameters array (  'module' => 'user',  'action' => 'editpassword',)
+May 04 10:27:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:27:11 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:27:11 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:27:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:27:11 symfony [info] {userActions} Call "userActions->executeEditpassword()"
+May 04 10:27:11 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/editpasswordSuccess.php"
+May 04 10:27:11 symfony [info] {main} Set slot "title"
+May 04 10:27:11 symfony [info] {main} Set slot "navigation"
+May 04 10:27:11 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:27:11 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:27:11 symfony [info] {main} Get slot "title"
+May 04 10:27:11 symfony [info] {main} Get slot "navigation"
+May 04 10:27:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 10:27:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:27:11 symfony [info] {sfWebDebugLogger} Configuration 43.36 ms (9)
+May 04 10:27:11 symfony [info] {sfWebDebugLogger} Action "user/editpassword" 15.40 ms (1)
+May 04 10:27:11 symfony [info] {sfWebDebugLogger} View "Success" for "user/editpassword" 51.22 ms (1)
+May 04 10:27:11 symfony [info] {sfWebResponse} Send content (128083 o)
+May 04 10:27:13 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:27:13 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:27:13 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:27:13 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:27:13 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:27:13 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:27:13 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:27:13 symfony [info] {sfPatternRouting} Match route "delete_user_account" (/radera-konto) for /radera-konto with parameters array (  'module' => 'user',  'action' => 'delete',)
+May 04 10:27:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:27:13 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:27:13 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:27:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:27:13 symfony [info] {userActions} Call "userActions->executeDelete()"
+May 04 10:27:13 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/deleteSuccess.php"
+May 04 10:27:13 symfony [info] {main} Set slot "title"
+May 04 10:27:13 symfony [info] {main} Set slot "navigation"
+May 04 10:27:13 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:27:13 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:27:13 symfony [info] {main} Get slot "title"
+May 04 10:27:13 symfony [info] {main} Get slot "navigation"
+May 04 10:27:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 10:27:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:27:13 symfony [info] {sfWebDebugLogger} Configuration 39.11 ms (9)
+May 04 10:27:13 symfony [info] {sfWebDebugLogger} Action "user/delete" 13.42 ms (1)
+May 04 10:27:13 symfony [info] {sfWebDebugLogger} View "Success" for "user/delete" 50.92 ms (1)
+May 04 10:27:13 symfony [info] {sfWebResponse} Send content (127478 o)
+May 04 10:27:15 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:27:15 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:27:15 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:27:15 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:27:15 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:27:15 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:27:15 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:27:15 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+May 04 10:27:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:27:15 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:27:15 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:27:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:27:15 symfony [info] {userActions} Call "userActions->executeIndex()"
+May 04 10:27:15 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexAuthenticated.php"
+May 04 10:27:15 symfony [info] {main} Set slot "title"
+May 04 10:27:15 symfony [info] {main} Set slot "navigation"
+May 04 10:27:15 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:27:15 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:27:15 symfony [info] {main} Get slot "title"
+May 04 10:27:15 symfony [info] {main} Get slot "navigation"
+May 04 10:27:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 10:27:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:27:15 symfony [info] {sfWebDebugLogger} Configuration 41.26 ms (9)
+May 04 10:27:15 symfony [info] {sfWebDebugLogger} Action "user/index" 1.42 ms (1)
+May 04 10:27:15 symfony [info] {sfWebDebugLogger} View "Authenticated" for "user/index" 46.23 ms (1)
+May 04 10:27:15 symfony [info] {sfWebResponse} Send content (126896 o)
+May 04 10:41:21 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:41:21 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:41:21 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:41:21 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:41:21 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:41:21 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:41:21 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:41:21 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+May 04 10:41:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:41:22 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:41:22 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:41:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:41:22 symfony [info] {userActions} Call "userActions->executeIndex()"
+May 04 10:41:22 symfony [info] {myUser} User is not authenticated
+May 04 10:41:22 symfony [info] {sfFrontWebController} Redirect to "/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+May 04 10:41:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+May 04 10:41:22 symfony [info] {sfWebResponse} Send header "Location: /Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+May 04 10:41:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:41:22 symfony [info] {sfWebDebugLogger} Configuration 37.03 ms (8)
+May 04 10:41:22 symfony [info] {sfWebDebugLogger} Action "user/index" 7.86 ms (1)
+May 04 10:41:22 symfony [info] {sfWebResponse} Send content (151 o)
+May 04 10:41:22 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:41:22 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:41:22 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:41:22 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:41:22 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:41:22 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:41:22 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:41:22 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+May 04 10:41:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:41:22 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:41:22 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:41:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:41:22 symfony [info] {userActions} Call "userActions->executeIndex()"
+May 04 10:41:22 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexUnauthenticated.php"
+May 04 10:41:22 symfony [info] {main} Set slot "title"
+May 04 10:41:22 symfony [info] {main} Set slot "navigation"
+May 04 10:41:22 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:41:22 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:41:22 symfony [info] {main} Get slot "title"
+May 04 10:41:22 symfony [info] {main} Get slot "navigation"
+May 04 10:41:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 10:41:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:41:22 symfony [info] {sfWebDebugLogger} Configuration 31.59 ms (9)
+May 04 10:41:22 symfony [info] {sfWebDebugLogger} Action "user/index" 14.34 ms (1)
+May 04 10:41:22 symfony [info] {sfWebDebugLogger} View "Unauthenticated" for "user/index" 67.80 ms (1)
+May 04 10:41:22 symfony [info] {sfWebResponse} Send content (127065 o)
+May 04 10:41:24 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:41:24 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:41:24 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:41:24 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:41:24 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:41:24 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:41:24 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:41:24 symfony [info] {sfPatternRouting} Match route "register_new_user" (/registrera-konto) for /registrera-konto with parameters array (  'module' => 'user',  'action' => 'new',)
+May 04 10:41:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:41:25 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:41:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:41:25 symfony [info] {userActions} Call "userActions->executeNew()"
+May 04 10:41:25 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/newSuccess.php"
+May 04 10:41:25 symfony [info] {main} Set slot "title"
+May 04 10:41:25 symfony [info] {main} Set slot "navigation"
+May 04 10:41:25 symfony [err] {InvalidArgumentException} Widget "pass" does not exist.
+May 04 10:41:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+May 04 10:41:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:46:49 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:46:49 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:46:49 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:46:49 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:46:49 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:46:49 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:46:49 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:46:49 symfony [info] {sfPatternRouting} Match route "register_new_user" (/registrera-konto) for /registrera-konto with parameters array (  'module' => 'user',  'action' => 'new',)
+May 04 10:46:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:46:49 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:46:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:46:49 symfony [info] {userActions} Call "userActions->executeNew()"
+May 04 10:46:49 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/newSuccess.php"
+May 04 10:46:49 symfony [info] {main} Set slot "title"
+May 04 10:46:49 symfony [info] {main} Set slot "navigation"
+May 04 10:46:49 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:46:49 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:46:49 symfony [info] {main} Get slot "title"
+May 04 10:46:49 symfony [info] {main} Get slot "navigation"
+May 04 10:46:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 10:46:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:46:49 symfony [info] {sfWebDebugLogger} Configuration 35.18 ms (9)
+May 04 10:46:49 symfony [info] {sfWebDebugLogger} Action "user/new" 53.90 ms (1)
+May 04 10:46:49 symfony [info] {sfWebDebugLogger} View "Success" for "user/new" 48.86 ms (1)
+May 04 10:46:49 symfony [info] {sfWebResponse} Send content (119951 o)
+May 04 10:55:19 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:55:19 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:55:19 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:55:19 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:55:19 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:55:19 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:55:19 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:55:19 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+May 04 10:55:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:55:19 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:55:19 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:55:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:55:19 symfony [info] {userActions} Call "userActions->executeIndex()"
+May 04 10:55:19 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexUnauthenticated.php"
+May 04 10:55:19 symfony [info] {main} Set slot "title"
+May 04 10:55:19 symfony [info] {main} Set slot "navigation"
+May 04 10:55:19 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:55:19 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:55:19 symfony [info] {main} Get slot "title"
+May 04 10:55:19 symfony [info] {main} Get slot "navigation"
+May 04 10:55:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 10:55:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:55:19 symfony [info] {sfWebDebugLogger} Configuration 36.20 ms (9)
+May 04 10:55:19 symfony [info] {sfWebDebugLogger} Action "user/index" 14.79 ms (1)
+May 04 10:55:19 symfony [info] {sfWebDebugLogger} View "Unauthenticated" for "user/index" 40.74 ms (1)
+May 04 10:55:19 symfony [info] {sfWebResponse} Send content (127082 o)
+May 04 10:55:24 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:55:24 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:55:24 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:55:24 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:55:24 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:55:24 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:55:24 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:55:24 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+May 04 10:55:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:55:24 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:55:24 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:55:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:55:24 symfony [info] {userActions} Call "userActions->executeIndex()"
+May 04 10:55:24 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexUnauthenticated.php"
+May 04 10:55:24 symfony [info] {main} Set slot "title"
+May 04 10:55:24 symfony [info] {main} Set slot "navigation"
+May 04 10:55:24 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:55:24 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:55:24 symfony [info] {main} Get slot "title"
+May 04 10:55:24 symfony [info] {main} Get slot "navigation"
+May 04 10:55:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 10:55:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:55:24 symfony [info] {sfWebDebugLogger} Configuration 25.82 ms (9)
+May 04 10:55:24 symfony [info] {sfWebDebugLogger} Action "user/index" 158.79 ms (1)
+May 04 10:55:24 symfony [info] {sfWebDebugLogger} View "Unauthenticated" for "user/index" 34.16 ms (1)
+May 04 10:55:24 symfony [info] {sfWebResponse} Send content (127347 o)
+May 04 10:55:28 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:55:28 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:55:28 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:55:28 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:55:28 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:55:28 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:55:28 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:55:28 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+May 04 10:55:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:55:28 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:55:28 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:55:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:55:28 symfony [info] {userActions} Call "userActions->executeIndex()"
+May 04 10:55:28 symfony [info] {myUser} User is authenticated
+May 04 10:55:28 symfony [info] {sfFrontWebController} Redirect to "/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+May 04 10:55:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+May 04 10:55:28 symfony [info] {sfWebResponse} Send header "Location: /Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+May 04 10:55:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:55:28 symfony [info] {sfWebDebugLogger} Configuration 23.13 ms (8)
+May 04 10:55:28 symfony [info] {sfWebDebugLogger} Action "user/index" 44.55 ms (1)
+May 04 10:55:28 symfony [info] {sfWebResponse} Send content (151 o)
+May 04 10:55:28 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:55:28 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:55:28 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:55:28 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:55:28 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:55:28 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:55:28 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:55:28 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+May 04 10:55:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:55:28 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:55:28 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:55:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:55:28 symfony [info] {userActions} Call "userActions->executeIndex()"
+May 04 10:55:28 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexAuthenticated.php"
+May 04 10:55:28 symfony [info] {main} Set slot "title"
+May 04 10:55:28 symfony [info] {main} Set slot "navigation"
+May 04 10:55:28 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:55:28 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:55:28 symfony [info] {main} Get slot "title"
+May 04 10:55:28 symfony [info] {main} Get slot "navigation"
+May 04 10:55:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 10:55:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:55:28 symfony [info] {sfWebDebugLogger} Configuration 25.70 ms (9)
+May 04 10:55:28 symfony [info] {sfWebDebugLogger} Action "user/index" 1.56 ms (1)
+May 04 10:55:28 symfony [info] {sfWebDebugLogger} View "Authenticated" for "user/index" 31.51 ms (1)
+May 04 10:55:28 symfony [info] {sfWebResponse} Send content (126884 o)
+May 04 10:55:30 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:55:30 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:55:30 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:55:30 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:55:30 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:55:30 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:55:30 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:55:30 symfony [info] {sfPatternRouting} Match route "edit_user_password" (/redigera-losenord) for /redigera-losenord with parameters array (  'module' => 'user',  'action' => 'editpassword',)
+May 04 10:55:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:55:30 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:55:30 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:55:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:55:30 symfony [info] {userActions} Call "userActions->executeEditpassword()"
+May 04 10:55:31 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/editpasswordSuccess.php"
+May 04 10:55:31 symfony [info] {main} Set slot "title"
+May 04 10:55:31 symfony [info] {main} Set slot "navigation"
+May 04 10:55:31 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:55:31 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:55:31 symfony [info] {main} Get slot "title"
+May 04 10:55:31 symfony [info] {main} Get slot "navigation"
+May 04 10:55:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 10:55:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:55:31 symfony [info] {sfWebDebugLogger} Configuration 26.13 ms (9)
+May 04 10:55:31 symfony [info] {sfWebDebugLogger} Action "user/editpassword" 14.71 ms (1)
+May 04 10:55:31 symfony [info] {sfWebDebugLogger} View "Success" for "user/editpassword" 34.99 ms (1)
+May 04 10:55:31 symfony [info] {sfWebResponse} Send content (128069 o)
+May 04 10:56:39 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:56:39 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:56:39 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:56:39 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:56:39 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:56:39 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:56:39 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:56:39 symfony [info] {sfPatternRouting} Match route "edit_user_password" (/redigera-losenord) for /redigera-losenord with parameters array (  'module' => 'user',  'action' => 'editpassword',)
+May 04 10:56:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:56:39 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:56:39 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:56:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:56:39 symfony [info] {userActions} Call "userActions->executeEditpassword()"
+May 04 10:56:39 symfony [info] {sfFrontWebController} Redirect to "/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+May 04 10:56:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+May 04 10:56:39 symfony [info] {sfWebResponse} Send header "Location: /Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+May 04 10:56:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:56:39 symfony [info] {sfWebDebugLogger} Configuration 37.13 ms (8)
+May 04 10:56:39 symfony [info] {sfWebDebugLogger} Action "user/editpassword" 41.17 ms (1)
+May 04 10:56:39 symfony [info] {sfWebResponse} Send content (151 o)
+May 04 10:56:39 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:56:39 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:56:39 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:56:39 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:56:39 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:56:39 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:56:39 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:56:39 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+May 04 10:56:39 symfony [info] {myUser} Flag old flash messages ("success")
+May 04 10:56:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:56:39 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:56:39 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:56:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:56:39 symfony [info] {userActions} Call "userActions->executeIndex()"
+May 04 10:56:39 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexAuthenticated.php"
+May 04 10:56:39 symfony [info] {main} Set slot "title"
+May 04 10:56:39 symfony [info] {main} Set slot "navigation"
+May 04 10:56:39 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:56:39 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:56:39 symfony [info] {main} Get slot "title"
+May 04 10:56:39 symfony [info] {main} Get slot "navigation"
+May 04 10:56:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 10:56:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:56:39 symfony [info] {sfWebDebugLogger} Configuration 43.05 ms (9)
+May 04 10:56:39 symfony [info] {sfWebDebugLogger} Action "user/index" 1.41 ms (1)
+May 04 10:56:39 symfony [info] {sfWebDebugLogger} View "Authenticated" for "user/index" 42.87 ms (1)
+May 04 10:56:39 symfony [info] {sfWebResponse} Send content (130737 o)
+May 04 10:56:39 symfony [info] {myUser} Remove old flash messages ("success")
+May 04 10:58:48 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 10:58:48 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 10:58:48 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 10:58:48 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 10:58:48 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 10:58:48 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 10:58:48 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 10:58:48 symfony [info] {sfPatternRouting} Match route "edit_user_password" (/redigera-losenord) for /redigera-losenord with parameters array (  'module' => 'user',  'action' => 'editpassword',)
+May 04 10:58:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 10:58:48 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 10:58:48 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 10:58:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 10:58:48 symfony [info] {userActions} Call "userActions->executeEditpassword()"
+May 04 10:58:48 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/editpasswordSuccess.php"
+May 04 10:58:48 symfony [info] {main} Set slot "title"
+May 04 10:58:48 symfony [info] {main} Set slot "navigation"
+May 04 10:58:48 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:58:48 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 10:58:48 symfony [info] {main} Get slot "title"
+May 04 10:58:48 symfony [info] {main} Get slot "navigation"
+May 04 10:58:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 10:58:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 10:58:48 symfony [info] {sfWebDebugLogger} Configuration 33.14 ms (9)
+May 04 10:58:48 symfony [info] {sfWebDebugLogger} Action "user/editpassword" 14.78 ms (1)
+May 04 10:58:48 symfony [info] {sfWebDebugLogger} View "Success" for "user/editpassword" 48.58 ms (1)
+May 04 10:58:48 symfony [info] {sfWebResponse} Send content (128069 o)
+May 04 11:18:49 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 11:18:49 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 11:18:49 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 11:18:49 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 11:18:49 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 11:18:49 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 11:18:49 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 11:18:49 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+May 04 11:18:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 11:18:49 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 11:18:49 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 11:18:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 11:18:49 symfony [info] {userActions} Call "userActions->executeIndex()"
+May 04 11:18:49 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexAuthenticated.php"
+May 04 11:18:49 symfony [info] {main} Set slot "title"
+May 04 11:18:49 symfony [info] {main} Set slot "navigation"
+May 04 11:18:49 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 11:18:49 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 11:18:49 symfony [info] {main} Get slot "title"
+May 04 11:18:49 symfony [info] {main} Get slot "navigation"
+May 04 11:18:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 11:18:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 11:18:49 symfony [info] {sfWebDebugLogger} Configuration 31.49 ms (9)
+May 04 11:18:49 symfony [info] {sfWebDebugLogger} Action "user/index" 1.65 ms (1)
+May 04 11:18:49 symfony [info] {sfWebDebugLogger} View "Authenticated" for "user/index" 40.50 ms (1)
+May 04 11:18:49 symfony [info] {sfWebResponse} Send content (126901 o)
+May 04 11:18:51 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 11:18:51 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 11:18:51 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 11:18:51 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 11:18:51 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 11:18:51 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 11:18:51 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 11:18:51 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+May 04 11:18:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 11:18:51 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 11:18:51 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 11:18:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 11:18:51 symfony [info] {userActions} Call "userActions->executeIndex()"
+May 04 11:18:51 symfony [info] {myUser} User is not authenticated
+May 04 11:18:51 symfony [info] {sfFrontWebController} Redirect to "/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+May 04 11:18:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+May 04 11:18:51 symfony [info] {sfWebResponse} Send header "Location: /Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/"
+May 04 11:18:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 11:18:51 symfony [info] {sfWebDebugLogger} Configuration 23.98 ms (8)
+May 04 11:18:51 symfony [info] {sfWebDebugLogger} Action "user/index" 4.21 ms (1)
+May 04 11:18:51 symfony [info] {sfWebResponse} Send content (151 o)
+May 04 11:18:51 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 04 11:18:51 symfony [info] {sfPatternRouting} Connect sfRoute "register_new_user" (/registrera-konto)
+May 04 11:18:51 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_account" (/redigera-konto)
+May 04 11:18:51 symfony [info] {sfPatternRouting} Connect sfRoute "edit_user_password" (/redigera-losenord)
+May 04 11:18:51 symfony [info] {sfPatternRouting} Connect sfRoute "delete_user_account" (/radera-konto)
+May 04 11:18:51 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 04 11:18:51 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 04 11:18:51 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+May 04 11:18:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 04 11:18:51 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 04 11:18:51 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 04 11:18:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 04 11:18:51 symfony [info] {userActions} Call "userActions->executeIndex()"
+May 04 11:18:51 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\modules/user/templates/indexUnauthenticated.php"
+May 04 11:18:51 symfony [info] {main} Set slot "title"
+May 04 11:18:51 symfony [info] {main} Set slot "navigation"
+May 04 11:18:51 symfony [info] {sfPHPView} Decorate content with "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 11:18:51 symfony [info] {sfPHPView} Render "D:\Nedladdade program\wamp\www\Individuellt-mjukvaruutvecklingsprojekt\symfony\webschool\apps\frontend\templates/layout.php"
+May 04 11:18:51 symfony [info] {main} Get slot "title"
+May 04 11:18:51 symfony [info] {main} Get slot "navigation"
+May 04 11:18:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 04 11:18:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 04 11:18:51 symfony [info] {sfWebDebugLogger} Configuration 28.50 ms (9)
+May 04 11:18:51 symfony [info] {sfWebDebugLogger} Action "user/index" 15.50 ms (1)
+May 04 11:18:51 symfony [info] {sfWebDebugLogger} View "Unauthenticated" for "user/index" 44.93 ms (1)
+May 04 11:18:51 symfony [info] {sfWebResponse} Send content (127066 o)

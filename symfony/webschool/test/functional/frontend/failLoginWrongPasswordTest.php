@@ -19,10 +19,10 @@ $browser->info('Functional test fail login with wrong password')->
 		checkElement('#logOutButton', false)->
 	end()->
 	
-	info(' 02 - User clicks "Logga in" with username "GulligaHannes" and password "12345679"')->
+	info(' 02 - User clicks "Ok" with username "GulligaHannes" and password "12345679"')->
 	setField('login[user]', 'GulligaHannes')->
 	setField('login[pass]', '12345679')->
-	click('Logga in')->
+	click('Ok')->
 	
 	with('form')->begin()->
 		hasErrors(false)->

@@ -27,8 +27,8 @@ Användaren redigerar uppgifter i sitt användarkonto. Systemet sparar ändringarna
 * 3a - Användaren fyller i fälten felaktigt
 	* 1 - Systemet visar ett felmeddelande
 	* 2 - *Gå tillbaka till punkt 3*
-* 7a - Användaren anger fel lösenord
+* 5a - Användaren anger fel lösenord
 	* 1 - Systemet visar ett felmeddelande
 	* 2 - *Gå tillbaka till punkt 3*
-* 8a - Ett fel inträffar när systemet ska spara ändringarna
+* 6a - Ett fel inträffar när systemet ska spara ändringarna
 	* 1 - Systemet visar ett felmeddelande

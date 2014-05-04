@@ -20,10 +20,10 @@ $browser->info('Functional test successful edit profile')->
 		checkElement('#logOutButton', false)->
 	end()->
 	
-	info(' 02 - User clicks "Logga in" with username "GulligaHannes" and password "12345678"')->
+	info(' 02 - User clicks "Ok" with username "GulligaHannes" and password "12345678"')->
 	setField('login[user]', 'GulligaHannes')->
 	setField('login[pass]', '12345678')->
-	click('Logga in')->
+	click('Ok')->
 	
 	with('form')->begin()->
 		hasErrors(false)->
@@ -61,15 +61,12 @@ $browser->info('Functional test successful edit profile')->
 		checkElement('#saveButton', true)->
 	end()->
 	
-	info(' 02 - User clicks "Spara" with parameters')->
-	
+	info(' 02 - User clicks "Ok" with parameters')->
 	setField('webschool_user[name]', 'Hannes Hansson')->
 	setField('webschool_user[email]', 'fula_hannes@hotmail.com')->
 	setField('webschool_user[user]', 'FulaHannes')->
-	setField('webschool_user[pass]', '98765432')->
-	setField('webschool_user[passAgain]', '98765432')->
 	setField('webschool_user[passOld]', '12345678')->
-	click('Spara')->
+	click('Ok')->
 	
 	with('form')->begin()->
 		hasErrors(false)->

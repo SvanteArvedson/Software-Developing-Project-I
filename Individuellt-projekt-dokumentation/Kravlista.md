@@ -158,6 +158,14 @@ Senast uppdaterad 4/5 2014 klo 01:30 av Svante Arvedson
 		<td>BF1, BF2, BF3</td>
 	</tr>
 	<tr>
+		<td>AF17</td>
+		<td><a href="Anvandningsfall/AF17-Andra-losenord.md">Ändra lösenord</a></td>
+		<td>Svante Arvedson</td>
+		<td><a href="Anvandningsfall/DF1-Logga-in.md">DF1</a></td>
+		<td>Klart</td>
+		<td>BF1, BF2, BF3</td>
+	</tr>
+	<tr>
 		<td>DF1</td>
 		<td><a href="Anvandningsfall/DF1-Logga-in.md">Logga in</a></td>
 		<td>Svante Arvedson</td>

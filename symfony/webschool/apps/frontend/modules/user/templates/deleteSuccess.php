@@ -4,24 +4,10 @@ slot('title', 'Musikhistoria - Radera konto');
 
 slot('navigation', 
 		'<li>
-			<a href="#">Forum</a>
-		</li>
-		<li class="has-dropdown">
-			<a href="#">Lektioner</a>
-			<ul class="dropdown">
-				<li>
-					<a href="#">Lektion 1</a>
-				</li>
-				<li>
-					<a href="#">Lektion 2</a>
-				</li>
-				<li>
-					<a href="#">Lektion 3</a>
-				</li>
-			</ul>
+			<a href="' . url_for('@edit_user_account') . '">Redigera konto</a>
 		</li>
 		<li>
-			<a href="' . url_for('@edit_user_account') . '">Redigera konto</a>
+			<a href="' . url_for('@edit_user_password') . '">Ändra lösenord</a>
 		</li>
 		<li>
 			<a href="' . url_for('@delete_user_account') . '">Radera konto</a>
@@ -96,7 +82,7 @@ slot('navigation',
 							<div class="small-12 columns">';
 			
 			echo				'<a id="cancelLink" class="button tiny left" href="' . url_for('@homepage') . '" >Avbryt</a>
-								<input id="deleteButton" class="button tiny right" type="submit" value="Radera" />
+								<input id="deleteButton" class="button tiny right" type="submit" value="Ok" />
 							</div>
 						</div>
 					</fieldset>
