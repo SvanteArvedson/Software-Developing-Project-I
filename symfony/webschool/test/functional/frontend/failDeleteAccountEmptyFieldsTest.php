@@ -77,7 +77,7 @@ $browser->info('Functional test fail delete account - Empty password field')->
 	with('response')->begin()->
 		checkElement('#pagecontent h2', '/Radera konto/')->
 		checkElement('#deleteButton', true)->
-		checkElement('small.error', '/mnas tomt/')->
+		checkElement('ul.error-list', true)->
 	end()->
 	
 	info(' 03 - If all tests is ok, user have failed to delete account')

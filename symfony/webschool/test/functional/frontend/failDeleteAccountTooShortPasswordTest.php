@@ -77,7 +77,7 @@ $browser->info('Functional test fail delete account - Too short password')->
 	with('response')->begin()->
 		checkElement('#pagecontent h2', '/Radera konto/')->
 		checkElement('#deleteButton', true)->
-		checkElement('small.error', '/vara 8 tecken/')->
+		checkElement('ul.error-list', true)->
 	end()->
 	
 	info(' 03 - If all tests is ok, user have failed to delete account')

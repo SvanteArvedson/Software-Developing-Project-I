@@ -80,8 +80,7 @@ $browser->info('Functional test fail edit profile - Wrong password')->
 	with('response')->begin()->
 		checkElement('#pagecontent h2', '/Redigera konto/')->
 		checkElement('#saveButton', true)->
-		checkElement('p.error', true)->
-		checkElement('p.error', '/r att kunna spara/')->
+		checkElement('ul.error-list', true)->
 	end()->
 	
 	info(' 03 - If all tests is ok, user failed to edit profile and error message is shown')

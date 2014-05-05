@@ -36,7 +36,7 @@ $browser->info('Functional test fail login with wrong password')->
 	with('response')->begin()->
 		checkElement('#logInButton', true)->
 		checkElement('#logOutButton', false)->
-		checkElement('p.error', true)->
+		checkElement('ul.error-list', true)->
 	end()->
 	
 	info(' 03 - If all tests is ok, user is not logged in and an error message is shown')

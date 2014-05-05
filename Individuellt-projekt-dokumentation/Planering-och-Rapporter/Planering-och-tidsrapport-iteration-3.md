@@ -151,9 +151,9 @@ elaboration-fas.
 	<tr>
 		<td></td>
 		<td>Skriv användarfall, de sista 30% i fullformat</td>
-		<td>Ej påbörjad</td>
+		<td>Klart</td>
 		<td>1</td>
-		<td></td>
+		<td>1</td>
 	</tr>
 	<tr>
 		<td></td>
@@ -227,9 +227,23 @@ elaboration-fas.
 	</tr>
 	<tr>
 		<td></td>
+		<td>Publicera applikationen på webbhotellet</td>
+		<td>Klart</td>
+		<td>1</td>
+		<td>3</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>Gör testfall och skriv testrapport</td>
+		<td>Klart</td>
+		<td>1</td>
+		<td>1</td>
+	</tr>
+	<tr>
+		<td></td>
 		<td></td>
 		<td>Summa</td>
-		<td>43</td>
-		<td>32</td>
+		<td>44</td>
+		<td>37</td>
 	</tr>
 </table>

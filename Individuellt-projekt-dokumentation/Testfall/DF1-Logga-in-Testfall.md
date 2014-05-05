@@ -36,7 +36,7 @@ Inga förkrav.
         <td>DF1-TF4</td>
         <td>Inloggningsförsök med för långa strängar som input</td>
         <td>Användarnamn: <i>abcdabcdabcdabcdabcdabcdabcd</i><br />Lösenord: <i>abcdabcdabcd</i></td>
-        <td>Användaren blir inte inloggad. Felmeddelande: <i>Max 25 tecken</i> och <i>Max 8 tecken</i></td>
+        <td>Användaren blir inte inloggad. Felmeddelande: <i>Användarnamn får vara max 25 tecken</i> och <i>Lösenord får vara max 8 tecken</i></td>
     </tr>
     <tr>
         <td>DF1-TF5</td>

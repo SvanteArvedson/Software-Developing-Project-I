@@ -25,14 +25,14 @@ Senast uppdaterad 2/5 2014 klo 14:00 av Svante Arvedson
         <td>Misslyckad ändring av användaruppgifter - För långt användarnamn</td>
         <td>Användarnamn: <i>GulligaHannes</i><br />Lösenord: <i>12345678</i><br />Namn: <i>Hannes Karlsson</i><br />Email: <i>gulliga_hannes@hotmail.com</i></td>
         <td>Användarnamn: <i>GulligaHannesFastMedMassaExtraBokstäver</i><br />Namn: <i>Hannes Karlsson</i><br />Email: <i>gulliga_hannes@hotmail.com</i><br /><br />Lösenord: <i>12345678</i></td>
-        <td>Redigeringen misslyckas, ändringarna sparas inte. Systemet visar felmeddelande <i>Max 40 tecken</i></td>
+        <td>Redigeringen misslyckas, ändringarna sparas inte. Systemet visar felmeddelande <i>Användarnamn får vara max 25 tecken</i></td>
     </tr>
     <tr>
         <td>AF7-TF3</td>
         <td>Misslyckad ändring av användaruppgifter - Ogiltig epostadress</td>
         <td>Användarnamn: <i>GulligaHannes</i><br />Lösenord: <i>12345678</i><br />Namn: <i>Hannes Karlsson</i><br />Email: <i>gulliga_hannes@hotmail.com</i></td>
         <td>Användarnamn: <i>GulligaHannes</i>Namn: <i>Hannes Karlsson</i><br />Email: <i>gulligahanneshotmailcom</i><br /><br />Lösenord: <i>12345678</i></td>
-        <td>Redigeringen misslyckas, ändringarna sparas inte. Systemet visar felmeddelande <i>Ogiltig epostadress</i></td>
+        <td>Redigeringen misslyckas, ändringarna sparas inte. Systemet visar felmeddelande <i>Email ogiltig</i></td>
     </tr>
     <tr>
         <td>AF7-TF4</td>
@@ -46,14 +46,14 @@ Senast uppdaterad 2/5 2014 klo 14:00 av Svante Arvedson
         <td>Misslyckad ändring av användaruppgifter - Tomma indatafält</td>
         <td>Användarnamn: <i>GulligaHannes</i><br />Lösenord: <i>12345678</i><br />Namn: <i>Hannes Karlsson</i><br />Email: <i>gulliga_hannes@hotmail.com</i></td>
         <td>Användarnamn: <i></i><br />Namn: <i>Hannes Karlsson</i><br />Email: <i>gulliga_hannes@hotmail.com</i><br /><br />Lösenord: <i>12345678</i></td>
-        <td>Redigeringen misslyckas, ändringarna sparas inte. Systemet visar felmeddelande <i>Får ej lämnas tomt</i></td>
+        <td>Redigeringen misslyckas, ändringarna sparas inte. Systemet visar felmeddelande <i>Användarnamn får ej lämnas tomt</i></td>
     </tr>
     <tr>
         <td>AF7-TF6</td>
         <td>Misslyckad ändring av användaruppgifter - Fel lösenord</td>
         <td>Användarnamn: <i>GulligaHannes</i><br />Lösenord: <i>12345678</i><br />Namn: <i>Hannes Karlsson</i><br />Email: <i>gulliga_hannes@hotmail.com</i></td>
-        <td>Användarnamn: <i>GulligaHannes</i><br />Namn: <i>Hannes Karlsson</i><br />Email: <i>gulliga_hannes@hotmail.com</i><br /><br />Lösenord: <i>22233314</i></td>
-        <td>Redigeringen misslyckas, ändringarna sparas inte. Systemet visar felmeddelande <i>Du måste ange ditt gamla lösenord för att kunna spara ändringarna.</i></td>
+        <td>Användarnamn: <i>FulaHannes</i><br />Namn: <i>Hannes Karlsson</i><br />Email: <i>gulliga_hannes@hotmail.com</i><br /><br />Lösenord: <i>22233314</i></td>
+        <td>Redigeringen misslyckas, ändringarna sparas inte. Systemet visar felmeddelande <i>Fel lösenord</i></td>
     </tr>
     <tr>
         <td>AF7-TF7</td>

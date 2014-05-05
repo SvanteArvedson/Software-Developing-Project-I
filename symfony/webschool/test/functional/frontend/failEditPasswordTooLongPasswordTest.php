@@ -79,7 +79,7 @@ $browser->info('Functional test fail edit password - Too long password')->
 	with('response')->begin()->
 		checkElement('#pagecontent h2', '/senord/')->
 		checkElement('#saveButton', true)->
-		checkElement('small.error', true)->
+		checkElement('ul.error-list', true)->
 	end()->
 	
 	info(' 03 - If all tests is ok, user failed to edit password and error message is shown')

@@ -77,7 +77,7 @@ $browser->info('Functional test fail delete account - Wrong password')->
 	with('response')->begin()->
 		checkElement('#pagecontent h2', '/Radera konto/')->
 		checkElement('#deleteButton', true)->
-		checkElement('p.error', '/senord/')->
+		checkElement('ul.error-list', true)->
 	end()->
 	
 	info(' 03 - If all tests is ok, user have failed to delete account')

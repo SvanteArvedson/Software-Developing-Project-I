@@ -40,7 +40,7 @@ $browser->info('Functional test fail registration - Username field empty')->
 	with('response')->begin()->
 		checkElement('#pagecontent h2', '/Registrera ny/')->
 		checkElement('#sendButton', true)->
-		checkElement('small.error', true)->
+		checkElement('ul.error-list', true)->
 	end()->
 	
 	info(' 03 - If all tests is ok, user not registrated and error messages is shown')

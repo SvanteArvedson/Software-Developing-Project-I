@@ -82,7 +82,7 @@ $browser->info('Functional test fail edit profile - Invald email')->
 	with('response')->begin()->
 		checkElement('#pagecontent h2', '/Redigera konto/')->
 		checkElement('#saveButton', true)->
-		checkElement('small.error', true)->
+		checkElement('ul.error-list', true)->
 	end()->
 	
 	info(' 03 - If all tests is ok, user failed to edit profile and error message is shown')
