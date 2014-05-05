@@ -3,115 +3,109 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width; initial-scale=1.0">
-		<title>Mockup</title>
-		<link rel="stylesheet" href="css/normalize.css" />
-		<link rel="stylesheet" href="css/foundation.css" />
-		<link rel="stylesheet" href="css/main.css" />
-		<script src="js/vendor/custom.modernizr.js"></script>
+		<title>Musikhistoria - Registrera konto</title><script type="text/javascript" src="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/js/vendor/custom.modernizr.js"></script>
+		<script type="text/javascript" src="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/js/vendor/jquery.js"></script>
+		<script type="text/javascript" src="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/js/foundation/foundation.js"></script>
+		<script type="text/javascript" src="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/js/foundation/foundation.topbar.js"></script>
+		<script type="text/javascript" src="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/js/foundation/foundation.alerts.js"></script>
+		<script type="text/javascript" src="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/js/foundation/foundation.dropdown.js"></script>
+		<link rel="stylesheet" type="text/css" media="screen" href="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/css/normalize.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/css/foundation.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/css/foundation-grid-5.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/css/main.css" />
 	</head>
-
 	<body>
 		<div id="container">
-			<div class="contain-to-grid">
-				<nav class="top-bar">
-					<ul class="title-area">
+			<nav class="top-bar">
+				<ul class="title-area">
+					<li>
+						<a href="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/" id="backToHome">Startsidan</a>
+					</li>
+					<li class="toggle-topbar menu-icon">
+						<a href="#"><span>Meny</span></a>
+					</li>
+				</ul>
+				<section class="top-bar-section">
+					<ul class="right">
 						<li>
-							<a href="#" id="backToHome">Startsidan</a>
-						</li>
-						<li class="toggle-topbar menu-icon">
-							<a href="#"><span>Meny</span></a>
+							<a href="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/registrera-konto">Registrera konto</a>
 						</li>
 					</ul>
-					<section class="top-bar-section">
-						<ul class="right">
-							<li>
-								<a href="#">Forum</a>
-							</li>
-							<li class="has-dropdown show-for-small">
-								<a href="#">Lektioner</a>
-								<ul class="dropdown">
-									<li>
-										<a href="#">Lektion 1</a>
-									</li>
-									<li>
-										<a href="#">Lektion 2</a>
-									</li>
-									<li>
-										<a href="#">Lektion 3</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</section>
-				</nav>
-			</div>
-
+				</section>
+			</nav>
 			<div id="content">
-
 				<header id="header" class="row">
 					<h1 id="pagetitle">Musikhistoria</h1>
 				</header>
-
 				<div id="main" class="row">
-					<div id="pagecontent" class="small-12 large-9 columns">
-						<h2>Välkommen!</h2>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							Quisque quis nisi a ante cursus egestas vitae facilisis
-							libero.
-						</p>
+					<div id="pagecontent" class="small-12 large-6 large-centered columns">
+						<h2> Registrera ny användare </h2>
+
 						<div class="row">
-							<form class="small-12 columns">
+							<form class="small-12 columns" method="post" action="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/registrera-konto">
 								<fieldset>
-									<legend>
-										Logga in:
-									</legend>
 									<div class="row">
-										<div class="small-12 large-5 columns">
-											<label>Användarnamn</label>
-											<input type="text" name="username" autofocus="autofocus" />
+										<div class="small-12 columns">
+											<div data-alert class="alert-box error">
+												<ul class="error-list square">
+													<li>
+														<em>Namn</em> får ej lämnas tomt
+													</li>
+													<li>
+														<em>Användarnamn</em> får ej lämnas tomt
+													</li>
+													<li>
+														<em>Lösenord</em> får ej lämnas tomt
+													</li>
+													<li>
+														<em>Repetera lösenord</em> får ej lämnas tomt
+													</li>
+													<li>
+														<em>Email</em> får ej lämnas tomt
+													</li>
+												</ul>
+												<a href="#" class="close">&times;</a>
+											</div>
 										</div>
-										<div class="small-12 large-5 columns">
-											<label>Lösenord</label>
-											<input type="password" name="password" />
+										<div class="small-12 large-6 columns">
+											<label class="error" for="webschool_user_name">Namn</label>
+											<input type="text" name="webschool_user[name]" value="" autofocus="autofocus" maxlength="40" class="error" id="webschool_user_name" />
 										</div>
-										<div class="small-12 large-2 columns">
-											<input id="logInButton" class="button tiny" type="submit" value="Logga in" />
+										<div class="small-12 large-6 columns">
+											<label class="error" for="webschool_user_user">Användarnamn</label>
+											<input type="text" name="webschool_user[user]" value="" maxlength="25" class="error" id="webschool_user_user" />
+										</div>
+										<div class="small-12 large-6 columns">
+											<label class="error" for="webschool_user_pass">Lösenord</label>
+											<input type="password" name="webschool_user[pass]" maxlength="8" class="error" id="webschool_user_pass" />
+										</div>
+										<div class="small-12 large-6 columns">
+											<label class="error" for="webschool_user_passAgain">Repereta lösenord</label>
+											<input type="password" name="webschool_user[passAgain]" maxlength="8" class="error" id="webschool_user_passAgain" />
+										</div>
+										<div class="small-12 columns">
+											<label class="error" for="webschool_user_email">Epost</label>
+											<input type="text" name="webschool_user[email]" value="" class="error" id="webschool_user_email" />
+										</div>
+										<div class="small-12 columns">
+											<input type="hidden" name="webschool_user[id]" value="" id="webschool_user_id" />
+											<a id="cancelLink" class="button tiny left" href="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/" >Avbryt</a>
+											<input id="sendButton" class="button tiny right" type="submit" value="Ok" />
 										</div>
 									</div>
 								</fieldset>
 							</form>
 						</div>
 					</div>
-					
-					<aside id="sideNav" class="large-3 columns hide-for-small">
-						<ul class="side-nav panel">
-							<li>
-								<a href="#">Lektion 1</a>
-							</li>
-							<li>
-								<a href="#">Lektion 2</a>
-							</li>
-							<li>
-								<a href="#">Lektion 3</a>
-							</li>
-						</ul>
-					</aside>
 				</div>
 			</div>
-			<div id="push">
-			</div>
+			<div id="push"></div>
 		</div>
-		
-		<footer id="pagefoot" class="row">
+		<footer id="pagefoot">
 			<p>
 				&copy; Svante Arvedson
 			</p>
 		</footer>
-		
-		<script src="js/vendor/jquery.js"></script>
-		<script src="js/foundation/foundation.js"></script>
-		<script src="js/foundation/foundation.topbar.js"></script>
 		<script>
 			$(document).foundation();
 		</script>

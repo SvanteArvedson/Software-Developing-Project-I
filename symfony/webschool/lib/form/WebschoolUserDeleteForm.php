@@ -16,9 +16,9 @@ class WebschoolUserDeleteForm extends sfForm
 		$this -> setValidators(array(
 			'pass' => new sfValidatorString(
 					array('max_length' => 8, 'min_length' => 8), 
-					array('required' => 'Får ej lämnas tomt', 
-						'max_length' => 'Måste vara %max_length% tecken', 
-						'min_length' => 'Måste vara %min_length% tecken'))
+					array('required' => '<em>Lösenord</em> får ej lämnas tomt', 
+						'max_length' => '<em>Lösenord</em> måste vara %max_length% tecken', 
+						'min_length' => '<em>Lösenord</em> måste vara %min_length% tecken'))
 		));
 	}
 }

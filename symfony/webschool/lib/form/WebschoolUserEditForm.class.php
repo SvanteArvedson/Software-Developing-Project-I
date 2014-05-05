@@ -20,8 +20,8 @@ class WebschoolUserEditForm extends BaseWebschoolUserForm
 		
 		$this->validatorSchema['passOld'] = new sfValidatorString(
 			array('max_length' => 8, 'min_length' => 8, 'required' => false),
-			array('max_length' => 'Måste vara %max_length% tecken', 
-				'min_length' => 'Måste vara %min_length% tecken')
+			array('max_length' 	=> '<em>Lösenord</em> måste vara %max_length% tecken', 
+				'min_length' 	=> '<em>Lösenord</em> måste vara %min_length% tecken')
 		);
 	}
 }

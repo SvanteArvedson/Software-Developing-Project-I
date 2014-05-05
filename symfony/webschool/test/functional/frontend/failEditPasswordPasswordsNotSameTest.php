@@ -20,10 +20,10 @@ $browser->info('Functional test fail edit password - Empty input fields')->
 		checkElement('#logOutButton', false)->
 	end()->
 	
-	info(' 02 - User clicks "Ok" with username "GulligaHannes" and password "12345678"')->
+	info(' 02 - User clicks "Logga in" with username "GulligaHannes" and password "12345678"')->
 	setField('login[user]', 'GulligaHannes')->
 	setField('login[pass]', '12345678')->
-	click('Ok')->
+	click('Logga in')->
 	
 	with('form')->begin()->
 		hasErrors(false)->

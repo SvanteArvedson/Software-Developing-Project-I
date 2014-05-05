@@ -82,7 +82,7 @@ class userActions extends sfActions
 				}
 				else if ($this->getUser()->getAttribute('user')->getPassword() != $this->form->getValue('passOld'))
 				{
-					$this->errorMessage = 'Du måste ange ditt gamla lösenord för att kunna spara ändringarna.';
+					$this->errorMessage = 'Fel lösenord';
 				}
 				else if (WebschoolUserPeer::checkIfUsernameExists($this->form->getValue('user')) 
 					&& $this->form->getValue('user') != $user->getUsername())
@@ -153,7 +153,7 @@ class userActions extends sfActions
 	public function executeIndex(sfWebRequest $request)
 	{
 		$this->form = null;
-		$this->loginfailed = null;
+		$this->errorMessage = null;
 		
 		if ($request->isMethod('get')) 
 		{
@@ -194,7 +194,7 @@ class userActions extends sfActions
 						$this->redirect($this->generateUrl('homepage'));
 					}
 					
-					$this->loginfailed = 'Felaktigt använarnamn eller lösenord';
+					$this->errorMessage = 'Felaktigt <em>Använarnamn</em> eller <em>Lösenord</em>';
 					return UserView::UNAUTHENTICATED;
 				}
 
@@ -208,7 +208,7 @@ class userActions extends sfActions
 	 */
 	public function executeNew(sfWebRequest $request)
 	{
-		$this->usernameExists = null;
+		$this->errorMessage = null;
 		
 		if ($this->getUser()->isAuthenticated())
 		{
@@ -243,7 +243,7 @@ class userActions extends sfActions
 						Kontakta administratören om promlemet inte försvinner.');
 				}
 				
-				$this->usernameExists = 'Användarnamnet är upptaget. Välj ett annat.';
+				$this->errorMessage = 'Användarnamnet är upptaget. Välj ett annat.';
 			}
 		}
 		else if ($request->isMethod('get'))

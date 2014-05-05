@@ -20,8 +20,8 @@ $browser->info('Functional test fail login with no input')->
 		checkElement('#logOutButton', false)->
 	end()->
 	
-	info(' 02 - User clicks "Ok" with empty fields')->
-	click('Ok')->
+	info(' 02 - User clicks "Logga in" with empty fields')->
+	click('Logga in')->
 	
 	with('form')->begin()->
 		hasErrors(true)->

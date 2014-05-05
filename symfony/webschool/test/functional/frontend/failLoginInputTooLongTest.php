@@ -20,10 +20,10 @@ $browser->info('Functional test fail login with too long input')->
 		checkElement('#logOutButton', false)->
 	end()->
 	
-	info(' 02 - User clicks "Ok" with too long strings as input')->
+	info(' 02 - User clicks "Logga in" with too long strings as input')->
 	setField('login[user]', 'abcdabcdabcdabcdabcdabcdabcd')->
 	setField('login[pass]', 'abcdabcdabcd')->
-	click('Ok')->
+	click('Logga in')->
 	
 	with('form')->begin()->
 		hasErrors(true)->

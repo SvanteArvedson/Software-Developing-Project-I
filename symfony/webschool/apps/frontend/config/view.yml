@@ -9,9 +9,9 @@ default:
     language:     sv
     #robots:       index, follow
 
-  stylesheets:    [normalize.css, foundation.css, main.css]
+  stylesheets:    [normalize.css, foundation.css, foundation-grid-5.css, main.css]
 
-  javascripts:    [/js/vendor/custom.modernizr.js, /js/vendor/jquery.js, /js/foundation/foundation.js, /js/foundation/foundation.topbar.js, /js/foundation/foundation.alerts.js]
+  javascripts:    [/js/vendor/custom.modernizr.js, /js/vendor/jquery.js, /js/foundation/foundation.js, /js/foundation/foundation.topbar.js, /js/foundation/foundation.alerts.js, /js/foundation/foundation.dropdown.js]
 
   has_layout:     on
   layout:         layout

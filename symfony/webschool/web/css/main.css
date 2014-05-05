@@ -4,19 +4,20 @@ html, body {
 	height: 100%;
 }
 
+.button {
+	margin: 0;
+}
+
 #container {
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
 	margin: 0 auto -2em;
-	
 }
 
 #pagefoot, #push {
 	height: 2em;
 } /* End general rules */
-
-
 
 /* Rules for top navigation */
 #backToHome {
@@ -27,23 +28,20 @@ html, body {
 	color: #fff5ee;
 } /* End rules for top navigation */
 
-
-
 /* Rules for header */
 #header {
 	height: 100px;
-	background: #9e7fb8;
 }
 
 #pagetitle {
 	line-height: 100px;
-	color: #fff5ee;
+	color: #3b3c36;
+	text-shadow: 1px 1px 1px #9e7fb8;
 	margin: 0;
 	width: 100%;
 	text-align: center;
+	font-family: "Book Antiqua", "serif";
 } /* End rules for header */
-
-
 
 /* Rules for page content */
 #pagecontent h2 {
@@ -55,27 +53,78 @@ html, body {
 }
 
 #logInButton {
-	max-width: 83px;
-	width: 100%;
 	margin-top: 18px;
-} /* End rules for page content */
-
-
-
-/* Rules for page side navigation */
-#sideNav .panel {
-	margin: 40px auto 0;
-	background: #cea5f0;
-	border: none;
-	max-width: 180px;
 }
 
-#sideNav li a {
-	color: #fff5ee;
-	text-align: center;
-	font-size: 1.2em;
-} /* End rules for page side navigation */
+#logOutButton{
+	margin-bottom: 13px;
+}
 
+.submitInstructions {
+	padding-top: 30px;
+}
+
+.panel.instructions {
+	padding: 0.8em;
+}
+
+.panel.instructions p {
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+.submitPassword {
+	padding-top: 30px;
+}
+
+@media (max-width: 1023px) {
+	.submitPassword {
+		padding-top: 0;
+	}
+}
+
+.submitDeleteInstructions, .submitDeletePassword {
+	padding-top: 0;
+}
+
+input.error {
+	margin-bottom: 14px;
+} /* End rules for page content */
+
+/* Rules for alert-boxes */
+.alert-box {
+	background: #c07cf7;
+	padding: 10px;
+	margin-top: 20px;
+	border-color: #7b40ad;
+}
+	.alert-box p {
+		margin: 0;
+		font-style: italic;
+		font-weight: bold;
+	}
+	
+.alert-box.error {
+	background: #c60f13;
+	padding: 10px;
+	margin-top: 0;
+	border-color: #960b0e;
+}
+	.alert-box.error p {
+		margin: 0;
+		color: #fff5ee;
+		font-style: italic;
+		font-weight: bold;
+	}
+
+.error-list {
+	color: #fff5ee;
+	text-style: italic;
+	list-style-position: inside;
+	font-size: 0.9em;
+	margin: 0;
+}
+/* End rules for alert-boxes */
 
 
 /* Rules for page foot */
@@ -87,7 +136,7 @@ html, body {
 	color: #fff5ee;
 	width: 100%;
 	text-align: center;
-	margin-top: 0.8em;
+	padding-top: 0.8em;
 	margin-bottom: 0;
 	font-size: 0.8em;
 	line-height: 1em;

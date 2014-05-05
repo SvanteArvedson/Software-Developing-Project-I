@@ -220,16 +220,16 @@ elaboration-fas.
 	</tr>
 	<tr>
 		<td></td>
-		<td>Designa loggan</td>
-		<td>Ej påbörjad</td>
-		<td>3</td>
-		<td></td>
+		<td>Skriv CSS för formulären</td>
+		<td>Klart</td>
+		<td>7</td>
+		<td>7</td>
 	</tr>
 	<tr>
 		<td></td>
 		<td></td>
 		<td>Summa</td>
-		<td>39</td>
-		<td>25</td>
+		<td>43</td>
+		<td>32</td>
 	</tr>
 </table>
