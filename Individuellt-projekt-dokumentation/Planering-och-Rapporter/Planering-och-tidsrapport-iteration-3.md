@@ -234,7 +234,7 @@ elaboration-fas.
 	</tr>
 	<tr>
 		<td></td>
-		<td>Gör testfall och skriv testrapport</td>
+		<td>Genomför testfall och skriv testrapport</td>
 		<td>Klart</td>
 		<td>1</td>
 		<td>1</td>

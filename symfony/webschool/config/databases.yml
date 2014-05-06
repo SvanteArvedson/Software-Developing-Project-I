@@ -19,17 +19,17 @@ test:
       username: 'appUser'
       password: 'secretPass'
 
-#prod:
-#  propel:
-#    class: sfPropelDatabase
-#    param:
-#      classname: PropelPDO
-#      dsn: 'mysql:host=localhost;dbname=webschool'
-#      username: 'appUser'
-#      password: 'mhJh09!0'
-#      encoding: utf8
-#      persistent: true
-#      pooling: true
+prod:
+  propel:
+    class: sfPropelDatabase
+    param:
+      classname: PropelPDO
+      dsn: 'mysql:host=localhost;dbname=webschool'
+      username: 'appUser'
+      password: '45Lxvo2$'
+      encoding: utf8
+      persistent: true
+      pooling: true
 
 all:
   propel:

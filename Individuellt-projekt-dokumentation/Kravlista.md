@@ -59,13 +59,49 @@ Senast uppdaterad 4/5 2014 klo 01:30 av Svante Arvedson
 		<td>Hög</td>
 	</tr>
 	<tr>
+		<td>AF13</td>
+		<td><a href="Anvandningsfall/AF13-Andra-innehall-i-en-lektion.md">Ändra innehåll i en lektion</a></td>
+		<td>Svante Arvedson</td>
+		<td><a href="Anvandningsfall/DF1-Logga-in.md">DF1</a></td>
+		<td>Ej påbörjad</td>
+		<td>BF1, BF2</td>
+		<td>Medel</td>
+	</tr>
+	<tr>
+		<td>AF14</td>
+		<td><a href="Anvandningsfall/AF14-Lagg-till-ny-lektion.md">Lägg till ny lektion</a></td>
+		<td>Svante Arvedson</td>
+		<td><a href="Anvandningsfall/DF1-Logga-in.md">DF1</a></td>
+		<td>Ej påbörjad</td>
+		<td>BF1, BF2</td>
+		<td>Medel</td>
+	</tr>
+	<tr>
+		<td>AF15</td>
+		<td><a href="Anvandningsfall/AF15-Ta-bort-lektion.md">Ta bort lektion</a></td>
+		<td>Svante Arvedson</td>
+		<td><a href="Anvandningsfall/DF1-Logga-in.md">DF1</a></td>
+		<td>Ej påbörjad</td>
+		<td>BF1, BF2</td>
+		<td>Medel</td>
+	</tr>
+	<tr>
+		<td>AF16</td>
+		<td><a href="Anvandningsfall/AF16-Andra-innehall-i-test.md">Ändra innehåll i test</a></td>
+		<td>Svante Arvedson</td>
+		<td><a href="Anvandningsfall/DF1-Logga-in.md">DF1</a></td>
+		<td>Ej påbörjad</td>
+		<td>BF1, BF2</td>
+		<td>Medel</td>
+	</tr>
+	<tr>
 		<td>AF5</td>
 		<td><a href="Anvandningsfall/AF5-Skriv-ett-inlagg-i-forumet.md">Skriv ett inlägg i forumet</a></td>
 		<td>Svante Arvedson</td>
 		<td><a href="Anvandningsfall/DF1-Logga-in.md">DF1</a></td>
 		<td>Ej påbörjad</td>
 		<td>BF1, BF2, BF3</td>
-		<td>Medel</td>
+		<td>Låg</td>
 	</tr>
 	<tr>
 		<td>AF11</td>
@@ -79,42 +115,6 @@ Senast uppdaterad 4/5 2014 klo 01:30 av Svante Arvedson
 	<tr>
 		<td>AF12</td>
 		<td><a href="Anvandningsfall/AF12-Radera-inlagg-fran-forumet.md">Radera inlägg från forumet</a></td>
-		<td>Svante Arvedson</td>
-		<td><a href="Anvandningsfall/DF1-Logga-in.md">DF1</a></td>
-		<td>Ej påbörjad</td>
-		<td>BF1, BF2</td>
-		<td>Låg</td>
-	</tr>
-	<tr>
-		<td>AF13</td>
-		<td><a href="Anvandningsfall/AF13-Andra-innehall-i-en-lektion.md">Ändra innehåll i en lektion</a></td>
-		<td>Svante Arvedson</td>
-		<td><a href="Anvandningsfall/DF1-Logga-in.md">DF1</a></td>
-		<td>Ej påbörjad</td>
-		<td>BF1, BF2</td>
-		<td>Låg</td>
-	</tr>
-	<tr>
-		<td>AF14</td>
-		<td><a href="Anvandningsfall/AF14-Lagg-till-ny-lektion.md">Lägg till ny lektion</a></td>
-		<td>Svante Arvedson</td>
-		<td><a href="Anvandningsfall/DF1-Logga-in.md">DF1</a></td>
-		<td>Ej påbörjad</td>
-		<td>BF1, BF2</td>
-		<td>Låg</td>
-	</tr>
-	<tr>
-		<td>AF15</td>
-		<td><a href="Anvandningsfall/AF15-Ta-bort-lektion.md">Ta bort lektion</a></td>
-		<td>Svante Arvedson</td>
-		<td><a href="Anvandningsfall/DF1-Logga-in.md">DF1</a></td>
-		<td>Ej påbörjad</td>
-		<td>BF1, BF2</td>
-		<td>Låg</td>
-	</tr>
-	<tr>
-		<td>AF16</td>
-		<td><a href="Anvandningsfall/AF16-Andra-innehall-i-test.md">Ändra innehåll i test</a></td>
 		<td>Svante Arvedson</td>
 		<td><a href="Anvandningsfall/DF1-Logga-in.md">DF1</a></td>
 		<td>Ej påbörjad</td>
@@ -189,8 +189,6 @@ Senast uppdaterad 4/5 2014 klo 01:30 av Svante Arvedson
 		<th>ID</th>
 		<th>Namn</th>
 		<th>Författare</th>
-		<th>Beroende</th>
-		<th>Status</th>
 		<th>Baskrav</th>
 	</tr>
 	<tr>
@@ -198,15 +196,11 @@ Senast uppdaterad 4/5 2014 klo 01:30 av Svante Arvedson
 		<td><a href="Vision.md#baskrav">Applikationen ska vara tillgänglig från mobila enheter såväl som stationära datorer.</td>
 		<td>Svante Arvedson</td>
 		<td></td>
-		<td>Ej påbörjad</td>
-		<td></td>
 	</tr>
 	<tr>
 		<td>BF2</td>
 		<td><a href="Vision.md#baskrav">Applikationen ska fungera med webbläsarna IE, FireFox, Chrome, Safari och Opera.</a></td>
 		<td>Svante Arvedson</td>
-		<td></td>
-		<td>Ej påbörjad</td>
 		<td></td>
 	</tr>
 	<tr>
@@ -214,15 +208,11 @@ Senast uppdaterad 4/5 2014 klo 01:30 av Svante Arvedson
 		<td><a href="Vision.md#baskrav">Det ska vara lätt att förstå hur applikationen fungerar även för användare utan stor datorvana.</a></td>
 		<td>Svante Arvedson</td>
 		<td></td>
-		<td>Ej påbörjad</td>
-		<td></td>
 	</tr>
 	<tr>
 		<td>BF4</td>
 		<td><a href="Vision.md#baskrav">Applikationen ska innehålla information och läromedel som är lätt att förstå och lätt att ta till sig.</a></td>
 		<td>Svante Arvedson</td>
-		<td></td>
-		<td>Ej påbörjad</td>
 		<td></td>
 	</tr>
 </table>
