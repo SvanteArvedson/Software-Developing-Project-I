@@ -21,8 +21,8 @@ $browser->info('Functional test fail edit password - Empty input fields')->
 	end()->
 	
 	info(' 02 - User clicks "Logga in" with username "GulligaHannes" and password "12345678"')->
-	setField('login[user]', 'GulligaHannes')->
-	setField('login[pass]', '12345678')->
+	setField('login[username]', 'GulligaHannes')->
+	setField('login[password]', '12345678')->
 	click('Logga in')->
 	
 	with('form')->begin()->
@@ -62,9 +62,9 @@ $browser->info('Functional test fail edit password - Empty input fields')->
 	end()->
 	
 	info(' 02 - User clicks "Ok" with parameters')->
-	setField('webschool_user_edit_password[pass]', '98765432')->
-	setField('webschool_user_edit_password[passAgain]', '98765432')->
-	setField('webschool_user_edit_password[passOld]', 'asdfghjk')->
+	setField('user_edit_password[password]', '98765432')->
+	setField('user_edit_password[passwordAgain]', '98765432')->
+	setField('user_edit_password[passwordOld]', 'asdfghjk')->
 	click('Ok')->
 	
 	with('form')->begin()->

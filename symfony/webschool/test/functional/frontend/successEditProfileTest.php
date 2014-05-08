@@ -21,8 +21,8 @@ $browser->info('Functional test successful edit profile')->
 	end()->
 	
 	info(' 02 - User clicks "Logga in" with username "GulligaHannes" and password "12345678"')->
-	setField('login[user]', 'GulligaHannes')->
-	setField('login[pass]', '12345678')->
+	setField('login[username]', 'GulligaHannes')->
+	setField('login[password]', '12345678')->
 	click('Logga in')->
 	
 	with('form')->begin()->
@@ -62,10 +62,10 @@ $browser->info('Functional test successful edit profile')->
 	end()->
 	
 	info(' 02 - User clicks "Ok" with parameters')->
-	setField('webschool_user[name]', 'Hannes Hansson')->
-	setField('webschool_user[email]', 'fula_hannes@hotmail.com')->
-	setField('webschool_user[user]', 'FulaHannes')->
-	setField('webschool_user[passOld]', '12345678')->
+	setField('user[name]', 'Hannes Hansson')->
+	setField('user[email]', 'fula_hannes@hotmail.com')->
+	setField('user[username]', 'FulaHannes')->
+	setField('user[passwordOld]', '12345678')->
 	click('Ok')->
 	
 	with('form')->begin()->

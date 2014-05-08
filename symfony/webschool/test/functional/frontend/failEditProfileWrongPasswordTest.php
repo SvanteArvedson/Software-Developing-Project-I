@@ -21,8 +21,8 @@ $browser->info('Functional test fail edit profile - Wrong password')->
 	end()->
 	
 	info(' 02 - User clicks "Logga in" with username "GulligaHannes" and password "12345678"')->
-	setField('login[user]', 'GulligaHannes')->
-	setField('login[pass]', '12345678')->
+	setField('login[username]', 'GulligaHannes')->
+	setField('login[password]', '12345678')->
 	click('Logga in')->
 	
 	with('form')->begin()->
@@ -62,10 +62,10 @@ $browser->info('Functional test fail edit profile - Wrong password')->
 	end()->
 	
 	info(' 02 - User clicks "Ok" with parameters')->
-	setField('webschool_user[name]', 'Hannes Karlsson')->
-	setField('webschool_user[email]', 'gulliga_hannes@hotmail.com')->
-	setField('webschool_user[user]', 'GulligaHannes')->
-	setField('webschool_user[passOld]', '22233314')->
+	setField('user[name]', 'Hannes Karlsson')->
+	setField('user[email]', 'gulliga_hannes@hotmail.com')->
+	setField('user[username]', 'GulligaHannes')->
+	setField('user[passwordOld]', '22233314')->
 	click('Ok')->
 	
 	with('form')->begin()->

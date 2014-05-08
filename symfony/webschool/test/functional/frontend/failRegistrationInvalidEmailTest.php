@@ -21,11 +21,11 @@ $browser->info('Functional test fail registration - Invalid email')->
 	end()->
 	
 	info(' 02 - User clicks "Ok" with parameters')->
-	setField('webschool_user[name]', 'Gustav Hansson')->
-	setField('webschool_user[email]', 'gurkancoolhotmailcom')->
-	setField('webschool_user[user]', 'Gurkan')->
-	setField('webschool_user[pass]', '4ttBr4L4')->
-	setField('webschool_user[passAgain]', '4ttBr4L4')->
+	setField('user[name]', 'Gustav Hansson')->
+	setField('user[email]', 'gurkancoolhotmailcom')->
+	setField('user[username]', 'Gurkan')->
+	setField('user[password]', '4ttBr4L4')->
+	setField('user[passwordAgain]', '4ttBr4L4')->
 	click('Ok')->
 	
 	with('form')->begin()->

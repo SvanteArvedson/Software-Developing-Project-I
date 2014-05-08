@@ -155,58 +155,86 @@ för att få en okej leverans i slutet av iterationen.
 	</tr>
 	<tr>
 		<td><a href="/../Anvandningsfall/AF3-Las-en-lektion-och-gor-tillhorande-test.md">AF3</a></td>
-		<td>Implementera AF3</td>
+		<td>Implementation AF3 - Skriv CSS</td>
+		<td>Ej påbörjat</td>
+		<td>3</td>
 		<td></td>
+	</tr>
+	<tr>
+		<td><a href="/../Anvandningsfall/AF3-Las-en-lektion-och-gor-tillhorande-test.md">AF3</a></td>
+		<td>Implementation AF3 - Gör databasschemat, skriv schema.yml och fixtures</td>
+		<td>Klart</td>
+		<td>1</td>
+		<td>4</td>
+	</tr>
+	<tr>
+		<td><a href="/../Anvandningsfall/AF3-Las-en-lektion-och-gor-tillhorande-test.md">AF3</a></td>
+		<td>Implementation AF3 - Skriv klientkod</td>
+		<td>Ej påbörjat</td>
+		<td>4</td>
 		<td></td>
+	</tr>
+	<tr>
+		<td><a href="/../Anvandningsfall/AF3-Las-en-lektion-och-gor-tillhorande-test.md">AF3</a></td>
+		<td>Implementation AF3 - Skriv controller-metod</td>
+		<td>Påbörjat</td>
+		<td>6</td>
+		<td>1</td>
+	</tr>
+	<tr>
+		<td><a href="/../Anvandningsfall/AF3-Las-en-lektion-och-gor-tillhorande-test.md">AF3</a></td>
+		<td>Implementation AF3 - Skriv automatiska tester</td>
+		<td>Ej påbörjat</td>
+		<td>2</td>
 		<td></td>
 	</tr>
 	<tr>
 		<td><a href="/../Anvandningsfall/AF4-Visa-statistik-over-gjorda-tester.md">AF4</a></td>
-		<td>Implementera AF4</td>
+		<td>Implementation AF4 - Skriv CSS</td>
+		<td>Ej påbörjat</td>
+		<td>2</td>
 		<td></td>
+	</tr>
+	<tr>
+		<td><a href="/../Anvandningsfall/AF4-Visa-statistik-over-gjorda-tester.md">AF4</a></td>
+		<td>Implementation AF4 - Skriv controller-metod</td>
+		<td>Ej påbörjat</td>
+		<td>3</td>
 		<td></td>
+	</tr>
+	<tr>
+		<td><a href="/../Anvandningsfall/AF4-Visa-statistik-over-gjorda-tester.md">AF4</a></td>
+		<td>Implementation AF4 - Skriv automatiska tester</td>
+		<td>Ej påbörjat</td>
+		<td>1</td>
 		<td></td>
 	</tr>
 	<tr>
 		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
+		<td>Publicera applikationen på webbhotellet</td>
+		<td>Ej påbörjat</td>
+		<td>1</td>
 		<td></td>
 	</tr>
 	<tr>
 		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
+		<td>Skriv och genomför testfall, skriv testrapport</td>
+		<td>Ej påbörjat</td>
+		<td>3</td>
 		<td></td>
 	</tr>
 	<tr>
 		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
+		<td>Laga applikationen efter att databasen är ändrad</td>
+		<td>Klart</td>
+		<td>2</td>
+		<td>5</td>
 	</tr>
 	<tr>
 		<td></td>
 		<td></td>
 		<td>Summa</td>
-		<td></td>
-		<td></td>
+		<td>28</td>
+		<td>10</td>
 	</tr>
 </table>

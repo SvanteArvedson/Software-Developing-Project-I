@@ -53,29 +53,29 @@ if (!empty($errorMessage) || $form->hasErrors())
 echo					'<div class="row">
 							<div class="small-12 large-5 columns">';
 
-if ($form['user'] -> hasError())
+if ($form['username'] -> hasError())
 {
-	echo 						$form['user'] -> renderLabel('Användarnamn', array('class' => 'error'));
-	echo 						$form['user'] -> render(array('autofocus' => 'autofocus', 'class' => 'error', 'maxlength' => '25'));
+	echo 						$form['username'] -> renderLabel('Användarnamn', array('class' => 'error'));
+	echo 						$form['username'] -> render(array('autofocus' => 'autofocus', 'class' => 'error', 'maxlength' => '25'));
 }
 else
 {
-	echo    					$form['user'] -> renderLabel('Användarnamn');
-	echo    					$form['user'] -> render(array('autofocus' => 'autofocus', 'maxlength' => '25'));
+	echo    					$form['username'] -> renderLabel('Användarnamn');
+	echo    					$form['username'] -> render(array('autofocus' => 'autofocus', 'maxlength' => '25'));
 }
 
 echo 						'</div>
 							<div class="small-12 large-5 columns">';
 	
-if ($form['pass'] -> hasError())
+if ($form['password'] -> hasError())
 {
-	echo 						$form['pass'] -> renderLabel('Lösenord', array('class' => 'error'));
-	echo 						$form['pass'] -> render(array('class' => 'error', 'maxlength' => '8'));
+	echo 						$form['password'] -> renderLabel('Lösenord', array('class' => 'error'));
+	echo 						$form['password'] -> render(array('class' => 'error', 'maxlength' => '8'));
 }
 else
 {
-	echo 						$form['pass'] -> renderLabel('Lösenord');
-	echo 						$form['pass'] -> render(array('maxlength' => '8'));
+	echo 						$form['password'] -> renderLabel('Lösenord');
+	echo 						$form['password'] -> render(array('maxlength' => '8'));
 }
 
 echo 						'</div>

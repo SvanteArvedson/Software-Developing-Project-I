@@ -1,6 +1,6 @@
 <?php
 
-class WebschoolUserDeleteForm extends sfForm 
+class UserDeleteForm extends sfForm 
 {
 	/**
 	 * Configure the delete form
@@ -8,13 +8,13 @@ class WebschoolUserDeleteForm extends sfForm
 	public function configure()
 	{
 		$this -> setWidgets(array(
-			'pass' => new sfWidgetFormInputPassword(),
+			'password' => new sfWidgetFormInputPassword(),
 		));
 		
-		$this -> widgetSchema->setNameFormat('webschool_user_delete[%s]');
+		$this -> widgetSchema->setNameFormat('user_delete[%s]');
 		
 		$this -> setValidators(array(
-			'pass' => new sfValidatorString(
+			'password' => new sfValidatorString(
 					array('max_length' => 8, 'min_length' => 8), 
 					array('required' => '<em>Lösenord</em> får ej lämnas tomt', 
 						'max_length' => '<em>Lösenord</em> måste vara %max_length% tecken', 

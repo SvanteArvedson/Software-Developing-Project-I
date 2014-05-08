@@ -67,15 +67,15 @@ echo 					'</div>
 						</div>
 						<div class="small-12 large-6 columns submitDeletePassword">';
 
-if ($form['pass']->hasError())
+if ($form['password']->hasError())
 {
-	echo 					$form['pass']->renderLabel('Lösenord', array('class'=>'error'));
-	echo 					$form['pass']->render(array('autofocus' => 'autofocus', 'maxlength' => '8', 'class'=>'error'));
+	echo 					$form['password']->renderLabel('Lösenord', array('class'=>'error'));
+	echo 					$form['password']->render(array('autofocus' => 'autofocus', 'maxlength' => '8', 'class'=>'error'));
 }
 else
 {
-	echo 					$form['pass']->renderLabel('Lösenord');
-	echo 					$form['pass']->render(array('autofocus' => 'autofocus', 'maxlength' => '8'));
+	echo 					$form['password']->renderLabel('Lösenord');
+	echo 					$form['password']->render(array('autofocus' => 'autofocus', 'maxlength' => '8'));
 
 }
 

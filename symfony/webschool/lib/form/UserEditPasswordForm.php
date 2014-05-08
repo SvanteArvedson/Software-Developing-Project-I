@@ -1,6 +1,6 @@
 <?php
 
-class WebschoolUserEditPasswordForm extends sfForm 
+class UserEditPasswordForm extends sfForm 
 {
 	/**
 	 * Configure the edit password form
@@ -8,25 +8,25 @@ class WebschoolUserEditPasswordForm extends sfForm
 	public function configure()
 	{
 		$this -> setWidgets(array(
-			'pass' 	 	=> new sfWidgetFormInputPassword(),
-      		'passAgain'	=> new sfWidgetFormInputPassword(),
-      		'passOld' 	=> new sfWidgetFormInputPassword()
+			'password' 	 	=> new sfWidgetFormInputPassword(),
+      		'passwordAgain'	=> new sfWidgetFormInputPassword(),
+      		'passwordOld' 	=> new sfWidgetFormInputPassword()
 		));
 		
-		$this -> widgetSchema->setNameFormat('webschool_user_edit_password[%s]');
+		$this -> widgetSchema->setNameFormat('user_edit_password[%s]');
 		
 		$this -> setValidators(array(
-			'pass' => new sfValidatorString(
+			'password' => new sfValidatorString(
 					array('max_length' => 8, 'min_length' => 8), 
 					array('required' => '<em>Nytt lösenord</em> får ej lämnas tomt', 
 						'max_length' => '<em>Nytt lösenord</em> måste vara %max_length% tecken', 
 						'min_length' => '<em>Nytt lösenord</em> måste vara %min_length% tecken')),
-			'passAgain' => new sfValidatorString(
+			'passwordAgain' => new sfValidatorString(
 					array('max_length' => 8, 'min_length' => 8), 
 					array('required' => '<em>Repetera nytt lösenord</em> får ej lämnas tomt', 
 						'max_length' => '<em>Repetera nytt lösenord</em> måste vara %max_length% tecken', 
 						'min_length' => '<em>Repetera nytt lösenord</em> måste vara %min_length% tecken')),
-			'passOld' => new sfValidatorString(
+			'passwordOld' => new sfValidatorString(
 					array('max_length' => 8, 'min_length' => 8), 
 					array('required' => '<em>Nuvarande lösenord</em> får ej lämnas tomt', 
 						'max_length' => '<em>Nuvarande lösenord</em> måste vara %max_length% tecken', 
@@ -35,7 +35,7 @@ class WebschoolUserEditPasswordForm extends sfForm
 		));
 		
 		$this->validatorSchema->setPostValidator(
-			new sfValidatorSchemaCompare('pass', sfValidatorSchemaCompare::EQUAL, 'passAgain',
+			new sfValidatorSchemaCompare('password', sfValidatorSchemaCompare::EQUAL, 'passwordAgain',
 				array('throw_global_error' => true),
 				array('invalid' => '<em>Nytt lösenord</em> och <em>Repetera nytt lösenord</em> måste vara samma')
 			)

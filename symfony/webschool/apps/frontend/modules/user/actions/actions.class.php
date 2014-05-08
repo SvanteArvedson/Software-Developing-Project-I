@@ -15,15 +15,15 @@ class userActions extends sfActions
 	public function executeDelete(sfWebRequest $request)
 	{
 		$this->errorMessage = null;
-		$this->form = new WebschoolUserDeleteForm();
+		$this->form = new UserDeleteForm();
 		
 		if ($request->isMethod('post'))
 		{
-			$this->form->bind($request->getParameter('webschool_user_delete'));
+			$this->form->bind($request->getParameter('user_delete'));
 			
 			if ($this->form->isValid())
 			{
-				if ($this->getUser()->getAttribute('user')->getPassword() != $this->form->getValue('pass'))
+				if ($this->getUser()->getAttribute('user')->getPassword() != $this->form->getValue('password'))
 				{
 					$this->errorMessage = 'Fel lösenord';
 				}
@@ -32,7 +32,14 @@ class userActions extends sfActions
 					try
 					{
 						$user = $this->getUser()->getAttribute('user');
-						WebschoolUserPeer::doDelete($user);
+						$userID = $user->getUserid();
+						$results = ResultPeer::retrieveByUserID($userID);
+						$resultIDs = array();
+						foreach ($results as $result) {
+							$resultIDs[] = $result->getResultid();
+						}
+						ResultPeer::doDelete($resultIDs);
+						UserPeer::doDelete($user);
 					}
 					catch(exception $error)
 					{
@@ -54,20 +61,20 @@ class userActions extends sfActions
 	public function executeEdit(sfWebRequest $request)
 	{
 		$this->errorMessage = null;
-		$this->form = new WebschoolUserEditForm();
+		$this->form = new UserEditForm();
 		
 		if ($request->isMethod('get'))
 		{
 			$this->form->bind(array(
-				'id' => $this->getUser()->getAttribute('user')->getId(),
-				'user' => $this->getUser()->getAttribute('user')->getUsername(),
+				'userID' => $this->getUser()->getAttribute('user')->getUserid(),
+				'username' => $this->getUser()->getAttribute('user')->getUsername(),
 				'name' => $this->getUser()->getAttribute('user')->getName(),
 				'email' => $this->getUser()->getAttribute('user')->getEmail()
 			));
 		}
 		else
 		{
-			$this->form->bind($request->getParameter('webschool_user'));
+			$this->form->bind($request->getParameter('user'));
 
 			if ($this->form->isValid())
 			{
@@ -75,17 +82,17 @@ class userActions extends sfActions
 				
 				if($user->getName() == $this->form->getValue('name') 
 						&& $user->getEmail() == $this->form->getValue('email')
-						&& $user->getUsername() == $this->form->getValue('user'))
+						&& $user->getUsername() == $this->form->getValue('usernamn'))
 				{
 					$this->getUser()->setFlash('message', 'Du ändrade inte dina kontouppgifter');
 					$this->redirect($this->generateUrl('homepage'));
 				}
-				else if ($this->getUser()->getAttribute('user')->getPassword() != $this->form->getValue('passOld'))
+				else if ($this->getUser()->getAttribute('user')->getPassword() != $this->form->getValue('passwordOld'))
 				{
 					$this->errorMessage = 'Fel lösenord';
 				}
-				else if (WebschoolUserPeer::checkIfUsernameExists($this->form->getValue('user')) 
-					&& $this->form->getValue('user') != $user->getUsername())
+				else if (UserPeer::checkIfUsernameExists($this->form->getValue('username')) 
+					&& $this->form->getValue('username') != $user->getUsername())
 				{
 					$this->errorMessage = 'Användarnamnet är upptaget. Välj ett annat.';
 				}
@@ -93,7 +100,7 @@ class userActions extends sfActions
 				{
 					$user->setName($this->form->getValue('name'));
 					$user->setEmail($this->form->getValue('email'));
-					$user->setUsername($this->form->getValue('user'));
+					$user->setUsername($this->form->getValue('username'));
 					$user->save();
 					
 					$this->getUser()->setFlash('message', 'Ändringarna har sparats');
@@ -109,15 +116,15 @@ class userActions extends sfActions
 	 public function executeEditpassword(sfWebRequest $request)
 	 {
 	 	$this->errorMessage = null;
-		$this->form = new WebschoolUserEditPasswordForm();
+		$this->form = new UserEditPasswordForm();
 		
 		if ($request->isMethod('post'))
 		{
-			$this->form->bind($request->getParameter('webschool_user_edit_password'));
+			$this->form->bind($request->getParameter('user_edit_password'));
 			
 			if ($this->form->isValid())
 			{
-				if ($this->getUser()->getAttribute('user')->getPassword() != $this->form->getValue('passOld'))
+				if ($this->getUser()->getAttribute('user')->getPassword() != $this->form->getValue('passwordOld'))
 				{
 					$this->errorMessage = 'Fel lösenord.';
 				}
@@ -126,14 +133,14 @@ class userActions extends sfActions
 					$user = $this->getUser()->getAttribute('user');
 					try
 					{
-						$user->setPassword($this->form->getValue('pass'));
+						$user->setPassword($this->form->getValue('password'));
 						$user->save();
 					}
 					catch(Exception $e)
 					{
-						$user->setPassword($this->form->getValue('passOld'));
+						$user->setPassword($this->form->getValue('passwordOld'));
 						$this->getUser()->setFlash('error', 'Ett fel inträffade när lösenorder skulle ändras.');
-						$this->redirect($this->generateUrl('webschool_user_edit_password'));
+						$this->redirect($this->generateUrl('user_edit_password'));
 					}
 					
 					$this->getUser()->setFlash('success', 'Lösenordet har ändrats.');
@@ -182,10 +189,10 @@ class userActions extends sfActions
 				$this->form->bind($request->getParameter('login'));
 				
 				if ($this->form->isValid()) {
-					$username = $this->form->getValue('user');
-					$password = $this->form->getValue('pass');
+					$username = $this->form->getValue('username');
+					$password = $this->form->getValue('password');
 					
-					$user = WebschoolUserPeer::retrieveByUsernameAndPass($username, $password);
+					$user = UserPeer::retrieveByUsernameAndPass($username, $password);
 					
 					if (!empty($user))
 					{	
@@ -217,19 +224,19 @@ class userActions extends sfActions
 		
 		if ($request->isMethod('post'))
 		{
-			$this->form = new WebschoolUserForm();
-			$this->form->bind($request->getParameter('webschool_user'));
+			$this->form = new UserForm();
+			$this->form->bind($request->getParameter('user'));
 			
 			if ($this->form->isValid())
 			{
-				if (!WebschoolUserPeer::checkIfUsernameExists($this->form->getValue('user')))
+				if (!UserPeer::checkIfUsernameExists($this->form->getValue('username')))
 				{
-					$newUser = new WebschoolUser();
+					$newUser = new User();
 					
 					$newUser->setName($this->form->getValue('name'));
 					$newUser->setEmail($this->form->getValue('email'));
-					$newUser->setUsername($this->form->getValue('user'));
-					$newUser->setPassword($this->form->getValue('pass'));
+					$newUser->setUsername($this->form->getValue('username'));
+					$newUser->setPassword($this->form->getValue('password'));
 					
 					if ($newUser->validate())
 					{
@@ -248,7 +255,7 @@ class userActions extends sfActions
 		}
 		else if ($request->isMethod('get'))
 		{
-			$this->form = new WebschoolUserForm();
+			$this->form = new UserForm();
 		}
 	}
 }

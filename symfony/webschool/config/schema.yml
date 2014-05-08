@@ -1,8 +1,35 @@
 # Configure database
 propel:
-  webschool_user:
-    id: ~
+  user:
+    userID: { type: integer, required: true, primaryKey: true, autoIncrement: true }
     username: { type: varchar(25), required: true }
     password: { type: varchar(8), required: true }
     name: { type: varchar(40), required: true }
     email: { type: varchar(50), required: true }
+
+  result:
+    resultID: { type: integer, required: true, primaryKey: true, autoIncrement: true }
+    lessonID: { type: integer, required: true,  foreignTable: lesson, foreignReference: lessonID }
+    userID: { type: integer, required: true, foreignTable: user, foreignReference: userID }
+    score: { type: tinyint, required: true }
+
+  lesson:
+    lessonID: { type: integer, required: true, primaryKey: true, autoIncrement: true }
+    text: { type: longvarchar, required: true }
+
+  question:
+    questionID: { type: integer, required: true, primaryKey: true, autoIncrement: true }
+    text: { type: varchar(255), required: true }
+    answerID: { type: integer, required: true, foreignTable: answer, foreignReference: answerID }
+
+  answer:
+    answerID: { type: integer, required: true, primaryKey: true, autoIncrement: true }
+    text: { type: varchar(255), required: true }
+
+  incorrectAnswer:
+    questionID: { type: integer, required: true, primaryKey: true, foreignTable: question, foreignReference: questionID }
+    answerID: { type: integer, required: true, primaryKey: true, foreignTable: answer, foreignReference: answerID }
+
+  quiz:
+    lessonID: { type: integer, required: true, primaryKey: true, foreignTable: lesson, foreignReference: lessonID }
+    questionID: { type: integer, required: true, primaryKey: true, foreignTable: question, foreignReference: questionID }

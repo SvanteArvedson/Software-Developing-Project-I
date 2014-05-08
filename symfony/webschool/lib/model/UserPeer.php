@@ -1,12 +1,12 @@
 <?php
 
-class WebschoolUserPeer extends BaseWebschoolUserPeer
+class UserPeer extends BaseUserPeer
 {
 	/**
 	 * @param String $username input Username
 	 * @param String $password input Password
 	 *
-	 * @return WebschoolUser or null
+	 * @return User or null
 	 */
 	static public function retrieveByUsernameAndPass($username, $password)
 	{
@@ -14,7 +14,7 @@ class WebschoolUserPeer extends BaseWebschoolUserPeer
 		
 		$criteria->add(self::USERNAME, $username, Criteria::EQUAL);
 		$criteria->add(self::PASSWORD, $password, Criteria::EQUAL);
-	  	$user = WebschoolUserPeer::doSelectOne($criteria);
+	  	$user = UserPeer::doSelectOne($criteria);
 		
 		return !empty($user) ? $user : null;
 	}
@@ -29,7 +29,7 @@ class WebschoolUserPeer extends BaseWebschoolUserPeer
 		$criteria = new Criteria();
 		
 		$criteria->add(self::USERNAME, $username, Criteria::EQUAL);
-		$user = WebschoolUserPeer::doSelectOne($criteria);
+		$user = UserPeer::doSelectOne($criteria);
 		
 		return ($user != null);
 	}

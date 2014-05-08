@@ -21,8 +21,8 @@ $browser->info('Functional test fail delete account - Too short password')->
 	end()->
 	
 	info(' 02 - User clicks "Logga in" with username "GulligaHannes" and password "12345678"')->
-	setField('login[user]', 'GulligaHannes')->
-	setField('login[pass]', '12345678')->
+	setField('login[username]', 'GulligaHannes')->
+	setField('login[password]', '12345678')->
 	click('Logga in')->
 	
 	with('form')->begin()->
@@ -62,7 +62,7 @@ $browser->info('Functional test fail delete account - Too short password')->
 	end()->
 	
 	info(' 02 - User clicks "Ok" with parameters')->
-	setField('webschool_user_delete[pass]', '123')->
+	setField('user_delete[password]', '123')->
 	click('Ok')->
 	
 	with('form')->begin()->

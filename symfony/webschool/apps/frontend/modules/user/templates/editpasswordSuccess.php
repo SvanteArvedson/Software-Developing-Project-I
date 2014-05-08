@@ -65,29 +65,29 @@ echo					'</div>
 						<div class="small-12 large-6 columns">';
 
 
-if ($form['pass']->hasError())
+if ($form['password']->hasError())
 {
-	echo					$form['pass']->renderLabel('Nytt lösenord', array('class'=>'error'));
-	echo					$form['pass']->render(array('maxlength' => '8', 'class'=>'error'));
+	echo					$form['password']->renderLabel('Nytt lösenord', array('class'=>'error'));
+	echo					$form['password']->render(array('maxlength' => '8', 'class'=>'error'));
 }
 else
 {
-	echo					$form['pass']->renderLabel('Nytt lösenord');
-	echo					$form['pass']->render(array('maxlength' => '8'));
+	echo					$form['password']->renderLabel('Nytt lösenord');
+	echo					$form['password']->render(array('maxlength' => '8'));
 }
 
 echo					'</div>
 						<div class="small-12 large-6 columns">';
 
-if ($form['passAgain']->hasError())
+if ($form['passwordAgain']->hasError())
 {
-	echo					$form['passAgain']->renderlabel('Repereta nytt lösenord', array('class'=>'error'));
-	echo					$form['passAgain']->render(array('maxlength'=>'8', 'class'=>'error'));
+	echo					$form['passwordAgain']->renderlabel('Repereta nytt lösenord', array('class'=>'error'));
+	echo					$form['passwordAgain']->render(array('maxlength'=>'8', 'class'=>'error'));
 }
 else
 {
-	echo					$form['passAgain']->renderlabel('Repereta nytt lösenord');
-	echo					$form['passAgain']->render(array('maxlength' => '8'));
+	echo					$form['passwordAgain']->renderlabel('Repereta nytt lösenord');
+	echo					$form['passwordAgain']->render(array('maxlength' => '8'));
 }
 
 echo 					'</div>
@@ -100,15 +100,15 @@ echo 					'</div>
 						</div>
 						<div class="small-12 large-6 columns submitPassword">';
 				
-if ($form['passOld']->hasError())
+if ($form['passwordOld']->hasError())
 {
-	echo					$form['passOld']->renderlabel('Nuvarande lösenord', array('class'=>'error'));
-	echo					$form['passOld']->render(array('maxlength'=>'8', 'class'=>'error'));
+	echo					$form['passwordOld']->renderlabel('Nuvarande lösenord', array('class'=>'error'));
+	echo					$form['passwordOld']->render(array('maxlength'=>'8', 'class'=>'error'));
 }
 else
 {
-	echo					$form['passOld']->renderlabel('Nuvarande lösenord');
-	echo					$form['passOld']->render(array('maxlength' => '8'));
+	echo					$form['passwordOld']->renderlabel('Nuvarande lösenord');
+	echo					$form['passwordOld']->render(array('maxlength' => '8'));
 }
 
 echo 					'</div>

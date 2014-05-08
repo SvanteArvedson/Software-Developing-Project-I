@@ -76,15 +76,15 @@ echo 					'</div>
 						<div class="small-12 large-6 columns">';
 				
 
-if ($form['user']->hasError())
+if ($form['username']->hasError())
 {
-	echo					$form['user']->renderLabel('Användarnamn', array('class'=>'error'));
-	echo					$form['user']->render(array('maxlength' => '25', 'class'=>'error'));
+	echo					$form['username']->renderLabel('Användarnamn', array('class'=>'error'));
+	echo					$form['username']->render(array('maxlength' => '25', 'class'=>'error'));
 }
 else
 {
-	echo					$form['user']->renderLabel('Användarnamn');
-	echo					$form['user']->render(array('maxlength' => '25'));
+	echo					$form['username']->renderLabel('Användarnamn');
+	echo					$form['username']->render(array('maxlength' => '25'));
 }
 
 
@@ -112,15 +112,15 @@ echo 					'</div>
 						</div>
 						<div class="small-12 large-6 columns submitPassword">';
 				
-if ($form['passOld']->hasError())
+if ($form['passwordOld']->hasError())
 {
-	echo					$form['passOld']->renderlabel('Lösenord', array('class'=>'error'));
-	echo					$form['passOld']->render(array('maxlength'=>'8', 'class'=>'error'));
+	echo					$form['passwordOld']->renderlabel('Lösenord', array('class'=>'error'));
+	echo					$form['passwordOld']->render(array('maxlength'=>'8', 'class'=>'error'));
 }
 else
 {
-	echo					$form['passOld']->renderlabel('Lösenord');
-	echo					$form['passOld']->render(array('maxlength' => '8'));
+	echo					$form['passwordOld']->renderlabel('Lösenord');
+	echo					$form['passwordOld']->render(array('maxlength' => '8'));
 }
 
 echo 					'</div>
