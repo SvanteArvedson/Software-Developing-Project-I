@@ -18,7 +18,7 @@ answer:
     text: 'Blåsinstrument'
 
   answer5:
-    text: 'Byggnadsarbetare'
+    text: 'Orgelbyggare'
 
   answer6:
     text: 'Klaverinstrument'
@@ -28,13 +28,308 @@ answer:
 
   answer8:
     text: 'Stråkinstrument'
+    
+  answer9:
+    text: 'Giovanni Pierluigi da Palestrina'
+  
+  answer10:
+    text: 'Georg Philipp Telemann'
+  
+  answer11: 
+    text: 'Jacobus Clemens non Papa'
+  
+  answer12:
+    text: 'Guillaume Dufay'
+    
+  answer13:
+    text: 'Italien'
+      
+  answer14:
+    text: 'England'
+      
+  answer15:
+    text: 'Sverige'
+      
+  answer16:
+    text: 'Tyskland'
+      
+  answer17:
+    text: 'Nederländerna'
+      
+  answer18:
+    text: 'Danmark'
+    
+  answer19:
+    text: 'Violin'
+    
+  answer20:
+    text: 'Orgel'
+    
+  answer21:
+    text: 'Blockflöjt'
+    
+  answer22:
+    text: 'Luta'
+    
+  answer23:
+    text: 'Josquin Desprez'
+    
+  answer24:
+    text: '1445-1463'
+
+  answer25:
+    text: '1545-1563'
+
+  answer26:
+    text: '1513-1521'
+
+  answer27:
+    text: '1585-1589'
+    
+  answer28:
+    text: 'En dans'
+
+  answer29:
+    text: 'En maträtt'
+    
+  answer30:
+    text: 'En kompositör'
+    
+  answer31:
+    text: 'Ett instrument'
+    
+  answer32:
+    text: '1800-1875'
+
+  answer33:
+    text: '1100-1350'
+    
+  answer34:
+    text: '1350-1600'
+    
+  answer35:
+    text: '1600-1750'
+    
+  answer36:
+    text: 'London'
+
+  answer37:
+    text: 'Rom'
+    
+  answer38:
+    text: 'Hamburg'
+    
+  answer39:
+    text: 'Leipzig'
+    
+  answer40:
+    text: 'Motett'
+    
+  answer41:
+    text: 'Opera'
+
+  answer42:
+    text: 'Konsert'
+    
+  answer43:
+    text: 'Kantat'
+  
+  answer44:
+    text: 'Frankrike'
+    
+  answer45:
+    text: 'Wolfgang Amadeus Mozart'
+    
+  answer46:
+    text: 'Jean-Philippe Rameau'
+    
+  answer47:
+    text: 'Antonio Vivaldi'
 
 lesson:
   lesson1:
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit dolor lorem, ac iaculis nunc vulputate ut. Sed eleifend auctor nulla, at pretium tortor molestie non. Cras quis turpis leo. Aenean tincidunt, justo et fringilla auctor, orci turpis molestie diam, nec elementum erat enim eget eros. Donec lacinia egestas pellentesque.'
+    text: |
+           '<h3>
+              Rubrik 1
+            </h3>
+            <p> 
+              Nam dolor metus, placerat ut interdum non, pretium 
+              a ipsum. Cras condimentum neque arcu, sit amet 
+              suscipit quam venenatis sit amet. Cras vulputate 
+              vitae lectus at semper. Donec euismod magna eget orci 
+              porttitor, vel convallis diam auctor. Phasellus vel 
+              velit eros. Aliquam non rutrum sem. Integer ultrices 
+              eu lorem laoreet ultrices. Nulla eleifend eros vel 
+              pulvinar mattis. Quisque pharetra massa et sem malesuada, 
+              et volutpat diam ullamcorper. Vestibulum nulla sem, 
+              bibendum a suscipit a, fermentum sit amet odio.
+            </p>
+            <p>
+              Phasellus eu mi tellus. In elementum, justo at egestas 
+              bibendum, neque felis malesuada tellus, non blandit velit 
+              lectus id tortor. Aliquam ut neque imperdiet, pellentesque 
+              neque sollicitudin, mollis neque. Mauris scelerisque 
+              malesuada tincidunt. Cras volutpat aliquam lobortis. 
+              Quisque ut mauris risus. Nulla cursus, neque vel semper 
+              rhoncus, elit eros mattis nulla, et mollis felis lectus 
+              eget nisl. Duis libero est, ornare non interdum id, cursus 
+              eu dolor. Duis in lectus consequat, vehicula erat eu, lacinia 
+              ligula. Sed aliquam nibh nec nibh volutpat pellentesque. Nam 
+              scelerisque odio commodo sem porttitor rhoncus. Curabitur et 
+              ultricies erat. Sed varius leo at augue mollis pretium. Proin 
+              eget suscipit libero, eu pretium sem. Duis dapibus convallis 
+              varius.
+            </p>
+            <div class="panel">
+              <p>
+                Quisque est magna, ultrices ut dapibus vitae, blandit et 
+                lacus. Maecenas varius tristique ornare. Proin pellentesque 
+                fringilla libero, a vestibulum quam auctor ac.
+              </p>
+            </div>
+            <h3>
+              Rubrik 2
+            </h3>
+            <p> 
+              Quisque varius malesuada arcu eget dignissim. Lorem ipsum dolor 
+              sit amet, consectetur adipiscing elit. Vivamus in luctus magna. 
+              Suspendisse tristique turpis quis justo tempus, ac dictum odio 
+              porttitor. Sed bibendum tortor posuere, tempus metus sodales, 
+              rutrum sem. Nulla imperdiet nibh in magna faucibus, non consequat 
+              massa semper. In vel augue neque. Proin ipsum diam, tincidunt 
+              pharetra justo eget, sodales semper sem. Vestibulum eget auctor 
+              nibh. Donec vestibulum est a euismod placerat. Proin eget nisl 
+              nec tortor auctor placerat non at nibh. Sed velit libero, facilisis 
+              sed dolor ac, bibendum elementum ante. Suspendisse velit orci, 
+              faucibus a tincidunt nec, dignissim ut odio. Mauris sed tortor 
+              accumsan, consequat arcu nec, consectetur velit. Donec porttitor 
+              aliquam congue. Donec luctus vitae diam eu pretium.
+            </p>
+            <p>
+              Nam condimentum sed libero molestie condimentum. Phasellus non 
+              tincidunt tellus, quis blandit nisl. Cum sociis natoque penatibus 
+              et magnis dis parturient montes, nascetur ridiculus mus. Interdum 
+              et malesuada fames ac ante ipsum primis in faucibus. Donec libero 
+              lectus, viverra sed massa nec, accumsan pharetra mauris. Suspendisse 
+              ornare mollis velit luctus aliquam. Vestibulum nibh tellus, bibendum 
+              vitae libero sodales, consectetur tempor nibh. Nulla eget turpis at 
+              risus pharetra tristique. Donec suscipit velit ut pharetra commodo. 
+              Proin fermentum, lorem quis porttitor sodales, metus mauris dignissim 
+              libero, in hendrerit mi lectus vel sem. Aliquam quis velit diam. In 
+              ante urna, fringilla non urna non, fermentum sagittis dui. Integer 
+              aliquam pellentesque semper. Donec et facilisis turpis.
+            </p>  
+            <h3>
+              Rubrik 3
+            </h3>
+            <p> 
+              Ut ut ultricies tortor. Morbi tempus metus sit amet commodo ullamcorper. 
+              Fusce eu arcu quis ante tempor varius nec nec lectus. Suspendisse eu 
+              lobortis odio. Vivamus vitae ligula fermentum, porttitor diam ut, 
+              ultricies neque. Ut convallis purus ligula, luctus mattis elit luctus 
+              et. Morbi quis orci ut sem egestas consectetur. Vivamus et nunc tellus. 
+              Suspendisse vel leo et mauris tempus hendrerit. Integer in nisi quis 
+              justo porta dignissim. Integer vitae leo molestie dolor facilisis 
+              scelerisque. Proin id erat turpis. Duis nec mauris a eros tincidunt 
+              hendrerit viverra quis mauris. Sed quis nunc at turpis tincidunt 
+              scelerisque in a lorem.
+            </p>
+            <h3>
+              Rubrik 4
+            </h3>
+            <p> 
+              Nullam imperdiet luctus suscipit. Quisque non sem ac nisi aliquet vehicula. 
+              Quisque placerat fringilla urna, et condimentum mi commodo lacinia. Aliquam 
+              eu dolor vitae enim vulputate pellentesque. Integer a commodo leo, imperdiet 
+              malesuada nisi. Class aptent taciti sociosqu ad litora torquent per conubia 
+              nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur 
+              adipiscing elit. Nunc bibendum vitae sem vel dignissim. Etiam eget porta 
+              justo, nec pretium quam. Nam congue non ligula eget varius. Nulla at sagittis 
+              tellus. Nulla at leo viverra lacus elementum gravida. Fusce in tellus 
+              venenatis, imperdiet urna et, egestas nunc. Donec eleifend tempus justo eget 
+              condimentum. Proin semper felis non scelerisque vestibulum. Nam ut nulla sit 
+              amet libero aliquam luctus at et neque.
+            </p>
+            <p>
+              Integer felis sapien, sagittis ultricies dignissim at, consectetur at tortor. 
+              Duis vestibulum egestas nulla. Vestibulum adipiscing porttitor suscipit. In 
+              aliquet, turpis a auctor eleifend, nunc metus semper felis, in imperdiet 
+              sapien est eget quam. Pellentesque nec ipsum et sem elementum vestibulum. 
+              Donec lobortis, augue id molestie semper, risus dui venenatis felis, et 
+              condimentum ante dolor ac neque. Vestibulum tortor felis, molestie id nibh 
+              id, pharetra bibendum ante. Integer hendrerit leo metus, vel faucibus urna 
+              molestie vel. Duis at venenatis dui, et consectetur lectus. Etiam imperdiet 
+              consequat dui sed iaculis. Sed porta porta lectus, vitae fringilla elit 
+              cursus et. Morbi et lorem vel tortor dignissim consequat.
+            </p>
+            <div class="panel">
+              <p>
+                Vestibulum tortor felis, molestie id nibh id, pharetra bibendum ante. 
+                Integer hendrerit leo metus, vel faucibus urna molestie vel.
+              </p>
+            </div>'
+    title: 'Renässansen'
 
   lesson2:
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis ornare tellus. Pellentesque in libero non elit luctus egestas euismod non diam. Suspendisse potenti. Pellentesque pellentesque mattis dolor ut lobortis. Nullam velit libero, porttitor vel congue rutrum, pharetra sed sapien.'
+    text: |
+           '<h3>
+              Rubrik 1
+            </h3>
+            <p> 
+              Lorem ipsum dölor sit åmet cönsectetur ådipisicing. Elit sed do eiusmöd, 
+              tempor incididunt ut. Läbore et dolore. Mågnå aliquå sodåles egestäs. In 
+              felis nibh vel tempör vestibulum imperdiet. Adipiscing södales pellentesque 
+              plåtea lorem ligulå tellus tellus. Proin leö vestibulum. Dignissim ultricies 
+              vestibulum sed enim non. Elementum vitae nec lobörtis purus, elit habitåsse. 
+              Imperdiet egestas in måecenås nec präesent. Adipiscing lectus cursus felis. 
+              Vestibulum elit pharetrå. Ullåmcörper plåceråt hendrerit purus tempus 
+              målesuådå eu velit. Hendrerit fermentum fusce morbi nulläm amet vulputåte. 
+              Quis tempus donec cönsequät gravidä mägna. Eu ipsum tempus tempor tempus 
+              elementum.
+            </p>
+            <p>
+              Augue ipsum augue ante fringilla leo. Semper felis sågittis dictum ånte näm 
+              eleifend. Ut hendrerit neque euismöd, posuere et ligulå söllicitudin. Leö 
+              et curabitur interdum risus euismöd eleifend. Elementum ädipiscing commodö. 
+              Eget nisi imperdiet viverrå. Fringillå faucibus id sågittis nåm, habitåsse 
+              fermentum. Leo et fusce ipsum. Vestibulum dui lörem tempor aliquäm pörta 
+              lectus södäles. Eget åliquåm elementum cöngue ånte eu. Sed löbortis et purus 
+              södäles. Neque curåbitur odiö venenätis a. Egestås quisque facilisis leo 
+              plåceråt. Sed sed velit enim rutrum neque. Mäecenas dolor elit portå. Quis 
+              curåbitur plåcerät elementum.
+            </p>
+            <div class="panel">
+              <p>
+                Ut hendrerit neque euismöd, posuere et ligulå söllicitudin. Leö 
+                et curabitur interdum risus euismöd eleifend.
+              </p>
+            </div>
+            <h3>
+              Rubrik 2
+            </h3>
+            <p> 
+              Häbitåsse pulvinär däpibus pråesent. Adipiscing bibendum quis lectus. 
+              Sem feugiåt nunc rutrum. Masså nunc nunc årcu scelerisque pellentesque. 
+              Commödö dictum velit nullå pörtå, tempus näm. Bländit bibendum ac 
+              fermentum pläceråt neque mättis. Nunc tempör bibendum purus låöreet sodåles. 
+              Suscipit ådipiscing accumsän fåcilisis håc. Sit mågnå dignissim lacinia 
+              pellentesque. Ornäre eget non eros etiäm nam. Consequat eleifend velit. 
+              Pösuere fäucibus semper integer vitåe adipiscing. Proin pretium ultricies. 
+              Cursus fermentum örnåre.
+            </p>
+            <p> 
+              Lorem ipsum dölor sit åmet cönsectetur ådipisicing. Elit sed do eiusmöd, 
+              tempor incididunt ut. Läbore et dolore. Mågnå aliquå sodåles egestäs. In 
+              felis nibh vel tempör vestibulum imperdiet. Adipiscing södales pellentesque 
+              plåtea lorem ligulå tellus tellus. Proin leö vestibulum. Dignissim ultricies 
+              vestibulum sed enim non. Elementum vitae nec lobörtis purus, elit habitåsse. 
+              Imperdiet egestas in måecenås nec präesent. Adipiscing lectus cursus felis. 
+              Vestibulum elit pharetrå. Ullåmcörper plåceråt hendrerit purus tempus 
+              målesuådå eu velit. Hendrerit fermentum fusce morbi nulläm amet vulputåte. 
+              Quis tempus donec cönsequät gravidä mägna. Eu ipsum tempus tempor tempus 
+              elementum.
+            </p>
+    title: 'Barocken'
 
 user:
   Admin:
@@ -75,12 +370,80 @@ user:
 
 question:
   question1:
-    text: 'Vad arbetade Georg Philipp Telemann med?'
+    text: 'Vad arbetade Giovanni Pierluigi da Palestrina som?'
     answerID: answer1
     
   question2:
     text: 'Vilken typ av instrument är en cembalo?'
     answerID: answer6
+    
+  question3:
+    text: 'Vem av följande var kompositörer levde inte under renässansen?'
+    answerID: answer10
+    
+  question4:
+    text: 'Vilket land kom Guillaume Dufay från?'
+    answerID: answer17
+
+  question5:
+    text: 'Vilket av följande instrument fanns inte under renässansen?'
+    answerID: answer19
+      
+  question6:
+    text: 'Vem skrev Missa Papae Marcelli?'
+    answerID: answer9
+      
+  question7:
+    text: 'Under vilka år hölls det tridentinska kyrkomötet?'
+    answerID: answer25
+      
+  question8:
+    text: 'Vilket land kom Giovanni Pierluigi da Palestrina från?'
+    answerID: answer13
+      
+  question9:
+    text: 'Vad är en Pavane?'
+    answerID: answer28
+      
+  question10:
+    text: 'Under vilka år var renässansen?'
+    answerID: answer34
+    
+  question11:
+    text: 'Vad arbetade Georg Philipp Telemann som?'
+    answerID: answer1
+
+  question12:
+    text: 'I vilken av följande städer arbetade Johann Sebastian Bach?'
+    answerID: answer39
+
+  question13:
+    text: 'Vilket var Johan Sebastian Bachs huvudinstrument?'
+    answerID: answer20
+
+  question14:
+    text: 'Under vilka år var barocken?'
+    answerID: answer35
+
+  question15:
+    text: 'Vilken musikgenre uppfanns inte under barocken?'
+    answerID: answer40
+
+  question16:
+    text: 'Vilken typ av instrument är en violin?'
+    answerID: answer8
+
+  question17:
+    text: 'Från vilken land kom Jean-Philippe Rameau?'
+    answerID: answer44
+
+  question18:
+    text: 'Från vilken land kom Henry Purcell?'
+    answerID: answer14
+      
+  question19:
+    text: 'Vilken av följande kompositörer levde inte under barocken?'
+    answerID: answer45
     
 incorrectAnswer:
   incorrect1:
@@ -107,6 +470,210 @@ incorrectAnswer:
     questionID: question2
     answerID: answer8
     
+  incorrect7:
+    questionID: question3
+    answerID: answer9
+    
+  incorrect8:
+    questionID: question3
+    answerID: answer11
+    
+  incorrect9:
+    questionID: question3
+    answerID: answer12
+    
+  incorrect10:
+    questionID: question4
+    answerID: answer13
+    
+  incorrect11:
+    questionID: question4
+    answerID: answer15
+    
+  incorrect12:
+    questionID: question4
+    answerID: answer18
+    
+  incorrect13:
+    questionID: question8
+    answerID: answer14
+    
+  incorrect14:
+    questionID: question8
+    answerID: answer16
+
+  incorrect15:
+    questionID: question8
+    answerID: answer17
+
+  incorrect16:
+    questionID: question5
+    answerID: answer20
+
+  incorrect17:
+    questionID: question5
+    answerID: answer21
+
+  incorrect18:
+    questionID: question5
+    answerID: answer22
+    
+  incorrect19:
+    questionID: question6
+    answerID: answer11
+
+  incorrect20:
+    questionID: question6
+    answerID: answer12
+
+  incorrect21:
+    questionID: question6
+    answerID: answer23
+    
+  incorrect22:
+    questionID: question7
+    answerID: answer24
+
+  incorrect23:
+    questionID: question7
+    answerID: answer26
+
+  incorrect24:
+    questionID: question7
+    answerID: answer27
+
+  incorrect25:
+    questionID: question9
+    answerID: answer29
+
+  incorrect26:
+    questionID: question9
+    answerID: answer30
+
+  incorrect27:
+    questionID: question9
+    answerID: answer31
+
+  incorrect28:
+    questionID: question10
+    answerID: answer32
+
+  incorrect29:
+    questionID: question10
+    answerID: answer33
+
+  incorrect30:
+    questionID: question10
+    answerID: answer35
+    
+  incorrect31:
+    questionID: question11
+    answerID: answer2
+
+  incorrect32:
+    questionID: question11
+    answerID: answer3
+
+  incorrect33:
+    questionID: question11
+    answerID: answer5
+    
+  incorrect34:
+    questionID: question12
+    answerID: answer36
+
+  incorrect35:
+    questionID: question12
+    answerID: answer37
+
+  incorrect36:
+    questionID: question12
+    answerID: answer38
+
+  incorrect37:
+    questionID: question13
+    answerID: answer19
+
+  incorrect38:
+    questionID: question13
+    answerID: answer21
+
+  incorrect39:
+    questionID: question13
+    answerID: answer22
+    
+  incorrect40:
+    questionID: question14
+    answerID: answer32
+
+  incorrect41:
+    questionID: question14
+    answerID: answer33
+
+  incorrect42:
+    questionID: question14
+    answerID: answer34
+    
+  incorrect43:
+    questionID: question15
+    answerID: answer41
+
+  incorrect44:
+    questionID: question15
+    answerID: answer42
+
+  incorrect45:
+    questionID: question15
+    answerID: answer43
+    
+  incorrect46:
+    questionID: question16
+    answerID: answer4
+
+  incorrect47:
+    questionID: question16
+    answerID: answer6
+
+  incorrect48:
+    questionID: question16
+    answerID: answer7
+    
+  incorrect49:
+    questionID: question17
+    answerID: answer13
+
+  incorrect50:
+    questionID: question17
+    answerID: answer14
+
+  incorrect51:
+    questionID: question17
+    answerID: answer16
+    
+  incorrect52:
+    questionID: question18
+    answerID: answer15
+
+  incorrect53:
+    questionID: question18
+    answerID: answer16
+
+  incorrect54:
+    questionID: question18
+    answerID: answer17
+    
+  incorrect55:
+    questionID: question19
+    answerID: answer10
+
+  incorrect56:
+    questionID: question19
+    answerID: answer46
+
+  incorrect57:
+    questionID: question19
+    answerID: answer47
+
 result:
   result1:
     lessonID: lesson1
@@ -135,4 +702,76 @@ quiz:
   
   quiz2:
     lessonID: lesson1
+    questionID: question2
+    
+  quiz3:
+    lessonID: lesson1
+    questionID: question3
+    
+  quiz4:
+    lessonID: lesson1
+    questionID: question4
+  
+  quiz5:
+    lessonID: lesson1
+    questionID: question5
+    
+  quiz6:
+    lessonID: lesson1
+    questionID: question6
+    
+  quiz7:
+    lessonID: lesson1
+    questionID: question7
+  
+  quiz8:
+    lessonID: lesson1
+    questionID: question8
+    
+  quiz9:
+    lessonID: lesson1
+    questionID: question9
+    
+  quiz10:
+    lessonID: lesson1
+    questionID: question10
+
+  quiz11:
+    lessonID: lesson2
+    questionID: question11
+  
+  quiz12:
+    lessonID: lesson2
+    questionID: question12
+    
+  quiz13:
+    lessonID: lesson2
+    questionID: question13
+    
+  quiz14:
+    lessonID: lesson2
+    questionID: question14
+  
+  quiz15:
+    lessonID: lesson2
+    questionID: question15
+    
+  quiz16:
+    lessonID: lesson2
+    questionID: question16
+    
+  quiz17:
+    lessonID: lesson2
+    questionID: question17
+  
+  quiz18:
+    lessonID: lesson2
+    questionID: question18
+    
+  quiz19:
+    lessonID: lesson2
+    questionID: question19
+    
+  quiz20:
+    lessonID: lesson2
     questionID: question2

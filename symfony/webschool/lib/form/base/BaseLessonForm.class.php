@@ -14,12 +14,14 @@ class BaseLessonForm extends BaseFormPropel
     $this->setWidgets(array(
       'lessonID'  => new sfWidgetFormInputHidden(),
       'text'      => new sfWidgetFormTextarea(),
+      'title'     => new sfWidgetFormInput(),
       'quiz_list' => new sfWidgetFormPropelChoiceMany(array('model' => 'Question')),
     ));
 
     $this->setValidators(array(
       'lessonID'  => new sfValidatorPropelChoice(array('model' => 'Lesson', 'column' => 'lessonID', 'required' => false)),
       'text'      => new sfValidatorString(),
+      'title'     => new sfValidatorString(array('max_length' => 40)),
       'quiz_list' => new sfValidatorPropelChoiceMany(array('model' => 'Question', 'required' => false)),
     ));
 

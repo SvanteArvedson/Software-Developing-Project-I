@@ -12,10 +12,12 @@ propel:
     lessonID: { type: integer, required: true,  foreignTable: lesson, foreignReference: lessonID }
     userID: { type: integer, required: true, foreignTable: user, foreignReference: userID }
     score: { type: tinyint, required: true }
+    created_at: ~
 
   lesson:
     lessonID: { type: integer, required: true, primaryKey: true, autoIncrement: true }
     text: { type: longvarchar, required: true }
+    title: { type: varchar(40), required: true }
 
   question:
     questionID: { type: integer, required: true, primaryKey: true, autoIncrement: true }
@@ -28,7 +30,7 @@ propel:
 
   incorrectAnswer:
     questionID: { type: integer, required: true, primaryKey: true, foreignTable: question, foreignReference: questionID }
-    answerID: { type: integer, required: true, primaryKey: true, foreignTable: answer, foreignReference: answerID }
+    answerID: { type: integer, required: true, primaryKey: true, foreignTable: answer, foreignReference: answerID  }
 
   quiz:
     lessonID: { type: integer, required: true, primaryKey: true, foreignTable: lesson, foreignReference: lessonID }

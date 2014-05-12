@@ -1,0 +1,42 @@
+article {
+	border-left: 10px groove #7b40ad;
+	padding-right: 20px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+
+article p {
+	font-size: 0.9em;	
+}
+
+article a {
+	display: block;
+	font-size: 1em;
+	margin: auto;	
+}
+
+div.question, label.question {
+	display: block;
+	margin-top: 20px;
+	padding-bottom: 10px;
+	font-family: "Book Antiqua", serif;
+	font-size: 1.1em;
+}
+
+div.question ul li {
+	padding: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+form.quiz {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.alternatives {
+	padding: 0 50px 0 50px;
+}
+
+#sendQuizButton {
+	margin-top: 40px;
+}

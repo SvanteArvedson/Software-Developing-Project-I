@@ -14,15 +14,17 @@ class BaseResultFormFilter extends BaseFormFilterPropel
   public function setup()
   {
     $this->setWidgets(array(
-      'lessonID' => new sfWidgetFormPropelChoice(array('model' => 'Lesson', 'add_empty' => true)),
-      'userID'   => new sfWidgetFormPropelChoice(array('model' => 'User', 'add_empty' => true)),
-      'score'    => new sfWidgetFormFilterInput(),
+      'lessonID'   => new sfWidgetFormPropelChoice(array('model' => 'Lesson', 'add_empty' => true)),
+      'userID'     => new sfWidgetFormPropelChoice(array('model' => 'User', 'add_empty' => true)),
+      'score'      => new sfWidgetFormFilterInput(),
+      'created_at' => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate(), 'with_empty' => true)),
     ));
 
     $this->setValidators(array(
-      'lessonID' => new sfValidatorPropelChoice(array('required' => false, 'model' => 'Lesson', 'column' => 'lessonID')),
-      'userID'   => new sfValidatorPropelChoice(array('required' => false, 'model' => 'User', 'column' => 'userID')),
-      'score'    => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
+      'lessonID'   => new sfValidatorPropelChoice(array('required' => false, 'model' => 'Lesson', 'column' => 'lessonID')),
+      'userID'     => new sfValidatorPropelChoice(array('required' => false, 'model' => 'User', 'column' => 'userID')),
+      'score'      => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
+      'created_at' => new sfValidatorDateRange(array('required' => false, 'from_date' => new sfValidatorDate(array('required' => false)), 'to_date' => new sfValidatorDate(array('required' => false)))),
     ));
 
     $this->widgetSchema->setNameFormat('result_filters[%s]');
@@ -40,10 +42,11 @@ class BaseResultFormFilter extends BaseFormFilterPropel
   public function getFields()
   {
     return array(
-      'resultID' => 'Number',
-      'lessonID' => 'ForeignKey',
-      'userID'   => 'ForeignKey',
-      'score'    => 'Number',
+      'resultID'   => 'Number',
+      'lessonID'   => 'ForeignKey',
+      'userID'     => 'ForeignKey',
+      'score'      => 'Number',
+      'created_at' => 'Date',
     );
   }
 }

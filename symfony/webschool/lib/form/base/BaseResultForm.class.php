@@ -12,17 +12,19 @@ class BaseResultForm extends BaseFormPropel
   public function setup()
   {
     $this->setWidgets(array(
-      'resultID' => new sfWidgetFormInputHidden(),
-      'lessonID' => new sfWidgetFormPropelChoice(array('model' => 'Lesson', 'add_empty' => false)),
-      'userID'   => new sfWidgetFormPropelChoice(array('model' => 'User', 'add_empty' => false)),
-      'score'    => new sfWidgetFormInput(),
+      'resultID'   => new sfWidgetFormInputHidden(),
+      'lessonID'   => new sfWidgetFormPropelChoice(array('model' => 'Lesson', 'add_empty' => false)),
+      'userID'     => new sfWidgetFormPropelChoice(array('model' => 'User', 'add_empty' => false)),
+      'score'      => new sfWidgetFormInput(),
+      'created_at' => new sfWidgetFormDateTime(),
     ));
 
     $this->setValidators(array(
-      'resultID' => new sfValidatorPropelChoice(array('model' => 'Result', 'column' => 'resultID', 'required' => false)),
-      'lessonID' => new sfValidatorPropelChoice(array('model' => 'Lesson', 'column' => 'lessonID')),
-      'userID'   => new sfValidatorPropelChoice(array('model' => 'User', 'column' => 'userID')),
-      'score'    => new sfValidatorInteger(),
+      'resultID'   => new sfValidatorPropelChoice(array('model' => 'Result', 'column' => 'resultID', 'required' => false)),
+      'lessonID'   => new sfValidatorPropelChoice(array('model' => 'Lesson', 'column' => 'lessonID')),
+      'userID'     => new sfValidatorPropelChoice(array('model' => 'User', 'column' => 'userID')),
+      'score'      => new sfValidatorInteger(),
+      'created_at' => new sfValidatorDateTime(array('required' => false)),
     ));
 
     $this->widgetSchema->setNameFormat('result[%s]');

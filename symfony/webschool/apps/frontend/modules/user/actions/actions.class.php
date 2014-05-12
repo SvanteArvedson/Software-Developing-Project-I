@@ -16,6 +16,7 @@ class userActions extends sfActions
 	{
 		$this->errorMessage = null;
 		$this->form = new UserDeleteForm();
+		$this->lessons = LessonPeer::doSelect(new Criteria());
 		
 		if ($request->isMethod('post'))
 		{
@@ -62,6 +63,7 @@ class userActions extends sfActions
 	{
 		$this->errorMessage = null;
 		$this->form = new UserEditForm();
+		$this->lessons = LessonPeer::doSelect(new Criteria());
 		
 		if ($request->isMethod('get'))
 		{
@@ -117,6 +119,7 @@ class userActions extends sfActions
 	 {
 	 	$this->errorMessage = null;
 		$this->form = new UserEditPasswordForm();
+		$this->lessons = LessonPeer::doSelect(new Criteria());
 		
 		if ($request->isMethod('post'))
 		{
@@ -166,6 +169,8 @@ class userActions extends sfActions
 		{
 			if ($this->getUser()->isAuthenticated())
 			{
+				$this->lessons = LessonPeer::doSelect(new Criteria());
+				
 				$this->name = $this->getUser()->getAttribute('user')->getName();
 				return UserView::AUTHENTICATED;
 			}
@@ -179,6 +184,8 @@ class userActions extends sfActions
 		{
 			if ($this->getUser()->isAuthenticated())
 			{
+				$this->lessons = LessonPeer::doSelect(new Criteria());
+				
 				$this->getUser()->setAuthenticated(false);
 				$this->getUser()->getAttributeHolder()->remove('user');
 				$this->redirect($this->generateUrl('homepage'));

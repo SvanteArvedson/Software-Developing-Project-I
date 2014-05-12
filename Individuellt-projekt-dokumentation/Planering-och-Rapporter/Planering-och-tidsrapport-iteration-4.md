@@ -140,7 +140,7 @@ lektioner och quiz. Jag väljer bara att implementera två krav den här
 iterationen då jag tror att det kommer att bli lite småkrångligt, det 
 är en helt ny sak för mig och jag har ingen färdig plan på hur 
 implementationen ska gå till. Det kommer även att bli en del CSS-kodande 
-och det tror jag kommer atta ta en del tid för att få ett snyggt resultat.
+och det tror jag kommer ta en del tid för att få ett snyggt resultat.
 Jag är fortfarande inte inne i det slutgiltiga designarbetet utan det är 
 för att få en okej leverans i slutet av iterationen.
 
@@ -156,9 +156,9 @@ för att få en okej leverans i slutet av iterationen.
 	<tr>
 		<td><a href="/../Anvandningsfall/AF3-Las-en-lektion-och-gor-tillhorande-test.md">AF3</a></td>
 		<td>Implementation AF3 - Skriv CSS</td>
-		<td>Ej påbörjat</td>
+		<td>Klart</td>
 		<td>3</td>
-		<td></td>
+		<td>3</td>
 	</tr>
 	<tr>
 		<td><a href="/../Anvandningsfall/AF3-Las-en-lektion-och-gor-tillhorande-test.md">AF3</a></td>
@@ -169,24 +169,17 @@ för att få en okej leverans i slutet av iterationen.
 	</tr>
 	<tr>
 		<td><a href="/../Anvandningsfall/AF3-Las-en-lektion-och-gor-tillhorande-test.md">AF3</a></td>
-		<td>Implementation AF3 - Skriv klientkod</td>
-		<td>Ej påbörjat</td>
-		<td>4</td>
-		<td></td>
-	</tr>
-	<tr>
-		<td><a href="/../Anvandningsfall/AF3-Las-en-lektion-och-gor-tillhorande-test.md">AF3</a></td>
-		<td>Implementation AF3 - Skriv controller-metod</td>
+		<td>Implementation AF3 - Skriv controller och template</td>
 		<td>Påbörjat</td>
 		<td>6</td>
-		<td>1</td>
+		<td>12</td>
 	</tr>
 	<tr>
 		<td><a href="/../Anvandningsfall/AF3-Las-en-lektion-och-gor-tillhorande-test.md">AF3</a></td>
 		<td>Implementation AF3 - Skriv automatiska tester</td>
-		<td>Ej påbörjat</td>
+		<td>Påbörjat</td>
 		<td>2</td>
-		<td></td>
+		<td>2</td>
 	</tr>
 	<tr>
 		<td><a href="/../Anvandningsfall/AF4-Visa-statistik-over-gjorda-tester.md">AF4</a></td>
@@ -197,7 +190,7 @@ för att få en okej leverans i slutet av iterationen.
 	</tr>
 	<tr>
 		<td><a href="/../Anvandningsfall/AF4-Visa-statistik-over-gjorda-tester.md">AF4</a></td>
-		<td>Implementation AF4 - Skriv controller-metod</td>
+		<td>Implementation AF4 - Skriv controller och template</td>
 		<td>Ej påbörjat</td>
 		<td>3</td>
 		<td></td>
@@ -234,7 +227,7 @@ för att få en okej leverans i slutet av iterationen.
 		<td></td>
 		<td></td>
 		<td>Summa</td>
-		<td>28</td>
-		<td>10</td>
+		<td>24</td>
+		<td>26</td>
 	</tr>
 </table>

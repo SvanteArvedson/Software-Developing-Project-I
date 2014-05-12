@@ -2,10 +2,7 @@
 // Adds content to the slots in "/../../templates/layout.php"
 slot('title', 'Musikhistoria - Registrera konto');
 
-slot('navigation', 
-	'<li>
-		<a href="' . url_for('@register_new_user') . '">Registrera konto</a>
-	</li>');
+slot('navigation', get_partial('global/unauthenticatedNavigation'));
 
 echo'<div id="pagecontent" class="small-12 large-6 large-centered columns">
 		<h2>

@@ -15,7 +15,7 @@ Senast ändrad den 7/5 2014 klo 16:30 av Svante Arvedson
     </tr>
     <tr>
         <td>answerID</td>
-        <td>int</td>
+        <td>integer</td>
         <td>nej</td>
         <td></td>
         <td>ja</td>
@@ -43,7 +43,7 @@ Senast ändrad den 7/5 2014 klo 16:30 av Svante Arvedson
     </tr>
     <tr>
         <td>questionID</td>
-        <td>smallint</td>
+        <td>integer</td>
         <td>nej</td>
         <td></td>
         <td>ja</td>
@@ -51,7 +51,7 @@ Senast ändrad den 7/5 2014 klo 16:30 av Svante Arvedson
     </tr>
     <tr>
         <td>answerID</td>
-        <td>int</td>
+        <td>integer</td>
         <td>nej</td>
         <td></td>
         <td>ja</td>
@@ -71,7 +71,7 @@ Senast ändrad den 7/5 2014 klo 16:30 av Svante Arvedson
     </tr>
     <tr>
         <td>lessonID</td>
-        <td>tinyint</td>
+        <td>integer</td>
         <td>nej</td>
         <td></td>
         <td>ja</td>
@@ -80,6 +80,14 @@ Senast ändrad den 7/5 2014 klo 16:30 av Svante Arvedson
     <tr>
         <td>text</td>
         <td>text</td>
+        <td>nej</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>title</td>
+        <td>varchar(40)</td>
         <td>nej</td>
         <td></td>
         <td></td>
@@ -99,7 +107,7 @@ Senast ändrad den 7/5 2014 klo 16:30 av Svante Arvedson
     </tr>
     <tr>
         <td>resultID</td>
-        <td>int</td>
+        <td>integer</td>
         <td>nej</td>
         <td></td>
         <td>ja</td>
@@ -107,7 +115,7 @@ Senast ändrad den 7/5 2014 klo 16:30 av Svante Arvedson
     </tr>
     <tr>
         <td>lessonID</td>
-        <td>tinyint</td>
+        <td>integer</td>
         <td>nej</td>
         <td></td>
         <td></td>
@@ -115,7 +123,7 @@ Senast ändrad den 7/5 2014 klo 16:30 av Svante Arvedson
     </tr>
     <tr>
         <td>userID</td>
-        <td>int</td>
+        <td>integer</td>
         <td>nej</td>
         <td></td>
         <td></td>
@@ -124,6 +132,14 @@ Senast ändrad den 7/5 2014 klo 16:30 av Svante Arvedson
     <tr>
         <td>score</td>
         <td>tinyint</td>
+        <td>nej</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>created_at</td>
+        <td>datetime</td>
         <td>nej</td>
         <td></td>
         <td></td>
@@ -142,7 +158,7 @@ Senast ändrad den 7/5 2014 klo 16:30 av Svante Arvedson
     </tr>
     <tr>
         <td>questionID</td>
-        <td>smallint</td>
+        <td>integer</td>
         <td>nej</td>
         <td></td>
         <td>ja</td>
@@ -158,7 +174,7 @@ Senast ändrad den 7/5 2014 klo 16:30 av Svante Arvedson
     </tr>
     <tr>
         <td>answerID</td>
-        <td>int</td>
+        <td>integer</td>
         <td>nej</td>
         <td></td>
         <td></td>
@@ -178,7 +194,7 @@ Senast ändrad den 7/5 2014 klo 16:30 av Svante Arvedson
     </tr>
     <tr>
         <td>lessonID</td>
-        <td>tinyint</td>
+        <td>integer</td>
         <td>nej</td>
         <td></td>
         <td>ja</td>
@@ -186,7 +202,7 @@ Senast ändrad den 7/5 2014 klo 16:30 av Svante Arvedson
     </tr>
     <tr>
         <td>questionID</td>
-        <td>smallint</td>
+        <td>integer</td>
         <td>nej</td>
         <td></td>
         <td>ja</td>
@@ -206,7 +222,7 @@ Senast ändrad den 7/5 2014 klo 16:30 av Svante Arvedson
     </tr>
     <tr>
         <td>userID</td>
-        <td>int</td>
+        <td>integer</td>
         <td>nej</td>
         <td></td>
         <td>ja</td>

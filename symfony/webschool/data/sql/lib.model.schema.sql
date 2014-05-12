@@ -33,6 +33,7 @@ CREATE TABLE `result`
 	`lessonID` INTEGER  NOT NULL,
 	`userID` INTEGER  NOT NULL,
 	`score` TINYINT  NOT NULL,
+	`created_at` DATETIME,
 	PRIMARY KEY (`resultID`),
 	INDEX `result_FI_1` (`lessonID`),
 	CONSTRAINT `result_FK_1`
@@ -55,6 +56,7 @@ CREATE TABLE `lesson`
 (
 	`lessonID` INTEGER  NOT NULL AUTO_INCREMENT,
 	`text` TEXT  NOT NULL,
+	`title` VARCHAR(40)  NOT NULL,
 	PRIMARY KEY (`lessonID`)
 )Engine=InnoDB;
 

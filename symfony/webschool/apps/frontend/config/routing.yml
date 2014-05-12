@@ -18,6 +18,23 @@ edit_user_password:
 delete_user_account:
   url:   /radera-konto
   param: { module: user, action: delete }
+  
+show_lesson:
+  url: /lektion/:lessonID/:title_slug
+  class: sfPropelRoute
+  options: { model: Lesson, type: object }
+  param: { module: lesson, action: lesson }
+  reqirements:
+    lessonID: \d+
+    sf_method: [get]
+    
+show_test:
+  url: /lektion/:lessonID/:title_slug/test
+  class: sfPropelRoute
+  options: { model: Lesson, type: object }
+  param: { module: lesson, action: quiz }
+  reqirements:
+    lessonID: \d+
 
 default_index:
   url:   /:module

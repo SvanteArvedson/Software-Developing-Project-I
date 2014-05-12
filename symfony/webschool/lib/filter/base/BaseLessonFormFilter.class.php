@@ -15,11 +15,13 @@ class BaseLessonFormFilter extends BaseFormFilterPropel
   {
     $this->setWidgets(array(
       'text'      => new sfWidgetFormFilterInput(),
+      'title'     => new sfWidgetFormFilterInput(),
       'quiz_list' => new sfWidgetFormPropelChoice(array('model' => 'Question', 'add_empty' => true)),
     ));
 
     $this->setValidators(array(
       'text'      => new sfValidatorPass(array('required' => false)),
+      'title'     => new sfValidatorPass(array('required' => false)),
       'quiz_list' => new sfValidatorPropelChoice(array('model' => 'Question', 'required' => false)),
     ));
 
@@ -65,6 +67,7 @@ class BaseLessonFormFilter extends BaseFormFilterPropel
     return array(
       'lessonID'  => 'Number',
       'text'      => 'Text',
+      'title'     => 'Text',
       'quiz_list' => 'ManyKey',
     );
   }

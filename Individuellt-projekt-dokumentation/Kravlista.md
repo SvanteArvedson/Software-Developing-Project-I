@@ -18,7 +18,7 @@ Senast uppdaterad 4/5 2014 klo 01:30 av Svante Arvedson
 		<td><a href="Anvandningsfall/AF3-Las-en-lektion-och-gor-tillhorande-test.md">Läs en lektion och gör tillhörande test</a></td>
 		<td>Svante Arvedson</td>
 		<td><a href="Anvandningsfall/DF1-Logga-in.md">DF1</a></td>
-		<td>Ej påbörjad</td>
+		<td>Påbörjad</td>
 		<td>BF1, BF2, BF3, BF4</td>
 		<td>Hög</td>
 	</tr>
@@ -38,7 +38,7 @@ Senast uppdaterad 4/5 2014 klo 01:30 av Svante Arvedson
 		<td><a href="Anvandningsfall/DF1-Logga-in.md">DF1</a></td>
 		<td>Ej påbörjad</td>
 		<td>BF1, BF2</td>
-		<td>Hög</td>
+		<td>Medel</td>
 	</tr>
 	<tr>
 		<td>AF9</td>
@@ -47,7 +47,7 @@ Senast uppdaterad 4/5 2014 klo 01:30 av Svante Arvedson
 		<td><a href="Anvandningsfall/DF1-Logga-in.md">DF1</a></td>
 		<td>Ej påbörjad</td>
 		<td>BF1, BF2</td>
-		<td>Hög</td>
+		<td>Medel</td>
 	</tr>
 	<tr>
 		<td>AF10</td>
@@ -56,7 +56,7 @@ Senast uppdaterad 4/5 2014 klo 01:30 av Svante Arvedson
 		<td><a href="Anvandningsfall/DF1-Logga-in.md">DF1</a></td>
 		<td>Ej påbörjad</td>
 		<td>BF1, BF2</td>
-		<td>Hög</td>
+		<td>Medel</td>
 	</tr>
 	<tr>
 		<td>AF13</td>
