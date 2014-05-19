@@ -40,3 +40,13 @@ form.quiz {
 #sendQuizButton {
 	margin-top: 40px;
 }
+
+label.correct {
+	background: #457a1a;
+	color: #FFF5EE;
+}
+
+label.givenAnswer {
+	background: #960B0E;
+	color: #FFF5EE;
+}

@@ -11,17 +11,17 @@ $lesson = LessonPeer::doSelectOne($criteria);
 $lessonID = $lesson->getLessonid();
 
 // Test 1
-$LessonQuiz = new LessonQuiz($lessonID);
-$test->ok(!empty($LessonQuiz), '__construct() - Create an instance of LessonQuiz');
+$lessonQuiz = new LessonQuiz($lessonID);
+$test->ok(!empty($lessonQuiz), '__construct() - Create an instance of LessonQuiz');
 
 // Test 2
-$lessonQuizQuestions = $LessonQuiz->getQuestions();
+$lessonQuizQuestions = $lessonQuiz->getQuestions();
 $test->ok(is_array($lessonQuizQuestions), 'getQuestions() - Gets array with QuizQuestion objects');
 
 // Test 3
 try
 {
-	$LessonQuiz = new LessonQuiz($lessonID += 200);
+	$lessonQuiz = new LessonQuiz($lessonID += 200);
 	$test->fail('__construct() - Constructor didn\'t throw an exception');
 }
 catch(Exception $e)

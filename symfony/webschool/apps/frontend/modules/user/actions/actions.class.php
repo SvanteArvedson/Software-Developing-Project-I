@@ -254,7 +254,7 @@ class userActions extends sfActions
 					}
 					
 					$this->getUser()->setFlash('error', 'Ditt användarkonto kunde inte sparas. 
-						Kontakta administratören om promlemet inte försvinner.');
+						Kontakta administratören på info@webschool.se');
 				}
 				
 				$this->errorMessage = 'Användarnamnet är upptaget. Välj ett annat.';

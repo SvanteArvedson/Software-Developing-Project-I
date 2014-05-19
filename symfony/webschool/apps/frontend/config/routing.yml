@@ -35,6 +35,11 @@ show_test:
   param: { module: lesson, action: quiz }
   reqirements:
     lessonID: \d+
+    sf_method: [get]
+
+process_quiz:
+  url: /lektion/resultat
+  param: { module: lesson, action: quizResult }
 
 default_index:
   url:   /:module

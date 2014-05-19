@@ -122,7 +122,7 @@ också hand om under nästa iteration.
 
 ### Mål iteration 5
 I iteration 5 ska jag bli klar med alla de uppgifter som jag hade planerat 
-att göra i iteration 4. Tiden som blir över ska jag ägna åt testning och 
+att göra i iteration 4. Om det blir tid över ska jag ägna den åt testning och 
 bugfix.
 
 ### Planering iteration 5
@@ -137,16 +137,16 @@ bugfix.
 	<tr>
 		<td><a href="/../Anvandningsfall/AF3-Las-en-lektion-och-gor-tillhorande-test.md">AF3</a></td>
 		<td>Implementation AF3 - Skriv controller och template</td>
-		<td>Påbörjat</td>
+		<td>Klart</td>
 		<td>6</td>
-		<td></td>
+		<td>10</td>
 	</tr>
 	<tr>
 		<td><a href="/../Anvandningsfall/AF3-Las-en-lektion-och-gor-tillhorande-test.md">AF3</a></td>
 		<td>Implementation AF3 - Skriv automatiska tester</td>
-		<td>Ej påbörjat</td>
+		<td>Klart</td>
 		<td>3</td>
-		<td></td>
+		<td>2</td>
 	</tr>
 	<tr>
 		<td><a href="/../Anvandningsfall/AF4-Visa-statistik-over-gjorda-tester.md">AF4</a></td>
@@ -179,22 +179,29 @@ bugfix.
 	<tr>
 		<td></td>
 		<td>Skriv och genomför testfall, skriv testrapport</td>
-		<td>Ej påbörjat</td>
+		<td>Klart</td>
 		<td>6</td>
-		<td></td>
+		<td>1</td>
 	</tr>
 	<tr>
 		<td></td>
 		<td>Refactoring och bugfix</td>
-		<td>Ej påbörjat</td>
+		<td>Klart</td>
 		<td>3</td>
+		<td>1</td>
+	</tr>
+	<tr>
 		<td></td>
+		<td>Analys och arbete med gränssnitt</td>
+		<td>Klart</td>
+		<td>4</td>
+		<td>4</td>
 	</tr>
 	<tr>
 		<td></td>
 		<td></td>
 		<td>Summa</td>
-		<td>26</td>
-		<td></td>
+		<td>30</td>
+		<td>18</td>
 	</tr>
 </table>
