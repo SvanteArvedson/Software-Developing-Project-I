@@ -332,12 +332,6 @@ lesson:
     title: 'Barocken'
 
 user:
-  Admin:
-    username: 'Admin'
-    password: 'Admin'
-    name: 'Admin'
-    email: 'info@webschool.com'
-
   user1:
     username: 'GulligaHannes'
     password: '12345678'
@@ -679,21 +673,25 @@ result:
     lessonID: lesson1
     userID: user1
     score: 8
+    maxScore: 10
 
   result2:
     lessonID: lesson1
     userID: user2
     score: 6
+    maxScore: 10
 
   result3:
     lessonID: lesson1
     userID: user1
     score: 10
+    maxScore: 10
 
   result4:
     lessonID: lesson2
     userID: user1
     score: 8
+    maxScore: 10
     
 quiz:
   quiz1:

@@ -12,6 +12,7 @@ propel:
     lessonID: { type: integer, required: true,  foreignTable: lesson, foreignReference: lessonID }
     userID: { type: integer, required: true, foreignTable: user, foreignReference: userID }
     score: { type: tinyint, required: true }
+    maxScore: { type: tinyint, required: true }
     created_at: ~
 
   lesson:

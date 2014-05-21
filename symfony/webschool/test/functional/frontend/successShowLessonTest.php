@@ -5,6 +5,10 @@ include(dirname(__FILE__).'/../../bootstrap/functional.php');
 $browser = new UserTestFunctional(new sfBrowser());
 $browser->loadData();
 
+$criteria = new Criteria();
+$criteria->add(LessonPeer::TITLE, 'Barocken');
+$lessonBarocken = LessonPeer::doSelectOne($criteria);
+
 $browser->info('Functional test successful show lesson')->
 	
 	info(' 01 - Login form is visible')->
@@ -49,7 +53,7 @@ $browser->info('Functional test successful show lesson')->
 	
 	info(' 03 - User click on link to lesson "Barocken"')->
 	
-	click('Barocken')->
+	get('/lektion/' . $lessonBarocken->getLessonid() . '/' . Webschool::slugify($lessonBarocken->getTitle()))->
 	
 	with('request')->begin()->
 		isParameter('module', 'lesson')->

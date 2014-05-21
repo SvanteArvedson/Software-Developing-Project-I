@@ -33,6 +33,7 @@ CREATE TABLE `result`
 	`lessonID` INTEGER  NOT NULL,
 	`userID` INTEGER  NOT NULL,
 	`score` TINYINT  NOT NULL,
+	`maxScore` TINYINT  NOT NULL,
 	`created_at` DATETIME,
 	PRIMARY KEY (`resultID`),
 	INDEX `result_FI_1` (`lessonID`),

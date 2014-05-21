@@ -128,6 +128,7 @@ Senast ändrad den 7/5 2014 klo 14:00 av Svante Arvedson
         <th>lessonID</th>
         <th>userID</th>
         <th>score</th>
+        <th>maxScore</th>
         <th>created_at</th>
     </tr>
     <tr>
@@ -135,6 +136,7 @@ Senast ändrad den 7/5 2014 klo 14:00 av Svante Arvedson
         <td>5</td>
         <td>1</td>
         <td>8</td>
+        <td>10</td>
         <td>2014-05-08T15:35:25</td>
     </tr>
     <tr>
@@ -142,12 +144,14 @@ Senast ändrad den 7/5 2014 klo 14:00 av Svante Arvedson
         <td>5</td>
         <td>1</td>
         <td>6</td>
+        <td>10</td>
         <td>2014-05-08T16:14:45</td>
     </tr>
     <tr>
         <td>14</td>
         <td>5</td>
         <td>2</td>
+        <td>10</td>
         <td>10</td>
         <td>2014-05-08T21:12:06</td>
     </tr>
@@ -156,6 +160,7 @@ Senast ändrad den 7/5 2014 klo 14:00 av Svante Arvedson
         <td>6</td>
         <td>1</td>
         <td>8</td>
+        <td>10</td>
         <td>2014-05-09T06:48:31</td>
     </tr>
 </table>

@@ -13,15 +13,6 @@ Senast uppdaterad 4/5 2014 klo 01:30 av Svante Arvedson
 		<th>Prioritet</th>
 	</tr>
 	<tr>
-		<td>AF4</td>
-		<td><a href="Anvandningsfall/AF4-Visa-statistik-over-gjorda-tester.md">Visa statistik öven gjorda tester</a></td>
-		<td>Svante Arvedson</td>
-		<td><a href="Anvandningsfall/DF1-Logga-in.md">DF1</a></td>
-		<td>Ej påbörjad</td>
-		<td>BF1, BF2, BF3, BF4</td>
-		<td>Hög</td>
-	</tr>
-	<tr>
 		<td>AF8</td>
 		<td><a href="Anvandningsfall/AF8-Sparra-anvandare.md">Spärra användare</a></td>
 		<td>Svante Arvedson</td>
@@ -142,6 +133,14 @@ Senast uppdaterad 4/5 2014 klo 01:30 av Svante Arvedson
 	<tr>
 		<td>AF3</td>
 		<td><a href="Anvandningsfall/AF3-Las-en-lektion-och-gor-tillhorande-test.md">Läs en lektion och gör tillhörande test</a></td>
+		<td>Svante Arvedson</td>
+		<td><a href="Anvandningsfall/DF1-Logga-in.md">DF1</a></td>
+		<td>Klart</td>
+		<td>BF1, BF2, BF3, BF4</td>
+	</tr>
+	<tr>
+		<td>AF4</td>
+		<td><a href="Anvandningsfall/AF4-Visa-statistik-over-gjorda-tester.md">Visa statistik öven gjorda tester</a></td>
 		<td>Svante Arvedson</td>
 		<td><a href="Anvandningsfall/DF1-Logga-in.md">DF1</a></td>
 		<td>Klart</td>

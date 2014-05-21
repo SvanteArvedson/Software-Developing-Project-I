@@ -1,0 +1,39 @@
+ul#board {
+	width: 100%; 
+	display: inline-block;
+	margin: 0 auto;
+}
+
+ul#board li {
+	width: 50%;
+}
+
+@media screen and (max-width: 798px) {
+	ul#board li {
+		width: 100%;
+	}
+	h2#resultHeader {
+		text-align: center;
+	}	
+}
+
+ul#board li table {
+	margin: 0 auto;
+}
+
+ul#board li table caption {
+	font-family: "Book Antiqua", "serif";
+	text-align: left;
+	font-weight: bold;
+}
+
+ul#board li table thead tr th {
+	font-family: "Book Antiqua", "serif";
+	text-align: left;
+	color: #3b3c36;
+}
+
+ul#board li table tbody tr td {
+	text-align: left;
+	color: #3b3c36;
+}

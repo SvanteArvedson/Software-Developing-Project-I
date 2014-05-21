@@ -138,9 +138,17 @@ Senast ändrad den 7/5 2014 klo 16:30 av Svante Arvedson
         <td></td>
     </tr>
     <tr>
+        <td>maxScore</td>
+        <td>tinyint</td>
+        <td>nej</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
         <td>created_at</td>
         <td>datetime</td>
-        <td>nej</td>
+        <td>ja</td>
         <td></td>
         <td></td>
         <td></td>

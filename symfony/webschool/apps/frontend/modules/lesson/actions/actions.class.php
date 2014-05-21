@@ -42,7 +42,7 @@ class lessonActions extends sfActions
 		}
 	}
 	
-		/**
+	/**
 	 * Controller for "/lektion/ratta/test"
 	 *
 	 * @param sfRequest $request A request object
@@ -52,6 +52,7 @@ class lessonActions extends sfActions
 		$this->redirectUnless($this->getUser()->getAttribute('quiz') != null, $this->generateUrl('homepage'));
 		
 		$this->lessons = LessonPeer::doSelect(new Criteria());
+		
 		$this->form = $this->getUser()->getAttribute('quiz');
 		$lessonID = $this->form->getQuiz()->getlessonID();
 		$this->lesson = LessonPeer::retrieveByPK($lessonID);
@@ -86,17 +87,30 @@ class lessonActions extends sfActions
 			
 			$givenAnswers = $this->getGivenAnswers($request, $this->form);
 			$correctAnswerIDs = $this->getCorrectAnswerIDs($this->form);
+			$maxScore = $this->form->count();
 			
 			$score = $this->calculateScore($correctAnswerIDs, $givenAnswers);
-			$result = $this->saveQuizResult($score, $lessonID);
+			$result = $this->saveQuizResult($score, $lessonID, $maxScore);
 			
 			$this->configureFormToViewResult($this->form, $correctAnswerIDs, $givenAnswers);
 			
 			// Show result with a "get"
 			$this->getUser()->setAttribute('result', $result);
-			$this->getUser()->setAttribute('maxScore', $this->form->count());
+			$this->getUser()->setAttribute('maxScore', $maxScore);
 			$this->redirect($this->generateUrl('process_quiz'));
 		}
+	}
+
+	/**
+	 * Controller for "/resultat"
+	 *
+	 * @param sfRequest $request A request object
+	 */
+	public function executeViewResult(sfWebRequest $request)
+	{
+		$this->lessons = LessonPeer::doSelect(new Criteria());
+		
+		$this->UserResult = new UserResult($this->getUser()->getAttribute('user')->getUserid());
 	}
 
 	/**
@@ -181,12 +195,13 @@ class lessonActions extends sfActions
 	 * 
 	 * @return Result
 	 */
-	private function saveQuizResult($score, $lessonID)
+	private function saveQuizResult($score, $lessonID, $maxScore)
 	{
 		$result = new Result();
 		$result->setLessonid($lessonID);
 		$result->setUserid($this->getUser()->getAttribute('user')->getUserid());
 		$result->setScore($score);
+		$result->setMaxscore($maxScore);
 		
 		if ($result->validate())
 		{

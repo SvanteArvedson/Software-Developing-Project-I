@@ -28,7 +28,7 @@ show_lesson:
     lessonID: \d+
     sf_method: [get]
     
-show_test:
+show_quiz:
   url: /lektion/:lessonID/:title_slug/test
   class: sfPropelRoute
   options: { model: Lesson, type: object }
@@ -40,6 +40,13 @@ show_test:
 process_quiz:
   url: /lektion/resultat
   param: { module: lesson, action: quizResult }
+  
+show_quiz_result:
+  url: /resultat
+  param: { module: lesson, action: viewResult }
+  reqirements:
+    lessonID: \d+
+    sf_method: [get]
 
 default_index:
   url:   /:module

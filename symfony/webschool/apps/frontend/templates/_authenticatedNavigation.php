@@ -7,16 +7,27 @@ $linksToLessons = '<li class="has-dropdown">
 						<ul class="dropdown">';
 // Add links to lessons
 foreach ($lessons as $lesson) {
-	$linksToLessons .=    	'<li>
-								<a href="' . url_for('show_lesson', $lesson) . '">' . $lesson->getTitle() . '</a>  
+	$linksToLessons .=    	'<li class="has-dropdown">
+								<a>' . $lesson->getTitle() . '</a>
+								<ul class="dropdown">
+									<li>
+										<a href="' . url_for('show_lesson', $lesson) . '">Lektion</a>  
+									</li>
+									<li>
+										<a href="' . url_for('show_quiz', $lesson) . '">Quiz</a>
+									</li>
+								</ul>
 							</li>';
 }
 $linksToLessons .= 		'</ul>
 					</li>';
 
 echo $linksToLessons .  
+	'<li>
+		<a href="' . url_for('@show_quiz_result') . '">Mina resultat</a>
+	</li>' . 
 	'<li class="has-dropdown">
-		<a>Konto</a>
+		<a>Mitt konto</a>
 		<ul class="dropdown">
 			<li>
 				<a href="' . url_for('@edit_user_account') . '">Redigera konto</a>
