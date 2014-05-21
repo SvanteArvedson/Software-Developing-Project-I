@@ -166,20 +166,20 @@ skriva testfall och att skriva en testrapport.
 	<tr>
 		<td></td>
 		<td>Publicera applikationen på webbhotellet</td>
-		<td>Ej påbörjat</td>
+		<td>Klart</td>
 		<td>2</td>
-		<td></td>
+		<td>2</td>
 	</tr>
 	<tr>
 		<td></td>
 		<td>Skriv och genomför testfall, skriv testrapport</td>
-		<td>Ej påbörjat</td>
+		<td>Påbörjat</td>
 		<td>3</td>
 		<td></td>
 	</tr>
 	<tr>
 		<td></td>
-		<td>Refactoring och bugfix</td>
+		<td>Refactoring av CSS-filerna</td>
 		<td>Påbörjat</td>
 		<td>3</td>
 		<td></td>
@@ -189,6 +189,6 @@ skriva testfall och att skriva en testrapport.
 		<td></td>
 		<td>Summa</td>
 		<td>22</td>
-		<td>7</td>
+		<td>9</td>
 	</tr>
 </table>
