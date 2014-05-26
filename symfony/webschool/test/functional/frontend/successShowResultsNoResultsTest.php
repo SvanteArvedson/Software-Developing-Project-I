@@ -57,8 +57,8 @@ $browser->info('Functional test successful show results with no results')->
 	end()->
 	
 	with('response')->begin()->
-		checkElement('h2', '/Mina resultat/')->
-		checkElement('ul#board li table tbody tr td', '/Inga resultat/')->
+		checkElement('h1', '/Mina resultat/')->
+		checkElement('ul li table tbody tr td', '/Inga resultat/')->
 		
 	end()->
 	

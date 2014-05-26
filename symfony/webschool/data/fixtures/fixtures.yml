@@ -149,9 +149,9 @@ answer:
 lesson:
   lesson1:
     text: |
-           '<h3>
+           <h2>
               Rubrik 1
-            </h3>
+            </h2>
             <p> 
               Nam dolor metus, placerat ut interdum non, pretium 
               a ipsum. Cras condimentum neque arcu, sit amet 
@@ -180,16 +180,16 @@ lesson:
               eget suscipit libero, eu pretium sem. Duis dapibus convallis 
               varius.
             </p>
-            <div class="panel">
+            <div class="panel radius">
               <p>
                 Quisque est magna, ultrices ut dapibus vitae, blandit et 
                 lacus. Maecenas varius tristique ornare. Proin pellentesque 
                 fringilla libero, a vestibulum quam auctor ac.
               </p>
             </div>
-            <h3>
+            <h2>
               Rubrik 2
-            </h3>
+            </h2>
             <p> 
               Quisque varius malesuada arcu eget dignissim. Lorem ipsum dolor 
               sit amet, consectetur adipiscing elit. Vivamus in luctus magna. 
@@ -219,9 +219,9 @@ lesson:
               ante urna, fringilla non urna non, fermentum sagittis dui. Integer 
               aliquam pellentesque semper. Donec et facilisis turpis.
             </p>  
-            <h3>
+            <h2>
               Rubrik 3
-            </h3>
+            </h2>
             <p> 
               Ut ut ultricies tortor. Morbi tempus metus sit amet commodo ullamcorper. 
               Fusce eu arcu quis ante tempor varius nec nec lectus. Suspendisse eu 
@@ -234,9 +234,9 @@ lesson:
               hendrerit viverra quis mauris. Sed quis nunc at turpis tincidunt 
               scelerisque in a lorem.
             </p>
-            <h3>
+            <h2>
               Rubrik 4
-            </h3>
+            </h2>
             <p> 
               Nullam imperdiet luctus suscipit. Quisque non sem ac nisi aliquet vehicula. 
               Quisque placerat fringilla urna, et condimentum mi commodo lacinia. Aliquam 
@@ -262,19 +262,19 @@ lesson:
               consequat dui sed iaculis. Sed porta porta lectus, vitae fringilla elit 
               cursus et. Morbi et lorem vel tortor dignissim consequat.
             </p>
-            <div class="panel">
+            <div class="panel radius">
               <p>
                 Vestibulum tortor felis, molestie id nibh id, pharetra bibendum ante. 
                 Integer hendrerit leo metus, vel faucibus urna molestie vel.
               </p>
-            </div>'
+            </div>
     title: 'Renässansen'
 
   lesson2:
     text: |
-           '<h3>
+           <h2>
               Rubrik 1
-            </h3>
+            </h2>
             <p> 
               Lorem ipsum dölor sit åmet cönsectetur ådipisicing. Elit sed do eiusmöd, 
               tempor incididunt ut. Läbore et dolore. Mågnå aliquå sodåles egestäs. In 
@@ -298,15 +298,15 @@ lesson:
               plåceråt. Sed sed velit enim rutrum neque. Mäecenas dolor elit portå. Quis 
               curåbitur plåcerät elementum.
             </p>
-            <div class="panel">
+            <div class="panel radius">
               <p>
                 Ut hendrerit neque euismöd, posuere et ligulå söllicitudin. Leö 
                 et curabitur interdum risus euismöd eleifend.
               </p>
             </div>
-            <h3>
+            <h2>
               Rubrik 2
-            </h3>
+            </h2>
             <p> 
               Häbitåsse pulvinär däpibus pråesent. Adipiscing bibendum quis lectus. 
               Sem feugiåt nunc rutrum. Masså nunc nunc årcu scelerisque pellentesque. 
@@ -328,7 +328,7 @@ lesson:
               målesuådå eu velit. Hendrerit fermentum fusce morbi nulläm amet vulputåte. 
               Quis tempus donec cönsequät gravidä mägna. Eu ipsum tempus tempor tempus 
               elementum.
-            </p>'
+            </p>
     title: 'Barocken'
 
 user:

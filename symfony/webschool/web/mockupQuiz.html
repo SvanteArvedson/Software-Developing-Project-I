@@ -3,8 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width; initial-scale=1.0">
-		<title>Musikhistoria - Renässansen - Quiz</title>
-		<script type="text/javascript" src="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/js/vendor/custom.modernizr.js"></script>
+		<title>Musikhistoria - Renässansen - Quiz</title><script type="text/javascript" src="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/js/vendor/custom.modernizr.js"></script>
 		<script type="text/javascript" src="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/js/vendor/jquery.js"></script>
 		<script type="text/javascript" src="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/js/foundation/foundation.js"></script>
 		<script type="text/javascript" src="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/js/foundation/foundation.topbar.js"></script>
@@ -12,329 +11,374 @@
 		<script type="text/javascript" src="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/js/foundation/foundation.dropdown.js"></script>
 		<link rel="stylesheet" type="text/css" media="screen" href="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/css/normalize.css" />
 		<link rel="stylesheet" type="text/css" media="screen" href="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/css/foundation.css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/css/foundation-grid-5.css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/css/main.css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/css/lesson.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/css/Main.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/css/Quiz.css" />
 	</head>
 	<body>
 		<div id="container">
-			<nav class="top-bar">
-				<ul class="title-area">
-					<li>
-						<a href="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/" id="backToHome">Startsidan</a>
-					</li>
-					<li class="toggle-topbar menu-icon">
-						<a href="#"><span>Meny</span></a>
-					</li>
-				</ul>
-				<section class="top-bar-section">
-					<ul class="right">
-						<li class="has-dropdown">
-							<a>Lektioner</a>
-							<ul class="dropdown">
-								<li>
-									<a href="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/lektion/11/renassansen">Renässansen</a>
-								</li>
-								<li>
-									<a href="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/lektion/12/barocken">Barocken</a>
-								</li>
-							</ul>
+			<div class="contain-to-grid">
+				<nav class="top-bar">
+					<ul class="title-area">
+						<li>
+							<a href="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/" id="backToHome">Startsidan</a>
 						</li>
-						<li class="has-dropdown">
-							<a>Konto</a>
-							<ul class="dropdown">
-								<li>
-									<a href="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/redigera-konto">Redigera konto</a>
-								</li>
-								<li>
-									<a href="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/redigera-losenord">Ändra lösenord</a>
-								</li>
-								<li>
-									<a href="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/radera-konto">Radera konto</a>
-								</li>
-							</ul>
-						</li>
-						<li class="has-form">
-							<form method="post" action="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/">
-								<input id="logOutButton" class="button tiny right" type="submit" value="Logga ut" />
-							</form>
+						<li class="toggle-topbar menu-icon">
+							<a href="#"><span>Meny</span></a>
 						</li>
 					</ul>
-				</section>
-			</nav>
+					<section class="top-bar-section">
+						<ul class="right">
+							<li class="has-dropdown">
+								<a>Lektioner</a>
+								<ul class="dropdown">
+									<li class="has-dropdown">
+										<a>Renässansen</a>
+										<ul class="dropdown">
+											<li>
+												<a href="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/lektion/5/renassansen">Lektion</a>
+											</li>
+											<li>
+												<a href="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/lektion/5/renassansen/test">Quiz</a>
+											</li>
+										</ul>
+									</li>
+									<li class="has-dropdown">
+										<a>Barocken</a>
+										<ul class="dropdown">
+											<li>
+												<a href="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/lektion/6/barocken">Lektion</a>
+											</li>
+											<li>
+												<a href="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/lektion/6/barocken/test">Quiz</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/resultat">Mina resultat</a>
+							</li>
+							<li class="has-dropdown">
+								<a>Mitt konto</a>
+								<ul class="dropdown">
+									<li>
+										<a href="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/redigera-konto">Redigera konto</a>
+									</li>
+									<li>
+										<a href="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/redigera-losenord">Ändra lösenord</a>
+									</li>
+									<li>
+										<a href="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/radera-konto">Radera konto</a>
+									</li>
+								</ul>
+							</li>
+							<li class="has-form">
+								<form method="post" action="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/">
+									<input id="logOutButton" class="button tiny right" type="submit" value="Logga ut" />
+								</form>
+							</li>
+						</ul>
+					</section>
+				</nav>
+			</div>
 			<div id="content">
-				<header id="header" class="row">
-					<h1 id="pagetitle">Musikhistoria</h1>
+				<header id="header1" class="row show-for-small"><img alt="Ensemble Coloris Webbskola" src="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/images/Titel-mobil.png" />
+				</header>
+				<header id="header2" class="row hide-for-small"><img alt="Ensemble Coloris Webbskola" src="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/images/Titel-desktop.png" />
 				</header>
 				<div id="main" class="row">
-					<div id="pagecontent" class="small-12 large-8 large-centered columns">
-						<h2>Renässansen</h2>
-						<div class="panel instructions">
-							<p>
-								Du hittar alla dina resultat under Konto->Mina resultat.
-							</p>
-						</div>
-						<div class="row">
-							<div class="small-12 columns question">
-								<label class="question">Vem av följande var kompositörer levde inte under renässansen?</label>
-								<ul class="alternatives small-block-grid-1 large-block-grid-2">
-									<li>
-										<label for="quiz_question1_215">
-											<input name="quiz[question1]" type="radio" value="215" id="quiz_question1_215" disabled="disabled" />
-											Jacobus Clemens non Papa</label>
-									</li>
-									<li>
-										<label for="quiz_question1_213">
-											<input name="quiz[question1]" type="radio" value="213" id="quiz_question1_213" disabled="disabled" />
-											Giovanni Pierluigi da Palestrina</label>
-									</li>
-									<li>
-										<label for="quiz_question1_214" class="correct">
-											<input name="quiz[question1]" type="radio" value="214" id="quiz_question1_214" disabled="disabled" />
-											Georg Philipp Telemann</label>
-									</li>
-									<li>
-										<label for="quiz_question1_216" class="givenAnswer">
-											<input name="quiz[question1]" type="radio" value="216" id="quiz_question1_216" disabled="disabled" />
-											Guillaume Dufay</label>
-									</li>
-								</ul>
+					<div id="pagecontent" class="small-10 large-8 small-centered columns">
+						<h1>Renässansen - Quiz</h1>
+						<form method="post" action="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/frontend_dev.php/lektion/resultat">
+							<div class="panel radius">
+								<p>
+									Svara på alla frågorna, klicka sedan på <em>Skicka</em>.
+								</p>
 							</div>
-							<div class="small-12 columns question">
-								<label class="question">Vilken typ av instrument är en cembalo?</label>
-								<ul class="alternatives small-block-grid-1 large-block-grid-2">
-									<li>
-										<label for="quiz_question2_210" class="correct">
-											<input name="quiz[question2]" type="radio" value="210" id="quiz_question2_210" disabled="disabled" />
-											Klaverinstrument</label>
-									</li>
-									<li>
-										<label for="quiz_question2_212">
-											<input name="quiz[question2]" type="radio" value="212" id="quiz_question2_212" disabled="disabled" />
-											Stråkinstrument</label>
-									</li>
-									<li>
-										<label for="quiz_question2_211">
-											<input name="quiz[question2]" type="radio" value="211" id="quiz_question2_211" disabled="disabled" />
-											Stränginstrument</label>
-									</li>
-									<li>
-										<label for="quiz_question2_208" class="givenAnswer">
-											<input name="quiz[question2]" type="radio" value="208" id="quiz_question2_208" disabled="disabled" />
-											Blåsinstrument</label>
-									</li>
-								</ul>
+							<div class="row">
+								<div class="small-12 columns question">
+									<label class="question">Vad arbetade Giovanni Pierluigi da Palestrina som?</label>
+									<ul class="alternatives small-block-grid-1 large-block-grid-2">
+										<li>
+											<label for="quiz_question1_99">
+												<input name="quiz[question1]" type="radio" value="99" id="quiz_question1_99" />
+												Orgelbyggare</label>
+										</li>
+										<li>
+											<label for="quiz_question1_96">
+												<input name="quiz[question1]" type="radio" value="96" id="quiz_question1_96" />
+												Kyrkvarktmästare</label>
+										</li>
+										<li>
+											<label for="quiz_question1_97">
+												<input name="quiz[question1]" type="radio" value="97" id="quiz_question1_97" />
+												Präst</label>
+										</li>
+										<li>
+											<label for="quiz_question1_95">
+												<input name="quiz[question1]" type="radio" value="95" id="quiz_question1_95" />
+												Kompositör</label>
+										</li>
+									</ul>
+								</div>
 							</div>
-							<div class="small-12 columns question">
-								<label class="question">Vad arbetade Giovanni Pierluigi da Palestrina som?</label>
-								<ul class="alternatives small-block-grid-1 large-block-grid-2">
-									<li>
-										<label for="quiz_question3_206">
-											<input name="quiz[question3]" type="radio" value="206" id="quiz_question3_206" disabled="disabled" />
-											Kyrkvarktmästare</label>
-									</li>
-									<li>
-										<label for="quiz_question3_207">
-											<input name="quiz[question3]" type="radio" value="207" id="quiz_question3_207" disabled="disabled" />
-											Präst</label>
-									</li>
-									<li>
-										<label for="quiz_question3_209" class="givenAnswer">
-											<input name="quiz[question3]" type="radio" value="209" id="quiz_question3_209" disabled="disabled" />
-											Orgelbyggare</label>
-									</li>
-									<li>
-										<label for="quiz_question3_205" class="correct">
-											<input name="quiz[question3]" type="radio" value="205" id="quiz_question3_205" disabled="disabled" />
-											Kompositör</label>
-									</li>
-								</ul>
+							<div class="row">
+								<div class="small-12 columns question">
+									<label class="question">Vilket land kom Giovanni Pierluigi da Palestrina från?</label>
+									<ul class="alternatives small-block-grid-1 large-block-grid-2">
+										<li>
+											<label for="quiz_question2_108">
+												<input name="quiz[question2]" type="radio" value="108" id="quiz_question2_108" />
+												England</label>
+										</li>
+										<li>
+											<label for="quiz_question2_111">
+												<input name="quiz[question2]" type="radio" value="111" id="quiz_question2_111" />
+												Nederländerna</label>
+										</li>
+										<li>
+											<label for="quiz_question2_110">
+												<input name="quiz[question2]" type="radio" value="110" id="quiz_question2_110" />
+												Tyskland</label>
+										</li>
+										<li>
+											<label for="quiz_question2_107">
+												<input name="quiz[question2]" type="radio" value="107" id="quiz_question2_107" />
+												Italien</label>
+										</li>
+									</ul>
+								</div>
 							</div>
-							<div class="small-12 columns question">
-								<label class="question">Vilket land kom Giovanni Pierluigi da Palestrina från?</label>
-								<ul class="alternatives small-block-grid-1 large-block-grid-2">
-									<li>
-										<label for="quiz_question4_221">
-											<input name="quiz[question4]" type="radio" value="221" id="quiz_question4_221" disabled="disabled" />
-											Nederländerna</label>
-									</li>
-									<li>
-										<label for="quiz_question4_220" class="givenAnswer">
-											<input name="quiz[question4]" type="radio" value="220" id="quiz_question4_220" disabled="disabled" />
-											Tyskland</label>
-									</li>
-									<li>
-										<label for="quiz_question4_217" class="correct">
-											<input name="quiz[question4]" type="radio" value="217" id="quiz_question4_217" disabled="disabled" />
-											Italien</label>
-									</li>
-									<li>
-										<label for="quiz_question4_218">
-											<input name="quiz[question4]" type="radio" value="218" id="quiz_question4_218" disabled="disabled" />
-											England</label>
-									</li>
-								</ul>
+							<div class="row">
+								<div class="small-12 columns question">
+									<label class="question">Under vilka år var renässansen?</label>
+									<ul class="alternatives small-block-grid-1 large-block-grid-2">
+										<li>
+											<label for="quiz_question3_129">
+												<input name="quiz[question3]" type="radio" value="129" id="quiz_question3_129" />
+												1600-1750</label>
+										</li>
+										<li>
+											<label for="quiz_question3_128">
+												<input name="quiz[question3]" type="radio" value="128" id="quiz_question3_128" />
+												1350-1600</label>
+										</li>
+										<li>
+											<label for="quiz_question3_126">
+												<input name="quiz[question3]" type="radio" value="126" id="quiz_question3_126" />
+												1800-1875</label>
+										</li>
+										<li>
+											<label for="quiz_question3_127">
+												<input name="quiz[question3]" type="radio" value="127" id="quiz_question3_127" />
+												1100-1350</label>
+										</li>
+									</ul>
+								</div>
 							</div>
-							<div class="small-12 columns question">
-								<label class="question">Under vilka år var renässansen?</label>
-								<ul class="alternatives small-block-grid-1 large-block-grid-2">
-									<li>
-										<label for="quiz_question5_238" class="correct givenAnswer">
-											<input name="quiz[question5]" type="radio" value="238" id="quiz_question5_238" disabled="disabled" />
-											1350-1600</label>
-									</li>
-									<li>
-										<label for="quiz_question5_239">
-											<input name="quiz[question5]" type="radio" value="239" id="quiz_question5_239" disabled="disabled" />
-											1600-1750</label>
-									</li>
-									<li>
-										<label for="quiz_question5_237">
-											<input name="quiz[question5]" type="radio" value="237" id="quiz_question5_237" disabled="disabled" />
-											1100-1350</label>
-									</li>
-									<li>
-										<label for="quiz_question5_236">
-											<input name="quiz[question5]" type="radio" value="236" id="quiz_question5_236" disabled="disabled" />
-											1800-1875</label>
-									</li>
-								</ul>
+							<div class="row">
+								<div class="small-12 columns question">
+									<label class="question">Vad är en Pavane?</label>
+									<ul class="alternatives small-block-grid-1 large-block-grid-2">
+										<li>
+											<label for="quiz_question4_125">
+												<input name="quiz[question4]" type="radio" value="125" id="quiz_question4_125" />
+												Ett instrument</label>
+										</li>
+										<li>
+											<label for="quiz_question4_122">
+												<input name="quiz[question4]" type="radio" value="122" id="quiz_question4_122" />
+												En dans</label>
+										</li>
+										<li>
+											<label for="quiz_question4_124">
+												<input name="quiz[question4]" type="radio" value="124" id="quiz_question4_124" />
+												En kompositör</label>
+										</li>
+										<li>
+											<label for="quiz_question4_123">
+												<input name="quiz[question4]" type="radio" value="123" id="quiz_question4_123" />
+												En maträtt</label>
+										</li>
+									</ul>
+								</div>
 							</div>
-							<div class="small-12 columns question">
-								<label class="question">Vilket land kom Guillaume Dufay från?</label>
-								<ul class="alternatives small-block-grid-1 large-block-grid-2">
-									<li>
-										<label for="quiz_question6_221" class="correct">
-											<input name="quiz[question6]" type="radio" value="221" id="quiz_question6_221" disabled="disabled" />
-											Nederländerna</label>
-									</li>
-									<li>
-										<label for="quiz_question6_219">
-											<input name="quiz[question6]" type="radio" value="219" id="quiz_question6_219" disabled="disabled" />
-											Sverige</label>
-									</li>
-									<li>
-										<label for="quiz_question6_222" class="givenAnswer">
-											<input name="quiz[question6]" type="radio" value="222" id="quiz_question6_222" disabled="disabled" />
-											Danmark</label>
-									</li>
-									<li>
-										<label for="quiz_question6_217">
-											<input name="quiz[question6]" type="radio" value="217" id="quiz_question6_217" disabled="disabled" />
-											Italien</label>
-									</li>
-								</ul>
+							<div class="row">
+								<div class="small-12 columns question">
+									<label class="question">Under vilka år hölls det tridentinska kyrkomötet?</label>
+									<ul class="alternatives small-block-grid-1 large-block-grid-2">
+										<li>
+											<label for="quiz_question5_119">
+												<input name="quiz[question5]" type="radio" value="119" id="quiz_question5_119" />
+												1545-1563</label>
+										</li>
+										<li>
+											<label for="quiz_question5_120">
+												<input name="quiz[question5]" type="radio" value="120" id="quiz_question5_120" />
+												1513-1521</label>
+										</li>
+										<li>
+											<label for="quiz_question5_121">
+												<input name="quiz[question5]" type="radio" value="121" id="quiz_question5_121" />
+												1585-1589</label>
+										</li>
+										<li>
+											<label for="quiz_question5_118">
+												<input name="quiz[question5]" type="radio" value="118" id="quiz_question5_118" />
+												1445-1463</label>
+										</li>
+									</ul>
+								</div>
 							</div>
-							<div class="small-12 columns question">
-								<label class="question">Under vilka år hölls det tridentinska kyrkomötet?</label>
-								<ul class="alternatives small-block-grid-1 large-block-grid-2">
-									<li>
-										<label for="quiz_question7_229" class="correct">
-											<input name="quiz[question7]" type="radio" value="229" id="quiz_question7_229" disabled="disabled" />
-											1545-1563</label>
-									</li>
-									<li>
-										<label for="quiz_question7_231">
-											<input name="quiz[question7]" type="radio" value="231" id="quiz_question7_231" disabled="disabled" />
-											1585-1589</label>
-									</li>
-									<li>
-										<label for="quiz_question7_228">
-											<input name="quiz[question7]" type="radio" value="228" id="quiz_question7_228" disabled="disabled" />
-											1445-1463</label>
-									</li>
-									<li>
-										<label for="quiz_question7_230" class="givenAnswer">
-											<input name="quiz[question7]" type="radio" value="230" id="quiz_question7_230" disabled="disabled" />
-											1513-1521</label>
-									</li>
-								</ul>
+							<div class="row">
+								<div class="small-12 columns question">
+									<label class="question">Vilket av följande instrument fanns inte under renässansen?</label>
+									<ul class="alternatives small-block-grid-1 large-block-grid-2">
+										<li>
+											<label for="quiz_question6_116">
+												<input name="quiz[question6]" type="radio" value="116" id="quiz_question6_116" />
+												Luta</label>
+										</li>
+										<li>
+											<label for="quiz_question6_113">
+												<input name="quiz[question6]" type="radio" value="113" id="quiz_question6_113" />
+												Violin</label>
+										</li>
+										<li>
+											<label for="quiz_question6_114">
+												<input name="quiz[question6]" type="radio" value="114" id="quiz_question6_114" />
+												Orgel</label>
+										</li>
+										<li>
+											<label for="quiz_question6_115">
+												<input name="quiz[question6]" type="radio" value="115" id="quiz_question6_115" />
+												Blockflöjt</label>
+										</li>
+									</ul>
+								</div>
 							</div>
-							<div class="small-12 columns question">
-								<label class="question">Vilket av följande instrument fanns inte under renässansen?</label>
-								<ul class="alternatives small-block-grid-1 large-block-grid-2">
-									<li>
-										<label for="quiz_question8_226">
-											<input name="quiz[question8]" type="radio" value="226" id="quiz_question8_226" disabled="disabled" />
-											Luta</label>
-									</li>
-									<li>
-										<label for="quiz_question8_225">
-											<input name="quiz[question8]" type="radio" value="225" id="quiz_question8_225" disabled="disabled" />
-											Blockflöjt</label>
-									</li>
-									<li>
-										<label for="quiz_question8_224">
-											<input name="quiz[question8]" type="radio" value="224" id="quiz_question8_224" disabled="disabled" />
-											Orgel</label>
-									</li>
-									<li>
-										<label for="quiz_question8_223" class="correct givenAnswer">
-											<input name="quiz[question8]" type="radio" value="223" id="quiz_question8_223" disabled="disabled" />
-											Violin</label>
-									</li>
-								</ul>
+							<div class="row">
+								<div class="small-12 columns question">
+									<label class="question">Vem av följande var kompositörer levde inte under renässansen?</label>
+									<ul class="alternatives small-block-grid-1 large-block-grid-2">
+										<li>
+											<label for="quiz_question7_105">
+												<input name="quiz[question7]" type="radio" value="105" id="quiz_question7_105" />
+												Jacobus Clemens non Papa</label>
+										</li>
+										<li>
+											<label for="quiz_question7_106">
+												<input name="quiz[question7]" type="radio" value="106" id="quiz_question7_106" />
+												Guillaume Dufay</label>
+										</li>
+										<li>
+											<label for="quiz_question7_103">
+												<input name="quiz[question7]" type="radio" value="103" id="quiz_question7_103" />
+												Giovanni Pierluigi da Palestrina</label>
+										</li>
+										<li>
+											<label for="quiz_question7_104">
+												<input name="quiz[question7]" type="radio" value="104" id="quiz_question7_104" />
+												Georg Philipp Telemann</label>
+										</li>
+									</ul>
+								</div>
 							</div>
-							<div class="small-12 columns question">
-								<label class="question">Vad är en Pavane?</label>
-								<ul class="alternatives small-block-grid-1 large-block-grid-2">
-									<li>
-										<label for="quiz_question9_232" class="correct">
-											<input name="quiz[question9]" type="radio" value="232" id="quiz_question9_232" disabled="disabled" />
-											En dans</label>
-									</li>
-									<li>
-										<label for="quiz_question9_234">
-											<input name="quiz[question9]" type="radio" value="234" id="quiz_question9_234" disabled="disabled" />
-											En kompositör</label>
-									</li>
-									<li>
-										<label for="quiz_question9_233" class="givenAnswer">
-											<input name="quiz[question9]" type="radio" value="233" id="quiz_question9_233" disabled="disabled" />
-											En maträtt</label>
-									</li>
-									<li>
-										<label for="quiz_question9_235">
-											<input name="quiz[question9]" type="radio" value="235" id="quiz_question9_235" disabled="disabled" />
-											Ett instrument</label>
-									</li>
-								</ul>
+							<div class="row">
+								<div class="small-12 columns question">
+									<label class="question">Vilken typ av instrument är en cembalo?</label>
+									<ul class="alternatives small-block-grid-1 large-block-grid-2">
+										<li>
+											<label for="quiz_question8_100">
+												<input name="quiz[question8]" type="radio" value="100" id="quiz_question8_100" />
+												Klaverinstrument</label>
+										</li>
+										<li>
+											<label for="quiz_question8_102">
+												<input name="quiz[question8]" type="radio" value="102" id="quiz_question8_102" />
+												Stråkinstrument</label>
+										</li>
+										<li>
+											<label for="quiz_question8_98">
+												<input name="quiz[question8]" type="radio" value="98" id="quiz_question8_98" />
+												Blåsinstrument</label>
+										</li>
+										<li>
+											<label for="quiz_question8_101">
+												<input name="quiz[question8]" type="radio" value="101" id="quiz_question8_101" />
+												Stränginstrument</label>
+										</li>
+									</ul>
+								</div>
 							</div>
-							<div class="small-12 columns question">
-								<label class="question">Vem skrev Missa Papae Marcelli?</label>
-								<ul class="alternatives small-block-grid-1 large-block-grid-2">
-									<li>
-										<label for="quiz_question10_216">
-											<input name="quiz[question10]" type="radio" value="216" id="quiz_question10_216" disabled="disabled" />
-											Guillaume Dufay</label>
-									</li>
-									<li>
-										<label for="quiz_question10_215">
-											<input name="quiz[question10]" type="radio" value="215" id="quiz_question10_215" disabled="disabled" />
-											Jacobus Clemens non Papa</label>
-									</li>
-									<li>
-										<label for="quiz_question10_213" class="correct">
-											<input name="quiz[question10]" type="radio" value="213" id="quiz_question10_213" disabled="disabled" />
-											Giovanni Pierluigi da Palestrina</label>
-									</li>
-									<li>
-										<label for="quiz_question10_227" class="givenAnswer">
-											<input name="quiz[question10]" type="radio" value="227" id="quiz_question10_227" disabled="disabled" />
-											Josquin Desprez</label>
-									</li>
-								</ul>
+							<div class="row">
+								<div class="small-12 columns question">
+									<label class="question">Vilket land kom Guillaume Dufay från?</label>
+									<ul class="alternatives small-block-grid-1 large-block-grid-2">
+										<li>
+											<label for="quiz_question9_109">
+												<input name="quiz[question9]" type="radio" value="109" id="quiz_question9_109" />
+												Sverige</label>
+										</li>
+										<li>
+											<label for="quiz_question9_107">
+												<input name="quiz[question9]" type="radio" value="107" id="quiz_question9_107" />
+												Italien</label>
+										</li>
+										<li>
+											<label for="quiz_question9_112">
+												<input name="quiz[question9]" type="radio" value="112" id="quiz_question9_112" />
+												Danmark</label>
+										</li>
+										<li>
+											<label for="quiz_question9_111">
+												<input name="quiz[question9]" type="radio" value="111" id="quiz_question9_111" />
+												Nederländerna</label>
+										</li>
+									</ul>
+								</div>
 							</div>
-						</div>
+							<div class="row">
+								<div class="small-12 columns question">
+									<label class="question">Vem skrev Missa Papae Marcelli?</label>
+									<ul class="alternatives small-block-grid-1 large-block-grid-2">
+										<li>
+											<label for="quiz_question10_106">
+												<input name="quiz[question10]" type="radio" value="106" id="quiz_question10_106" />
+												Guillaume Dufay</label>
+										</li>
+										<li>
+											<label for="quiz_question10_103">
+												<input name="quiz[question10]" type="radio" value="103" id="quiz_question10_103" />
+												Giovanni Pierluigi da Palestrina</label>
+										</li>
+										<li>
+											<label for="quiz_question10_117">
+												<input name="quiz[question10]" type="radio" value="117" id="quiz_question10_117" />
+												Josquin Desprez</label>
+										</li>
+										<li>
+											<label for="quiz_question10_105">
+												<input name="quiz[question10]" type="radio" value="105" id="quiz_question10_105" />
+												Jacobus Clemens non Papa</label>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="row">
+								<div class="small-12 columns">
+									<input id="sendButton" type="submit" value="Skicka" class="button radius expand" />
+								</div>
+							</div>
+						</form>
 					</div>
 				</div>
 			</div>
 			<div id="push"></div>
 		</div>
-		<footer id="pagefoot">
-			<p>
-				&copy; Svante Arvedson
-			</p>
+		<footer id="pagefoot1" class="row show-for-small"><img alt="© Ensemble Colori" src="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/images/Sidfot-mobil.png" />
+		</footer>
+		<footer id="pagefoot2" class="row hide-for-small"><img alt="© Ensemble Colori" src="/Individuellt-mjukvaruutvecklingsprojekt/symfony/webschool/web/images/Sidfot-desktop.png" />
 		</footer>
 		<script>
 			$(document).foundation();

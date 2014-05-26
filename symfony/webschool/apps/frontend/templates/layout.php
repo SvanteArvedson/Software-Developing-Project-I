@@ -10,51 +10,63 @@ echo '<!DOCTYPE html>
 echo		'</title>';
 			include_javascripts();
 		  	include_stylesheets();
+			include_slot('styles'); // Page-specific styles
 echo	'</head>
 		<body>
 			<div id="container">
-				<nav class="top-bar">
-					<ul class="title-area">
-						<li>
-							<a href="' . url_for('@homepage') . '" id="backToHome">Startsidan</a>
-						</li>
-						<li class="toggle-topbar menu-icon">
-							<a href="#"><span>Meny</span></a>
-						</li>
-					</ul>
-					<section class="top-bar-section">
-						<ul class="right">';
-							include_slot('navigation');
-echo					'</ul>
-					</section>
-				</nav>
+				<div class="contain-to-grid">
+					<nav class="top-bar">
+						<ul class="title-area">
+							<li>
+								<a href="' . url_for('@homepage') . '" id="backToHome">Startsidan</a>
+							</li>
+							<li class="toggle-topbar menu-icon">
+								<a href="#"><span>Meny</span></a>
+							</li>
+						</ul>
+						<section class="top-bar-section">
+							<ul class="right">';
+								include_slot('navigation');
+	echo					'</ul>
+						</section>
+					</nav>
+				</div>
 				<div id="content">
-					<header id="header" class="row">
-						<h1 id="pagetitle">Musikhistoria</h1>
-					</header>
+					<header id="header1" class="row show-for-small">'
+						. image_tag('Titel-mobil', 'alt="Ensemble Coloris Webbskola"') .	
+					'</header>
+					<header id="header2" class="row hide-for-small">'
+						. image_tag('Titel-desktop', 'alt="Ensemble Coloris Webbskola"') .	
+					'</header>
 					<div id="main" class="row">';
 
 if ($sf_user->hasFlash('error'))
 {
-	echo 				'<div data-alert class="alert-box message alert">
-							<p>' . $sf_user->getFlash('error') . '</p>
-							<a href="#" class="close">&times;</a>
+	echo 				'<div class="small-10 small-centered columns">
+							<div data-alert class="columns alert-box message alert">
+								<p>' . $sf_user->getFlash('error') . '</p>
+								<a href="#" class="close">&times;</a>
+							</div>
 						</div>';
 }
 
 if ($sf_user->hasFlash('message'))
 {
-	echo 				'<div data-alert class="alert-box message">
-							<p>' . $sf_user->getFlash('message') . '</p>
-							<a href="#" class="close">&times;</a>
+	echo 				'<div class="small-10 small-centered columns">
+							<div data-alert class="columns alert-box message">
+								<p>' . $sf_user->getFlash('message') . '</p>
+								<a href="#" class="close">&times;</a>
+							</div>
 						</div>';
 }
 
 if ($sf_user->hasFlash('success'))
 {
-	echo 				'<div data-alert class="alert-box message success">
-							<p>' . $sf_user->getFlash('success') . '</p>
-							<a href="#" class="close">&times;</a>
+	echo 				'<div class="small-10 small-centered columns">
+							<div data-alert class="alert-box message success">
+								<p>' . $sf_user->getFlash('success') . '</p>
+								<a href="#" class="close">&times;</a>
+							</div>
 						</div>';
 }
 
@@ -65,11 +77,12 @@ echo			'</div>
 			<div id="push">
 			</div>
 		</div>
-		<footer id="pagefoot">
-			<p>
-				&copy; Svante Arvedson
-			</p>
-		</footer>
+		<footer id="pagefoot1" class="row show-for-small">'
+			. image_tag('Sidfot-mobil', 'alt="© Ensemble Colori"') .	
+		'</footer>
+		<footer id="pagefoot2" class="row hide-for-small">'
+			. image_tag('Sidfot-desktop', 'alt="© Ensemble Colori"') .	
+		'</footer>
 		<script>
 			$(document).foundation();
 		</script>

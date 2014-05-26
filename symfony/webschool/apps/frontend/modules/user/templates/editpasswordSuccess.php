@@ -3,56 +3,62 @@
 // Adds content to the slots in "/../../templates/layout.php"
 slot('title', 'Musikhistoria - Ändra lösenord');
 
+slot('styles', use_stylesheet('Editpassword.css'));
+
 slot('navigation', get_partial('global/authenticatedNavigation', array('lessons' => $lessons)));
 	
-echo'<div id="pagecontent" class="small-12 large-6 large-centered columns">
-		<h2>
+echo'<div id="pagecontent" class="small-10 large-6 small-centered columns">
+		<h1>
 			Ändra lösenord
-		</h2>
-		
+		</h1>
 		<div class="row">
-			<form class="small-12" method="post" action="' . url_for('@edit_user_password') . '">
+			<form class="small-12 columns" method="post" action="' . url_for('@edit_user_password') . '">
 				<fieldset>
-					<div class="row">
-						<div class="small-12 columns">';
+					<legend>
+						Fyll i:
+					</legend>';
 			
 if (!empty($errorMessage) || $form->hasErrors())
 {
-	echo 				'<div data-alert class="alert-box error">
-							<ul class="error-list square">';
+	echo 			'<div class="row">
+						<div class="small-12 columns">
+							<div data-alert class="alert-box error">
+								<ul class="error-list square">';
 
 	if (!empty($errorMessage)) 
 	{
-		echo    				'<li>'
-									. $errorMessage .
-								'</li>';
+		echo    					'<li>'
+										. $errorMessage .
+									'</li>';
 	}
 	$errors = $form->getErrorSchema()->getErrors();
 	foreach ($errors as $error)
 	{
-		echo				'<li>'
-								. $error .
-							'</li>';
+		echo					'<li>'
+									. $error .
+								'</li>';
 	}
 								
-	echo					'</ul>
-							<a href="#" class="close">&times;</a>
-						</div>';
+	echo						'</ul>
+								<a href="#" class="close">&times;</a>
+							</div>
+						</div>
+					</div>';
 }			
 
-echo					'</div>
+echo				'<div class="row">
 						<div class="small-12 large-6 columns">';
 
 
 if ($form['password']->hasError())
 {
 	echo					$form['password']->renderLabel('Nytt lösenord', array('class'=>'error'));
-	echo					$form['password']->render(array('maxlength' => '8', 'class'=>'error'));
+	echo					$form['password']->render(array('autofocus' => 'autofocus', 'maxlength' => '8', 'class'=>'error'));
 }
 else
 {
 	echo					$form['password']->renderLabel('Nytt lösenord');
-	echo					$form['password']->render(array('maxlength' => '8'));
+	echo					$form['password']->render(array('autofocus' => 'autofocus', 'maxlength' => '8'));
 }
 
 echo					'</div>
@@ -70,33 +76,35 @@ else
 }
 
 echo 					'</div>
-						<div class="small-12 large-6 columns submitInstructions">
-							<div class="panel instructions">
+					</div>
+					<div class="row">
+						<div class="small-12 large-6 columns">
+							<div class="panel radius">
 								<p>
 									Ange ditt nuvarande lösenord innan du sparar ändrngarna
 								</p>
 							</div>	
 						</div>
-						<div class="small-12 large-6 columns submitPassword">';
+						<div class="small-12 large-6 columns">';
 				
 if ($form['passwordOld']->hasError())
 {
 	echo					$form['passwordOld']->renderlabel('Nuvarande lösenord', array('class'=>'error'));
 	echo					$form['passwordOld']->render(array('maxlength'=>'8', 'class'=>'error'));
+	echo					$form->renderHiddenFields();
 }
 else
 {
 	echo					$form['passwordOld']->renderlabel('Nuvarande lösenord');
 	echo					$form['passwordOld']->render(array('maxlength' => '8'));
+	echo					$form->renderHiddenFields();
 }
 
 echo 					'</div>
-						<div class="small-12 columns">';
-
-echo						$form->renderHiddenFields();
-
-echo						'<a id="cancelLink" class="button tiny left" href="' . url_for('@homepage') . '" >Avbryt</a>
-							<input id="saveButton" class="button tiny right" type="submit" value="Ok" />
+					</div>
+					<div class="row">
+						<div class="small-12 columns">
+							<input id="saveButton" class="button tiny expand radius left" type="submit" value="Ok" />
 						</div>
 					</div>
 				</fieldset>

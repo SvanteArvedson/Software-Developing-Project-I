@@ -2,22 +2,24 @@
 // Adds content to the slots in "/../../templates/layout.php"
 slot('title', 'Musikhistoria - Registrera konto');
 
+slot('styles', use_stylesheet('Registration.css'));
+
 slot('navigation', get_partial('global/unauthenticatedNavigation'));
 
-echo'<div id="pagecontent" class="small-12 large-6 large-centered columns">
-		<h2>
-			Registrera ny användare
-		</h2>
-		
+echo'<div id="pagecontent" class="small-10 large-6 small-centered columns">
+		<h1>Registrera dig</h1>
 		<div class="row">
 			<form class="small-12 columns" method="post" action="' . url_for('@register_new_user') . '">
 				<fieldset>
-					<div class="row">
-						<div class="small-12 columns">';
+					<legend>
+						Fyll i:
+					</legend>';
 		
 if (!empty($errorMessage) || $form->hasErrors())
 {
-	echo 					'<div data-alert class="alert-box error">
+	echo 			'<div class="row">
+						<div class="small-12 columns">
+							<div data-alert class="alert-box error">
 								<ul class="error-list square">';
 
 	if (!empty($errorMessage)) 
@@ -36,40 +38,28 @@ if (!empty($errorMessage) || $form->hasErrors())
 								
 	echo						'</ul>
 								<a href="#" class="close">&times;</a>
-							</div>';
+							</div>
+						</div>
+					</div>';
 }		
 						
-echo					'</div>
-						<div class="small-12 large-6 columns">';
-
-
-if ($form['name']->hasError())
-{
-	echo 					$form['name']->renderLabel('Namn', array('class'=>'error'));
-	echo 					$form['name']->render(array('autofocus' => 'autofocus', 'maxlength' => '40', 'class'=>'error'));
-}
-else
-{
-	echo 					$form['name']->renderLabel('Namn');
-	echo 					$form['name']->render(array('autofocus' => 'autofocus', 'maxlength' => '40'));
-
-}
-
-echo 					'</div>
+echo				'<div class="row">
 						<div class="small-12 large-6 columns">';
 
 if ($form['username']->hasError())
 {
 	echo					$form['username']->renderLabel('Användarnamn', array('class'=>'error'));
-	echo					$form['username']->render(array('maxlength' => '25', 'class'=>'error'));
+	echo					$form['username']->render(array('autofocus' => 'autofocus', 'maxlength' => '25', 'class'=>'error'));
 }
 else
 {
 	echo					$form['username']->renderLabel('Användarnamn');
-	echo					$form['username']->render(array('maxlength' => '25'));
+	echo					$form['username']->render(array('autofocus' => 'autofocus', 'maxlength' => '25'));
 }
 
-echo					'</div>
+echo 					'</div>
+					</div>
+					<div class="row">
 						<div class="small-12 large-6 columns">';
 
 if ($form['password']->hasError())
@@ -97,27 +87,45 @@ else
 	echo					$form['passwordAgain']->render(array('maxlength' => '8'));
 }
 
+echo					'</div>
+					</div>
+					<div class="row">
+						<div class="small-12 large-6 columns">';
+
+if ($form['name']->hasError())
+{
+	echo 					$form['name']->renderLabel('Namn', array('class'=>'error'));
+	echo 					$form['name']->render(array('maxlength' => '40', 'class'=>'error'));
+}
+else
+{
+	echo 					$form['name']->renderLabel('Namn');
+	echo 					$form['name']->render(array('maxlength' => '40'));
+}
+
 echo 					'</div>
+					</div>
+					<div class="row">
 						<div class="small-12 columns">';
 
 if ($form['email']->hasError())
 {
 	echo 					$form['email']->renderLabel('Epost', array('class'=>'error'));
 	echo 					$form['email']->render(array('class'=>'error'));
+	echo					$form->renderHiddenFields();
 }	
 else
 {			
 	echo 					$form['email']->renderLabel('Epost');
 	echo 					$form['email']->render(array());
+	echo					$form->renderHiddenFields();
 }
 
 echo 					'</div>
-						<div class="small-12 columns">';
-
-echo						$form->renderHiddenFields();
-
-echo						'<a id="cancelLink" class="button tiny left" href="' . url_for('@homepage') . '" >Avbryt</a>
-							<input id="sendButton" class="button tiny right" type="submit" value="Ok" />
+					</div>
+					<div class="row">
+						<div class="small-12 columns">
+							<input id="sendButton" class="button tiny expand radius left" type="submit" value="Ok" />
 						</div>
 					</div>
 				</fieldset>

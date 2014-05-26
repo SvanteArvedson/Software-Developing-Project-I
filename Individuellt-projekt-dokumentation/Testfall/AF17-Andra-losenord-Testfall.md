@@ -1,5 +1,5 @@
 # AF17 - Ändra lösenord Testfall
-Senast uppdaterad 4/5 2014 klo 12:00 av Svante Arvedson
+Senast uppdaterad 27/5 2014 klo 00:30 av Svante Arvedson
 
 ## Förkrav
 * Användaren har [loggat in](../Anvandningsfall/DF1-Logga-in.md) med användarnamnet *GulligaHannes* och lösenordet *12345678*.
@@ -54,5 +54,12 @@ Senast uppdaterad 4/5 2014 klo 12:00 av Svante Arvedson
         <td>Användarnamn: <i>GulligaHannes</i><br />Lösenord: <i>12345678</i><br />Namn: <i>Hannes Karlsson</i><br />Email: <i>gulliga_hannes@hotmail.com</i></td>
         <td>Lösenord: <i>98765432</i><br />Lösenord igen: <i>98765432</i><br />Nuvarande lösenord: <i>asdfghjk</i></td>
         <td>Ändringen misslyckas. Systemet visar felmeddelande</td>
+    </tr>
+    <tr>
+        <td>AF17-TF7</td>
+        <td>Lyckad ändring av lösenord endast genom att använda tangentbordet.</td>
+        <td>Användarnamn: <i>GulligaHannes</i><br />Lösenord: <i>12345678</i><br />Namn: <i>Hannes Karlsson</i><br />Email: <i>gulliga_hannes@hotmail.com</i></td>
+        <td>Lösenord: <i>98765432</i><br />Lösenord igen: <i>98765432</i><br />Nuvarande lösenord: <i>12345678</i></td>
+        <td>Ändringen lyckas, det nya lösenordet sparas. Systemet visar rättmeddelande.</td>
     </tr>
 </table>

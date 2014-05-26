@@ -16,7 +16,7 @@ $browser->info('Functional test successful registration')->
 	end()->
 	
 	with('response')->begin()->
-		checkElement('#pagecontent h2', '/Registrera ny/')->
+		checkElement('#pagecontent h1', '/Registrera dig/')->
 		checkElement('#sendButton', true)->
 	end()->
 	

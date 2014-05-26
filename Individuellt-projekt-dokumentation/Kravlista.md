@@ -1,5 +1,5 @@
 # Kravlista
-Senast uppdaterad 4/5 2014 klo 01:30 av Svante Arvedson
+Senast uppdaterad 27/5 2014 klo 00:30 av Svante Arvedson
 
 ## Funktionella krav
 <table>
@@ -104,6 +104,110 @@ Senast uppdaterad 4/5 2014 klo 01:30 av Svante Arvedson
 	</tr>
 </table>
 
+## Icke funktionella krav
+<table>
+	<tr>
+		<th>ID</th>
+		<th>Namn</th>
+		<th>Författare</th>
+		<th>Baskrav</th>
+	</tr>
+	<tr>
+		<td>BF1</td>
+		<td><a href="Vision.md#baskrav">Applikationen ska vara tillgänglig från mobila enheter såväl som stationära datorer.</td>
+		<td>Svante Arvedson</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>BF2</td>
+		<td><a href="Vision.md#baskrav">Applikationen ska fungera med webbläsarna IE, FireFox, Chrome, Safari och Opera.</a></td>
+		<td>Svante Arvedson</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>BF3</td>
+		<td><a href="Vision.md#baskrav">Det ska vara lätt att förstå hur applikationen fungerar även för användare utan stor datorvana.</a></td>
+		<td>Svante Arvedson</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>BF4</td>
+		<td><a href="Vision.md#baskrav">Applikationen ska innehålla information och läromedel som är lätt att förstå och lätt att ta till sig.</a></td>
+		<td>Svante Arvedson</td>
+		<td></td>
+	</tr>
+</table>
+
+## Övriga Krav - I prioritetsordning
+<table>
+	<tr>
+		<th>ID</th>
+		<th>Författare</th>
+		<th>Uppgift</th>
+		<th>Status</th>
+	</tr>
+	<tr>
+		<td>ÖK7</td>
+		<td>Svante Arvedson</td>
+		<td>Skriv en egen 404-sida</td>
+		<td>Ej påbörjad</td>
+	</tr>
+	<tr>
+		<td>ÖK8</td>
+		<td>Svante Arvedson</td>
+		<td>Skriv en egen 500-sida</td>
+		<td>Ej påbörjad</td>
+	</tr>
+	<tr>
+		<td>ÖK15</td>
+		<td>Svante Arvedson</td>
+		<td>Gör det mycket tydligare när man fokuserar på en länk i navigationsbalken.</td>
+		<td>Ej påbörjad</td>
+	</tr>
+	<tr>
+		<td>ÖK14</td>
+		<td>Svante Arvedson</td>
+		<td>Gör hela applikationen möjlig att använda utan att använda mus.</td>
+		<td>Ej påbörjad</td>
+	</tr>
+	<tr>
+		<td>ÖK5</td>
+		<td>Svante Arvedson</td>
+		<td>Skriv klientsidekod för validering av formulärdata.</td>
+		<td>Ej påbörjad</td>
+	</tr>
+	<tr>
+		<td>ÖK12</td>
+		<td>Svante Arvedson</td>
+		<td>Gör så att lösenorden kan vara längre än 8 tecken</td>
+		<td>Ej påbörjad</td>
+	</tr>
+	<tr>
+		<td>ÖK13</td>
+		<td>Svante Arvedson</td>
+		<td>Gör applikationen nåbar utan mus</td>
+		<td>Ej påbörjad</td>
+	</tr>
+	<tr>
+		<td>ÖK6</td>
+		<td>Svante Arvedson</td>
+		<td>Lägg till bekräftelsedialog innan ett konto raderas (AF2)</td>
+		<td>Ej påbörjad</td>
+	</tr>
+	<tr>
+		<td>ÖK9</td>
+		<td>Svante Arvedson</td>
+		<td>Lägg till bekräftelsedialog innan ett besvarat Quiz skickas (AF3)</td>
+		<td>Ej påbörjad</td>
+	</tr>
+	<tr>
+		<td>ÖK11</td>
+		<td>Svante Arvedson</td>
+		<td>Lägg till bekräftelsedialog innan lösenord ändras (AF17)</td>
+		<td>Ej påbörjad</td>
+	</tr>
+</table>
+
 ## Implementerade krav
 <table>
 	<tr>
@@ -178,38 +282,36 @@ Senast uppdaterad 4/5 2014 klo 01:30 av Svante Arvedson
 		<td>Klart</td>
 		<td>BF1, BF2, BF3</td>
 	</tr>
-</table>
-
-## Icke funktionella krav
-<table>
 	<tr>
-		<th>ID</th>
-		<th>Namn</th>
-		<th>Författare</th>
-		<th>Baskrav</th>
-	</tr>
-	<tr>
-		<td>BF1</td>
-		<td><a href="Vision.md#baskrav">Applikationen ska vara tillgänglig från mobila enheter såväl som stationära datorer.</td>
+		<td>ÖK1</td>
+		<td>Ändra gruppering av inmatningsfälten i registreringsformuläret.</td>
 		<td>Svante Arvedson</td>
+		<td></td>
+		<td>Klart</td>
 		<td></td>
 	</tr>
 	<tr>
-		<td>BF2</td>
-		<td><a href="Vision.md#baskrav">Applikationen ska fungera med webbläsarna IE, FireFox, Chrome, Safari och Opera.</a></td>
+		<td>ÖK2</td>
+		<td>Ta bort Avbryt-knapparna från alla formulären.</td>
 		<td>Svante Arvedson</td>
+		<td></td>
+		<td>Klart</td>
 		<td></td>
 	</tr>
 	<tr>
-		<td>BF3</td>
-		<td><a href="Vision.md#baskrav">Det ska vara lätt att förstå hur applikationen fungerar även för användare utan stor datorvana.</a></td>
+		<td>ÖK3</td>
+		<td>Lägg till marginaler på Flash-meddelandena.</td>
 		<td>Svante Arvedson</td>
+		<td></td>
+		<td>Klart</td>
 		<td></td>
 	</tr>
 	<tr>
-		<td>BF4</td>
-		<td><a href="Vision.md#baskrav">Applikationen ska innehålla information och läromedel som är lätt att förstå och lätt att ta till sig.</a></td>
+		<td>ÖK4</td>
+		<td>Byt ordning på text och knapp på inloggningssidan.</td>
 		<td>Svante Arvedson</td>
+		<td></td>
+		<td>Klart</td>
 		<td></td>
 	</tr>
 </table>

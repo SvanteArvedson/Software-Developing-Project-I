@@ -45,7 +45,7 @@ $browser->info('Functional test fail edit profile - Wrong password')->
 	with('response')->begin()->
 		checkElement('#logOutButton', true)->
 		checkElement('#logInButton', false)->
-		checkElement('#pagecontent h2', '/Hannes Karlsson/')->
+		checkElement('#pagecontent h1', '/Hannes Karlsson/')->
 	end()->
 	
 	info(' 3 - User goes to edit account')->
@@ -57,7 +57,7 @@ $browser->info('Functional test fail edit profile - Wrong password')->
 	end()->
 	
 	with('response')->begin()->
-		checkElement('#pagecontent h2', '/Redigera konto/')->
+		checkElement('#pagecontent h1', '/Redigera konto/')->
 		checkElement('#saveButton', true)->
 	end()->
 	
@@ -78,7 +78,7 @@ $browser->info('Functional test fail edit profile - Wrong password')->
 	end()->
 	
 	with('response')->begin()->
-		checkElement('#pagecontent h2', '/Redigera konto/')->
+		checkElement('#pagecontent h1', '/Redigera konto/')->
 		checkElement('#saveButton', true)->
 		checkElement('ul.error-list', true)->
 	end()->

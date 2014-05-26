@@ -1,5 +1,5 @@
 # AF4 - Visa statistik över gjorda tester Testfall
-Senast uppdaterad 21/5 2014 klo 14:00 av Svante Arvedson
+Senast uppdaterad 27/5 2014 klo 00:30 av Svante Arvedson
 
 ## Förkrav
 * Användaren har [loggat in](../Anvandningsfall/DF1-Logga-in.md) med användarnamnet *GulligaHannes* och lösenordet *12345678*.
@@ -35,5 +35,11 @@ Senast uppdaterad 21/5 2014 klo 14:00 av Svante Arvedson
         <td>En användaren efterfrågar resultatsidan, men det inträffar ett fel på servern. I det här testet skall databaslösenordet i databases.yml vara felaktigt för att simulera ett serverfel.</td>
         <td>Användaren klickar på länken "Mina resultat" i navigationen.</td>
         <td>Användaren får upp en error500 sida.</td>
+    </tr>
+    <tr>
+        <td>AF4-TF5</td>
+        <td>Användaren visar statistik över sina gjorda tester endast genom att använda tangentbordet.</td>
+        <td>Användaren klickar på länken "Mina resultat" i navigationen.</td>
+        <td>En sida med användarens resultat visas upp.</td>
     </tr>
 </table>

@@ -16,7 +16,7 @@ $browser->info('Functional test fail registration - Too long input')->
 	end()->
 	
 	with('response')->begin()->
-		checkElement('#pagecontent h2', '/Registrera ny/')->
+		checkElement('#pagecontent h1', '/Registrera dig/')->
 		checkElement('#sendButton', true)->
 	end()->
 	
@@ -38,7 +38,7 @@ $browser->info('Functional test fail registration - Too long input')->
 	end()->
 	
 	with('response')->begin()->
-		checkElement('#pagecontent h2', '/Registrera ny/')->
+		checkElement('#pagecontent h1', '/Registrera dig/')->
 		checkElement('#sendButton', true)->
 		checkElement('ul.error-list', true)->
 	end()->

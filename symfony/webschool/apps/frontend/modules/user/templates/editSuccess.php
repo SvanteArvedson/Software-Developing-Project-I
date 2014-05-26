@@ -2,21 +2,26 @@
 // Adds content to the slots in "/../../templates/layout.php"
 slot('title', 'Musikhistoria - Redigera konto');
 
+slot('styles', use_stylesheet('Edit.css'));
+
 slot('navigation', get_partial('global/authenticatedNavigation', array('lessons' => $lessons)));
 
-echo '<div id="pagecontent" class="small-12 large-6 large-centered columns">
-		<h2>
+echo '<div id="pagecontent" class="small-10 large-6 small-centered columns">
+		<h1>
 			Redigera konto
-		</h2>
+		</h1>
 		<div class="row">
 			<form class="small-12 columns" method="post" action="' . url_for('@edit_user_account') . '">
 				<fieldset>
-					<div class="row">
-						<div class="small-12 columns">';
+					<legend>
+						Fyll i:
+					</legend>';
 
 if (!empty($errorMessage) || $form->hasErrors())
 {
-	echo 					'<div data-alert class="alert-box error">
+	echo 			'<div class="row">
+						<div class="small-12 columns">
+							<div data-alert class="alert-box error">
 								<ul class="error-list square">';
 
 	if (!empty($errorMessage)) 
@@ -35,41 +40,44 @@ if (!empty($errorMessage) || $form->hasErrors())
 								
 	echo						'</ul>
 								<a href="#" class="close">&times;</a>
-							</div>';
+							</div>
+						</div>
+					</div>';
 }			
 											
-echo					'</div>
+echo				'<div class="row">
 						<div class="small-12  large-6 columns">';
-
-if ($form['name']->hasError())
-{
-	echo 					$form['name']->renderLabel('Namn', array('class'=>'error'));
-	echo 					$form['name']->render(array('autofocus' => 'autofocus', 'maxlength' => '40', 'class'=>'error'));
-}
-else
-{
-	echo 					$form['name']->renderLabel('Namn');
-	echo 					$form['name']->render(array('autofocus' => 'autofocus', 'maxlength' => '40'));
-
-}
-
-echo 					'</div>
-						<div class="small-12 large-6 columns">';
-				
 
 if ($form['username']->hasError())
 {
 	echo					$form['username']->renderLabel('Användarnamn', array('class'=>'error'));
-	echo					$form['username']->render(array('maxlength' => '25', 'class'=>'error'));
+	echo					$form['username']->render(array('autofocus' => 'autofocus', 'maxlength' => '25', 'class'=>'error'));
 }
 else
 {
 	echo					$form['username']->renderLabel('Användarnamn');
-	echo					$form['username']->render(array('maxlength' => '25'));
+	echo					$form['username']->render(array('autofocus' => 'autofocus', 'maxlength' => '25'));
 }
 
+echo 					'</div>
+					</div>
+					<div class="row">
+						<div class="small-12 large-6 columns">';
+
+if ($form['name']->hasError())
+{
+	echo 					$form['name']->renderLabel('Namn', array('class'=>'error'));
+	echo 					$form['name']->render(array('maxlength' => '40', 'class'=>'error'));
+}
+else
+{
+	echo 					$form['name']->renderLabel('Namn');
+	echo 					$form['name']->render(array('maxlength' => '40'));
+}
 
 echo 					'</div>
+					</div>
+					<div class="row">
 						<div class="small-12 columns">';
 
 if ($form['email']->hasError())
@@ -84,33 +92,36 @@ else
 }
 
 echo 					'</div>
-						<div class="small-12 large-6 columns submitInstructions">
-							<div class="panel instructions">
+					</div>
+					<div class="row">
+						<div class="small-12 large-6 columns">
+							<div class="panel radius">
 								<p>
 									Ange ditt lösenord för att spara ändringarna
 								</p>
 							</div>
 						</div>
-						<div class="small-12 large-6 columns submitPassword">';
+						<div class="small-12 large-6 columns">';
 				
 if ($form['passwordOld']->hasError())
 {
 	echo					$form['passwordOld']->renderlabel('Lösenord', array('class'=>'error'));
 	echo					$form['passwordOld']->render(array('maxlength'=>'8', 'class'=>'error'));
+	echo					$form->renderHiddenFields();
 }
 else
 {
 	echo					$form['passwordOld']->renderlabel('Lösenord');
 	echo					$form['passwordOld']->render(array('maxlength' => '8'));
+	echo					$form->renderHiddenFields();
+
 }
 
 echo 					'</div>
-						<div class="small-12 columns">';
-
-echo						$form->renderHiddenFields();
-
-echo						'<a id="cancelLink" class="button tiny left" href="' . url_for('@homepage') . '" >Avbryt</a>
-							<input id="saveButton" class="button tiny right" type="submit" value="Ok" />
+					</div>
+					<div class="row">
+						<div class="small-12 columns">
+							<input id="saveButton" class="button tiny expand radius left" type="submit" value="Ok" />
 						</div>
 					</div>
 				</fieldset>

@@ -1,122 +1,132 @@
-/* General rules for the page */
+/* General styles */
 html, body {
-	background: #fff5ee;
+	background: #fffffe;
 	height: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Book Antiqua", "serif";
+	font-family: "Book Antiqua", "Georgia", "serif";
+	color: #7f6b00;
+	font-weight: normal;
 }
 
-.button {
-	margin: 0;
+h1 {
+	margin: 0 0 35px;
+	line-height: 1;
+}
+
+p, label {
+	color: #7f6b00;
+}
+
+legend, caption {
+	background: #fffffe;
+	font-family: "Book Antiqua", "Georgia", "serif";
+	color: #7f6b00;
+	font-size: 1.2em;
+	text-align: left;
+}
+
+a {
+	color: #0036e5;
+}
+
+table thead tr th {
+	color: #7f6b00;
+	font-weight: normal;
+	font-family: "Book Antiqua", "Georgia", "serif";
+	font-size: 1.0em;
+}
+
+table thead tr td, table tbody tr th, table tbody tr td {
+	color: #7f6b00;
+}
+
+fieldset {
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
 }
 
 #container {
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
-	margin: 0 auto -2em;
+	margin: 0 auto -110px;
 }
 
-#pagefoot, #push {
-	height: 2em;
-} /* End general rules */
+#pagefoot1, #push {
+	height: 110px;
+}
 
-/* Rules for top navigation */
+@media screen and (min-width: 798px) {
+	
+	#container {
+		margin: 0 auto -171px;
+	}
+	
+	#pagefoot2, #push {
+		height: 171px;
+	}
+}
+/* Styles for navigation */
+
 #backToHome {
 	font-size: 1.4em;
 	line-height: 45px;
 	margin: 0;
 	padding-left: 0.5em;
-	color: #fff5ee;
-} /* End rules for top navigation */
-
-/* Rules for header */
-#header {
-	height: 100px;
+	color: #fffffe;
+	font-family: "Book Antiqua", "Georgia", "serif";
 }
 
-#pagetitle {
-	line-height: 100px;
-	color: #3b3c36;
-	text-shadow: 1px 1px 1px #9e7fb8;
-	margin: 0;
-	width: 100%;
-	text-align: center;
-	font-family: "Book Antiqua", "serif";
-} /* End rules for header */
-
-/* Rules for page content */
-#pagecontent h2 {
-	margin-top: 40px;
-}
-
-.error {
-	color: #c60f13;
-}
-
-#logInButton {
-	margin-top: 18px;
-}
-
-#logOutButton{
-	margin-bottom: 13px;
-}
-
-.submitInstructions {
-	padding-top: 30px;
-}
-
-.panel.instructions {
-	padding: 0.8em;
-}
-
-.panel.instructions p {
-	font-size: 0.8em;
-	font-style: italic;
-}
-
-.submitPassword {
-	padding-top: 30px;
-}
-
-@media (max-width: 1023px) {
-	.submitPassword {
-		padding-top: 0;
+@media screen and (max-width: 798px) {
+	.top-bar-section ul {
+		padding-bottom: 10px;
 	}
 }
 
-.submitDeleteInstructions, .submitDeletePassword {
-	padding-top: 0;
-}
-
-input.error {
-	margin-bottom: 14px;
-} /* End rules for page content */
-
-/* Rules for alert-boxes */
+/* Styles for alert-boxes */
 .alert-box {
-	background: #c07cf7;
+	background: #002395;
 	padding: 10px;
-	margin-top: 20px;
-	border-color: #7b40ad;
+	margin-bottom: 60px;
+	border-color: #000f40;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
 }
 	.alert-box p {
 		margin: 0;
 		font-style: italic;
 		font-weight: bold;
+		color: #fffffe;
 	}
 	
-.alert-box.error {
-	background: #c60f13;
+.alert-box.success {
+	background: #007f04;
 	padding: 10px;
-	margin-top: 0;
-	border-color: #960b0e;
+	margin-bottom: 60px;
+	border-color: #004002;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+	.alert-box.success p {
+		margin: 0;
+		color: #fffffe;
+		font-style: italic;
+		font-weight: bold;
+	}
+
+.alert-box.error {
+	background: #960b0e;
+	padding: 10px;
+	margin-bottom: 60px;
+	border-color: #400506;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
 }
 	.alert-box.error p {
 		margin: 0;
-		color: #fff5ee;
+		color: #fffffe;
 		font-style: italic;
 		font-weight: bold;
 	}
@@ -128,20 +138,59 @@ input.error {
 	font-size: 0.9em;
 	margin: 0;
 }
-/* End rules for alert-boxes */
 
+/* Styles for panel */
 
-/* Rules for page foot */
-#pagefoot {
-	background-color: #9e7fb8;
+.panel {
+	margin-bottom: 10px;
+	border-color: #002395;
+	background-color: rgba(0, 35, 149, 0.1);
 }
 
-#pagefoot p {
-	color: #fff5ee;
-	width: 100%;
-	text-align: center;
-	padding-top: 0.8em;
-	margin-bottom: 0;
-	font-size: 0.8em;
-	line-height: 1em;
-} /* End rules for page foot */
+.panel p {
+	font-size: 0.875em;
+	font-style: italic;
+	color: #7f6b00;
+}
+
+/* Styles for headers and footers */
+
+header#header1, header#header2 {
+	margin-bottom: 50px;
+}
+
+header {
+	max-width: 100%;
+}
+
+header img {
+	max-width: 100%;
+}
+
+footer#pagefoot1, footer#pagefoot2 {
+	margin-top: 50px;
+}
+
+/* Styles for forms */
+fieldset {
+	margin: 0;
+	padding: 20px;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+	margin-bottom: 10px;
+}
+
+input[type="submit"] {
+	margin: 0;
+	height: 32px;
+}
+
+#logOutButton {
+	background-color: #002395;
+	border-color: #000f40;
+}
+
+#logOutButton:focus, #logOutButton:hover {
+	background-color: #000f40;
+}

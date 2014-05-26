@@ -1,0 +1,51 @@
+.panel {
+	margin: 0;
+}
+
+label.question {
+	font-family: "Book Antiqua", "Georgia", "serif";
+	font-size: 1.2em;
+	margin: 50px 0 20px;
+}
+
+input[type="radio"] {
+	margin-bottom: 0;
+}
+
+div.question ul li {
+	margin: 0;
+	padding: 5px;
+}
+
+div.question ul li label {
+	margin: 0;
+	padding: 10px;
+	line-height: 1.0;
+}
+
+label.wrong {
+	background-color: #960b0e;
+	color: #fffffe;
+	border: 1px solid #400506;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+label.correct {
+	background-color: #007f04;
+	color: #fffffe;
+	border: 1px solid #004002;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#sendButton {
+	height: auto;
+	margin-top: 30px;
+}
+
+@media screen and (min-width: 798px) {
+	#sendButton {
+		width: 100px;
+	}
+}

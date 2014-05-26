@@ -110,13 +110,13 @@ class WidgetFormChoiceQuiz extends sfWidgetFormChoice
 			if ($this->isResult == true)
 			{	
 				$labelAttributes = array('for' => $id);
-				if ($this->givenAnswer == $inputValue)
+				if ($this->givenAnswer == $inputValue && $this->correctAnswer == $inputValue)
 				{
-					$labelAttributes['class'] = 'givenAnswer';
+					$labelAttributes['class'] = 'correct';
 				}
-				if ($this->correctAnswer === $inputValue)
+				if ($this->givenAnswer == $inputValue && $this->correctAnswer != $inputValue)
 				{
-					$labelAttributes['class'] = 'correct'; 
+					$labelAttributes['class'] = 'wrong'; 
 				}
 				$labelAnswer = $this->renderContentTag('label', $inputAnswer . ' ' . self::escapeOnce($option), $labelAttributes);
 			}

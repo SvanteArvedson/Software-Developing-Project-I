@@ -2,21 +2,26 @@
 // Adds content to the slots in "/../../templates/layout.php"
 slot('title', 'Musikhistoria - Startsida');
 
+slot('styles', use_stylesheet('Login.css'));
+
 slot('navigation', get_partial('global/unauthenticatedNavigation'));
 
-echo '<div id="pagecontent" class="small-12 columns">
-		<h2> 
-			Välkommen!
-		</h2>';
-
-echo    '<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-			Quisque quis nisi a ante cursus egestas vitae facilisis
-			libero.
-		</p>';
+echo '<div id="pagecontent" class="small-10 small-centered columns">
+		<div class="small-12 large-7 columns">
+			<h1>Välkommen!</h1>
+			<p>
+				På Ensemble Coloris Webbskola kan du studera och upptäcka musik av västvärldens största kompositörer.
+			</p>
+			<p>
+				Skapa ett konto och ta del av våra lektioner, testa dig själv och diskutera på vårt forum.
+			</p>
+		</div>
+		<div class="large-5 columns hide-for-small">'
+			. image_tag('Quantz.jpg', 'id="pictureLarge" alt_title="Flöjtkonsert vid Fredrik den stores hov. En oljemålning av konstnären Adolph Menze. På målningen finns både Fredrik den stores flöjtlärare Johann Joachim Quantz och Carl Philip Emanuel Bach med."') .
+		'</div>';
 
 echo    '<div class="row">
-			<form class="small-12 large-8 large-centered large-centered columns" method="post" action="' . url_for('@homepage') . '">
+			<form class="small-12 columns" method="post" action="' . url_for('@homepage') . '">
 					<fieldset>
 						<legend>
 							Logga in:
@@ -68,22 +73,32 @@ if ($form['password'] -> hasError())
 {
 	echo 						$form['password'] -> renderLabel('Lösenord', array('class' => 'error'));
 	echo 						$form['password'] -> render(array('class' => 'error', 'maxlength' => '8'));
+	echo 						$form -> renderHiddenFields();
 }
 else
 {
 	echo 						$form['password'] -> renderLabel('Lösenord');
 	echo 						$form['password'] -> render(array('maxlength' => '8'));
+	echo 						$form -> renderHiddenFields();
 }
 
 echo 						'</div>
-							<div class="small-12 large-2 columns">';
-	
-echo 							$form -> renderHiddenFields();
-
-echo 							'<input id="logInButton" class="button tiny right" type="submit" value="Logga in" />
+							<div class="small-12 columns show-for-small">
+								<p id="formTextSmall">
+									Inget konto?<br />
+									<a href="' . url_for('@register_new_user') . '" title="Till registreringen">Registrera dig här.</a>
+								</p>
+							</div>
+							<div class="small-12 large-2 columns">
+								<input id="logInButton" class="button expand radius tiny" type="submit" value="Logga in" />
+							</div>
+							<div class="small-12 columns hide-for-small">
+								<p id="formTextLarge">
+									Inget konto?<br />
+									<a href="' . url_for('@register_new_user') . '" title="Till registreringen">Registrera dig här.</a>
+								</p>
 							</div>
 						</div>
-						<p>Är du inte registrerad ännu? <a href="' . url_for('@register_new_user') . '" title="Till registreringen">Registrera dig här.</a></p>
 					</fieldset>
 				</form>
 			</div>

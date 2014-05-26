@@ -57,8 +57,8 @@ $browser->info('Functional test successful show results')->
 	end()->
 	
 	with('response')->begin()->
-		checkElement('h2', '/Mina resultat/')->
-		checkElement('ul#board', true)->
+		checkElement('h1', '/Mina resultat/')->
+		checkElement('ul', true)->
 	end()->
 	
 	info(' 04 - If all test passes User got the results')

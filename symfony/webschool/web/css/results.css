@@ -1,39 +1,26 @@
-ul#board {
-	width: 100%; 
-	display: inline-block;
+h1 {
+	text-align: center;
+}
+
+table {
 	margin: 0 auto;
+	border-color: #000f40;
 }
 
-ul#board li {
-	width: 50%;
+table tr:nth-of-type(2n) {
+	background-color: rgba(0, 35, 149, 0.1);	
 }
 
-@media screen and (max-width: 798px) {
-	ul#board li {
-		width: 100%;
+table thead {
+	background-color: rgba(0, 35, 149, 0.1);
+}
+
+table tbody tr td:first-of-type {
+	font-style: italic;
+}
+
+@media screen and (min-width: 798px) {
+	h1 {
+		text-align: left;
 	}
-	h2#resultHeader {
-		text-align: center;
-	}	
-}
-
-ul#board li table {
-	margin: 0 auto;
-}
-
-ul#board li table caption {
-	font-family: "Book Antiqua", "serif";
-	text-align: left;
-	font-weight: bold;
-}
-
-ul#board li table thead tr th {
-	font-family: "Book Antiqua", "serif";
-	text-align: left;
-	color: #3b3c36;
-}
-
-ul#board li table tbody tr td {
-	text-align: left;
-	color: #3b3c36;
 }

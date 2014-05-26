@@ -1,5 +1,5 @@
 # DF1 - Logga in Testfall
-Senast uppdaterad 25/4 2014 klo 13:30 av Svante Arvedson
+Senast uppdaterad 27/5 2014 klo 00:30 av Svante Arvedson
 
 Testfall för [DF1](/../Anvandningsfall/DF1-Logga-in.md). Användaren loggar in i systemet.
 
@@ -43,5 +43,11 @@ Inga förkrav.
         <td>Inloggningsförsök med fel lösenord (test om funktionen är case sensitive)</td>
         <td>Användarnamn: <i>gulligahannes</i><br />Lösenord: <i>12345678</i></td>
         <td>Användaren blir inte inloggad. Felmeddelande: <i>Felaktigt använarnamn eller lösenord</i></td>
+    </tr>
+    <tr>
+        <td>DF1-TF6</td>
+        <td>Lyckad inloggning endast genom att använda tangentbordet.</td>
+        <td>Användarnamn: <i>GulligaHannes</i><br />Lösenord: <i>12345678</i></td>
+        <td>Användaren blir inloggad.</td>
     </tr>
 </table>

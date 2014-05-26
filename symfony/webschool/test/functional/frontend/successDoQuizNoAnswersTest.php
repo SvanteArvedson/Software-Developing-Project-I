@@ -61,7 +61,7 @@ $browser->info('Functional test successful do quiz without giving any answers')-
 	end()->
 	
 	with('response')->begin()->
-		checkElement('h2', 'Barocken')->
+		checkElement('h1', 'Barocken')->
 	end()->
 	
 	click('Till Quizet')->
@@ -72,7 +72,7 @@ $browser->info('Functional test successful do quiz without giving any answers')-
 	end()->
 	
 	with('response')->begin()->
-		checkElement('h2', 'Barocken - Quiz')->
+		checkElement('h1', '/Barocken - Quiz/')->
 	end()->
 	
 	click('Skicka')->
@@ -91,7 +91,7 @@ $browser->info('Functional test successful do quiz without giving any answers')-
 	end()->
 	
 	with('response')->begin()->
-		checkElement('h2', '/Barocken - Resultat/')->
+		checkElement('h1', '/Barocken - Resultat/')->
 		checkElement('div.panel p', '/Uselt resultat! Du fick 0/')->
 	end()->
 	

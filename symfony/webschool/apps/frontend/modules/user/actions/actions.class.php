@@ -82,14 +82,7 @@ class userActions extends sfActions
 			{
 				$user = $this->getUser()->getAttribute('user');
 				
-				if($user->getName() == $this->form->getValue('name') 
-						&& $user->getEmail() == $this->form->getValue('email')
-						&& $user->getUsername() == $this->form->getValue('usernamn'))
-				{
-					$this->getUser()->setFlash('message', 'Du ändrade inte dina kontouppgifter');
-					$this->redirect($this->generateUrl('homepage'));
-				}
-				else if ($this->getUser()->getAttribute('user')->getPassword() != $this->form->getValue('passwordOld'))
+				if ($this->getUser()->getAttribute('user')->getPassword() != $this->form->getValue('passwordOld'))
 				{
 					$this->errorMessage = 'Fel lösenord';
 				}
@@ -105,7 +98,7 @@ class userActions extends sfActions
 					$user->setUsername($this->form->getValue('username'));
 					$user->save();
 					
-					$this->getUser()->setFlash('message', 'Ändringarna har sparats');
+					$this->getUser()->setFlash('success', 'Ändringarna har sparats');
 					$this->redirect($this->generateUrl('homepage'));
 				}
 			}

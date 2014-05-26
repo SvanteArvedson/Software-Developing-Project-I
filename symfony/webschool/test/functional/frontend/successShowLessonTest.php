@@ -61,7 +61,7 @@ $browser->info('Functional test successful show lesson')->
 	end()->
 	
 	with('response')->begin()->
-		checkElement('h2', 'Barocken')->
+		checkElement('h1', 'Barocken')->
 	end()->
 	
 	info(' 04 - If all test passes User got the lesson')

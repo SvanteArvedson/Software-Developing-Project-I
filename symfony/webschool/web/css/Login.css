@@ -1,0 +1,39 @@
+form {
+	margin-top: 20px;
+}
+
+@media screen and (min-width: 798px) {
+	form.columns {
+		padding: 0 30px;
+		margin-top: 50px;
+		margin-bottom: 20px;
+	}
+	
+	#logInButton {
+		margin-top: 16px;
+	}
+	
+	input[type="text"], input[type="password"] {
+		margin-bottom: 20px;
+	}
+}
+
+img#pictureLarge {
+	margin-top: 0;
+}
+
+p {
+	margin: 10px 0;
+}
+
+p#formTextSmall {
+	margin: 0 0 30px;
+	font-size: 0.875em;
+	line-height: 1.2;
+}
+
+p#formTextLarge {
+	margin: 0;
+	font-size: 0.875em;
+	line-height: 1.2;
+}

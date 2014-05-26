@@ -45,7 +45,7 @@ $browser->info('Functional test fail delete account - Too long password')->
 	with('response')->begin()->
 		checkElement('#logOutButton', true)->
 		checkElement('#logInButton', false)->
-		checkElement('#pagecontent h2', '/Hannes Karlsson/')->
+		checkElement('#pagecontent h1', '/Hannes Karlsson/')->
 	end()->
 	
 	info(' 3 - User goes to delete account')->
@@ -57,7 +57,7 @@ $browser->info('Functional test fail delete account - Too long password')->
 	end()->
 	
 	with('response')->begin()->
-		checkElement('#pagecontent h2', '/Radera konto/')->
+		checkElement('#pagecontent h1', '/Radera konto/')->
 		checkElement('#deleteButton', true)->
 	end()->
 	
@@ -75,7 +75,7 @@ $browser->info('Functional test fail delete account - Too long password')->
 	end()->
 
 	with('response')->begin()->
-		checkElement('#pagecontent h2', '/Radera konto/')->
+		checkElement('#pagecontent h1', '/Radera konto/')->
 		checkElement('#deleteButton', true)->
 		checkElement('ul.error-list', true)->
 	end()->

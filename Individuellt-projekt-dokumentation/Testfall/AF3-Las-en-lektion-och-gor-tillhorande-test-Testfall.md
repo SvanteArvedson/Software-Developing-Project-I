@@ -1,5 +1,5 @@
 # AF3 - Lär en lektion och gör tillhörande test Testfall
-Senast uppdaterad 19/5 2014 klo 15:30 av Svante Arvedson
+Senast uppdaterad 27/5 2014 klo 00:30 av Svante Arvedson
 
 ## Förkrav
 * Användaren har [loggat in](../Anvandningsfall/DF1-Logga-in.md) med användarnamnet *GulligaHannes* och lösenordet *12345678*.
@@ -17,7 +17,7 @@ Senast uppdaterad 19/5 2014 klo 15:30 av Svante Arvedson
         <td>AF3-TF1</td>
         <td>Användaren öppnar en lektion</td>
         <td>Barocken</td>
-        <td>Användaren klickar på länken <i>Barocken</i></td>
+        <td>Användaren klickar på länken <i>Lektion</i> under rubriken <i>Barocken</i></td>
         <td>Lektionens innehåll visas upp, på lektionssidan finns en länk till testet</td>
     </tr>
     <tr>
@@ -31,7 +31,7 @@ Senast uppdaterad 19/5 2014 klo 15:30 av Svante Arvedson
         <td>AF3-TF3</td>
         <td>En ickeinloggad användare försöker nå en lektion. I detta test ska användaren inte vara inloggad.</td>
         <td>Barocken</td>
-        <td>Användaren skriver in adressen "root/lektion/12/barocken"</td>
+        <td>Användaren skriver in adressen "root/lektion/2/barocken"</td>
         <td>Användaren skickas vidare till Login-sidan</td>
     </tr>
     <tr>
@@ -50,23 +50,23 @@ Senast uppdaterad 19/5 2014 klo 15:30 av Svante Arvedson
     </tr>
     <tr>
         <td>AF3-TF6</td>
-        <td>Användaren försöker nå en resultatsida utan att ha gjort ett test.</td>
-        <td></td>
-        <td>Användaren skriver in adressen "root/lektion/resultat"</td>
-        <td>Användaren skickas vidare till startsidan</td>
-    </tr>
-    <tr>
-        <td>AF3-TF7</td>
-        <td>En ickeinloggad användare försöker nå en resultatsida.</td>
-        <td></td>
-        <td>Användaren skriver in adressen "root/lektion/resultat"</td>
-        <td>Användaren skickas vidare till Login-sidan</td>
-    </tr>
-    <tr>
-        <td>AF3-TF8</td>
         <td>En användare hämtar samma test två gånger och får frågorna och svarsalternativen i slumpordning</td>
         <td>Barocken</td>
         <td>Användaren hämtar testet för lektionen Barocken två gånger</td>
         <td>Frågor och svarsalternativ på testen ligger i olika ordning i de olika testerna.</td>
+    </tr>
+    <tr>
+        <td>AF3-TF7</td>
+        <td>Användaren öppnar en lektion endast genom att använda tangentbordet.</td>
+        <td>Barocken</td>
+        <td>Användaren klickar på länken <i>Lektion</i> under rubriken <i>Barocken</i></td>
+        <td>Lektionens innehåll visas upp, på lektionssidan finns en länk till testet.</td>
+    </tr>
+    <tr>
+        <td>AF3-TF8</td>
+        <td>Användaren öppnar ett test och gör testet endast genom att använda tangentbordet.</td>
+        <td>Barocken</td>
+        <td>Alternativ 1 på samtliga frågor</td>
+        <td>Resultatet visas upp på skärmen och antalet poäng presenteras. Korrekt svar markeras med grönt och fel svar markeras med rött. Resultatet sparas i databasen.</td>
     </tr>
 </table>

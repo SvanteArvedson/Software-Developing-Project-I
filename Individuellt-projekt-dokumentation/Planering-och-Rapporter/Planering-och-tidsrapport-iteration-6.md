@@ -138,57 +138,71 @@ skriva testfall och att skriva en testrapport.
 	<tr>
 		<td></td>
 		<td>Designa startsidan, mockup</td>
-		<td>Ej påbörjat</td>
+		<td>Klart</td>
 		<td>2</td>
-		<td></td>
+		<td>10</td>
 	</tr>
 	<tr>
 		<td></td>
 		<td>Designa startsidan, CSS</td>
-		<td>Ej påbörjat</td>
+		<td>Klart</td>
 		<td>2</td>
-		<td></td>
+		<td>5</td>
 	</tr>
 	<tr>
 		<td></td>
-		<td>Designa registreringsformuläret, mockup</td>
-		<td>Ej påbörjat</td>
-		<td>2</td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td>Designa registreringsformuläret, CSS</td>
-		<td>Ej påbörjat</td>
-		<td>2</td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td>Publicera applikationen på webbhotellet</td>
+		<td>Designa registreringsformuläret - CSS</td>
 		<td>Klart</td>
 		<td>2</td>
 		<td>2</td>
 	</tr>
 	<tr>
 		<td></td>
-		<td>Skriv och genomför testfall, skriv testrapport</td>
-		<td>Påbörjat</td>
-		<td>3</td>
+		<td>Designa startsidan som inloggad - CSS, Designa redigeringsformuläret - CSS</td>
+		<td>Klart</td>
+		<td>1</td>
+		<td>1</td>
+	</tr>
+	<tr>
 		<td></td>
+		<td>Designa raderingsformuläret - CSS, Designa ändra lösenordsformuläret - CSS</td>
+		<td>Klart</td>
+		<td>1</td>
+		<td>1</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>Designa lektion - CSS, Designa quiz - CSS</td>
+		<td>Klart</td>
+		<td>2</td>
+		<td>2</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>Publicera applikationen på webbhotellet</td>
+		<td>Klart</td>
+		<td>2</td>
+		<td>3</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>Skriv och genomför testfall, skriv testrapport</td>
+		<td>Klart</td>
+		<td>3</td>
+		<td>2</td>
 	</tr>
 	<tr>
 		<td></td>
 		<td>Refactoring av CSS-filerna</td>
-		<td>Påbörjat</td>
+		<td>Klart</td>
 		<td>3</td>
-		<td></td>
+		<td>1</td>
 	</tr>
 	<tr>
 		<td></td>
 		<td></td>
 		<td>Summa</td>
-		<td>22</td>
-		<td>9</td>
+		<td>24</td>
+		<td>34</td>
 	</tr>
 </table>

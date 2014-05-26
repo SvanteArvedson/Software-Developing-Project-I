@@ -1,5 +1,5 @@
 # AF1 - Registrera ny användare Testfall
-Senast uppdaterad 29/4 2014 klo 17:30 av Svante Arvedson
+Senast uppdaterad 27/5 2014 klo 00:30 av Svante Arvedson
 
 ## Förkrav
 Inga förkrav.
@@ -45,6 +45,12 @@ Inga förkrav.
     <tr>
         <td>AF1-TF6</td>
         <td>Misslyckad registrering, användarnamn finns redan</td>
+        <td>Användarnamn: <i>GulligaHannes</i><br />Lösenord: <i>4ttBr4L4</i><br />Upprepa lösenord: <i>4ttBr4L4</i><br />Namn: <i>Gustav Hansson</i><br />Email: <i>gurkan_cool@hotmail.com</i></td>
+        <td>Användaren blir inte registrerad, formuläret visas igen. Felmeddelande: <i>Användarnamnet är upptaget. Välj ett annat.</i></td>
+    </tr>
+    <tr>
+        <td>AF1-TF7</td>
+        <td>Lyckad registrering genom att endast använda tangentbordet</td>
         <td>Användarnamn: <i>GulligaHannes</i><br />Lösenord: <i>4ttBr4L4</i><br />Upprepa lösenord: <i>4ttBr4L4</i><br />Namn: <i>Gustav Hansson</i><br />Email: <i>gurkan_cool@hotmail.com</i></td>
         <td>Användaren blir inte registrerad, formuläret visas igen. Felmeddelande: <i>Användarnamnet är upptaget. Välj ett annat.</i></td>
     </tr>

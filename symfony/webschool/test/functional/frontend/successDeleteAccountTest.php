@@ -45,7 +45,7 @@ $browser->info('Functional test successful delete account')->
 	with('response')->begin()->
 		checkElement('#logOutButton', true)->
 		checkElement('#logInButton', false)->
-		checkElement('#pagecontent h2', '/Hannes Karlsson/')->
+		checkElement('#pagecontent h1', '/Hannes Karlsson/')->
 	end()->
 	
 	info(' 3 - User goes to delete account')->
@@ -57,7 +57,7 @@ $browser->info('Functional test successful delete account')->
 	end()->
 	
 	with('response')->begin()->
-		checkElement('#pagecontent h2', '/Radera konto/')->
+		checkElement('#pagecontent h1', '/Radera konto/')->
 		checkElement('#deleteButton', true)->
 	end()->
 	

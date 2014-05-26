@@ -1,14 +1,16 @@
 <?php
 
 // Adds content to the slots in "/../../templates/layout.php"
-slot('title', 'Musikhistoria - Dina resultat');
+slot('title', 'Musikhistoria - Mina resultat');
+
+slot('styles', use_stylesheet('Results.css'));
 
 slot('navigation', get_partial('global/authenticatedNavigation', array('lessons' => $lessons)));
 
-echo    '<div id="pagecontent" class="small-12 large-12 small-centered columns">
-			<h2 id="resultHeader">
+echo    '<div id="pagecontent" class="small-10 small-centered columns">
+			<h1 id="resultHeader">
 				Mina resultat
-			</h2>';
+			</h1>';
 
 if (count($UserResult->getLessonResults()) < 1)
 {
@@ -18,7 +20,7 @@ if (count($UserResult->getLessonResults()) < 1)
 }			
 else
 {
-	echo    '<ul id="board" class="small-block-grid-1 large-block-grid-2">';
+	echo    '<ul class="small-block-grid-1 large-block-grid-3">';
 			
 	foreach ($UserResult->getLessonResults() as $lessonResult)
 	{
