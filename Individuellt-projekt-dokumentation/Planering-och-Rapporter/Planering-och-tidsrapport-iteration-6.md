@@ -189,7 +189,7 @@ skriva testfall och att skriva en testrapport.
 		<td>Skriv och genomför testfall, skriv testrapport</td>
 		<td>Klart</td>
 		<td>3</td>
-		<td>2</td>
+		<td>5</td>
 	</tr>
 	<tr>
 		<td></td>
@@ -203,6 +203,6 @@ skriva testfall och att skriva en testrapport.
 		<td></td>
 		<td>Summa</td>
 		<td>24</td>
-		<td>34</td>
+		<td>37</td>
 	</tr>
 </table>
