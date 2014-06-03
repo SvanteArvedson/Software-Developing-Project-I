@@ -1834,8 +1834,11 @@ textarea.error {
   margin-bottom: 0; }
   input.error:focus,
   textarea.error:focus {
-    background: #fafafa;
-    border-color: #999999; }
+    border-color: #960b0e;
+  	background-color: rgba(150, 11, 14, 0.1);
+  	-webkit-box-shadow: 0 0 5px #960b0e;
+    -moz-box-shadow: 0 0 5px #960b0e;
+    box-shadow: 0 0 5px #960b0e }
 
 .error select {
   border-color: #c60f13;

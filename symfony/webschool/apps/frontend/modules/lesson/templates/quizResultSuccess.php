@@ -1,7 +1,7 @@
 <?php
 
 // Adds content to the slots in "/../../templates/layout.php"
-slot('title', 'Musikhistoria - Resultat');
+slot('title', 'Ensemble Coloris Webbskola - Resultat');
 
 slot('styles', use_stylesheet('Quiz.css'));
 
@@ -17,10 +17,14 @@ echo    '<div id="pagecontent" class="small-10 large-8 small-centered columns">
 					. $resultPresentation . 
 				'</p>
 				<p>
-					Du hittar alla dina resultat under Konto -> Mina resultat.
+					Dina svar är markerade, om du svarade rätt är markeringen grön, om 
+					du svarade fel är markeringen röd.
+				</p>	
+				<p>
+					Du hittar alla dina resultat 
+					under "Mina resultat".
 				</p>
-			</div>
-			';
+			</div>';
 				
 foreach ($form as $key => $field)
 {

@@ -57,7 +57,7 @@ $browser->info('Functional test fail show lesson - wrong URL')->
 	end()->
 	
 	with('response')->begin()->
-		checkElement('body', '/404/')->
+		checkElement('body', '/existerar inte. Det/')->
 	end()->
 	
 	info(' 04 - If all test passes User got a 404 error page')

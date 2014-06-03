@@ -1,6 +1,6 @@
 <?php
 // Adds content to the slots in "/../../templates/layout.php"
-slot('title', 'Musikhistoria - Startsida');
+slot('title', 'Ensemble Coloris Webbskola - Startsida');
 
 slot('styles', null);
 

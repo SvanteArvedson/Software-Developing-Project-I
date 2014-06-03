@@ -1,6 +1,6 @@
 <?php
 // Adds content to the slots in "/../../templates/layout.php"
-slot('title', 'Musikhistoria - Redigera konto');
+slot('title', 'Ensemble Coloris Webbskola - Redigera konto');
 
 slot('styles', use_stylesheet('Edit.css'));
 

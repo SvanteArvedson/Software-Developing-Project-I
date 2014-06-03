@@ -1,5 +1,5 @@
 # Kravlista
-Senast uppdaterad 27/5 2014 klo 00:30 av Svante Arvedson
+Senast uppdaterad 2/6 2014 klo 02:00 av Svante Arvedson
 
 ## Funktionella krav
 <table>
@@ -147,27 +147,27 @@ Senast uppdaterad 27/5 2014 klo 00:30 av Svante Arvedson
 		<th>Status</th>
 	</tr>
 	<tr>
-		<td>ÖK7</td>
-		<td>Svante Arvedson</td>
-		<td>Skriv en egen 404-sida</td>
-		<td>Ej påbörjad</td>
-	</tr>
-	<tr>
-		<td>ÖK8</td>
-		<td>Svante Arvedson</td>
-		<td>Skriv en egen 500-sida</td>
-		<td>Ej påbörjad</td>
-	</tr>
-	<tr>
 		<td>ÖK15</td>
 		<td>Svante Arvedson</td>
 		<td>Gör det mycket tydligare när man fokuserar på en länk i navigationsbalken.</td>
 		<td>Ej påbörjad</td>
 	</tr>
 	<tr>
-		<td>ÖK14</td>
+		<td>ÖK13</td>
 		<td>Svante Arvedson</td>
 		<td>Gör hela applikationen möjlig att använda utan att använda mus.</td>
+		<td>Ej påbörjad</td>
+	</tr>
+	<tr>
+		<td>ÖK17</td>
+		<td>Svante Arvedson</td>
+		<td>När resultatet av gjort quiz visas ska de givna svaren inte bara markeras med grön och röd färg, utan även med ikoner som bock och kryss.</td>
+		<td>Ej påbörjad</td>
+	</tr>
+	<tr>
+		<td>ÖK16</td>
+		<td>Svante Arvedson</td>
+		<td>På resultetsidan ska resulteten visas med endast datum, inte datum  och tid.</td>
 		<td>Ej påbörjad</td>
 	</tr>
 	<tr>
@@ -183,15 +183,15 @@ Senast uppdaterad 27/5 2014 klo 00:30 av Svante Arvedson
 		<td>Ej påbörjad</td>
 	</tr>
 	<tr>
-		<td>ÖK13</td>
-		<td>Svante Arvedson</td>
-		<td>Gör applikationen nåbar utan mus</td>
-		<td>Ej påbörjad</td>
-	</tr>
-	<tr>
 		<td>ÖK6</td>
 		<td>Svante Arvedson</td>
 		<td>Lägg till bekräftelsedialog innan ett konto raderas (AF2)</td>
+		<td>Ej påbörjad</td>
+	</tr>
+	<tr>
+		<td>ÖK15</td>
+		<td>Svante Arvedson</td>
+		<td>Gör så att de sensate resultatet syns på en seperat plats i "Mina resultat"-sidan</td>
 		<td>Ej påbörjad</td>
 	</tr>
 	<tr>
@@ -204,6 +204,18 @@ Senast uppdaterad 27/5 2014 klo 00:30 av Svante Arvedson
 		<td>ÖK11</td>
 		<td>Svante Arvedson</td>
 		<td>Lägg till bekräftelsedialog innan lösenord ändras (AF17)</td>
+		<td>Ej påbörjad</td>
+	</tr>
+	<tr>
+		<td>ÖK18</td>
+		<td>Svante Arvedson</td>
+		<td>Tillverka en favicon</td>
+		<td>Ej påbörjad</td>
+	</tr>
+	<tr>
+		<td>ÖK8</td>
+		<td>Svante Arvedson</td>
+		<td>Skriv en egen 500-sida</td>
 		<td>Ej påbörjad</td>
 	</tr>
 </table>
@@ -309,6 +321,14 @@ Senast uppdaterad 27/5 2014 klo 00:30 av Svante Arvedson
 	<tr>
 		<td>ÖK4</td>
 		<td>Byt ordning på text och knapp på inloggningssidan.</td>
+		<td>Svante Arvedson</td>
+		<td></td>
+		<td>Klart</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>ÖK7</td>
+		<td>Skriv en egen 404-sida</td>
 		<td>Svante Arvedson</td>
 		<td></td>
 		<td>Klart</td>

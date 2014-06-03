@@ -71,12 +71,23 @@ fieldset {
 /* Styles for navigation */
 
 #backToHome {
-	font-size: 1.4em;
+	height: 100%;
+	width: 100%;
+	font-size: 0.8125em;
 	line-height: 45px;
 	margin: 0;
-	padding-left: 0.5em;
+	padding: 0 15px;
 	color: #fffffe;
-	font-family: "Book Antiqua", "Georgia", "serif";
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
+
+#backToHome:focus, #backToHome:hover {
+	background-color: #000f40;
+}
+
+.top-bar ul li:focus, .top-bar ul li:hover {
+	background-color: #000f40;
 }
 
 @media screen and (max-width: 798px) {

@@ -123,7 +123,14 @@ under det här projektet, nu är det finjustering och presentation kvar att göra.
 </table>
 
 ### Mål iteration 7
-
+Målet med iteration 7 är att ro det här projektet iland. Det innebär att jag 
+under den här iterationen ska skriva de rapporter som ska lämnas in, jag ska 
+förbereda och genomföra den muntliga presentationen, och jag ska sortera mina 
+källkodsfiler och min projektdokumentation så att det blir ett bra "paket" 
+att lämna in för bedömning.    
+Om det blir tid över ska jag använda den till att implementera ett par av de 
+tillgänglighetskrav som upptäcktes under den senaste testsessionen, samt att 
+skapa egna felsidor.
 
 ### Planering iteration 7
 <table>
@@ -136,44 +143,93 @@ under det här projektet, nu är det finjustering och presentation kvar att göra.
 	</tr>
 	<tr>
 		<td></td>
+		<td>Gör användartestning med anvärdarscenarion</td>
+		<td>Klart</td>
+		<td>3</td>
+		<td>3</td>
+	</tr>
+	<tr>
+		<td>BF3</td>
+		<td>Fixa småsaker utifrån användartester</td>
+		<td>Klart</td>
+		<td>1</td>
+		<td>1</td>
+	</tr>
+	<tr>
 		<td></td>
+		<td>Presentation - skriv manus</td>
+		<td>Klart</td>
+		<td>3</td>
+		<td>6</td>
+	</tr>
+	<tr>
 		<td></td>
+		<td>Presentation - tillverka bildspel</td>
+		<td>Klart</td>
+		<td>4</td>
+		<td>4</td>
+	</tr>
+	<tr>
 		<td></td>
+		<td>Presentation - öva, Presenation - håll presentation</td>
+		<td>Påbörjat</td>
+		<td>2</td>
+		<td>1</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>Spela in demonstrationsfilm, publicera på youtube</td>
+		<td>Klart</td>
+		<td>2</td>
+		<td>2</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>Skriv klart Slutuppgiften angående den grafiska utformningen</td>
+		<td>Klart</td>
+		<td>2</td>
+		<td>3</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>Skriv projektrapport/post mortem</td>
+		<td>Klart</td>
+		<td>4</td>
+		<td>4</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>Skapa ett strukturerat inlämningspaket, lägg på GitHub</td>
+		<td>Klart</td>
+		<td>2</td>
+		<td>1</td>
+	</tr>
+	<tr>
+		<td>ÖK7</td>
+		<td>Skapa 404-sida</td>
+		<td>Klart</td>
+		<td>1</td>
+		<td>1</td>
+	</tr>
+	<tr>
+		<td>ÖK13, ÖK15</td>
+		<td>Gör applikationen möjlig att använda helt utan mus</td>
+		<td>Ej påbörjat</td>
+		<td>3</td>
 		<td></td>
 	</tr>
 	<tr>
 		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
+		<td>Leverans till webbhotellet</td>
+		<td>Klart</td>
+		<td>1</td>
+		<td>1</td>
 	</tr>
 	<tr>
 		<td></td>
 		<td></td>
 		<td>Summa</td>
-		<td></td>
-		<td></td>
+		<td>28</td>
+		<td>27</td>
 	</tr>
 </table>

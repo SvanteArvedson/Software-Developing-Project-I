@@ -1,7 +1,7 @@
 <?php
 
 // Adds content to the slots in "/../../templates/layout.php"
-slot('title', 'Musikhistoria - ' . $lesson->getTitle());
+slot('title', 'Ensemble Coloris Webbskola - ' . $lesson->getTitle());
 
 slot('styles', use_stylesheet('Lesson.css'));
 

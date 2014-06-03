@@ -9,7 +9,6 @@ Testerna görs den 20 maj 2014.
         <th>Webbläsare</th>
         <th>Pass/Fail</th>
         <th>Kommentar</th>
-        <th>Krav</th>
     </tr>
     <tr>
         <td><a href="/../Testfall/AF3-Las-en-lektion-och-gor-tillhorande-test-Testfall.md">AF3-TF1</a></td>

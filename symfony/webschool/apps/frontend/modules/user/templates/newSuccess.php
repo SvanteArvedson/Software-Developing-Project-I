@@ -1,6 +1,6 @@
 <?php
 // Adds content to the slots in "/../../templates/layout.php"
-slot('title', 'Musikhistoria - Registrera konto');
+slot('title', 'Ensemble Coloris Webbskola - Registrera konto');
 
 slot('styles', use_stylesheet('Registration.css'));
 

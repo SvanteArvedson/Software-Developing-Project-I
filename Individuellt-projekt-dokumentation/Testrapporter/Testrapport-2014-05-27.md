@@ -9,7 +9,6 @@ Testerna görs den 27 maj 2014.
         <th>Webbläsare</th>
         <th>Pass/Fail</th>
         <th>Kommentar</th>
-        <th>Krav</th>
     </tr>
     <tr>
         <td><a href="/../Testfall/DF3-Logga-in-Testfall.md">DF1-TF6</a></td>

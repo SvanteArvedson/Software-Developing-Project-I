@@ -1,7 +1,7 @@
 <?php
 
 // Adds content to the slots in "/../../templates/layout.php"
-slot('title', 'Musikhistoria - Mina resultat');
+slot('title', 'Ensemble Coloris Webbskola - Mina resultat');
 
 slot('styles', use_stylesheet('Results.css'));
 
@@ -20,8 +20,8 @@ if (count($UserResult->getLessonResults()) < 1)
 }			
 else
 {
-	echo    '<ul class="small-block-grid-1 large-block-grid-3">';
-			
+	echo    '<ul class="small-block-grid-1 large-block-grid-3">';		
+	
 	foreach ($UserResult->getLessonResults() as $lessonResult)
 	{
 		echo    '<li>
@@ -45,11 +45,12 @@ else
 		}
 		else
 		{
-			foreach ($lessonResult->getResults() as $result)
-			{
+			$results = $lessonResult->getResults();
+			
+			for ($i = count($results) - 1; $i >= 0; $i -= 1) { 
 				echo    	'<tr>
-								<td>' . $result->getCreatedAt() . '</td>
-								<td>' . $result->getScore() . '/' . $result->getMaxscore() . '</td>
+								<td>' . $results[$i]->getCreatedAt() . '</td>
+								<td>' . $results[$i]->getScore() . '/' . $results[$i]->getMaxscore() . '</td>
 							</tr>';
 			}
 		}

@@ -32,12 +32,16 @@ echo	'</head>
 					</nav>
 				</div>
 				<div id="content">
-					<header id="header1" class="row show-for-small">'
-						. image_tag('Titel-mobil', 'alt="Ensemble Coloris Webbskola"') .	
-					'</header>
-					<header id="header2" class="row hide-for-small">'
-						. image_tag('Titel-desktop', 'alt="Ensemble Coloris Webbskola"') .	
-					'</header>
+					<header id="header1" class="row show-for-small">
+						<a href="' . url_for('@homepage') . '">'
+							. image_tag('Titel-mobil', 'alt="Ensemble Coloris Webbskola"') .
+						'</a>	
+					</header>
+					<header id="header2" class="row hide-for-small">
+						<a href="' . url_for('@homepage') . '">'
+							. image_tag('Titel-desktop', 'alt="Ensemble Coloris Webbskola"') .	
+						'</a>	
+					</header>
 					<div id="main" class="row">';
 
 if ($sf_user->hasFlash('error'))

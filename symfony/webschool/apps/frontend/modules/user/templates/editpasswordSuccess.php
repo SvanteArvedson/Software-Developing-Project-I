@@ -1,7 +1,7 @@
 <?php
 
 // Adds content to the slots in "/../../templates/layout.php"
-slot('title', 'Musikhistoria - Ändra lösenord');
+slot('title', 'Ensemble Coloris Webbskola - Ändra lösenord');
 
 slot('styles', use_stylesheet('Editpassword.css'));
 
