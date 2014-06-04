@@ -172,9 +172,9 @@ skapa egna felsidor.
 	<tr>
 		<td></td>
 		<td>Presentation - öva, Presenation - håll presentation</td>
-		<td>Påbörjat</td>
+		<td>Klart</td>
 		<td>2</td>
-		<td>1</td>
+		<td>2</td>
 	</tr>
 	<tr>
 		<td></td>
@@ -230,6 +230,6 @@ skapa egna felsidor.
 		<td></td>
 		<td>Summa</td>
 		<td>28</td>
-		<td>27</td>
+		<td>28</td>
 	</tr>
 </table>
