@@ -148,7 +148,7 @@ Senast ändrad den 7/5 2014 klo 16:30 av Svante Arvedson
     <tr>
         <td>created_at</td>
         <td>datetime</td>
-        <td>ja</td>
+        <td>nej</td>
         <td></td>
         <td></td>
         <td></td>
